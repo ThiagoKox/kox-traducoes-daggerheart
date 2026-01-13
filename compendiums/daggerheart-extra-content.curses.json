@@ -1,0 +1,130 @@
+{
+	"label": "Maldições",
+	"entries": [
+		{
+			"id": "Aetherblight (1)",
+      		"name": "Praga do Éter (1)",
+      		"description": "O personagem amaldiçoado perde 1 ponto de Estresse máximo."
+    	},
+		{
+			"id": "Aetherblight (2)",
+      		"name": "Praga do Éter (2)",
+      		"description": "O personagem amaldiçoado perde 2 pontos de Estresse máximo."
+    	},	
+		{
+			"id": "Aetherblight (3)",
+      		"name": "Praga do Éter (3)",
+      		"description": "O personagem amaldiçoado perde 3 pontos de Estresse máximo."
+    	},	
+		{
+			"id": "Aetherblight (4)",
+      		"name": "Praga do Éter (4)",
+      		"description": "O personagem amaldiçoado perde 4 pontos de Estresse máximo."
+    	},
+		{
+			"id": "Blight of Broken Hope (1)",
+      		"name": "Praga da Esperança Perdida (1)",
+      		"description": "Sua esperança é alterada para um D10."
+    	},
+		{
+			"id": "Blight of Broken Hope (2)",
+      		"name": "Praga da Esperança Perdida (2)",
+      		"description": "Sua esperança é alterada para um D8."
+    	},		
+		{
+			"id": "Curse of Eternal Hunger",
+      		"name": "Maldição da Fome Eterna",
+      		"description": "A vítima nunca consegue sentir-se saciada. A comida transforma-se em cinzas na boca, deixando-a fraca e constantemente esfomeada."
+    	},		
+		{
+			"id": "Curse of Hollow Words",
+      		"name": "Maldição das Palavras Vazias",
+      		"description": "Cada palavra proferida pelos amaldiçoados soa zombeteira ou enganosa, independentemente de sua verdadeira intenção."
+    	},
+		{
+			"id": "Curse of the Misplaced Coin",
+      		"name": "A Maldição da Moeda Perdida",
+      		"description": "Qualquer moeda que você jogar ficará em pé na borda. Sempre. Mesmo na terra."
+    	},
+		{
+			"id": "Curse of the Sneezing Fit",
+      		"name": "Maldição da crise de espirros",
+      		"description": "Você espirra violentamente sempre que alguém diz o seu nome."
+    	},					
+		{
+			"id": "Curse of the Squeaky Step",
+      		"name": "Maldição do Degrau Rangente",
+      		"description": "Por mais discreto que você tente ser, um dos seus passos sempre range alto."
+    	},
+		{
+			"id": "Curse of the Withered Touch",
+      		"name": "Maldição do Toque Murcho",
+      		"description": "As plantas murcham e os pequenos animais fogem ao menor toque dos amaldiçoados, marcando-os como uma praga para os vivos."
+    	},
+		{
+			"id": "Soulblight (1)",
+      		"name": "Praga da Alma (1)",
+      		"description": "O personagem amaldiçoado perde 1 ponto de Esperança máxima."
+    	},																	
+		{
+			"id": "Soulblight (2)",
+      		"name": "Praga da Alma (2)",
+      		"description": "O personagem amaldiçoado perde 2 pontos de Esperança máxima."
+    	},																	
+		{
+			"id": "Soulblight (3)",
+      		"name": "Praga da Alma (3)",
+      		"description": "O personagem amaldiçoado perde 3 pontos de Esperança máxima."
+    	},																	
+		{
+			"id": "Soulblight (4)",
+      		"name": "Praga da Alma (4)",
+      		"description": "O personagem amaldiçoado perde 4 pontos de Esperança máxima."
+    	},																	
+		{
+			"id": "The Backwards Blink Curse",
+      		"name": "A Maldição do Piscado Errado",
+      		"description": "Cada vez que você pisca, parece que está piscando para alguém. As pessoas ficam com a ideia errada."
+    	},
+		{
+			"id": "The Curse of Perpetual Drizzle",
+      		"name": "A Maldição da Chuva Perpétua",
+      		"description": "Não importa aonde a pessoa amaldiçoada vá, uma chuva leve e fria a segue. Não é forte o suficiente para causar inundações, mas é constante e gelada, deixando-a perpetuamente úmida e desconfortável."
+    	},
+		{
+			"id": "The Curse of the Glass Heart",
+      		"name": "A Maldição do Coração Mole",
+      		"description": "O coração da pessoa amaldiçoada torna-se literalmente feito de vidro frágil. Isso não afeta sua saúde física, mas a torna incrivelmente vulnerável à dor emocional, fazendo com que ela se quebre fisicamente e se desintegre devido ao estresse emocional."
+    	},
+		{
+			"id": "The Death's Embrace (1)",
+      		"name": "O Abraço da Morte (1)",
+      		"description": "O personagem amaldiçoado perde 1 ponto de HP máximo."
+    	},
+		{
+			"id": "The Death's Embrace (2)",
+      		"name": "O Abraço da Morte (2)",
+      		"description": "O personagem amaldiçoado perde 2 pontos de HP máximo."
+    	},																
+		{
+			"id": "The Death's Embrace (3)",
+      		"name": "O Abraço da Morte (3)",
+      		"description": "O personagem amaldiçoado perde 3 pontos de HP máximo."
+    	},																
+		{
+			"id": "The Death's Embrace (4)",
+      		"name": "O Abraço da Morte (4)",
+      		"description": "O personagem amaldiçoado perde 4 pontos de HP máximo."
+    	},
+		{
+			"id": "The Endless Strain",
+      		"name": "A Tensão Infinita",
+      		"description": "Uma magia potente e sutil desgastou os nervos do personagem, amplificando cada esforço físico e mental. Até mesmo uma tarefa simples parece exaustiva, e a constante vibração da tensão impede que ele elimine o estresse acumulado."
+    	},
+		{
+			"id": "The Miasma of Death",
+      		"name": "O Miasma da Morte",
+      		"description": "Um miasma negro e pútrido envolve a criatura, decompondo carne e ossos. Qualquer tentativa de regenerar Pontos de Vida perdidos falha, pois a maldição consome toda a vitalidade."
+    	}																
+	]
+}

@@ -1,0 +1,102 @@
+{
+  "label": "Classes",
+  "mapping": {
+    "description": "system.description",
+    "backgroundQuestions": "system.backgroundQuestions",
+    "connections": "system.connections"
+  },
+  "folders": {
+    "Psychic": "Psíquico",
+    "Magus": "Magus",
+    "Class Items": "Itens de Classe",
+    "Class Features": "Características de Classe"
+  },
+  "entries": {
+    "Magus": {
+      "name": "Magus",
+      "description": "<p>Estudiosos que equilibram seus aprendizados entre a lâmina e o livro. Membros dessa classe se especializam em combate, utilizando um equilíbrio entre as artes arcanas e marciais para trazer devastação ao campo de batalha com graça e elegância. Alguns Magi preferem aprimorar suas habilidades arcanas para fortalecer seus feitiços, enquanto outros dançam com lâminas que parecem ter vida própria, fundindo letalidade e beleza.<br /><br />Armas Sugeridas</p><p>@UUID[Compendium.daggerheart.weapons.Item.1cwWNt4sqlgA8gCT]{Espada Larga} e @UUID[Compendium.daggerheart.weapons.Item.cjGZpXCoshEqi1FI]{Espada Curta}</p><p>Ou</p><p>@UUID[Compendium.daggerheart.weapons.Item.wG9f5NpCwSbaLy8t]{Anéis Luminosos}</p>",
+      "backgroundQuestions": [
+        "Você estudou sob a tutela de um mestre que lhe ensinou o equilíbrio entre feitiço e espada. Qual foi a lição mais importante que ele lhe ensinou, e por que vocês seguiram caminhos diferentes?",
+        "Seu estilo de luta une poder arcano e graça marcial. Que evento em seu passado convenceu você de que dominar apenas uma dessas artes jamais seria suficiente?",
+        "Você busca uma forma de combate específica e perdida. Como ela se chama, e o que você acredita que será capaz de fazer quando a tiver aperfeiçoado?"
+      ],
+      "connections": [
+        "Já enfrentamos juntos um inimigo formidável. Qual segredo arcano eu compartilhei com você que nos ajudou a vencer?",
+        "Você já me viu me preparar para a batalha, imerso em estudos e cálculos. Por que você acredita que eu \"penso demais\" o combate e confio excessivamente em meus livros?",
+        "Você certa vez testemunhou eu encerrar uma luta com um único e devastador golpe de feitiço e aço. Qual foi sua reação diante dessa demonstração de precisão letal?"
+      ]
+    },
+    "Music box missing it's ribbon": {
+      "name": "Caixa de música sem sua fita",
+      "description": ""
+    },
+    "Broken blade that is still sharp": {
+      "name": "Lâmina quebrada que ainda é afiada",
+      "description": ""
+    },
+    "journal filled with paradoxes": {
+      "name": "Diário repleto de paradoxos",
+      "description": "<p>Um diário encadernado em couro, cheio de paradoxos e exercícios mentais.</p>"
+    },
+    "Psychic (Animus)": {
+      "name": "Psíquico (Animus)",
+      "description": "<p>Os Psíquicos olham para dentro de si, mas seu poder não é encontrado na contemplação silenciosa — ele é liberado. Trata-se de uma magia bruta e instintiva, que sempre fez parte deles, uma força volátil à espera de uma faísca.</p><p>Enquanto o Mago decifra leis externas em tomos e o Serafim suplica a deuses distantes, o Psíquico é a própria fonte. Eles não aprendem magia; são o receptáculo de um poder bruto e enigmático que conecta fundamentalmente sua mente ao próprio corpo.</p><p>Seu caminho não é o do estudo, mas o do impulso; não o da disciplina rígida, mas o de canalizar um caos interno. Ao conduzir essa energia inata, alcançam um controle sobrenatural sobre suas próprias habilidades físicas, transformando carne e ossos em uma arma perfeitamente lapidada. Com um pensamento, também podem liberar esse poder volátil para fora, canalizando força arcana bruta para despedaçar a mente ou o corpo de um adversário apenas com uma vontade silenciosa e focada.</p><p></p><h3>Traços Sugeridos</h3><p><strong>Mentalista e Psion</strong></p><p>Instinto: +1, Agilidade: 0, Presença: +1, Finesse: 0, Conhecimento: 2, Força: -1</p><p><strong>Maelstrom</strong></p><p>Instinto: +2, Agilidade: 0, Presença: +1, Finesse: 0, Conhecimento: +1, Força: -1</p><p></p><h3>Armas Sugeridas</h3><p>@UUID[Compendium.daggerheart.weapons.Item.Yk8pTEmyLLi4095S]{Cajado Grande}</p><p>Ou</p><p>@UUID[Compendium.daggerheart.weapons.Item.ItWisJFNGMNWeaCV]{Varinha} e @UUID[Compendium.daggerheart.weapons.Item.mxwWKDujgsRcZWPT]{Escudo Redondo}</p><p></p><h3>Ravenna</h3><img src=\"modules/daggerheart-extra-content/assets/classes/psychic-iconic.webp\" height=\"400\" />",
+      "backgroundQuestions": [
+        "Quando seus poderes psíquicos se manifestaram pela primeira vez, foi um momento de descoberta silenciosa ou um evento violento e incontrolável? Quem mais estava presente, e como isso mudou sua relação com essa pessoa?",
+        "Seu poder vem de uma intensa disciplina interna. Quem foi seu mentor, ou você é autodidata? Qual foi a lição mais importante (ou mais perigosa) que você aprendeu sobre sua própria mente?",
+        "Sua mente é uma fortaleza disciplinada, mas há um cômodo sempre trancado e barrado. Qual é o pensamento ou memória perigosa que você mantém selado ali, e o que você teme que seria liberado — sobre você mesmo ou sobre o mundo — se essa tranca se rompesse?"
+      ],
+      "connections": [
+        "Certa vez, ouvi acidentalmente um pensamento poderoso e privado de outro personagem jogador. Qual era esse pensamento, e por que nunca contei a ele o que ouvi?",
+        "Outro personagem jogador me viu levar minha mente além de seus limites para protegê-lo de uma ameaça. Ele compreende o preço total que paguei, e agora sinto uma estranha sensação de responsabilidade por ele?",
+        "Outro personagem jogador possui um objeto (um cristal estranho, um livro antigo, uma relíquia de família) que emite uma energia incomum que consigo sentir. Estou convencido de que isso está ligado às minhas habilidades psíquicas, mas ele não faz ideia de sua verdadeira natureza."
+      ]
+    },
+    "Dimensional Lunge": {
+      "name": "Investida Dimensional",
+      "description": "<p>Gaste 3 Esperança para se teletransportar instantaneamente para qualquer ponto que você possa ver dentro do alcance Longo. Se você se materializar dentro do alcance Corpo a Corpo de um adversário, ganha vantagem no primeiro Ataque realizado contra esse alvo.</p>"
+    },
+    "Puzzle box that never opened": {
+      "name": "Caixa de quebra-cabeça que nunca se abriu",
+      "description": "<p>Uma pequena caixa de quebra-cabeça, ricamente entalhada, que você jamais conseguiu abrir.</p>"
+    },
+    "Maintain Focus": {
+      "name": "Manter o Foco",
+      "description": "<p><span class=\"citation-176 citation-end-176\">Gaste 3 Esperança para remover 2 Estresse</span>.</p>"
+    },
+    "Psychic Siphon": {
+      "name": "Sifão Psíquico",
+      "description": "<p>Quando um feitiço que você conjura faz com que um ou mais adversários marquem PV, você pode gastar 3 Esperança para escolher um desses adversários. Esse adversário deve marcar uma quantidade de Estresse igual ao número de PV marcados pelo feitiço. Em seguida, você remove Estresse igual à quantidade marcada pelo adversário com esta característica.</p>"
+    },
+    "Mind Over Body": {
+      "name": "Mente Sobre Corpo",
+      "description": "<p>Quando você precisaria marcar um ou mais Estresse para usar uma característica, pode optar por marcar 1 Ponto de Vida em vez disso.</p><p></p>"
+    },
+    "Psychic (Axiom)": {
+      "name": "Psíquico (Axioma)",
+      "description": "<p>Os Psíquicos buscam seu poder no interior de si mesmos, mas não se engane: isso não é contemplação passiva. É o estudo mais intenso imaginável.</p><p>Enquanto o Mago decifra leis externas e o Clérigo suplica a forças externas, o Psíquico estuda a lei fundamental e interna da existência: o poder de transformar vontade em ação.</p><p>Eles não estudam magia em tomos empoeirados; eles são o tomo. Seu \"grimório\" é a própria consciência, e seu \"estudo\" é uma disciplina implacável e incessante de afiar o pensamento até que ele force a realidade a se moldar à sua mente disciplinada.</p><p>Ao canalizar essa energia interna — o poder bruto e focado de sua própria psique — eles podem distorcer as próprias leis da física ou despedaçar a mente de um adversário apenas com um pensamento silencioso e concentrado. Esse caminho exige controle absoluto, pois alguns aprendem a dominar as energias fundamentais da mente em si, enquanto outros aprendem a projetar essa vontade sobre a consciência alheia.</p><p></p><h3>Traços Sugeridos</h3><p><strong>Mentalista e Psion</strong></p><p>Instinto: +1, Agilidade: 0, Presença: +1, Finesse: 0, Conhecimento: 2, Força: -1</p><p><strong>Maelstrom</strong></p><p>Instinto: +2, Agilidade: 0, Presença: +1, Finesse: 0, Conhecimento: +1, Força: -1</p><p></p><h3>Armas Sugeridas</h3><p>@UUID[Compendium.daggerheart.weapons.Item.Yk8pTEmyLLi4095S]{Cajado Grande}</p><p>Ou</p><p>@UUID[Compendium.daggerheart.weapons.Item.ItWisJFNGMNWeaCV]{Varinha} e @UUID[Compendium.daggerheart.weapons.Item.mxwWKDujgsRcZWPT]{Escudo Redondo}</p><p></p><h3>Ravenna</h3><img src=\"modules/daggerheart-extra-content/assets/classes/psychic-iconic.webp\" height=\"300\" />",
+      "backgroundQuestions": [
+        "Quando seus poderes psíquicos se manifestaram pela primeira vez, foi um momento de descoberta silenciosa ou um evento violento e incontrolável? Quem mais estava presente, e como isso mudou sua relação com essa pessoa?",
+        "Seu poder vem de uma intensa disciplina interna. Quem foi seu mentor, ou você é autodidata? Qual foi a lição mais importante (ou mais perigosa) que você aprendeu sobre sua própria mente?",
+        "Sua mente é uma fortaleza disciplinada, mas há um cômodo sempre trancado e barrado. Qual é o pensamento ou memória perigosa que você mantém selado ali, e o que você teme que seria liberado — sobre você mesmo ou sobre o mundo — se essa tranca se rompesse?"
+      ],
+      "connections": [
+        "Certa vez, ouvi acidentalmente um pensamento poderoso e privado de outro personagem jogador. Qual era esse pensamento, e por que nunca contei a ele o que ouvi?",
+        "Outro personagem jogador me viu levar minha mente além de seus limites para protegê-lo de uma ameaça. Ele compreende o preço total que paguei, e agora sinto uma estranha sensação de responsabilidade por ele?",
+        "Outro personagem jogador possui um objeto (um cristal estranho, um livro antigo, uma relíquia de família) que emite uma energia incomum que consigo sentir. Estou convencido de que isso está ligado às minhas habilidades psíquicas, mas ele não faz ideia de sua verdadeira natureza."
+      ]
+    },
+    "Dance of Storms": {
+      "name": "Dança das Tempestades",
+      "description": "<p>Uma vez por descanso, você pode realizar uma dança ritualística que canaliza a essência da magia, durando até o fim da cena. <span class=\"citation-185 citation-end-185\">Quando você faz uma rolagem de ataque ou uma Rolagem de Conjuração, o efeito da dança é determinado pelos seus Dados de Dualidade</span>:</p><ul><li><p><strong>Rolar com Esperança:</strong> Todo o seu dano é considerado dano mágico e causa dano adicional igual ao seu nível.</p></li><li><p><strong>Rolar com Medo:</strong> Todo o seu dano é considerado dano físico e você recebe um bônus de +1 em sua Evasão.</p></li></ul>"
+    },
+    "Spellstrike": {
+      "name": "Golpe Místico",
+      "description": "<p>Quando você acerta um único adversário dentro do alcance Muito Próximo com um feitiço, pode marcar 1 Estresse para canalizar a energia do feitiço através de sua arma. Esse golpe fortalecido adiciona Xd8 de dano aos outros efeitos do feitiço, onde X é o seu Grau atual.</p>"
+    },
+    "Psychic Talent": {
+      "name": "Talento Psíquico",
+      "description": "<p>Você pode realizar efeitos psíquicos sutis e inofensivos à vontade. Por exemplo, pode criar um pequeno empurrão telecinético, fazer um objeto pequeno brilhar ou sentir as emoções superficiais de alguém que esteja tocando. Esse controle inato também permite projetar uma impressão sensorial simples e menor (um som fraco, uma imagem estática ou um cheiro simples) na mente de uma criatura, ou alterar a temperatura de um objeto que esteja segurando, tornando um copo de água agradavelmente gelado ou um cabo metálico morno ao toque.</p>"
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "label": "Ancestralidades",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Ancestry Features": "Características de Ancestralidade"
+  },
+  "entries": {
+    "Coiled Stability": {
+      "name": "Estabilidade Enroscada",
+      "description": "<p>Sua cauda poderosa concede aderência e equilíbrio excepcionais. Você tem vantagem em testes de Agilidade ou Força feitos para manter o equilíbrio, escalar superfícies difíceis ou resistir a ser movido contra a sua vontade.</p>"
+    },
+    "Cosmic Resilience": {
+      "name": "Resiliência Cósmica",
+      "description": "<p>Quando um adversário obtém sucesso em uma rolagem de ataque mágico contra você, você pode gastar 1 Esperança para ganhar resistência, reduzindo à metade o dano mágico que você sofreria desse ataque.</p>"
+    },
+    "Leathery Wings": {
+      "name": "Asas Coureáceas",
+      "description": "<p>Você tem asas grandes e coureáceas que permitem voar. Você não pode voar enquanto estiver vestindo uma armadura que reduza sua Evasão.</p><p></p>"
+    },
+    "Captivating Song": {
+      "name": "Canção Cativante",
+      "description": "<p>Uma vez por descanso, você pode fazer uma Rolagem de Presença contra todos os adversários em alcance Próximo que possam ouvi-lo. Com sucesso, os alvos ficam temporariamente <em>Vulneráveis</em> até você sofrer dano ou agir novamente.</p>"
+    },
+    "Perfect Imitation": {
+      "name": "Imitação Perfeita",
+      "description": "<p>Marque 1 Estresse para imitar perfeitamente a aparência e a voz de um humanoide que você observou. Isso dura até o próximo descanso. Essa é uma mudança não mágica e engana até uma inspeção cuidadosa, mas não concede as memórias nem as habilidades do alvo.</p><p></p>"
+    },
+    "Starlight": {
+      "name": "Luz Estelar",
+      "description": "<p>Você pode emitir luz em um raio Próximo à vontade. Você também pode marcar Estresse e, com uma ação, fazer essa luz cintilar intensamente, dando a um aliado que você consegue ver vantagem na próxima rolagem de ação dele.</p><p></p>"
+    },
+    "Gelatinoid": {
+      "name": "Gelatinoide",
+      "description": "<p>Gelatinoides são seres sencientes e amorfos, compostos por uma gosma translúcida e viscosa. Para interagir melhor com os habitantes mais rígidos do mundo, eles normalmente mantêm uma silhueta humanoide, embora possam alterar sua forma e se espremer por espaços impossivelmente apertados com facilidade. Sua aparência reflete diretamente seu estado interior; sua cor e opacidade costumam mudar com o humor, e muitos escolhem suspender lembranças queridas ou itens úteis dentro do próprio corpo.</p><p></p><p>A nutrição é um processo único: eles envolvem alimento orgânico e o dissolvem internamente. Isso torna refeições compartilhadas um costume social interessante e, às vezes, constrangedor. Sem uma forma fixa, a identidade de um Gelatinoide não está ligada ao corpo, mas à sua consciência e às memórias que carrega — tanto figurativa quanto literalmente. Eles são crônicas vivas da própria jornada, definidos por suas experiências em vez de sua aparência, formando laços profundos baseados em confiança e história compartilhada.</p>"
+    },
+    "Gargoyle": {
+      "name": "Gárgula",
+      "description": "<p>Esses seres estoicos e alados têm pele como pedra esculpida e uma natureza paciente e resistente. Gárgulas são frequentemente encontradas em cidades antigas, atuando como observadoras silenciosas e guardiãs. Elas podem permanecer imóveis por períodos imensos, tornando-se quase indistinguíveis da arquitetura que protegem.</p>"
+    },
+    "Refractive Skin": {
+      "name": "Pele Refrativa",
+      "description": "<p>Quando você é alvo de um ataque que causa dano mágico por meio de uma magia, você pode marcar 1 Estresse para impor desvantagem na rolagem de ataque.</p><p></p>"
+    },
+    "Empathic Glow": {
+      "name": "Brilho Empático",
+      "description": "<p>Quando um aliado em alcance Distante ganha 1 Esperança, você pode marcar 1 Estresse para também ganhar 1 Esperança.</p><p></p>"
+    },
+    "Arachne": {
+      "name": "Aracne",
+      "description": "<p>Aracnes possuem o torso superior de um humanoide e o corpo inferior de uma grande aranha, uma forma que muitas vezes desperta medo. Ao contrário de histórias que as pintam como espreitadoras solitárias, sua sociedade é intrincada, valorizando paciência, arte e precisão.</p><p></p><p>Muitas deixam seus covis movidas pela curiosidade ou por um dever de proteger as terras selvagens, tornando-se aventureiras capazes. Com fiandeiras que produzem seda para ferramentas e armadilhas, são sobreviventes natas. Embora frequentemente recebidas com desconfiança, a mente tática de uma Aracne a torna uma aliada inestimável.</p>"
+    },
+    "Potent Stinger": {
+      "name": "Ferrão Potente",
+      "description": "<p>Uma vez por descanso longo, quando você obtém sucesso em um ataque contra um alvo em distância Corpo a Corpo, você pode deixar seu ferrão nele. O alvo sofre 2d6 de dano físico adicional e fica temporariamente <em>Envenenado</em>. Enquanto estiver <em>Envenenado</em> por esta característica, o alvo também fica <em>Vulnerável</em>. Você não pode usar esta característica novamente até terminar um descanso longo e regenerar seu ferrão.</p>"
+    },
+    "Nocturne": {
+      "name": "Noctúrnio",
+      "description": "<p>Noctúrnios são criaturas humanoides semelhantes a morcegos, com orelhas grandes e asas coureáceas que podem envolver o próprio corpo como um manto. São noturnos e se orientam por ecolocalização, tornando-se exploradores excepcionais dos lugares escuros do mundo.</p><p></p>"
+    },
+    "Herd's Guardian": {
+      "name": "Guardião do Rebanho",
+      "description": "<p>Uma vez por descanso, quando um aliado em distância Muito Próxima é alvo de um ataque, você pode usar sua reação para mover imediatamente esse aliado para outro espaço vazio ainda em distância Muito Próxima de você. Se esse movimento o tirar do alcance ou da linha de visão do atacante, o ataque falha.</p><p></p>"
+    },
+    "Centaur": {
+      "name": "Centauro",
+      "description": "<p>Centauros possuem a parte superior de um humanoide fundida à forma poderosa e quadrúpede de um cavalo. São um povo orgulhoso e frequentemente nômade, mais à vontade em planícies abertas e florestas ancestrais, valorizando liberdade, tradição e a força do seu rebanho.</p>"
+    },
+    "Powerful Build": {
+      "name": "Compleição Poderosa",
+      "description": "<p>Você possui imenso poder físico. Você tem vantagem em testes feitos para levantar, empurrar, puxar ou quebrar objetos, e para resistir a efeitos que moveriam você contra a sua vontade.</p>"
+    },
+    "Venomous Bite": {
+      "name": "Mordida Venenosa",
+      "description": "<p>Quando você obtém sucesso em um ataque corpo a corpo, você pode marcar 1 Estresse para injetar veneno. O alvo fica temporariamente <em>Envenenado</em>; enquanto estiver <em>Envenenado</em>, o alvo fica <em>Vulnerável</em>.</p>"
+    },
+    "Unsettling Presence": {
+      "name": "Presença Perturbadora",
+      "description": "<p>Sua aparência remendada é inquietante para muitos. Você tem vantagem em Rolagens de Presença feitas para intimidar ou assustar outras criaturas.</p>"
+    },
+    "Shadow Meld": {
+      "name": "Fusão nas Sombras",
+      "description": "<p>Quando você está em luz fraca ou escuridão, você pode gastar 1 Esperança para ficar <em>Oculto</em>, mesmo que esteja sendo observado.</p><p></p>"
+    },
+    "Glimpse the Void": {
+      "name": "Vislumbre do Vazio",
+      "description": "<p>Uma vez por descanso, você pode forçar um alvo em alcance Próximo a encarar sua essência sombria. Faça uma Rolagem de Presença contra o alvo. Com sucesso, ele fica temporariamente <em>Amedrontado</em>, ficando com desvantagem em suas ações.</p>"
+    },
+    "Sylph": {
+      "name": "Silfo",
+      "description": "<p>Silfos são seres de ar vivo, com formas semitranslúcidas e sempre mutáveis como nuvens ao vento. São etéreos e graciosos, capazes de flutuar nas brisas e frequentemente atuam como batedores e mensageiros.</p>"
+    },
+    "Innate Power": {
+      "name": "Poder Inato",
+      "description": "<p>Seu corpo tem uma carga mágica natural. Uma vez por descanso, quando você gastaria 1 Esperança para usar uma magia de uma carta de domínio, você pode usá-la sem gastar a Esperança.</p>"
+    },
+    "Astran": {
+      "name": "Astran",
+      "description": "<p>Astrans são seres celestiais cuja pele cintila com a luz de estrelas distantes. Diz-se que são constelações vivas que receberam forma mortal. Em geral, são calmos, reflexivos e têm uma perspectiva que atravessa eras.</p><p></p>"
+    },
+    "Shapeshifter's Guise": {
+      "name": "Disfarce do Metamorfo",
+      "description": "<p>Gaste 1 Esperança para se disfarçar magicamente como outro humanoide de tamanho semelhante. A ilusão é convincente, mas não resiste à inspeção física.</p><p></p>"
+    },
+    "Keen Senses": {
+      "name": "Sentidos Aguçados",
+      "description": "<p>Seus sentidos vulpinos são excepcionalmente apurados. Você tem vantagem em testes de Instinto que dependam de audição ou olfato.</p><p></p>"
+    },
+    "Gossamer Wings": {
+      "name": "Asas de Gossamer",
+      "description": "<p>Você tem um par de asas insetoides que permitem voar. Você não pode voar enquanto estiver vestindo armadura pesada.</p><p></p>"
+    },
+    "Apex Predator": {
+      "name": "Predador Apex",
+      "description": "<p>Quando você causa dano Maior ou superior a um adversário, você pode marcar 1 Estresse para deixá-lo temporariamente <em>Vulnerável</em>.</p>"
+    },
+    "Twitchy Reflexes": {
+      "name": "Reflexos Espasmódicos",
+      "description": "<p>Quando você faz uma rolagem de reação, você pode gastar 1 Esperança para ganhar vantagem na rolagem.</p>"
+    },
+    "Web Weaver": {
+      "name": "Tecelão de Teias",
+      "description": "<p>Gaste 1 Esperança para disparar uma teia. Escolha um dos seguintes efeitos:</p><ul><li><p>Alveje um ponto em alcance Distante, criando terreno difícil em uma área Muito Próxima.</p></li><li><p>Faça uma Rolagem de Finesse contra um alvo em alcance Distante. Com sucesso, ele fica temporariamente <em>Restringido</em>.</p></li></ul>"
+    },
+    "Unbound": {
+      "name": "Indomável",
+      "description": "<p>Você tem vantagem em qualquer rolagem feita para evitar ou remover a condição <em>Restringido</em>.</p>"
+    },
+    "Guardian's Vigil": {
+      "name": "Vigília do Guardião",
+      "description": "<p>Uma vez por descanso, você pode entrar em um estado dormente de pedra. Esse estado dura até seu próximo descanso ou até você escolher encerrá-lo.</p><p></p><p>Enquanto estiver nesse estado:</p><ul><li><p>Você é indistinguível de uma estátua comum.</p></li><li><p>Você tem resistência a dano físico.</p></li><li><p>Você fica <em>Restringido</em>.</p></li><li><p>Você permanece consciente e atento ao redor, mas não pode fazer rolagens de ação nem falar.</p></li><li><p>Você não precisa comer, beber ou dormir.</p></li></ul><p>Se você descansar enquanto estiver nesse estado dormente, você fica limitado aos movimentos de tempo livre</p><p>Cuidar de Ferimentos e Limpar Estresse.</p>"
+    },
+    "Vespine": {
+      "name": "Vespine",
+      "description": "<p>Vespines são humanoides insetoides que lembram vespas ou abelhas, com armadura quitinosa, antenas e, às vezes, um ferrão. Vivem em sociedades de colmeia altamente organizadas, valorizando comunidade e eficiência acima de tudo.</p><p></p>"
+    },
+    "Kitsune": {
+      "name": "Kitsune",
+      "description": "<p>Esses humanoides semelhantes a raposas são renomados por sua astúcia, graça e conexão inata com a magia. O poder de um kitsune costuma ser simbolizado pelo número de caudas que possui, crescendo mais à medida que envelhece e ganha sabedoria. São mestres da ilusão e da trapaça.</p>"
+    },
+    "Echolocation": {
+      "name": "Ecolocalização",
+      "description": "<p>Você percebe o mundo pelo som, não apenas pela visão. Em alcance Distante, você consegue sentir com precisão a localização, o tamanho e a forma de criaturas e objetos. Você não consegue perceber cores nem escrita com esse sentido, e ele não funciona se você estiver ensurdecido.</p>"
+    },
+    "Glimmerkin": {
+      "name": "Glimmerkin",
+      "description": "<p>Esses pequenos seres próximos das fadas são imbuídos de emoção crua e alegre. Sua pele e cabelo frequentemente mudam de cor para combinar com seu humor, e eles deixam rastros suaves de faíscas inofensivas e cintilantes por onde passam. São curiosos, impulsivos e profundamente empáticos.</p>"
+    },
+    "Umbral": {
+      "name": "Umbral",
+      "description": "<p>Nascidos de sombra e crepúsculo, os Umbral são seres que se sentem mais confortáveis no escuro. Sua pele tem a cor do entardecer, e seus olhos muitas vezes brilham com uma luz fraca e fria. Eles podem manipular sombras e se mover com um silêncio inquietante.</p>"
+    },
+    "Stone Wings": {
+      "name": "Asas de Pedra",
+      "description": "<p>Você tem um par de asas poderosas, semelhantes à pedra. Você pode voar. Além disso, após se mover a partir de uma posição mais alta, você pode gastar 1 Esperança na sua próxima rolagem de ataque para causar 1d8 de dano físico extra, em caso de sucesso.</p><p></p>"
+    },
+    "Winged Flight": {
+      "name": "Voo Alado",
+      "description": "<p>Você pode transformar seus braços em asas poderosas, permitindo voar. Enquanto estiver nessa forma alada, você não pode segurar nem usar itens com as mãos, incluindo armas.</p><p></p><p>Além disso, quando um adversário faz um ataque contra você enquanto você está voando, você pode marcar 1 Estresse para impor desvantagem na rolagem de ataque dele.</p>"
+    },
+    "Frozen Heart": {
+      "name": "Coração Congelado",
+      "description": "<p>Quando você precisar fazer um movimento de morte, se escolher \"Evitar a Morte\", você ganha +1 de bônus na rolagem que faz para determinar se ganha uma cicatriz. O frio intenso o preserva à beira do fim.</p>"
+    },
+    "Galvanic Jolt": {
+      "name": "Tranco Galvânico",
+      "description": "<p>Quando um adversário o atinge com um ataque corpo a corpo, você pode usar sua reação e marcar 1 Estresse para liberar um tranco de energia armazenada, causando 1d10 de dano mágico ao atacante.</p>"
+    },
+    "Photosynthesis": {
+      "name": "Fotossíntese",
+      "description": "<p>Quando você descansa sob luz solar direta por pelo menos uma hora, você pode escolher um movimento de tempo livre adicional.</p><p></p>"
+    },
+    "Feather Fall": {
+      "name": "Queda Suave",
+      "description": "<p>Você não sofre dano de queda. Você pode se mover horizontalmente até uma distância Próxima para cada 3 metros (10 pés) que cair.</p><p></p>"
+    },
+    "Hypnotic Gaze": {
+      "name": "Olhar Hipnótico",
+      "description": "<p>Quando um adversário faz uma rolagem de ataque contra você a partir de alcance Próximo ou menor, você pode gastar 2 Esperanças para impor desvantagem na rolagem de ataque dele.</p>"
+    },
+    "Amorphous Body": {
+      "name": "Corpo Amorfo",
+      "description": "<p>Você pode marcar 1 Estresse para espremer, fluir e derramar seu corpo por espaços tão estreitos quanto 2,5 centímetros de largura, mas deve deixar todo o seu equipamento para trás para fazer isso.</p>"
+    },
+    "Aquatic Resilience": {
+      "name": "Resiliência Aquática",
+      "description": "<p>Você consegue respirar e se mover naturalmente debaixo d’água. Você também tem vantagem em Testes de Reação de Força feitos para resistir a ser movido por água impetuosa, como correntes fortes ou ondas grandes.</p>"
+    },
+    "Crystalline": {
+      "name": "Cristalino",
+      "description": "<p>Esses humanoides têm corpos compostos de cristal vivo e multifacetado. Suas formas cintilam e refratam a luz, criando exibições deslumbrantes. A composição mineral única de cada Cristalino concede propriedades e cores diferentes.</p>"
+    },
+    "Oneiroi": {
+      "name": "Oneiroi",
+      "description": "<p>Os Oneiroi são seres do reino dos sonhos, com formas físicas nebulosas e indistintas. São viajantes no mundo desperto, frequentemente buscando novas experiências para levar de volta ao seu plano natal. Têm afinidade natural para influenciar a mente de outras pessoas.</p><p></p>"
+    },
+    "Unyielding Memory": {
+      "name": "Memória Inquebrável",
+      "description": "<p>Você tem vantagem em quaisquer Rolagens de Conhecimento feitas para lembrar informações sobre eventos passados que você tenha presenciado pessoalmente.</p>"
+    },
+    "Fey Step": {
+      "name": "Passo Feérico",
+      "description": "<p>Uma vez por descanso, você pode gastar 1 Esperança para se teleportar para um espaço desocupado que você consiga ver em alcance Distante.</p><p></p>"
+    },
+    "Hazy Dodge": {
+      "name": "Esquiva Nebulosa",
+      "description": "<p>Uma vez por descanso, quando um ataque contra você tem sucesso, você pode marcar 1 Estresse para fazer sua forma borrar e vacilar. O atacante deve rerrolar o ataque e ficar com o novo resultado.</p>"
+    },
+    "Carchari": {
+      "name": "Carchari",
+      "description": "<p>Carchari são tubarões humanoides formidáveis, com pele cartilaginosa resistente que pode variar de lisa e elegante a áspera como lixa. Sua aparência varia bastante, com traços que lembram muitos tipos de tubarões, como a cabeça distinta de um tubarão-martelo ou a forma esguia de um mako. Eles possuem múltiplas fileiras de dentes afiados e serrilhados, substituídos continuamente ao longo da vida, e seus olhos escuros e atentos são bons para enxergar em baixa luz. A maioria dos Carchari tem uma nadadeira dorsal proeminente e todos possuem guelras no pescoço ou no torso, permitindo respirar debaixo d’água. Carchari geralmente medem de 1,5 a 2,1 metros de altura e vivem por cerca de 100 anos.</p>"
+    },
+    "Water Dweller": {
+      "name": "Habitante das Águas",
+      "description": "<p>Você consegue prender a respiração por longos períodos e se mover naturalmente debaixo d’água. Você acha a água calmante; quando faz um descanso curto ou longo parcialmente ou totalmente submerso em água, você pode limpar 1 Estresse adicional.</p>"
+    },
+    "Rooted Stance": {
+      "name": "Postura Enraizada",
+      "description": "<p>Como uma ação, você pode se enraizar no chão. Enquanto estiver enraizado, você não pode ser movido por nenhum meio e recebe +2 de bônus nos seus limiares de dano. Você não pode se mover até usar uma ação para se desenraizar.</p><p></p>"
+    },
+    "Sylvanwood": {
+      "name": "Bosque-Silvestre",
+      "description": "<p>Bosques-Silvestres são pessoas sencientes em forma humanoide feitas de madeira viva e folhas. Suas formas mudam com as estações, e eles compartilham uma conexão profunda e simbiótica com as florestas que habitam. Demoram a se irritar, mas são protetores formidáveis do mundo natural.</p>"
+    },
+    "Loxodon": {
+      "name": "Loxodon",
+      "description": "<p>Loxodons são grandes povo-elefante bípedes, conhecidos por sua força imensa, lealdade inabalável e sabedoria serena. Suas peles grossas e presas formidáveis os tornam imponentes, mas em geral são gentis e reflexivos, a menos que provocados.</p><p></p>"
+    },
+    "Communal Calm": {
+      "name": "Calma Comunitária",
+      "description": "<p>Calma Comunitária: Você possui uma presença incrivelmente tranquilizadora. Você tem vantagem em Rolagens de Presença feitas especificamente para acalmar, sossegar ou fazer amizade com criaturas. Além disso, sua aura não ameaçadora frequentemente faz com que criaturas agressivas priorizem outros alvos inicialmente. A menos que você se apresente como a ameaça imediata, adversários normalmente focarão suas primeiras ações hostis em outros (a critério do GM).</p>"
+    },
+    "Formless Defense": {
+      "name": "Defesa Sem Forma",
+      "description": "<p>Sua forma física não é totalmente estável. Uma vez por descanso longo, quando você sofreria dano, você pode marcar 1 Estresse para reduzir a severidade do dano em dois limiares (Grave para Leve, Maior para Nenhum, ou Leve para Nenhum).</p>"
+    },
+    "Resourceful Scavenger": {
+      "name": "Catador Desenrolado",
+      "description": "<p>Uma vez por sessão, você pode catar um item mundano ou um consumível comum. Proponha ao GM o que você encontra e onde. Se a proposta não for plausível, o GM pode oferecer uma alternativa. Você pode aceitar a alternativa ou escolher não gastar o uso desta característica.</p>"
+    },
+    "Voldur": {
+      "name": "Voldur",
+      "description": "<p>Os Voldur são seres de gelo vivo, com pele azul-pálida como gelo glacial e cabelo como neve cristalina. Eles são adaptados para sobreviver ao frio mais extremo e carregam o arrepio cortante da tundra consigo. Em geral são reservados, valorizando resistência e o silêncio belo e austero de suas terras congeladas.</p>"
+    },
+    "Harpy": {
+      "name": "Harpia",
+      "description": "<p>Harpias são humanoides aviários com a habilidade única de transformar suas asas poderosas em braços humanoides — e vice-versa. Elas possuem garras afiadas nos pés e normalmente constroem seus ninhos em lugares altos e inacessíveis, como picos de montanhas e falésias marítimas. Harpias são renomadas por sua visão aguçada e por seus cantos assombrosamente belos, que podem tanto cativar quanto aterrorizar quem os ouve.</p>"
+    },
+    "Dream Walker": {
+      "name": "Caminhador dos Sonhos",
+      "description": "<p>Uma vez por descanso longo, você pode entrar nos sonhos de uma criatura adormecida em alcance Distante. Você pode interagir com ela dentro da paisagem onírica.</p><p></p>"
+    },
+    "Rattan": {
+      "name": "Rattan",
+      "description": "<p>Rattans são humanoides engenhosos com traços que lembram ratos, conhecidos por sua incrível resiliência e capacidade de prosperar mesmo em ambientes desafiadores. Em geral medem entre 1,5 e 2 metros de altura, e sua aparência varia bastante. Alguns são cobertos por pelo curto e áspero em tons de marrom, cinza, preto ou branco; outros têm pelo apenas em partes dos braços, costas e couro cabeludo. Eles possuem narizes inquietos, incisivos proeminentes e orelhas grandes e expressivas. Têm caudas longas e sem pelo que ajudam no equilíbrio. Vistos por outros como sobreviventes comunitários e unidos — ou como catadores pouco confiáveis —, os Rattans têm o dom de aparecer onde menos se espera e tirar o máximo de qualquer situação.</p>"
+    },
+    "Hooved Charge": {
+      "name": "Investida Cascuda",
+      "description": "<p>Quando você se move ao menos uma distância Próxima antes de fazer um ataque com arma corpo a corpo, você pode gastar 1 Esperança para adicionar 1d8 de dano físico extra ao ataque se ele tiver sucesso.</p>"
+    },
+    "Kapibara": {
+      "name": "Kapibara",
+      "description": "<p>Kapibaras são humanoides semiaquáticos semelhantes a capivaras, conhecidos por seu comportamento geralmente calmo e sociável — traços que muitas vezes escondem uma capacidade robusta lapidada pela aventura. De postura atarracada, possuem pelagem marrom densa, mãos e pés palmados adequados para terra e água, focinho largo e orelhas pequenas e arredondadas. Embora a postura possa parecer relaxada, um aventureiro Kapibara se move com propósito, e sua afinidade natural com a água o torna um nadador habilidoso, pronto para encarar os desafios das terras selvagens, seja em profundezas turvas ou trilhas empoeiradas.</p>"
+    },
+    "Grotesque": {
+      "name": "Grotesco",
+      "description": "<p>Grotescos não nascem: são feitos, costurados a partir de partes díspares de várias criaturas e animados por uma fusão de alquimia e relâmpagos. Cada Grotesco é único — um remendo ambulante de pedaços descartados da vida —, muitas vezes lidando com questões de identidade e propósito.</p><p></p>"
+    },
+    "Naga": {
+      "name": "Naga",
+      "description": "<p>Nagas possuem a parte superior de um humanoide e a longa cauda escamada de uma grande serpente, criando uma silhueta única. Seus padrões de escamas costumam ser intrincados, e seus olhos têm um aspecto cativante. Embora lendas possam retratá-los de outras formas, cada Naga segue seu próprio caminho. Muitos se tornam aventureiros, e sua presença marcante, robustez natural e forma serpentina oferecem vantagens únicas diante dos desafios do mundo.</p>"
+    },
+    "Fetch": {
+      "name": "Fetch",
+      "description": "<p>Nascidos como ecos vivos do resíduo psíquico de memórias poderosas e esquecidas, os Fetch são seres sem um rosto verdadeiramente próprio. Eles são atraídos por pessoas de personalidade forte, espelhando inconscientemente sua aparência e trejeitos como forma de empatia ou inveja. A maior tragédia — e propósito — de um Fetch é sentir um senso genuíno de si mesmo, mas eles são amaldiçoados a serem meras cópias, vestindo para sempre os rostos de outros enquanto se sentem ocos por dentro. Essa melancolia profunda os leva a buscar experiências intensas, na esperança de que um dia possam forjar uma identidade que finalmente permaneça.</p>"
+    },
+    "Whispering Wind": {
+      "name": "Vento Sussurrante",
+      "description": "<p>Você pode se comunicar silenciosamente com qualquer criatura disposta em distância Muito Distante, carregando suas palavras no vento. Essa comunicação não pode ser ouvida por terceiros.</p><p></p>"
+    },
+    "Biting Cold": {
+      "name": "Frio Cortante",
+      "description": "<p>Quando você obtém sucesso em um ataque corpo a corpo, você pode gastar 1 Esperança para gelar o alvo até os ossos. Ele fica com desvantagem na próxima rolagem de ação.</p>"
+    }
+  }
+}

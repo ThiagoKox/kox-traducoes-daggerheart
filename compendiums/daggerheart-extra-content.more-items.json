@@ -1,0 +1,247 @@
+{
+  "label": "Mais Itens",
+  "mapping": {
+    "description": "system.description",
+    "attack": "system.attack.name"
+  },
+  "folders": {
+    "Splendor": "Esplendor",
+    "Tier 1": "Tier 1",
+    "Tier 3": "Tier 3",
+    "Tier 2": "Tier 2",
+    "Midnight": "Meia-noite",
+    "Bone": "Osso",
+    "Tier 4": "Tier 4",
+    "Arcana": "Arcana",
+    "Consumable": "Consumível",
+    "Domain Loot": "Tesouros de Domínio",
+    "Loot": "Tesouros",
+    "Primary Physical Weapons": "Armas Físicas Primárias"
+  },
+  "entries": {
+    "Improved Pistol": {
+      "name": "Pistola Aprimorada",
+      "description": "<p>Recarregar: Depois que você fizer um ataque, role [[/r 1d6]]. Com resultado 1, você deve marcar 1 Estresse para recarregar esta arma antes de poder dispará-la novamente.</p><p><br /></p><p>Tiro Perfurante: O disparo continua em linha reta, mirando quaisquer outros adversários atrás do alvo inicial dentro do alcance da sua arma. O alvo inicial sofre dano total. Se sua rolagem de ataque também superar as Dificuldades dos outros alvos, eles também são atingidos, mas sofrem apenas metade do dano.</p>",
+      "attack": "Ataque"
+    },
+    "Legendary Bullwhip": {
+      "name": "Chicote Lendário",
+      "description": "<p><strong>Agarrar:</strong> Em um ataque bem-sucedido, você pode gastar 1 Esperança para <em>Restringir</em> temporariamente o alvo ou puxá-lo para a distância Corpo a Corpo com você.</p><p><br /></p><p><strong>Rasgão Cruel:</strong> Em um ataque bem-sucedido com esta arma, marque 1 Estresse para rolar o dano com +1 de bônus em Maestria.</p><p><br /></p><p><strong>Ameaça Estalante:</strong> Como uma ação, você pode marcar 1 Estresse para estalar seu chicote de forma ameaçadora. Todos os adversários em distância Muito Próxima devem obter sucesso em um Teste de Reação de Presença (13). Quem falhar deve marcar 1 Estresse e não pode, voluntariamente, se aproximar de você nem atacar você com um ataque não à distância durante o próximo turno.</p><p></p>",
+      "attack": "Ataque"
+    },
+    "Seer's Pipe": {
+      "name": "Cachimbo do Vidente",
+      "description": "<p>Cachimbo do Vidente: Quando queimado durante um descanso longo, você pode fazer ao GM uma pergunta de \"sim ou não\" sobre um possível curso de ação para o dia seguinte. O GM responderá com sinceridade, a partir da perspectiva dele.</p>"
+    },
+    "The Unfaltering Voice": {
+      "name": "A Voz Inabalável",
+      "description": "<p>Característica: Depois de usar sua habilidade Reassegurar, você pode gastar 2 Esperanças para recarregar o uso dela.</p>"
+    },
+    "Seed of the Grasping Vine": {
+      "name": "Semente da Vinha Agarradora",
+      "description": "<p>Semente da Vinha Agarradora: Quando arremessada sobre terra ou pedra, esta semente brota imediatamente em uma moita espessa de vinhas espinhosas cobrindo uma área Próxima. Criaturas que se moverem por ela devem obter sucesso em um teste de reação de Agilidade (Dificuldade 14) ou ficar <em>Restringidas</em>.</p>"
+    },
+    "Wailing Fetish": {
+      "name": "Fetiche Uivante",
+      "description": "<p>Fetiche Uivante: Uma pequena e inquietante escultura de madeira. Você pode esmagá-la como uma ação. Escolha um adversário em alcance Próximo; ele deve obter sucesso em um teste de reação de Presença (Dificuldade 14) ou terá desvantagem na próxima rolagem de ataque.</p>"
+    },
+    "Advanced Barbed Bullwhip": {
+      "name": "Chicote Farpado Avançado",
+      "description": "<p><strong>Agarrar:</strong> Em um ataque bem-sucedido, você pode gastar 1 Esperança para <em>Restringir</em> temporariamente o alvo ou puxá-lo para a distância Corpo a Corpo com você.</p><p><br /></p><p><strong>Rasgão Cruel:</strong> Em um ataque bem-sucedido com esta arma, marque 1 Estresse para rolar o dano com +1 de bônus em Maestria.</p><p><br /></p><p><strong>Ameaça Estalante:</strong> Como uma ação, você pode marcar 1 Estresse para estalar seu chicote de forma ameaçadora. Todos os adversários em distância Muito Próxima devem obter sucesso em um Teste de Reação de Presença (11). Quem falhar deve marcar 1 Estresse e não pode, voluntariamente, se aproximar de você nem atacar você com um ataque não à distância durante o próximo turno.</p><p></p>",
+      "attack": "Ataque"
+    },
+    "Locksmith's Acid": {
+      "name": "Ácido de Chaveiro",
+      "description": "<p>Ácido de Chaveiro: Um frasco de ácido verde e volátil. Quando aplicado com cuidado a uma fechadura não mágica, ele dissolve o mecanismo, abrindo-a silenciosamente após um minuto. Não funciona em fechaduras mágicas nem em grandes barras/trancas.</p>"
+    },
+    "Barbed Bullwhip": {
+      "name": "Chicote Farpado",
+      "description": "<p>Agarrar: Em um ataque bem-sucedido, você pode gastar 1 Esperança para <em>Restringir</em> temporariamente o alvo ou puxá-lo para a distância Corpo a Corpo com você.</p><p><br /></p><p>Rasgão Cruel: Em um ataque bem-sucedido com esta arma, marque 1 Estresse para rolar o dano com +1 de bônus em Maestria.</p><p></p>",
+      "attack": "Ataque"
+    },
+    "Sling": {
+      "name": "Funda",
+      "description": "<p>Disparo Concussivo: Em um ataque bem-sucedido, você pode gastar 1 Esperança para deixar o alvo temporariamente <em>Vulnerável</em>, atordoado pelo impacto.</p>",
+      "attack": "Ataque"
+    },
+    "Refined Sodalite of the Vanguard": {
+      "name": "Sodalita Refinada da Vanguarda",
+      "description": "<p>Descrição: Um fragmento de cristal místico de sodalita, com filamentos prateados que pulsam com energia protetora. A sodalita foi usada por campeões ao longo da história para conjurar proteções impenetráveis. Quando você a segura, a runa da sua Proteção Rúnica parece mais nítida e vibrante.</p><p></p><p>Característica: Ao usar a habilidade Proteção Rúnica, você substitui a rolagem de d8 por uma rolagem de d12.</p>"
+    },
+    "Snapper Spore": {
+      "name": "Esporo Estalador",
+      "description": "<p>Esporo Estalador: Um esporo de cogumelo resistente e emborrachado. Você pode colocá-lo em uma superfície como uma ação. A próxima criatura que pisar nele dispara uma explosão de teias pegajosas que atingem tudo em distância Corpo a Corpo, deixando as criaturas <em>Restringidas</em> até obterem sucesso em um teste de reação de Força (Dificuldade 15) para se libertar. Isso dura por uma cena.</p><p></p>"
+    },
+    "Pistol": {
+      "name": "Pistola",
+      "description": "<p>Recarregar: Depois que você fizer um ataque, role [[/r 1d4]]. Com resultado 1, você deve marcar 1 Estresse para recarregar esta arma antes de poder dispará-la novamente.</p><p><br /></p><p>Tiro Perfurante: O disparo continua em linha reta, mirando quaisquer outros adversários atrás do alvo inicial dentro do alcance da sua arma. O alvo inicial sofre dano total. Se sua rolagem de ataque também superar as Dificuldades dos outros alvos, eles também são atingidos, mas sofrem apenas metade do dano.</p>",
+      "attack": "Ataque"
+    },
+    "Tethering Rune": {
+      "name": "Runa de Ancoragem",
+      "description": "<p>Runa de Ancoragem: Uma pedra pequena e plana com uma runa brilhante. Você pode colocá-la no chão. Pela próxima hora, você pode gastar 3 Esperanças para se teleportar instantaneamente de volta para o local da runa, de qualquer lugar dentro de um raio de uma milha (cerca de 1,6 km).</p>"
+    },
+    "Healer's Gloves": {
+      "name": "Luvas do Curandeiro",
+      "description": "<p>Luvas do Curandeiro: (Vestível) Uma vez por descanso longo, quando você usar uma magia ou habilidade que limpe os Pontos de Vida de um aliado, você pode limpar 1 Ponto de Vida adicional.</p>"
+    },
+    "Amulet of the Stoic Mind": {
+      "name": "Amuleto da Mente Estoica",
+      "description": "<p>Amuleto da Mente Estoica: (Vestível) Uma vez por descanso longo, quando você seria obrigado a marcar 1 Estresse para usar uma característica ou habilidade, você pode escolher não marcá-lo.</p>"
+    },
+    "Tinker's Multi-tool": {
+      "name": "Ferramenta Multifuncional do Funileiro",
+      "description": "<p>Ferramenta Multifuncional do Funileiro: (Utilidade) Este dispositivo complexo de engrenagens e lentes concede vantagem em rolagens para desarmar armadilhas mecânicas ou analisar mecanismos de relojoaria.</p>"
+    },
+    "Advanced Pistol": {
+      "name": "Pistola Avançada",
+      "description": "<p>Recarregar: Depois que você fizer um ataque, role [[/r 1d8]]. Com resultado 1, você deve marcar 1 Estresse para recarregar esta arma antes de poder dispará-la novamente.</p><p><br /></p><p>Tiro Perfurante Avançado: O disparo continua em linha reta, mirando quaisquer outros adversários atrás do alvo inicial dentro do alcance da sua arma. O alvo inicial sofre dano total. Se sua rolagem de ataque também superar as Dificuldades dos outros alvos, eles também são atingidos e também sofrem dano total.</p>",
+      "attack": "Ataque"
+    },
+    "Mirrored Medallion": {
+      "name": "Medalhão Espelhado",
+      "description": "<p>Descrição: Este medalhão é feito de prata altamente polida e reflete uma imagem perfeita, embora distorcida, do usuário. Quando você o segura, o padrão intrincado em sua superfície parece se mover, espelhando sua intenção e fortalecendo suas defesas de maneiras inesperadas.</p><p></p><p>Característica: Ao equipar este medalhão, você escolhe um dos seus seis traços de personagem para usar no lugar de Agilidade para sua habilidade Intocável.</p>"
+    },
+    "Aether Ungent": {
+      "name": "Unguento de Éter",
+      "description": "<p>Unguento de Éter: Um óleo fino e prateado. Quando aplicado a uma arma que causa dano físico, o dano dela passa a ser considerado dano mágico pelos próximos três ataques bem-sucedidos ou até o fim da cena.</p>"
+    },
+    "Sodalite of the Vanguard": {
+      "name": "Sodalita da Vanguarda",
+      "description": "<p>Descrição: Um fragmento de cristal místico de sodalita, com filamentos prateados que pulsam com energia protetora. A sodalita foi usada por campeões ao longo da história para conjurar proteções impenetráveis. Quando você a segura, a runa da sua Proteção Rúnica parece mais nítida e vibrante.</p><p></p><p>Característica: Ao usar a habilidade Proteção Rúnica, você substitui a rolagem de d8 por uma rolagem de d10.</p>"
+    },
+    "Advanced Scythe": {
+      "name": "Foice Avançada",
+      "description": "<p><strong>Golpe de Talho:</strong> A força do seu golpe atravessa o alvo inicial e atinge outro. Em um ataque bem-sucedido, você pode gastar 1 Estresse e atingir um adversário adicional em distância Corpo a Corpo do seu alvo principal, desde que sua rolagem de ataque também supere a Dificuldade do outro alvo.<br /><br /></p><p><strong>Colheita Sombria:</strong> Você puxa energia vital daqueles que derruba no campo de batalha. Quando você derrota um adversário com esta foice, você pode limpar 1 Estresse.</p>",
+      "attack": "Ataque"
+    },
+    "Elixir of Clarity": {
+      "name": "Elixir da Clareza",
+      "description": "<p>Elixir da Clareza: Um líquido borbulhante e cristalino. Quando consumido, você pode imediatamente limpar uma condição temporária que esteja afetando você (como <em>Vulnerável</em>, <em>Restringido</em> ou <em>Envenenado</em>).</p><p></p>"
+    },
+    "Bullwhip": {
+      "name": "Chicote",
+      "description": "<p>Agarrar: Em um ataque bem-sucedido, você pode gastar 1 Esperança para <em>Restringir</em> temporariamente o alvo ou puxá-lo para a distância Corpo a Corpo com você.</p>",
+      "attack": "Ataque"
+    },
+    "Scout Captain's Spyglass": {
+      "name": "Luneta do Capitão Batedor",
+      "description": "<p>Luneta do Capitão Batedor: (Utilidade) Ao olhar por esta luneta, você consegue ver com clareza a até cinco milhas (cerca de 8 km) de distância.</p>"
+    },
+    "Fire Paper": {
+      "name": "Papel Ígneo",
+      "description": "<p>Encanta uma arma corpo a corpo, fazendo com que seus ataques causem dano mágico de fogo. Este efeito dura por um encontro.</p>"
+    },
+    "Lantern of Revealing": {
+      "name": "Lanterna da Revelação",
+      "description": "<p>Lanterna da Revelação: (Empunhada) Ao gastar 1 Esperança e acendê-la, a chama desta lanterna emite uma luz prateada. A luz revela todas as ilusões mágicas e criaturas invisíveis em alcance Próximo.</p><p></p>"
+    },
+    "Hollow-Point Lockpicks": {
+      "name": "Gazuas de Ponta Oca",
+      "description": "<p>Descrição: Este conjunto de gazuas, forjado de uma liga cintilante e não euclidiana, parece vibrar com uma sutil ressonância mágica. As gazuas em si não são encantadas, mas sua estrutura molecular única permite interagir e perturbar proteções e mecanismos mágicos como se fossem mundanos. Cada peça parece estranhamente leve e precisa na sua mão.</p><p></p><p>Característica: Você pode usar a habilidade Puxar e Forçar em fechaduras e armadilhas mágicas.</p>"
+    },
+    "Scroll of Sanctuary": {
+      "name": "Pergaminho de Santuário",
+      "description": "<p>Pergaminho de Santuário: Quando você lê este pergaminho, cria uma esfera de calma com raio de 3 metros por uma hora. Nenhum adversário pode entrar voluntariamente nesse espaço, embora magias e ataques à distância ainda possam atravessá-lo. O efeito termina se alguém dentro da esfera atacar um adversário.</p>"
+    },
+    "Scythe": {
+      "name": "Foice",
+      "description": "<p><strong>Golpe de Talho:</strong> A força do seu golpe atravessa o alvo inicial e atinge outro. Em um ataque bem-sucedido, você pode gastar 1 Estresse e atingir um adversário adicional em distância Corpo a Corpo do seu alvo principal, desde que sua rolagem de ataque também supere a Dificuldade do outro alvo.</p>",
+      "attack": "Ataque"
+    },
+    "The Liar's Stone": {
+      "name": "A Pedra do Mentiroso",
+      "description": "<p>A Pedra do Mentiroso: (Empunhada) Se você gastar 1 Esperança, esta pedra lisa e escura ficará morna na sua mão quando você ouvir uma mentira direta dita a você por alguém em distância Muito Próxima durante uma cena. Ela não detecta omissões nem verdades cuidadosamente formuladas.</p>"
+    },
+    "Phasing Slippers": {
+      "name": "Pantufas de Fase",
+      "description": "<p>Pantufas de Fase: (Vestível) Uma vez por descanso curto, você pode marcar 1 Estresse para atravessar um objeto sólido não mágico com até 1,5 m de espessura (como uma parede ou uma porta) como parte do seu movimento.</p>"
+    },
+    "Ring of Swift Reflexes": {
+      "name": "Anel de Reflexos Rápidos",
+      "description": "<p>Anel de Reflexos Rápidos: (Vestível) Você recebe um bônus permanente de +1 em todos os testes de reação de Agilidade.</p>"
+    },
+    "Gambler's Coin": {
+      "name": "Moeda do Apostador",
+      "description": "<p>Moeda do Apostador: Uma moeda de duas caras que parece estranhamente justa. Depois de fazer uma rolagem de ação, mas antes de resolvê-la, você pode lançar esta moeda. Se você acertar o palpite, pode trocar os resultados dos seus dados de Esperança e Medo. A moeda desaparece após ser usada.</p>"
+    },
+    "Improved Scythe": {
+      "name": "Foice Aprimorada",
+      "description": "<p><strong>Golpe de Talho:</strong> A força do seu golpe atravessa o alvo inicial e atinge outro. Em um ataque bem-sucedido, você pode gastar 1 Estresse e atingir um adversário adicional em distância Corpo a Corpo do seu alvo principal, desde que sua rolagem de ataque também supere a Dificuldade do outro alvo.</p>",
+      "attack": "Ataque"
+    },
+    "Advanced Sling": {
+      "name": "Funda Avançada",
+      "description": "<p>Disparo Concussivo: Em um ataque bem-sucedido, você pode gastar 1 Esperança para deixar o alvo temporariamente <em>Vulnerável</em>, atordoado pelo impacto.</p><p><br /></p><p>Disparo Múltiplo: Quando você fizer um ataque, pode escolher um número de alvos adicionais até o valor do seu traço de ataque (mínimo de um). Você deve marcar 1 Estresse. Cada alvo sofre dano total, desde que sua rolagem de ataque inicial também tenha sucesso contra a Dificuldade deles.</p>",
+      "attack": "Ataque"
+    },
+    "Legendary Sling": {
+      "name": "Funda Lendária",
+      "description": "<p>Disparo Concussivo: Em um ataque bem-sucedido, você pode gastar 1 Esperança para deixar o alvo temporariamente <em>Vulnerável</em>, atordoado pelo impacto.</p><p><br /></p><p>Chuva de Pedras: Como uma ação, você pode marcar 1 Estresse para fazer uma rolagem de ataque contra todos os adversários em alcance Próximo. Cada alvo sofre dano total, desde que sua rolagem de ataque inicial também tenha sucesso contra a Dificuldade deles.</p>",
+      "attack": "Ataque"
+    },
+    "Ghost Pepper Lozenge": {
+      "name": "Pastilha de Pimenta Fantasma",
+      "description": "<p>Pastilha de Pimenta Fantasma: Um doce picante e cintilante. Após consumi-lo, na próxima vez que você falar, sua voz será imbuída de poder etéreo. Você tem vantagem no seu próximo teste de Presença para intimidar.</p>"
+    },
+    "Rune-Forged Focus": {
+      "name": "Foco Forjado por Runas",
+      "description": "<p>Descrição: Este item parece uma pequena pedra lisa de obsidiana polida, gravada com um símbolo fraco e cintilante. Quando você canaliza sua magia através dele, o símbolo brilha, fortalecendo suas proteções com a precisão e força da sua experiência em combate.</p><p></p><p>Característica: Quando você usa sua habilidade Proteção Rúnica, você rola um número de dados igual à sua Maestria, em vez de rolar apenas um dado.</p>"
+    },
+    "Legendary Pistol": {
+      "name": "Pistola Lendária",
+      "description": "<p>Recarregar: Depois que você fizer um ataque, role [[/r 1d10]]. Com resultado 1, você deve marcar 1 Estresse para recarregar esta arma antes de poder dispará-la novamente.</p><p><br /></p><p>Tiro Perfurante Avançado: O disparo continua em linha reta, mirando quaisquer outros adversários atrás do alvo inicial dentro do alcance da sua arma. O alvo inicial sofre dano total. Se sua rolagem de ataque também superar as Dificuldades dos outros alvos, eles também são atingidos e também sofrem dano total.</p><p><br /></p><p>Tiro Devastador: Em um ataque bem-sucedido com esta arma, marque 1 Estresse para mudar o tipo de dano para mágico e rolar o dano com +1 de bônus em Maestria.</p>",
+      "attack": "Ataque"
+    },
+    "Tracker's Spores": {
+      "name": "Esporos do Rastreador",
+      "description": "<p>Esporos do Rastreador: Uma pitada de pólen luminescente. Quando liberado no ar, ele flutua e se prende a todas as criaturas vivas em alcance Distante por um minuto, revelando seus contornos mesmo através de paredes ou na escuridão.</p>"
+    },
+    "Focusing Monocle": {
+      "name": "Monóculo de Foco",
+      "description": "<p>Monóculo de Foco: (Vestível) Uma vez por descanso longo, quando você obtiver um sucesso crítico em uma rolagem de ataque, você pode escolher maximizar o resultado de um dos seus dados de dano em vez de rolá-lo.</p>"
+    },
+    "Boots of the Nimble Spirit": {
+      "name": "Botas do Espírito Ágil",
+      "description": "<p>Descrição: Estas botas leves de couro parecem ter vida própria, fazendo seus pés parecerem impossivelmente leves. Elas vibram com uma energia tênue, deixando um rastro suave e etéreo enquanto você se move.</p><p><br />Característica: Você pode usar a habilidade Manobras Habilidosas qualquer número de vezes, pagando o custo de Estresse normalmente.</p>"
+    },
+    "Ever-full Waterskin": {
+      "name": "Cantíl Sempre Cheio",
+      "description": "<p>Cantíl Sempre Cheio: (Utilidade) Este humilde cantil se reabastece magicamente com água limpa e fresca todos os dias ao amanhecer. Ele pode fornecer água suficiente para uma pessoa indefinidamente.</p>"
+    },
+    "Gritstone Charm": {
+      "name": "Amuleto de Pedra de Tenacidade",
+      "description": "<p>Amuleto de Pedra de Tenacidade: (Vestível) Enquanto você tiver metade ou menos dos seus Pontos de Vida restantes, você recebe +2 de bônus nas suas rolagens de dano.</p>"
+    },
+    "Soulfire Ember": {
+      "name": "Brasa de Fogo da Alma",
+      "description": "<p>Brasa de Fogo da Alma: Uma brasa morna e pulsante. Se você fizer o movimento de morte \"Arriscar Tudo\" e o resultado for que seu personagem morre, você pode esmagar esta brasa como seu ato final. Seu personagem pode fazer o movimento \"Chama da Glória\" antes de morrer.</p>"
+    },
+    "Orb of lighting": {
+      "name": "Orbe do Relâmpago",
+      "description": "<p>Encanta uma arma corpo a corpo, fazendo com que seus ataques causem dano mágico de relâmpago. Este efeito dura por um encontro.</p>"
+    },
+    "Legendary Scythe": {
+      "name": "Foice Lendária",
+      "description": "<p><strong>Golpe de Talho:</strong> A força do seu golpe atravessa o alvo inicial e atinge outro. Em um ataque bem-sucedido, você pode gastar 1 Estresse e atingir um adversário adicional em distância Corpo a Corpo do seu alvo principal, desde que sua rolagem de ataque também supere a Dificuldade do outro alvo.</p><p><br /></p><p><strong>Colheita Sombria:</strong> Você puxa energia vital daqueles que derruba no campo de batalha. Quando você derrota um adversário com esta foice, você pode limpar 1 Estresse.</p><p><br /></p><p><strong>Lâmina Mortal:</strong> Em um ataque bem-sucedido com esta arma, dê ao GM 1 Medo para mudar o tipo de dano para mágico e rolar o dano com +1 de bônus em Maestria. Se o alvo morrer por causa deste ataque, sua próxima rolagem de ataque durante esta cena deve ser feita com vantagem.</p>",
+      "attack": "Ataque"
+    },
+    "Boots of the Bounding Stride": {
+      "name": "Botas do Passo Saltitante",
+      "description": "<p>Botas do Passo Saltitante: (Vestível) Uma vez por descanso curto, você pode se mover até a distância Distante como parte da sua ação sem precisar fazer um teste de Agilidade.</p>"
+    },
+    "Flashbang Pellet": {
+      "name": "Pelota de Clarão",
+      "description": "<p>Pelota de Clarão: Uma pequena esfera de argila. Quando arremessada em um ponto dentro do alcance Próximo, ela explode em um clarão cegante e um estrondo ensurdecedor. Todos os adversários ou PCs em distância Muito Próxima desse ponto ficam <em>Vulneráveis</em> até o fim do próximo turno deles.</p>"
+    },
+    "Hallowed Salt": {
+      "name": "Sal Consagrado",
+      "description": "<p>Sal Consagrado: Um saquinho de sal cintilante. Você pode gastar uma ação para jogá-lo formando um círculo ao seu redor. Enquanto estiver dentro do círculo, você não pode ser atacado por criaturas mortas-vivas com ataques não à distância. Este efeito dura por uma cena.</p>"
+    },
+    "Improved Sling": {
+      "name": "Funda Aprimorada",
+      "description": "<p>Disparo Concussivo: Em um ataque bem-sucedido, você pode gastar 1 Esperança para deixar o alvo temporariamente <em>Vulnerável</em>, atordoado pelo impacto.</p><p><br /></p><p>Disparo Duplo: Quando você fizer um ataque, pode marcar 1 Estresse para mirar em um adversário adicional. Cada alvo sofre dano total, desde que sua rolagem de ataque inicial também tenha sucesso contra a Dificuldade deles.</p>",
+      "attack": "Ataque"
+    }
+  }
+}

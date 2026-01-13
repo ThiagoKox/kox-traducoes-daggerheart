@@ -1,0 +1,878 @@
+{
+  "label": "Adversários / Ambientes",
+  "folders": {
+    "Tier 1": "Patamar 1",
+    "Tier 2": "Patamar 2",
+    "Tier 3": "Patamar 3",
+    "Tier 4": "Patamar 4",
+    "Environments - The Void": "Ambientes - The Void",
+    "Adversaries - The Void": "Adversários - The Void"
+  },
+  "mapping": {
+    "description": "system.description",
+    "experiences": "system.experiences",
+    "motivesAndTactics": "system.motivesAndTactics",
+    "attack": "system.attack.name",
+    "items": {
+      "path": "items",
+      "converter": "toItemsWithActions"
+    },
+    "impulses": "system.impulses",
+    "potentialAdversaries": {
+      "path": "system.potentialAdversaries",
+      "converter": "toPotentialAdversaries"
+    }
+  },
+  "entries": {
+    "Cephilith Priest": {
+      "name": "Sacerdote Cefilith",
+      "description": "<p>Um humanoide de cabeça de lula, vestindo túnica, dos Reinos Exteriores.</p>",
+      "motivesAndTactics": "Atacar os de mente fraca, evitar corpo a corpo, dominar, oprimir",
+      "attack": "Golpe Psíquico",
+      "experiences": {
+        "o13hM97YmzLMamkC": {
+          "name": "Reinos Exteriores"
+        }
+      },
+      "items": {
+        "Us0w5JVEDijLPiR1": {
+          "name": "Explosão Psíquica - Ação",
+          "description": "<p>Explosão Psíquica - Ação: <strong>Gaste um Medo</strong> e escolha até três alvos a alcance Próximo para fazer um teste de Reação de Conhecimento ou Instinto (20).</p><p></p><p>Alvos que tiverem sucesso sofrem 2d10+5 de dano mágico direto.</p><p></p><p>Alvos que falharem sofrem 4d10+10 de dano mágico direto e ficam <em>Vulneráveis</em> até receberem o destaque.</p>",
+          "actions": {
+            "XfcYIwquSpnwqy9U": {
+              "name": "Gaste um Medo"
+            },
+            "niCti0gF1zfXe0Lk": {
+              "name": "Ataque (Reação de Conhecimento)"
+            },
+            "zj4x03dJvsy2DTHO": {
+              "name": "Ataque (Reação de Instinto)"
+            }
+          }
+        },
+        "Wwykcb6R9UB9ky2w": {
+          "name": "Sucção Cerebral - Ação",
+          "description": "<p>Sucção Cerebral - Ação: Gaste um Medo para escolher um alvo <em>Vulnerável</em> a alcance Corpo a Corpo.</p><p></p><p>O Sacerdote agarra o alvo e tenta inserir seus tentáculos faciais nos ouvidos, nariz e boca do alvo.</p><p></p><p>O alvo deve ter sucesso em um teste de Reação de Força ou marcar [[/r 1d6]] de Estresse.</p><p></p><p>O Sacerdote recupera uma quantidade de Estresse igual ao número de Estresses que o alvo marcou.</p>",
+          "actions": {
+            "Uj15XIfkRxMmUDk6": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "ZrvHSB3ROgVLI87a": {
+          "name": "Agarre Telecinético - Reação",
+          "description": "<p>Agarre Telecinético - Reação: Quando o Sacerdote tem sucesso em um ataque padrão, você pode marcar um Estresse para deixar o alvo <em>Imobilizado</em> até que ele gaste uma Esperança para remover essa condição.</p>",
+          "actions": {
+            "w2NnXCrJTnQCofgO": {
+              "name": "Marque Estresse"
+            }
+          }
+        }
+      }
+    },
+    "Chimera": {
+      "name": "Quimera",
+      "description": "<p>Um monstro gigante que cospe fogo com cabeça de leão, corpo de cabra e cauda de serpente.</p>",
+      "motivesAndTactics": "Brincar com a comida, patrulhar o território, revelar sua natureza bestial, abater o gado",
+      "attack": "Garras",
+      "experiences": {
+        "F2Jy7wbZqZpa6o50": {
+          "name": "Predador"
+        }
+      },
+      "items": {
+        "TGMst7sdw28kXlpT": {
+          "name": "Mandíbulas Dilacerantes - Passivo",
+          "description": "<p>Mandíbulas Dilacerantes - Passivo: Quando a Quimera faz um ataque bem-sucedido, o alvo deve marcar 2 Espaços de Armadura em vez de 1 para reduzir o dano em um limiar.</p>"
+        },
+        "5niAdKEb8bu1CBe3": {
+          "name": "Sopro de Fogo - Ação",
+          "description": "<p>Sopro de Fogo - Ação: Gaste um Medo para atingir até três personagens à frente da Quimera a alcance Próximo.</p><p></p><p>Todos os alvos devem fazer um teste de Reação de Agilidade (20).</p><p></p><p>Alvos que falharem sofrem 3d12 de dano mágico. Alvos que tiverem sucesso devem marcar um Espaço de Armadura ou marcar um Estresse.</p>",
+          "actions": {
+            "CAKAeVBSCoP7wZlS": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "Tcs8htm0m5fjoHxm": {
+          "name": "Golpe de Serpente - Reação",
+          "description": "<p>Golpe de Serpente - Reação: Quando a Quimera é atacada por um personagem a alcance Muito Próximo, você pode marcar um Estresse para fazer um ataque contra ele.</p><p></p><p>Em caso de sucesso, cause 4d4+10 de dano físico e deixe o alvo <em>Envenenado</em> até o próximo descanso ou até que ele tenha sucesso em um teste de Conhecimento (20).</p><p></p><p>Enquanto <em>Envenenado</em>, o alvo deve rolar um d6 antes de fazer uma rolagem de ação. Com resultado 3 ou menos, ele deve marcar um Estresse.</p>",
+          "actions": {
+            "AfjH9ALO0cup9t6i": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "R4xIqFflUXNhWsgD": {
+          "name": "Garra Dupla - Reação",
+          "description": "<p>Garra Dupla - Reação: Depois que a Quimera faz um ataque padrão, você pode marcar um Estresse para fazer um ataque padrão adicional. Se ambos os ataques tiverem o mesmo alvo, combine o dano.</p>",
+          "actions": {
+            "i9iz4JOa8kAi9DVj": {
+              "name": "Marque Estresse"
+            }
+          }
+        }
+      }
+    },
+    "Convergence, The City Of Portals": {
+      "name": "Convergência, a Cidade dos Portais",
+      "description": "<p>Uma metrópole expansiva no nexo da criação, onde figuras influentes de todos os reinos se reúnem.</p>",
+      "impulses": "Confrontá-los com costumes alienígenas, deslumbrá-los com variedade infinita, tentá-los com o impossível",
+      "potentialAdversaries": {
+        "58O2QqdemNiANjkj": {
+          "label": "Adversários Potenciais"
+        }
+      },
+      "items": {
+        "qFPN23JIJxZpYKWl": {
+          "name": "Impossibilidades por Toda Parte - Passivo",
+          "description": "<p>Impossibilidades por Toda Parte - Passivo: Convergência é um nexo de deuses, monstros, alienígenas e todo tipo de viajante dimensional. Como a vida mortal geralmente está abaixo da preocupação dessas entidades, os personagens têm desvantagem em rolagens de ação para influenciá-las, a menos que tenham alguma vantagem sobre elas ou saibam do que o NPC se importa.</p><p></p><p></p><p>Que tipo de ser atualmente exerce poder na cidade? Que costumes estranhos eles praticam? Qual personagem fica mais confuso ou ofendido por eles — e qual personagem adota esses costumes como seus?</p>"
+        },
+        "NgZSEunHCWFvsVIR": {
+          "name": "Rumo ao Multiverso - Passivo",
+          "description": "<p>Rumo ao Multiverso - Passivo: A cidade de Convergência tem um portal ou porta para cada plano de existência.</p><p></p><p></p><p>Para onde (ou quando) o grupo quer ir? Onde fica esse portal — e quem controla essa área?</p>"
+        },
+        "AS0Ps2LBESu6BFv0": {
+          "name": "Tudo em Todo Lugar ao Mesmo Tempo - Passivo",
+          "description": "<p>Tudo em Todo Lugar ao Mesmo Tempo - Passivo: Esta cidade tem a solução para qualquer problema, se você conseguir encontrá-la. Um personagem que busca um item específico com propriedades maravilhosas pode fazer um teste de Instinto ou Presença para encontrá-lo no mercado pandimensional da cidade.</p><ul><li><p><strong>Sucesso Crítico:</strong> O personagem encontra o item perfeito, e o mercador quer apenas algo que o personagem considera inconsequente em troca.</p></li><li><p><strong>Sucesso com Esperança:</strong> O personagem encontra o item perfeito e pode trocar algo de valor equivalente por ele.</p></li><li><p><strong>Sucesso com Medo:</strong> O personagem encontra o item perfeito, mas o mercador só o trocará por algo que o grupo não consegue oferecer... ainda.</p></li><li><p><strong>Qualquer Falha:</strong> O personagem deve marcar um Estresse ao sair em uma busca inútil sem sucesso. Ele pode marcar um Estresse adicional para mudar este resultado para um sucesso com Medo.</p></li></ul><p>Quem tem o item que o grupo precisa? O que eles querem em troca?</p>"
+        },
+        "v2Sh7lL2Yz1Tmzmu": {
+          "name": "Não Faça Ondas - Passivo",
+          "description": "<p>Não Faça Ondas - Passivo: Contagem Regressiva (6) — Porque tudo é possível em Convergência, a cidade mantém uma burocracia labiríntica que emite e aplica normas sobre todas as trocas e interações entre os Reinos.</p><p></p><p>Quando o grupo chega em Convergência, inicie uma Contagem Regressiva (6) que diminui sempre que um personagem faz algo que abala o delicado equilíbrio político da cidade. Quando ela é acionada, os personagens se tornam Procurados até limparem seus nomes com as autoridades. Quando um personagem Procurado rola com Medo, você pode invocar [[/r 1d4]] Executores Temporais que aparecem a alcance Muito Próximo, recebem imediatamente o destaque e tentam apreender o grupo.</p><p></p><p></p><p>O que o grupo fez (ou planeja fazer) que chama a atenção e a ira do Consórcio? Como eles podem consertar o problema que causaram?</p>"
+        },
+        "UbXz46rAzEXNsv2r": {
+          "name": "Uma Oferta Irrecusável - Ação",
+          "description": "<p>Uma Oferta Irrecusável - Ação: Convergência abriga uma rede tênue de facções rivais. Gaste um Medo para fazer uma delas apresentar ao grupo uma solução fácil para um problema difícil em troca de sua lealdade. Se o grupo recusar, cada personagem deve marcar um Estresse e não poderá recorrer àquela facção em busca de ajuda no futuro.</p><p></p><p></p><p>Qual facção oferece apoio ao grupo? Contra quem eles querem que o grupo aja?</p>",
+          "actions": {
+            "CtZkI2RhDj9htfEm": {
+              "name": "Gaste um Medo"
+            }
+          }
+        }
+      }
+    },
+    "Crystal Wasteland": {
+      "name": "Ermo de Cristal",
+      "description": "<p>Uma paisagem áspera e alienígena que brilha com torres de cristal cintilante.</p>",
+      "impulses": "Cortá-los até o núcleo, fraturar suas psíquicas, mostrar seu verdadeiro reflexo",
+      "potentialAdversaries": {
+        "cg8U4ywcSBuUPp6q": {
+          "label": "Adversários Potenciais"
+        }
+      },
+      "items": {
+        "buy6H7xXsKrbncb0": {
+          "name": "Ressonância Harmônica - Passivo",
+          "description": "<p>Ressonância Harmônica - Passivo: Os cristais aqui reverberam com energia mágica.</p><p></p><p>Um personagem pode fazer um movimento de intervalo para tentar se sintonizar ao ambiente com um teste de Conjuração bem-sucedido.</p><p></p><p>Testes de Conjuração feitos por um personagem Sintonizado dentro do Ermo de Cristal têm vantagem.</p><p></p><p>O personagem remove a condição quando deixa o ermo.</p><p></p><p></p><p>Como a sintonia com este lugar altera sua experiência sensorial? Que som ou canção da sua infância este lugar evoca?</p>"
+        },
+        "KTOo73AqVbSAaa8S": {
+          "name": "Anomalias Gravitacionais - Ação",
+          "description": "<p>Anomalias Gravitacionais - Ação: Fenômenos estranhos e localizados pontilham a paisagem, distorcendo distância e direção.</p><p></p><p>Gaste um Medo para alterar a gravidade em um ponto à sua escolha. Todos os alvos a alcance Próximo desse ponto devem fazer um teste de Reação de Conhecimento para calcular suas novas trajetórias.</p><p></p><p>Alvos que falharem sofrem 3d8+4 de dano físico ao serem arremessados para cima e para longe. Alvos que tiverem sucesso devem marcar um Estresse ou sofrer metade do dano.</p><p></p><p></p><p>Como é sentir o corpo e a mente lutando para restabelecer o equilíbrio? Há alguma forma de usar isso a seu favor?</p>"
+        },
+        "vgq657P422FiyPmE": {
+          "name": "Reflexo Arcano - Ação",
+          "description": "<p>Reflexo Arcano - Ação: <strong>Gaste um Medo</strong> para fazer qualquer número de personagens vislumbrar um reflexo no cristal de quem já foram ou podem se tornar.</p><p></p><p>Cada alvo faz um teste de Destino ([[/r 1d12]]). Alvos que tiverem sucesso veem uma visão de seu eu melhor e podem substituir uma Experiência.</p><p></p><p>Alvos veem uma visão de seu passado sombrio — ou de um futuro ainda mais sombrio — e devem marcar um Estresse, e você ganha um Medo.</p><p></p><p></p><p>Quem os personagens veem do outro lado do cristal? Como isso os faz sentir?</p>"
+        },
+        "dlKyw0Awnh2cjWgg": {
+          "name": "Terreno Afiado como Lâmina - Reação",
+          "description": "<p>Terreno Afiado como Lâmina - Reação: Quando um personagem falha em uma rolagem para atravessar o ermo, ele faz um teste de Reação de Maestria.</p><p></p><p>Em caso de falha, ele se corta nas bordas afiadas do terreno. Fragmentos de cristal mágico ficam incrustados em seu ferimento e crescem lentamente, Cristalizando-o.</p><p></p><p>Ative uma Contagem Regressiva de Cristal (1) para esse personagem.</p><p></p><p>Até remover a condição com um teste de Conhecimento bem-sucedido, um personagem Cristalizando aumenta sua Contagem Regressiva de Cristal no início de cada descanso e tem uma penalidade na Evasão igual ao seu valor.</p><p></p><p>A contagem termina quando a condição é removida.</p><p></p><p></p><p>Como o cristal parece conforme cresce? Como isso parece?</p>"
+        },
+        "BnqgezbIDdDFcPEl": {
+          "name": "Embaralhamento Psíquico - Reação",
+          "description": "<p>Embaralhamento Psíquico - Reação: Quando os personagens fizerem um descanso longo, você pode gastar um Medo para trocar suas psíquicas. Recolha todas as fichas de personagem dos jogadores, embaralhe e redistribua aleatoriamente.</p><p></p><p>Cada ficha vem com as cartas de Domínio e auxílios do jogador daquele personagem. Um personagem pode recuperar sua psique com um teste de Conhecimento bem-sucedido, e então troca a ficha com o jogador que tem sua ficha original.</p><p></p><p></p><p>Como é estar na pele de outra pessoa? Se você pudesse escolher ficar assim em um aspecto, qual seria?</p>"
+        }
+      }
+    },
+    "Doppelhünd": {
+      "name": "Doppelhünd",
+      "description": "<p>Um cão infernal mágico e feroz de seis patas, com olhos vermelhos brilhantes e dois longos braços de lula cheios de dentes. Ele confunde inimigos conjurando um duplicado ilusório de si.</p>",
+      "motivesAndTactics": "Emboscar presas, matar por esporte, brincar com a comida, enganar e ludibriar",
+      "attack": "Braços Dentados",
+      "experiences": {
+        "VYDikoyQad0VpQdg": {
+          "name": "Sombras"
+        }
+      },
+      "items": {
+        "79VzF5ZCmSb8kkII": {
+          "name": "Fera Intermitente - Passivo",
+          "description": "<p>Fera Intermitente - Passivo: Quando o combate começa, coloque um duplicado a alcance Próximo do Doppelhünd.</p><p></p><p>O duplicado pode se mover quando o Doppelhünd recebe o destaque, e o Doppelhünd pode atingir inimigos com ataques como se estivesse no mesmo lugar que o duplicado.</p><p></p><p>O Doppelhünd ocupa ambos os lugares até ser atacado, momento em que você rola [[/r 1d6]] para determinar se o ataque visa o Doppelhünd (resultado par) ou o duplicado (resultado ímpar).</p><p></p><p>Ataques contra o duplicado falham automaticamente. Um ataque bem-sucedido contra o Doppelhünd dissipa o duplicado até que você gaste um Medo para conjurá-lo novamente.</p>",
+          "actions": {
+            "PwCnewhEOsfhHT1Q": {
+              "name": "Gaste um Medo"
+            }
+          }
+        },
+        "rfHjv5kjd25E35uq": {
+          "name": "Golpe Duplo - Reação",
+          "description": "<p>Golpe Duplo - Reação: Quando o Doppelhünd faz um ataque padrão, você pode marcar um Estresse para fazer um ataque padrão adicional. Se ambos os ataques tiverem o mesmo alvo, combine o dano.</p>",
+          "actions": {
+            "lmAJr4vTF5HovOBc": {
+              "name": "Marque Estresse"
+            }
+          }
+        }
+      }
+    },
+    "Dragon Knight": {
+      "name": "Cavaleiro Dragão",
+      "description": "<p>Um cavaleiro trajando armadura de dragonoplaca e um elmo em forma de cabeça de dragão.</p>",
+      "motivesAndTactics": "Explorar uma abertura, ganhar distância, derrubar, equilibrar-se, atacar de cima",
+      "attack": "Lança",
+      "experiences": {
+        "N7rcT7LRJyVocadB": {
+          "name": "Acrobacia"
+        }
+      },
+      "items": {
+        "atw1SsRwX3YsIo39": {
+          "name": "Terreno Elevado - Passivo",
+          "description": "<p>Terreno Elevado - Passivo: O Cavaleiro ganha um bônus de +2 em rolagens de ataque</p><p>ao atacar um alvo de cima.</p>",
+          "effects": {
+            "rVU6nt9rT28UhvSm": {
+              "name": "Terreno Elevado - Passivo"
+            }
+          }
+        },
+        "EJzKUCllNTAfECeR": {
+          "name": "Crítico Aprimorado - Passivo",
+          "description": "<p>Crítico Aprimorado - Passivo: A rolagem de ataque do Cavaleiro conta como sucesso crítico se o resultado no d20 for 19 ou 20.</p>"
+        },
+        "US1FDannV6Ftyo9b": {
+          "name": "Golpe Saltado - Ação",
+          "description": "<p>Golpe Saltado - Ação: Marque um Estresse e escolha um alvo a alcance Distante.</p><p></p><p>O Cavaleiro se move para alcance Corpo a Corpo do alvo e faz um ataque padrão contra ele.</p><p></p><p>Em caso de sucesso, ganhe um bônus de +1d12 na rolagem de dano e o alvo deve marcar um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano).</p>",
+          "actions": {
+            "JcWnJYRCG5faIYQ5": {
+              "name": "Ataque"
+            },
+            "kyigB3fHA9r2WuLW": {
+              "name": "Marcar Armadura"
+            }
+          }
+        }
+      }
+    },
+    "Enraged Mountain Troll - Evolution": {
+      "name": "Troll da Montanha Enfurecido - Evolução",
+      "description": "<p>Um gigante horrível e retorcido, nascido da rocha, vestindo armadura pilhada e um cinturão de cabeças decepadas.</p>",
+      "motivesAndTactics": "Emboscar por trás, atacar de cima, rugir, esmagar inimigos contra as rochas, arremessar grandes pedregulhos",
+      "attack": "Golpe de Garra",
+      "experiences": {
+        "JikruHaMoinjRtlz": {
+          "name": "Montanhas"
+        }
+      },
+      "items": {
+        "uXzufA2EgTfN8jUF": {
+          "name": "Implacável (3)",
+          "description": "<p>O Troll pode receber destaque até três vezes por turno do MJ. Gaste Medo normalmente para dar destaque a ele.</p>"
+        },
+        "hbZB7fyNX1GdOBbY": {
+          "name": "Armadura Roubada - Passivo",
+          "description": "<p>Armadura Roubada - Passivo: Quando o combate começa, ative uma Contagem Regressiva igual ao número de personagens. Sempre que o Troll sofrer dano, diminua a contagem e reduza em 1 os PV que o Troll marcaria.</p><p></p><p>Quando ela é acionada, o Troll evolui para um Troll da Montanha Enfurecido (veja \"Troll da Montanha Enfurecido - Evolução\").</p>"
+        },
+        "wfCrT1wqurbyjQ9b": {
+          "name": "Golpe de Mangual - Ação",
+          "description": "<p>Golpe de Mangual - Ação: O Troll balança seu mangual de crânios em um arco amplo. Marque um Estresse para fazer um ataque contra todos os alvos à frente do Troll a alcance Muito Próximo.</p><p></p><p>Em caso de sucesso, o Troll causa 2d10+3 em vez do dano normal. O Troll não pode usar essa ação enquanto evoluído.</p>",
+          "actions": {
+            "TVmV6q4oxaYvRyLv": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "DeW2Hra5RSbXHWiv": {
+          "name": "Troll da Montanha Enfurecido - Evolução",
+          "description": "<p>Troll da Montanha Enfurecido - Evolução: O Troll recebe um bônus de +1 em sua Dificuldade e seu ataque padrão muda para o seguinte:</p><p>Golpe de Garra: Muito Próximo | 1d8+1 físico</p>"
+        },
+        "DaD87HluEhxTkD1n": {
+          "name": "Golpe Duplo - Ação",
+          "description": "<p>Golpe Duplo - Ação: Gaste um Medo para mover o Troll até alcance Próximo e imediatamente fazer dois ataques padrão contra um único alvo a alcance Corpo a Corpo. Se ambos os ataques acertarem, combine o dano e o alvo também perde uma Esperança.</p>",
+          "actions": {
+            "36ZwThvz41hADXaP": {
+              "name": "Gaste um Medo"
+            },
+            "kGc8egDTAaJl4wIZ": {
+              "name": "Ataque"
+            },
+            "vRHL5sN0qWQ0aL4x": {
+              "name": "Perca Esperança"
+            }
+          }
+        }
+      }
+    },
+    "Fellmounted Shadow King": {
+      "name": "Rei das Sombras Montado",
+      "description": "<p>A sombra de um governante esquecido, condenada a patrulhar os céus sobre uma enguia alada a serviço de um demiurgo maligno.</p>",
+      "motivesAndTactics": "Obter itens mágicos para o mestre, inspirar medo, patrulhar os céus",
+      "attack": "Lança Amaldiçoada",
+      "experiences": {
+        "sVfiG7TM1wAbeB7H": {
+          "name": "Perseguidor"
+        }
+      },
+      "items": {
+        "yW0SZe7wXwqOcNYG": {
+          "name": "Luz e Sombra - Passivo",
+          "description": "<p>Luz e Sombra - Passivo: O Rei das Sombras ganha um bônus de +1 em rolagens de ataque e dano enquanto está em sombra ou escuridão e sofre uma penalidade de -1 em rolagens de ataque e dano enquanto está em luz intensa.</p>",
+          "effects": {
+            "jVBdXomOerfUEf6k": {
+              "name": "In Light"
+            },
+            "WQJMpYn0WSyeHnDc": {
+              "name": "In Shadow"
+            }
+          }
+        },
+        "gHXFNx9iXdLbIP5F": {
+          "name": "Lança Amaldiçoada - Mágica",
+          "actions": {
+            "VZ2R2vlL1rPopKu8": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "Z0ot0Jii36hLp7Jo": {
+          "name": "Caçador de Relíquias - Passivo",
+          "description": "<p>Caçador de Relíquias - Passivo: O Rei das Sombras tem vantagem em ataques</p><p>contra personagens com armas ou armaduras mágicas equipadas.</p>"
+        },
+        "pAChrHMTTEo0QJ9k": {
+          "name": "Canção Infernal - Ação",
+          "description": "<p>Canção Infernal - Ação: Gaste 2 Medos para fazer a montaria do Rei das Sombras soltar um grito de gelar a espinha que ecoa pelo campo de batalha.</p><p></p><p>Todos os personagens a alcance Distante devem fazer um teste de Reação de Presença (18). Alvos que tiverem sucesso devem marcar um Estresse. Alvos que falharem devem marcar um Estresse e perder uma Esperança. Se o personagem não puder perder uma Esperança, você ganha 1 Medo.</p>",
+          "actions": {
+            "c6y5UF3epgDtsxP6": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "vJWWEDgw5kpheObr": {
+          "name": "Suporte Aéreo - Reação",
+          "description": "<p>Suporte Aéreo - Reação: Três vezes por cena, você pode gastar um Medo para fazer um adversário a alcance Distante do Rei das Sombras rerrolar um ataque perdido com vantagem.</p>",
+          "actions": {
+            "js41nW14clROJls2": {
+              "name": "Gaste um Medo"
+            }
+          }
+        }
+      }
+    },
+    "Gargoyle": {
+      "name": "Gárgula",
+      "description": "<p>Uma estátua animada por magia na forma de uma fera ou demônio aterrorizante.</p>",
+      "motivesAndTactics": "Esconder-se à vista, vigiar, mergulhar de cima",
+      "attack": "Garras de Pedra",
+      "experiences": {
+        "N3l4xUPVTSwvnuL0": {
+          "name": "Ruins"
+        }
+      },
+      "items": {
+        "DOLXlUqNOwJSa6HQ": {
+          "name": "Corpo de Pedra - Passivo",
+          "description": "<p>Corpo de Pedra - Passivo: A Gárgula é resistente a dano físico.</p>"
+        },
+        "K7G7JwEd1ulbjSJS": {
+          "name": "Apenas uma Estátua - Passivo",
+          "description": "<p>Apenas uma Estátua - Passivo: Antes de fazer seu primeiro ataque em uma luta ou depois de ficar Oculta, a Gárgula é indistinguível de uma estátua comum até agir novamente ou até que um personagem tenha sucesso em um teste de Instinto para identificá-la.</p>"
+        },
+        "6iz7YXvNolXgv0Ur": {
+          "name": "Ataque Rasante - Ação",
+          "description": "<p>Ataque Rasante - Ação: Escolha um ponto a alcance Distante. A Gárgula se move até esse ponto em linha reta e faz um ataque contra um alvo ao longo de seu caminho.</p>"
+        }
+      }
+    },
+    "Gobstalker": {
+      "name": "Perseguidor Gob",
+      "description": "<p>Uma bola flutuante e carnuda de dentes com dez antenas articuladas surgindo da coroa, cada uma com um olho de cor diferente.</p>",
+      "motivesAndTactics": "Emboscar, se livrar de rivais, buscar riquezas, usar magia a longa distância",
+      "attack": "Mordida",
+      "experiences": {
+        "0POlBSPJNDRtKhj1": {
+          "name": "Magia"
+        }
+      },
+      "items": {
+        "kYoSKfZe0zgp68U3": {
+          "name": "Implacável (3)",
+          "description": "<p>O Gobstalker pode receber destaque até três vezes por turno do MJ. Gaste Medo normalmente para dar destaque a ele.</p>"
+        },
+        "ydMny9lM6OOhiObG": {
+          "name": "Hálito Antimístico - Passivo",
+          "description": "<p>Hálito Antimístico - Passivo: O hálito do Gobstalker é tão rançoso que cria um miasma invisível que anula efeitos mágicos.</p><p></p><p>Qualquer ataque que cause dano mágico ou crie um efeito mágico à frente do Gobstalker a alcance Próximo falha automaticamente.</p><p></p><p>Este recurso não afeta os recursos do próprio Gobstalker.</p>"
+        },
+        "BRUaW4GKgAosTgSu": {
+          "name": "Olhos em Pedúnculos - Ação",
+          "description": "<p>Olhos em Pedúnculos - Ação: Marque um Estresse para atacar um alvo a alcance Distante. Em caso de acerto, gaste um Medo para escolher um efeito ou role [[/r 1d10]] para um efeito aleatório. O Gobstalker usa o feixe mágico correspondente:</p><p>1. Enfeitiçar. O alvo fica <em>Enfeitiçado</em> e vê o Gobstalker como um amigo. Uma criatura <em>Enfeitiçada</em> não pode atacar o Gobstalker. Além disso, um personagem <em>Enfeitiçado</em> deve marcar um Estresse ou fazer um ataque padrão contra seu aliado mais próximo sempre que alguém rolar com Medo. Este efeito dura até o alvo ter sucesso em um teste de Presença ou Conhecimento (16).</p><p>2. Corroer. O alvo sofre 2d8 de dano mágico e marca um Espaço de Armadura sem receber seus benefícios (ele ainda pode usar armadura para reduzir o dano). Se todos os Espaços de Armadura do alvo já estiverem marcados, dobre o dano.</p><p>3. Perdição. O alvo marca imediatamente todos os PV não marcados, mas pode reduzir esse número gastando qualquer quantidade de Esperança. Para cada Esperança gasta dessa forma, reduza em 1 o número de PV marcados.</p><p>4. Hipnose. O alvo cai em um transe profundo semelhante ao sono e não pode tomar ações exceto para tentar acordar. O alvo acorda quando é atingido por um ataque, marca 1 ou mais PV ou tem sucesso em um teste de Instinto (16) para acordar.</p><p>5. Paralisar. O alvo congela no lugar, ficando <em>Vulnerável</em> e <em>Imobilizado</em> até marcar 2 Estresses.</p><p>6. Petrificar. Coloque uma Contagem Regressiva de Petrificação (6) no alvo. Ela diminui quando um personagem rola com Medo. Quando é acionada, o alvo vira pedra até o Gobstalker ser derrotado ou até o alvo fazer um descanso longo. Enquanto petrificado, o alvo é imune a todo dano e está ciente do entorno, mas não pode agir.</p><p>7. Empurrar. O alvo é arremessado até alcance Distante e sofre 3d6 de dano físico do impacto.</p><p>8. Carbonizar. O alvo sofre 2d8 de dano mágico direto.</p><p>9. Lentidão. O alvo fica <em>Vulnerável</em> e deve marcar um Estresse para se mover. O alvo pode gastar 2 Esperanças a qualquer momento para encerrar este efeito.</p><p>10. Aterrorizar. O alvo não pode agir exceto para fugir da batalha ou tentar se livrar do medo com um teste de Intuição (16). Além disso, sempre que você gastar Medo, o alvo deve marcar um Estresse. Este efeito dura até o Gobstalker ser derrotado ou até o alvo fazer um descanso.</p><p></p>",
+          "actions": {
+            "l9jlck6u0BU3dGA5": {
+              "name": "Gaste um Medo"
+            },
+            "YlfGRXkCbLGV7RRL": {
+              "name": "Corroer"
+            },
+            "bHfSIwXKTqWal1Oj": {
+              "name": "Empurrar"
+            },
+            "Fhc7FlXPLaT7v9Jo": {
+              "name": "Carbonizar"
+            }
+          }
+        }
+      }
+    },
+    "Grand Feast": {
+      "name": "Grande Banquete",
+      "description": "<p>Uma celebração comunitária com bebida, comida e diversão em excesso.</p>",
+      "impulses": "Reunir todos, celebrar uma ocasião memorável, incentivar o abandono festivo",
+      "potentialAdversaries": {
+        "fQ95nRstJrGcyoF1": {
+          "label": "Potential Adversaries"
+        }
+      },
+      "items": {
+        "ErFsPAQ6RpbvFKto": {
+          "name": "Línguas Soltas e Amizades Rápidas - Passivo",
+          "description": "<p>Línguas Soltas e Amizades Rápidas - Passivo: Todos estão aqui para se divertir.</p><p></p><p>Os personagens têm vantagem em testes de Presença para socializar com outros festeiros.</p><p></p><p></p><p>O que todos estão celebrando? Onde é a festa? Quem está pagando a conta?</p>"
+        },
+        "YnWCxYRLPZvW6JI3": {
+          "name": "Vocês Não Estão Entretidos? - Ação",
+          "description": "<p>Vocês Não Estão Entretidos? - Ação: Gaste o destaque para fazer o anfitrião do banquete iniciar a parte de entretenimento da noite.</p><p></p><p>Todos os personagens podem fazer uma rolagem de ação para iniciar uma apresentação, competição ou outra diversão leve. Cada personagem que tiver sucesso torna-se um Convidado de Honra. Até o fim do grande banquete, um Convidado de Honra pode reivindicar um favor do anfitrião e então remove a condição.</p><p></p><p></p><p>O que o anfitrião quer ver ou ouvir mais do que tudo? O que ele pode oferecer aos personagens em troca?</p>"
+        },
+        "8IqOQ5zhQiuk1la5": {
+          "name": "Sempre Tem Aquele... - Ação",
+          "description": "<p>Sempre Tem Aquele... - Ação: Gaste um Medo para prender um personagem em conversa com a pessoa mais desagradável da festa até ele ter sucesso em uma rolagem de ação para se desvencilhar desse buraco negro social.</p><p></p><p>Um personagem Preso não pode fazer outras rolagens de ação exceto para tentar remover essa condição.</p><p></p><p>Quando um personagem Preso falha em uma rolagem de ação, ele deve marcar um Estresse.</p><p></p><p></p><p>O que torna essa pessoa tão desagradável? O que o personagem valoriza que essa pessoa sempre diminui ou descarta? Sobre o que ela não consegue parar de falar?</p>",
+          "actions": {
+            "TfawxgccGBshLOuA": {
+              "name": "Gaste um Medo"
+            }
+          }
+        },
+        "Kbj7oWQVoSSR8coN": {
+          "name": "Última Chamada - Reação",
+          "description": "<p>Última Chamada - Reação: Após uma longa noite, os festeiros começam a ir embora.</p><p></p><p>Quando o banquete termina, todos os personagens que participaram das festividades removem todo o Estresse e ganham uma Esperança.</p><p></p><p>Além disso, cada Convidado de Honra recupera todos os PV e ganha uma Esperança adicional, então remove a condição. Personagens que exageraram devem ter sucesso em um teste de Reação de Força ou ficam de Ressaca até o próximo descanso.</p><p></p><p>Personagens de Ressaca sofrem uma penalidade de -1 em todas as rolagens de ação.</p><p></p><p></p><p>Que histórias malucas os personagens compartilham ao deixar a festa? Quem eles veem inesperadamente se agarrando depois?</p>",
+          "actions": {
+            "g7Mfod3SUFnbmFqo": {
+              "name": "Hungover"
+            }
+          }
+        }
+      }
+    },
+    "Hallowed Choir": {
+      "name": "Coro Sagrado",
+      "description": "<p>Um coro celestial de humanoides alados cujo canto faz brotar lágrimas de reverência religiosa.</p>",
+      "motivesAndTactics": "Abafar a descrença, elevar as vozes",
+      "attack": "Explosão Coral",
+      "experiences": {
+        "cQ7lpnVWwoTTWLw2": {
+          "name": "Música"
+        }
+      },
+      "items": {
+        "HJFfuB4AdYSr9RUi": {
+          "name": "Horda (2d8+3)",
+          "description": "<p>Quando o Coro tiver marcado metade ou mais de seus PV, seu ataque padrão passa a causar 2d8+3 de dano físico.</p>"
+        },
+        "PnzeYzDBtHfzTKcB": {
+          "name": "Ataque Aural - Ação",
+          "description": "<p>Ataque Aural - Ação: Gaste um Medo para fazer o Coro liberar energia divina.</p><p></p><p>Remova todos os tokens deste bloco (veja \"Coda Celestial\"). Para cada token removido, cause [[/r 1d12]] de dano mágico direto a todos os inimigos a alcance Próximo.</p>",
+          "actions": {
+            "K6A8XYhbbQGMBz6U": {
+              "name": "Gaste um Medo"
+            },
+            "4YA92F8dtpxGGwRP": {
+              "name": "Dano 1d12"
+            }
+          }
+        },
+        "0xmWGp3PyWTGszQt": {
+          "name": "Coda Celestial - Reação",
+          "description": "<p>Coda Celestial - Reação: Contagem Regressiva (Ciclo 3).</p><p></p><p>O canto divino do Coro se acumula a cada refrão. Ative a contagem quando o Coro receber destaque pela primeira vez. Ela diminui a cada rolagem de ação.</p><p></p><p>Quando ela é acionada, coloque um token neste bloco. O Coro recebe um bônus de Dificuldade e de dano do ataque padrão igual ao número de tokens neste bloco.</p>",
+          "effects": {
+            "PihfaUM1syv3eBrh": {
+              "name": "Coda Celestial +1"
+            },
+            "q13suPVMK6MZHhcK": {
+              "name": "Coda Celestial +2"
+            },
+            "WCOz4b9T1WvD9hd3": {
+              "name": "Coda Celestial +3"
+            }
+          }
+        }
+      },
+      "effects": {
+        "cBbnNWCghQ9mCtsd": {
+          "name": "Horda"
+        }
+      }
+    },
+    "Heist": {
+      "name": "Assalto",
+      "description": "<p>O grupo precisa obter acesso a um local oculto ou bem protegido para adquirir as informações ou itens guardados ali.</p>",
+      "impulses": "Fazer o grupo se preparar, separá-los, criar obstáculos, prendê-los lá dentro, consumir seus recursos",
+      "potentialAdversaries": {
+        "WNrtmqVpFiR2DC0a": {
+          "label": "Adversários Potenciais"
+        }
+      },
+      "items": {
+        "qztLxh5KUz18VMLR": {
+          "name": "Trabalho de Preparação - Passivo",
+          "description": "<p>Trabalho de Preparação - Passivo: Antes do assalto, cada personagem tem a oportunidade de reunir uma informação-chave, vigiar o local ou adquirir uma ferramenta ou recurso útil.</p><p></p><p>Dê a cada jogador a oportunidade de descrever um obstáculo que espera encontrar e como se preparou para superá-lo, então peça que façam uma rolagem de ação.</p><p></p><p>Em caso de sucesso, eles obtêm a vantagem ou o recurso desejado. Em um sucesso com Medo, isso é menos útil do que esperavam (por exemplo, descobrem a localização de um ponto de acesso oculto, mas aprendem que invadi-lo provavelmente será difícil e barulhento).</p><p></p><p></p><p>Como o personagem obtém essa vantagem? Ele vai sozinho ou pede ajuda? Que complicações imprevistas surgem durante o assalto?</p>"
+        },
+        "uQXqfwmXr3VBVhdm": {
+          "name": "Infiltração - Passivo",
+          "description": "<p>Infiltração - Passivo: Defina o objetivo do assalto e inicie duas contagens regressivas dinâmicas: uma Contagem Regressiva de Progresso (12) para representar o trabalho do grupo em direção ao objetivo e uma Contagem Regressiva de Consequência (10) para representar o risco crescente de descoberta e captura.</p><p></p><p>Avance ambas de acordo com a tabela de avanço de Contagem Regressiva Dinâmica conforme os personagens fazem rolagens de ação para concluir o assalto.</p><p></p><p>Se a Contagem de Progresso for acionada primeiro, dê destaque a este ambiente para usar o recurso \"Exfiltração\". Se a Contagem de Consequência for acionada primeiro, ganhe [[/r 1d4]] Medos, dê destaque a este ambiente e use o recurso \"Soar o Alarme\".</p><p></p><p></p><p>O que o grupo está procurando e onde está localizado? Que obstáculos inesperados eles encontrarão? O que acontece se o grupo for pego?</p>"
+        },
+        "RPDfzdSvdKrvp0rT": {
+          "name": "Eu Sabia Que Isso Ia Acontecer - Passivo",
+          "description": "<p>Eu Sabia Que Isso Ia Acontecer - Passivo: Uma vez por sessão, um personagem pode gastar uma Esperança para explicar como se preparou para a situação atual e revelar uma informação-chave (como a localização de uma passagem oculta ou a senha de uma área restrita) ou produzir um item útil (como o uniforme de um cultista deixado sem supervisão ou um consumível comum escondido na bota).</p><p></p><p></p><p>O que o personagem preparou com antecedência? Como ele sabia que precisaria disso? O que lhe custou se preparar — ou a quem ele deve um favor?</p>"
+        },
+        "xGAPhfQE4n6HBo8e": {
+          "name": "Exfiltração - Reação",
+          "description": "<p>Exfiltração - Reação: Quando a Contagem de Progresso é acionada, o grupo obtém o objeto do assalto e deve ter sucesso em uma rolagem de ação em grupo para escapar sem ser capturado.</p><p></p><p>Em caso de falha, cada personagem marca um Estresse e sofre 2d12 de dano direto.</p><p></p><p></p><p>O que torna a saída ainda mais perigosa do que a entrada? Que acontecimentos imprevistos atrapalham o plano original de fuga do grupo?</p>",
+          "actions": {
+            "dUWfC4Pjfbtcm1Q0": {
+              "name": "Dano"
+            }
+          }
+        },
+        "viizprNubERHkOFd": {
+          "name": "Soar o Alarme - Reação",
+          "description": "<p>Soar o Alarme - Reação: Quando a Contagem de Consequência é acionada, o grupo é descoberto e o local entra em Alerta Máximo.</p><p></p><p>Invoque imediatamente um número de adversários de Patamar 2 igual ao número de personagens na cena e dê destaque a um.</p><p></p><p>Enquanto este ambiente estiver em Alerta Máximo, todos os adversários recebem um bônus de +1 em Dificuldade.</p><p></p><p></p><p>O que torna esses adversários especialmente adequados para guardar este local? O que eles sabem sobre este lugar que lhes dá vantagem?</p>"
+        }
+      }
+    },
+    "Lamplight Beguiler": {
+      "name": "Enganador da Luz do Lampião",
+      "description": "<p>Uma enorme criatura marinha que atrai presas incautas para a zona de mordida com seu talo de cabeça pendente e metamórfico.</p>",
+      "motivesAndTactics": "Atrair com conhecimento secreto, fechar a armadilha, falar através do talo metamórfico",
+      "attack": "Ataque",
+      "experiences": {
+        "zsl2h8TkCTQJoxib": {
+          "name": "Segredos"
+        },
+        "VUpsEGDrJ0aro4py": {
+          "name": "Encanto"
+        }
+      },
+      "items": {
+        "zDNkpPy47craBLhX": {
+          "name": "Isca Dúplice - Ação",
+          "description": "<p>Isca Dúplice - Ação: O aglomerado membranoso na ponta do talo da cabeça do Enganador pode assumir qualquer forma humanoide. Marque um Estresse e escolha um personagem a alcance Próximo.</p><p></p><p>O jogador deve dizer que forma seu personagem consideraria mais confiável (como um parente, mentor ou amante). O talo da cabeça do Enganador se transforma nessa forma.</p>",
+          "actions": {
+            "OVcBpE2Cs1AQN0FP": {
+              "name": "Marque Estresse"
+            }
+          }
+        },
+        "eX3hwzV0qu8wKzk9": {
+          "name": "Seduzir - Ação",
+          "description": "<p>Seduzir - Ação: Gaste um Medo para tocar uma melodia sedutora para um personagem a alcance Próximo.</p><p></p><p>O personagem deve ter sucesso em um teste de Reação de Presença (18) ou se mover até alcance Corpo a Corpo com o Enganador. Se o talo da cabeça do Enganador estiver na forma que o personagem consideraria confiável, ele tem desvantagem no teste de reação.</p>",
+          "actions": {
+            "sS2QvWVn0denpbw1": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "ylA88egdYSbukkoF": {
+          "name": "Enredar - Reação",
+          "description": "<p>Enredar - Reação: Quando um personagem se move para alcance Corpo a Corpo, você pode gastar um Medo para fazer um ataque contra ele.</p><p></p><p>Em um ataque bem-sucedido, o alvo é Engolido. Enquanto Engolido, uma criatura fica <em>Imobilizada</em> e só pode tomar ações para atacar o Enganador.</p><p></p><p>O Enganador cospe todas as criaturas Engolidas quando sofre dano Maior.</p>",
+          "actions": {
+            "rtr6iuIT9cWnfnES": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "ocamUBktKkWR88Ga": {
+          "name": "Descansar e Digerir - Reação",
+          "description": "<p>Descansar e Digerir - Reação: Quando o Enganador recebe o destaque com uma criatura Engolida dentro dele, ele se move para alcance Distante, afastando-se dos personagens.</p>"
+        }
+      }
+    },
+    "Mountain Troll": {
+      "name": "Troll da Montanha",
+      "description": "<p>Um gigante horrível e retorcido, nascido da rocha, vestindo armadura pilhada e um cinturão de cabeças decepadas.</p>",
+      "motivesAndTactics": "Emboscar por trás, atacar de cima, rugir, esmagar inimigos contra as rochas, arremessar grandes pedregulhos",
+      "attack": "Mangual de Crânios",
+      "experiences": {
+        "JikruHaMoinjRtlz": {
+          "name": "Montanhas"
+        }
+      },
+      "items": {
+        "uXzufA2EgTfN8jUF": {
+          "name": "Implacável (3)",
+          "description": "<p>O Troll pode receber destaque até três vezes por turno do MJ. Gaste Medo normalmente para dar destaque a ele.</p>"
+        },
+        "hbZB7fyNX1GdOBbY": {
+          "name": "Armadura Roubada - Passivo",
+          "description": "<p>Armadura Roubada - Passivo: Quando o combate começa, ative uma Contagem Regressiva igual ao número de personagens. Sempre que o Troll sofrer dano, diminua a contagem e reduza em 1 os PV que o Troll marcaria.</p><p></p><p>Quando ela é acionada, o Troll evolui para um Troll da Montanha Enfurecido (veja \"Troll da Montanha Enfurecido - Evolução\").</p>"
+        },
+        "wfCrT1wqurbyjQ9b": {
+          "name": "Golpe de Mangual - Ação",
+          "description": "<p>Golpe de Mangual - Ação: O Troll balança seu mangual de crânios em um arco amplo. Marque um Estresse para fazer um ataque contra todos os alvos à frente do Troll a alcance Muito Próximo.</p><p></p><p>Em caso de sucesso, o Troll causa 2d10+3 em vez do dano normal. O Troll não pode usar essa ação enquanto evoluído.</p>",
+          "actions": {
+            "TVmV6q4oxaYvRyLv": {
+              "name": "Ataque"
+            }
+          }
+        }
+      }
+    },
+    "Owl Witch": {
+      "name": "Bruxa Coruja",
+      "description": "<p>Uma enorme coruja-das-torres vingativa com envergadura de 15 pés e rosto humano.</p>",
+      "motivesAndTactics": "Consumir essência, amaldiçoar, prever a morte",
+      "attack": "Garras Afiadas",
+      "experiences": {
+        "QhHEF0ga90i0Ehnb": {
+          "name": "Magia"
+        },
+        "W5DUlu9C03du6c20": {
+          "name": "Perseguidora Noturna"
+        }
+      },
+      "items": {
+        "st1T9Or9pNqWlZ2J": {
+          "name": "Presságio Sinistro - Passivo",
+          "description": "<p>Presságio Sinistro - Passivo: Quando um personagem a alcance Próximo faz uma rolagem de ação, seu Dado de Medo recebe um bônus igual à quantidade de Medo que você possui no momento.</p>"
+        },
+        "98J576WbCTCdHkcI": {
+          "name": "Barreira da Bruxa - Passivo",
+          "description": "<p>Barreira da Bruxa - Passivo: A Bruxa Coruja é resistente a dano mágico.</p>"
+        },
+        "Raer98GsWrNMF6cI": {
+          "name": "Voz Sedutora - Ação",
+          "description": "<p>Voz Sedutora - Ação: A Bruxa Coruja pode imitar perfeitamente a voz de um ente querido ou de uma figura confiável.</p><p></p><p><strong>Gaste um Medo</strong> para fazer a Bruxa Coruja chamar uma criatura ao alcance da voz. O alvo deve ter sucesso em um teste de Reação de Instinto ou se mover até alcance Distante em direção à Bruxa Coruja.</p>",
+          "actions": {
+            "4crSC91u01mIviT6": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "BSYxKiYbbfE38YfD": {
+          "name": "Olhar de Pesadelo - Ação",
+          "description": "<p>Olhar de Pesadelo - Ação: Gaste um Medo para fazer a Bruxa Coruja Afligir um alvo a alcance Distante com pesadelos acordados.</p><p></p><p>Até que um personagem use um movimento de intervalo para confortar a criatura Afligida e remover a condição, a criatura Afligida não pode recuperar Estresse ou PV por nenhum meio.</p>",
+          "actions": {
+            "W5V6eJrWIU1FLGnK": {
+              "name": "Gaste um Medo"
+            }
+          }
+        },
+        "1WV4B0pt2FtPkpIh": {
+          "name": "Visões de um Fim Violento - Reação",
+          "description": "<p>Visões de um Fim Violento - Reação: Quando a Bruxa Coruja é alvo de um ataque, você pode gastar um Medo para forçar o atacante a fazer um teste de Reação de Presença.</p><p></p><p>Em caso de falha, ele marca [[/r 1d4]] de Estresse enquanto sua mente é inundada por visões de sua própria morte violenta.</p>",
+          "actions": {
+            "1Psvei2dMAuDyplp": {
+              "name": "Ataque"
+            }
+          }
+        }
+      }
+    },
+    "Rabble Mawb": {
+      "name": "Mawb da Ralé",
+      "description": "<p>Essas bolas do tamanho de um gato, de pelos, membros e dentes, viajam em uma \"mawb\" de cerca de uma dúzia.</p>",
+      "motivesAndTactics": "Chiar e mastigar, se aglomerar, rolar",
+      "attack": "Mordida",
+      "experiences": {
+        "IDbssHDTrhN7zHDV": {
+          "name": "Subterrâneo"
+        }
+      },
+      "items": {
+        "XqvwUigkRSEt6LLS": {
+          "name": "Horda (1d4)",
+          "description": "<p>Quando a Mawb da Ralé tiver marcado metade ou mais de seus PV, seu ataque padrão passa a causar <strong>1d4</strong> de dano físico.</p>"
+        },
+        "FHvD9aCUxSlVfiOu": {
+          "name": "Volte Pior - Reação",
+          "description": "<p>Volte Pior - Reação: Quando uma Mawb da Ralé é derrotada, você pode gastar um Medo para trazer essa Mawb de volta à vida.</p><p></p><p>Essa nova Mawb ganha um bônus de +X em todas as rolagens, onde X é o número de vezes que este recurso foi usado por esse adversário.</p>",
+          "effects": {
+            "SGb5dWGVJeSKvqeN": {
+              "name": "Volte Pior +1"
+            },
+            "S2Yz5tgGjIXnPPMU": {
+              "name": "Volte Pior +2"
+            },
+            "rddOoTXKeZ7tvWbd": {
+              "name": "Volte Pior +3"
+            }
+          }
+        }
+      },
+      "effects": {
+        "THPTKsr2k7DqERp8": {
+          "name": "Horda"
+        }
+      }
+    },
+    "Redcap Butcher": {
+      "name": "Açougueiro Redcap",
+      "description": "<p>Uma criatura feérica do tamanho de um halfling que esquarteja suas vítimas com uma variedade de ferramentas de corte.</p>",
+      "motivesAndTactics": "Fazer os personagens correrem em círculos, sorrir de forma inquietante, cortar e fatiar, se atrapalhar",
+      "attack": "Cutelo de Carne",
+      "experiences": {
+        "AVSzq3K1S5hRhATs": {
+          "name": "Agitação"
+        }
+      },
+      "items": {
+        "svofR6tTZSTkkNXv": {
+          "name": "Cortar à Vontade - Ação",
+          "description": "<p>Cortar à Vontade - Ação: Marque um Estresse para fazer um ataque padrão contra até três alvos ao alcance. Para cada alvo que marcar um PV, você ganha um Medo.</p>",
+          "actions": {
+            "jDTkcjXFsS3pzSk3": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "ir2ny0kyoqI2c0JL": {
+          "name": "Arremessador de Facas - Ação",
+          "description": "<p>Arremessador de Facas - Ação: Marque um Estresse para fazer um ataque padrão contra um alvo a alcance Distante. Se o Açougueiro fizer esse ataque enquanto estiver Oculto, ele terá vantagem na rolagem de ataque.</p>",
+          "actions": {
+            "yYGQrlg9penwYXrZ": {
+              "name": "Ataque"
+            }
+          }
+        }
+      }
+    },
+    "Redcap Candlemaker": {
+      "name": "Fabricante de Velas Redcap",
+      "description": "<p>Um líder de culto pálido e esquálido segurando uma haste de sete pés com uma vela feita da mão de um enforcado no topo.</p>",
+      "motivesAndTactics": "Projetar longas sombras, ficar fora da confusão, mostrar-lhes a luz",
+      "attack": "Candelabro Ardente",
+      "experiences": {
+        "4yJ06lgcjbt8Tyxi": {
+          "name": "Vigilância"
+        }
+      },
+      "items": {
+        "DpoTaBOb0jdxChhF": {
+          "name": "Mão da Glória - Passivo",
+          "description": "<p>Mão da Glória - Passivo: Quando o Fabricante de Velas aparece, coloque cinco fichas neste bloco. Remova uma ficha sempre que o Fabricante de Velas marcar um PV.</p><p></p><p>Enquanto este bloco tiver uma ou mais fichas, o Fabricante de Velas está <em>Oculto</em>.</p>"
+        },
+        "4757xtppm7080RNz": {
+          "name": "Porta-Tocha - Passivo",
+          "description": "<p>Porta-Tocha - Passivo: A luz da Mão da Glória do Fabricante de Velas inspira sede de sangue em seus aliados. Enquanto este bloco tiver uma ou mais fichas, qualquer Redcap a alcance Próximo ganha um bônus de +1 nas rolagens de dano.</p>"
+        },
+        "e0J1OrJW7yMSdo8e": {
+          "name": "Dança nas Chamas - Ação",
+          "description": "<p>Dança nas Chamas - Ação: Gaste uma ficha deste bloco. O Fabricante de Velas conjura uma bola de fogo em um ponto a alcance Distante.</p><p></p><p>Todas as criaturas a alcance Muito Próximo desse ponto devem fazer um teste de Reação de Agilidade. Alvos que falharem sofrem 2d10 de dano mágico. Alvos que tiverem sucesso sofrem metade do dano.</p>",
+          "actions": {
+            "Ou9043KK5hrx5ro7": {
+              "name": "Ataque"
+            }
+          }
+        }
+      }
+    },
+    "Whisper Wraith": {
+      "name": "Espectro Sussurrante",
+      "description": "<p>Ecos de promessas quebradas e sonhos não realizados, esses espectros aparecem como mortalhas flutuantes e translúcidas de veludo preto esfarrapado em uma forma vagamente humanoide.</p>",
+      "motivesAndTactics": "Amarrar membros, cair de grande altura, erguer-se do chão, rodopiar pelo ar, envolver cabeças",
+      "attack": "Toque Sombrio",
+      "experiences": {
+        "Dp6pppWNMTCbT5qK": {
+          "name": "Sonhos"
+        }
+      },
+      "items": {
+        "RFS4iUXcyg0tEJ5N": {
+          "name": "Espectral - Passivo",
+          "description": "<p>Espectral - Passivo: O Espectro é imune a dano físico e vulnerável a dano mágico.</p><p>Além disso, o Espectro pode atravessar objetos sólidos.</p>"
+        },
+        "1mqSv5u4vdaE07PQ": {
+          "name": "Assustador - Passivo",
+          "description": "<p>Assustador - Passivo: Quando o Espectro faz um ataque bem-sucedido, todos os personagens a alcance Próximo devem marcar um Estresse e você ganha um Medo.</p>",
+          "actions": {
+            "G16REH65F3IYA6pS": {
+              "name": "Dano"
+            }
+          }
+        },
+        "NGtwoaKkdIrUiwi3": {
+          "name": "Mortalha do Pesadelo - Ação",
+          "description": "<p>Mortalha do Pesadelo - Ação: Gaste um Medo para fazer o Espectro se enrolar em um personagem a alcance Corpo a Corpo, deixando-o Envolto até que ele ou um aliado tenham sucesso em um teste de Força ou Ataque (20) para desalojar o Espectro.</p><p></p><p>Se for um ataque, o personagem Envolto sofre o dano. Enquanto Envolto, um personagem tem desvantagem em todos os ataques e marca um Estresse quando rola com Medo.</p>",
+          "actions": {
+            "XKjJASQKvCk3G0lS": {
+              "name": "Gaste um Medo"
+            },
+            "q4TcqEhTX0gxRVgm": {
+              "name": "Teste de Força"
+            }
+          }
+        }
+      }
+    },
+    "Xero, Castle Killer": {
+      "name": "Xero, Destruidor de Castelos",
+      "description": "<p>Um réptil bípede do tamanho de um castelo.</p>",
+      "motivesAndTactics": "Deixar um rastro de destruição, nivelar construções, pisotear assentamentos",
+      "attack": "Golpe de Cauda",
+      "experiences": {
+        "3krLg8a27tg3XA3A": {
+          "name": "Destruição"
+        }
+      },
+      "items": {
+        "N70FPGCtw1e1qb89": {
+          "name": "Implacável (X) - Passivo",
+          "description": "<p>Implacável (X) - Passivo: Xero pode receber destaque até X vezes por turno do MJ, onde X é o número de personagens na cena. Gaste Medo normalmente para dar destaque a ele.</p>"
+        },
+        "pTOVTqv7lX4a9keg": {
+          "name": "Danos Colaterais - Passivo",
+          "description": "<p>Danos Colaterais - Passivo: O movimento de Xero não pode ser impedido, bloqueado ou afetado por qualquer efeito externo.</p><p></p><p>Todo terreno ou obstáculo destrutível no caminho de Xero é destruído quando ele se move através dele.</p>"
+        },
+        "w8gRUsbiNXMBevHi": {
+          "name": "Pisotão Gigaton - Ação",
+          "description": "<p>Pisotão Gigaton - Ação: Gaste um Medo para fazer Xero descer o pé com força, criando um terremoto localizado.</p><p></p><p>Todas as criaturas a alcance Corpo a Corpo sofrem 4d12 de dano físico e ficam <em>Imobilizadas</em> até terem sucesso em um teste de Maestria para escorregar debaixo do pé.</p><p></p><p>Todas as criaturas fora do alcance Corpo a Corpo e dentro do alcance Próximo devem ter sucesso em um teste de Reação de Instinto ou serem arremessadas até alcance Distante. Se um alvo for arremessado, ele deve marcar um Espaço de Armadura ou sofrer 4d12 de dano físico ao cair.</p>",
+          "actions": {
+            "JJY1LYxFRr4GgqAW": {
+              "name": "Gaste um Medo"
+            },
+            "w3WIwIXLf9WKNyvs": {
+              "name": "Dano (Corpo a Corpo)"
+            },
+            "88hwy0wIg7RGoCAm": {
+              "name": "Ataque (Alcance Próximo)"
+            }
+          }
+        },
+        "idHN9s1rWIjzuodv": {
+          "name": "Deslizamento Potente - Ação",
+          "description": "<p>Deslizamento Potente - Ação: Marque um Estresse para mover Xero até alcance Próximo.</p><p></p><p>Todas as criaturas pelas quais Xero passar devem fazer um teste de Reação de Força.</p><p></p><p>Alvos que falharem devem marcar 2 Espaços de Armadura ou sofrer Dano Severo.</p>",
+          "actions": {
+            "dxaJF56FbTSOknil": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "szVOym25GPEjRuCN": {
+          "name": "Sopro Radioativo - Ação",
+          "description": "<p>Sopro Radioativo - Ação: Gaste um Medo para fazer Xero carregar um feixe nuclear e colocar uma ficha neste bloco.</p><p></p><p>Na próxima vez que Xero receber destaque, você pode gastar essa ficha e liberar o feixe.</p><p></p><p>Desenhe uma linha com largura de alcance Próximo de Xero até a borda do campo de batalha.</p><p></p><p>Todos os personagens dentro desse caminho devem fazer um teste de Reação de Agilidade.</p><p></p><p>Alvos que falharem sofrem 4d12+12 de dano mágico direto.</p><p></p><p>Alvos que tiverem sucesso sofrem metade do dano.</p><p></p><p>Xero não pode usar essa ação novamente até sofrer Dano Severo.</p>",
+          "actions": {
+            "wp2cZPO4h7YFdorv": {
+              "name": "Gaste um Medo"
+            },
+            "1pjNK9zuiB2NrwLD": {
+              "name": "Ataque"
+            }
+          }
+        },
+        "sGqgbQ6nOYQYaMUD": {
+          "name": "Regeneração - Ação",
+          "description": "<p>Regeneração - Ação: Até três vezes por cena, gaste qualquer quantidade de Medo para recuperar a mesma quantidade de PV.</p>",
+          "actions": {
+            "f1YYAPNSrUmqXFcR": {
+              "name": "Cura"
+            }
+          }
+        }
+      }
+    }
+  }
+}

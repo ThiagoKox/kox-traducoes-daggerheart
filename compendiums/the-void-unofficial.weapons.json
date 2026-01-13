@@ -1,0 +1,52 @@
+{
+  "label": "Armas",
+  "folders": {},
+  "mapping": {
+    "description": "system.description",
+    "attack": "system.attack.name",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Fangs": {
+      "name": "Presas",
+      "attack": "Ataque"
+    },
+    "Unarmed Strikes (d8+d6)": {
+      "name": "Golpes Desarmados (d8+d6)",
+      "description": "<p>Seus golpes desarmados contam como uma arma de distância Corpo a Corpo, usam um atributo à sua escolha e causam <strong>d8+d6</strong> de dano físico usando sua Maestria.</p><p></p><h3>GOLPES DE COMBO</h3><p>Depois de fazer uma rolagem de dano com uma arma de distância Corpo a Corpo, mas antes de aplicar o dano ao alvo, <strong>marque Estresse</strong> para iniciar um combo. Quando fizer isso, role o <em>Dado de Combo</em> e anote o valor. Em seguida, role mais um <em>Dado de Combo</em>. Se o resultado do segundo dado for igual ou maior que o resultado do seu primeiro <em>Dado de Combo</em>, continue rolando dados adicionais até que o resultado do último <em>Dado de Combo</em> seja menor que o resultado do anterior. Some todos os valores rolados e adicione esse total ao dano da sua arma. Esses valores não podem ser alterados por características que afetem dados de dano.</p><p>Seu <em>Dado de Combo</em> começa como <strong>d4</strong>. Quando você sobe de nível, uma vez por rank, você pode usar uma de suas opções de progressão para aumentar seu <em>Dado de Combo</em> em um passo (d4 -> d6, d6 -> d8, etc.).</p>",
+      "actions": {
+        "LLByeuZebdMi6TRJ": {
+          "name": "Golpes Desarmados d8+d6"
+        },
+        "pTBCNX6JBHKQAOKt": {
+          "name": "Apenas GOLPES DE COMBO"
+        }
+      },
+      "attack": "Ataque"
+    },
+    "Unarmed Strikes Powerhouse (d10+d6)": {
+      "name": "Golpes Desarmados. Potência em Carne e Osso (d10+d6)",
+      "description": "<p>Seus golpes desarmados contam como uma arma de distância Corpo a Corpo, usam um atributo à sua escolha e causam <strong>d8+d6</strong> de dano físico usando sua Maestria.</p><p></p><h3>GOLPES DE COMBO</h3><p>Depois de fazer uma rolagem de dano com uma arma de distância Corpo a Corpo, mas antes de aplicar o dano ao alvo, <strong>marque Estresse</strong> para iniciar um combo. Quando fizer isso, role o <em>Dado de Combo</em> e anote o valor. Em seguida, role mais um <em>Dado de Combo</em>. Se o resultado do segundo dado for igual ou maior que o resultado do seu primeiro <em>Dado de Combo</em>, continue rolando dados adicionais até que o resultado do último <em>Dado de Combo</em> seja menor que o resultado do anterior. Some todos os valores rolados e adicione esse total ao dano da sua arma. Esses valores não podem ser alterados por características que afetem dados de dano.</p><p>Seu <em>Dado de Combo</em> começa como <strong>d4</strong>. Quando você sobe de nível, uma vez por rank, você pode usar uma de suas opções de progressão para aumentar seu <em>Dado de Combo</em> em um passo (d4 -> d6, d6 -> d8, etc.).</p>",
+      "actions": {
+        "LLByeuZebdMi6TRJ": {
+          "name": "Golpes Desarmados d10+d6"
+        },
+        "pTBCNX6JBHKQAOKt": {
+          "name": "Apenas GOLPES DE COMBO"
+        },
+        "tuyFTzMpIbpIn0Q0": {
+          "name": "Marcar Estresse - Potência em Carne e Osso - Dois Alvos",
+          "description": "<p>Aumente o dado de dano d8 do seu ataque desarmado para d10. Além disso, você pode marcar Estresse para mirar em duas criaturas em distância Corpo a Corpo com uma única rolagem de ataque.</p>"
+        }
+      },
+      "attack": "Ataque"
+    }
+  }
+}

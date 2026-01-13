@@ -1,0 +1,439 @@
+{
+  "label": "Ancestralidades",
+  "folders": {
+    "Ancestry Features": "Características de Ancestralidade"
+  },
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Clank": {
+      "name": "Clank",
+      "description": "<p>Clanks são seres mecânicos sencientes, construídos de uma variedade de materiais, como madeira, metal e pedra. Podem ter aparência animal, humanoide ou de objetos inanimados. Bem como seres orgânicos, seus corpos têm uma grande variedade de tamanhos. Devido à sua construção sob medida, muitos têm configurações físicas altamente especializadas. Exemplos incluem mãos com garras propensas para agarrar, rodas que auxiliam no movimento e armamento embutido. Muitos clanks abraçam a modificação corporal tanto em prol do estilo quanto da funcionalidade. Por conta disso, membros de outras ancestralidades costumam procurar artesãos clanks para construir dispositivos auxiliares de locomoção e adornos físicos. Outras ancestralidades podem criar clanks, até mesmo usando suas próprias características físicas como inspiração, mas também é comuns que eles construam uns aos outros. A validade de um clank dura enquanto ele for capaz de adquirir ou criar novas partes, o que torna sua forma física efetivamente imortal. Isso posto, a mente de um clank ainda está sujeita aos efeitos do tempo e deteriora conforme a magia que a alimenta enfraquece.</p>"
+    },
+    "Drakona": {
+      "name": "Drakona",
+      "description": "<p>Drakonas lembram dragões humanoides sem asas, com um poderoso sopro elemental. Todos os drakonas têm escamas espessas que fornecem uma excelente armadura natural contra ataques físicos e forças da natureza. Eles costumam ser grandes, medindo entre 1,5m a 1,8m, e seus dentes são longos e afiados. Novos dentes crescem ao longo dos 350 anos da vida média de um drakona, portanto eles nunca estão em risco de perdê-los. Diferente dos dragões, seus ancestrais, drakonas não têm asas e não podem voar sem auxílio mágico. Membros desta ancestralidade passam o elemento de seu sopro aos descendentes, embora, em casos raros, o poder elemental de um drakona possa diferir do de seus familiares.</p>"
+    },
+    "Dwarf": {
+      "name": "Anão",
+      "description": "<p>Anões são conhecidos como humanoides baixos com tipo corporal quadrado, musculatura densa e cabelo espesso. Sua altura média varia entre 1,2m e 1,65m, e eles costumam ser largos em proporção a sua estatura. A grande quantidade de queratina em sua pele e unhas os torna naturalmente resistentes. Isso lhes permite cravar pedras preciosas no corpo e decorá-lo com tatuagens e piercings. Seus cabelos crescem fartamente, geralmente na cabeça, embora alguns anões também tenham pelos espessos pelo corpo. Anões de todos os gêneros têm barba, à qual frequentemente estilizam com arranjos elaborados. Normalmente, anões vivem até 250 anos e mantêm a massa muscular mesmo em idade avançada.</p>"
+    },
+    "Elf": {
+      "name": "Elfo",
+      "description": "<p>Elfos são humanoides altos, com orelhas pontudas e sentidos apurados. Suas orelhas variam em tamanho e formato e, conforme envelhecem, as pontas inclinam para baixo. Embora haja uma variedade de corpos élficos, membros desta ancestralidade são bastante altos, medindo entre 1,8m e 1,95m. Elfos têm a habilidade de entrar em um transe celestial, em vez de dormir. Isso lhes permite descansar plenamente num curto período de temp. Alguns elfos possuem algo conhecido como \"forma mística\", que ocorre quando um elfo se dedica tão profundamente ao estudo ou proteção do mundo natural que sua forma física é alterada. A forma mística pode incluir folhas, vinhas ou flores nos cabelos, sardas celestiais, olhos que brilham como fogo, entre outras. Às vezes, esses traços são herdados dos pais, mas, se um elfo mudar o ambiente ou foco mágico, sua aparência muda com o tempo. Por viverem cerca de 350 anos, esses traços podem mudar mais de uma vez ao longo da vida.</p>"
+    },
+    "Faerie": {
+      "name": "Fada",
+      "description": "<p>Fadas são humanoides alados com traços insetoides. Esses aspectos cobrem um amplo espectro do humano ao insetoide: algumas fadas têm braços adicionais, exoesqueletos de quitina, ferrões, olhos compostos ou órgãos reluzentes. Devido à sua proximidade com o mundo natural, fadas costumam ter características físicas que lhes permitem se camuflar entre as plantas. A altura média de uma fada varia entre 60cm e 1,5m, mas algumas podem chegar a 2,1m. Todas as fadas possuem asas membranosas e cada uma passa por um processo de metamorfose. O processo e as alterações mudam de fada para fada, mas é durante essa transformação que cada indivíduo manifesta a aparência única que terá pelos seus aproximados 50 anos restantes.</p>"
+    },
+    "Faun": {
+      "name": "Fauno",
+      "description": "<p>Faunos lembram cabras humanoides, com cascos fendidos, chifres curvados e pupilas quadradas. Embora sua aparência varie, a maioria deles tem tórax humanoide e a parte inferior do corpo mais semelhante à de uma cabra, coberta de pelos densos. O rosto de um fauno pode ser mais caprino ou mais humanoide, com formatos variados de orelhas e chifres. Os chifres de um fauno podem ser curtos, com uma curva sutil, ou compridos, com uma curva proeminente e distinta. Em média, sua altura varia de 1,2m a 1,95m, mas pode mudar drasticamente de um momento para o outro, dependendo da postura do indivíduo. A maioria dos faunos tem membros proporcionalmente longos, não importando seu tamanho ou tipo físico. Eles também são conhecidos pelos poderosos golpes de seus cascos. Faunos vivem cerca de 225 anos e, ao envelhecer, sua aparência pode se tornar ainda mais caprina.</p>"
+    },
+    "Firbolg": {
+      "name": "Firbolg",
+      "description": "<p>Firbolgs são humanoides com características bovinas, normalmente reconhecidos pelo focinho largo e orelhas compridas e caídas. O rosto de alguns firbolgs é uma mistura entre o de um humanoide e o de um bisão, touro, vaca ou outra criatura bovina. Outros, em geral chamados de minotauros, têm a cabeça inteiramente bovina. Essas criaturas são altas, medindo entre 1,5m e 2,1m. Seu porte musculoso lhes fornece uma força extraordinária, não importando sua idade. Alguns firbolgs são conhecidos por usar essa força para avançar contra os adversários, um movimento particularmente efetiva para aqueles que possuem um dos diversos chifres comuns a essa ancestralidade. Embora seus traços únicos possam variar, todos os firbolgs são cobertos por uma pelagem que pode ter tons discretos, terrosos ou em uma variedade de tons pastéis, como azul e rosa claro. Firbolgs vivem em média 150 anos.</p>"
+    },
+    "Fungril": {
+      "name": "Fungril",
+      "description": "<p>Fungris parecem cogumelos humanoides. Sua aparência pode ser mais fúngica ou mais humanoide, e apresentam uma variedade de cores, de tons terrosos a exuberantes azuis, vermelhos, amarelos e púrpuras. Como não há um único formato para todos os fungris, eles têm variedade de corpos, membros e rostos diferentes. Até mesmo sua altura varia de meros 60cm a impressionantes 2,1m. Embora a expectativa de vida média de um fungril seja de 300 anos, há relatos de indivíduos que viveram muito mais do que isso. Fungris podem se comunicar não verbalmente, muitos usam uma rede micelial para trocar informações quimicamente uns com os outros a longas distâncias.</p>"
+    },
+    "Galapa": {
+      "name": "Galapa",
+      "description": "<p>Galapas lembram tartarugas antropomórficas, com carapaças largas e arredondadas nas quais podem entrar. Em média, têm entre 1,2m e 1,8m de altura, e o formato de seu corpo e cabeça pode lembrar qualquer tipo de tartaruga. Galapas têm uma variedade de tons terrosos, como marrom e verde, e cada indivíduo tem um padrão único de carapaça. Membros dessa ancestralidade poden se defender retraindo cabeça, braços e pernas para dentro da carapaça, usando-a como um escudo natural quando necessário. Alguns fazem modificações em suas carapaças, acoplando armaduras ou fazendo entalhes artísticos, mas esse é um processoextremamente doloroso. A maioria dos galapas se movimenta lentamente, não importando a idade. Vivem 150 anos em média.</p>"
+    },
+    "Giant": {
+      "name": "Gigante",
+      "description": "<p>Gigantes são humanoides descomunais, com braços longos, ombros largos e uma quantidade de olhos variando de um a três. Gigantes adultos têm entre 1,8m e 2,55m de altura e músculos naturalmente desenvolvidos, não importando o tipo físico. Sua estatura larga, braços e pescoços compridos torna fácil reconhecê-los. Embora possam ter até três olhos, todos os gigantes nascem sem nenhum e permanecem assim até um ano de idade. Seu aspecto físico se desenvolve por completo aos 10 anos de idade e, até lá, a formação dos olhos de um gigante pode variar. Quando têm um olho só, são comumente chamados de \"ciclopes\". A expectativa de vida média de um gigante é de 75 anos.</p>"
+    },
+    "Goblin": {
+      "name": "Goblin",
+      "description": "<p>Goblins são humanoides pequenos facilmente reconhecidos por seus grandes olhos e enormes orelhas membranosas. Com audição e visão aguçadas, eles percebem detalhes à distância e no escuro, o que facilita o movimento em locais menos propícios. Têm grande variedade de cores de pele e olhos, sem preponderância de um ou outro tom, seja ele sutil ou vibrante. Um goblin típico tem entre 90cm e 1,2m de altura, e cada uma de suas orelhas tem o tamanho da sua cabeça. Goblins são conhecidos por movimentos muito específicos de orelhas ao se comunicar não verbalmente. Goblins vivem cerca de 100 anos, e muitos mantêm sua audição e visão aguçada mesmo em idade avançada.</p>"
+    },
+    "Halfling": {
+      "name": "Pequenino",
+      "description": "<p>Halflings são pequenos humanoides com grandes pés peludos e proeminentes orelhas arredondadas. Em média, medem entre 90cm e 1,2m, e têm nariz, orelhas e pés proporcionalmente maiores em relação ao resto do corpo. Membros desta ancestralidade vivem aproximadamente 150 anos e mantêm uma aparência jovial mesmo em idade adulta e avançada. Halflings são naturalmente ligados aos campos magnéticos do reino mortal, o que lhes fornece um poderoso senso de direção. Eles também possuem audição e olfato aguçados, podendo detectar frequentemente as pessoas que conhecem pelo som de seus movimentos.</p>"
+    },
+    "Human": {
+      "name": "Humano",
+      "description": "<p>Humanos são facilmente reconhecidos por suas mãos habilidosas, orelhas arredondadas e resistência corporal. Sua altura média varia entre pouco menos de 1,5m e cerca de 1,95m. Humanos têm vários tipos de corpo: alguns são bastante largos e outros são muito delgados, sendo que a maioria se encontra em algum ponto nesse espectro. Os membros desta ancestralidade são fisicamente adaptáveis e se ajustam a condições climáticas adversas com relativa facilidade. Em geral, vivem mais ou menos 100 anos, com uma mudança física drástica entre a juventude e a velhice.</p>"
+    },
+    "Infernis": {
+      "name": "Infernis",
+      "description": "<p>Infernis são humanoides com chifres, caninos afiados e orelhas pontiagudas. Eles descendem de demônios dos Círculos Inferiores. Em geral, infernais medem entre 1,5m e 2,1m, e são conhecidos por terem dedos longos com unhas salientes. Alguns têm caudas finas, lisas e alongadas com extremidades pontiagudas, forcadas ou em formato de flecha. Normalmente, infernais têm de dois a quatro chifres, embora alguns ostentem verdadeiras coroas de múltiplos chifres, ou apenas um. Esses chifres também podem crescer de forma assimétrica, em padrões únicos e quase sempre curvados, e costumam ser enfeitados com entalhes e ornamentos. Seu cabelo, pele e chifres têm uma variedade de cores, desde tons pastéis mais suaves a tons mais fortes ou vibrantes, como escarlate, roxo vivo e completamente preto. Infernis possuem um \"aspecto apavorante\" que pode ser manifestado tanto involuntariamente, como ao sentir medo ou outras emoções fortes, quanto voluntariamente, como quando desejam intimidar um adversário. Esse aspecto apavorante pode brevemente alterar sua aparência de várias maneiras: alongando seus dentes e unhas, mudando a cor dos olhos, movimentando seus chifres ou aumentando sua estatura. Infernais vivem em média 350 anos. Há quem atribua essa longevidade ao seu sangue demoníaco.</p>"
+    },
+    "Katari": {
+      "name": "Katari",
+      "description": "<p>Kataris são humanoides felinos com garras retráteis, pupilas fendidas verticalmente e orelhas triangulares acima da cabeça. Eles também podem ter pequenos dentes caninos pontiagudos, pelagem macia e longos bigodes que auxiliam na orientação e percepção. Suas orelhas podem virar quase 180° para captar sons, o que contribui para seus sentidos aguçados. Kataris podem ter uma aparência mais felina ou humanoide, com traços felinos como bigodes, focinho e pelos. Metade da população katari tem cauda. Há diversos tons e padrões de pele e pelos, incluindo cores sólidas, malhadas e rajadas, bem como uma variedade de listras, manchas, marcas e padrões. Sua altura média varia entre 1,5m e 1,95m, e eles vivem cerca de 150 anos.</p>"
+    },
+    "Orc": {
+      "name": "Orc",
+      "description": "<p>Orcs são humanoides distintos por feições quadradas e protuberantes presas mandibulares, semelhantes às dos javalis. Essas presas podem ter diversos tamanhos e, embora estejam na região da boca, não são usadas para alimentação. Em vez disso, muitos orcs optam por decorá-las com adornos significativos. Orcs vivem tipicamente 125 anos e, a menos que sejam alteradas, suas presas continuam a crescer por toda vida. Eles têm orelhas pontiagudas e seu cabelo e pele normalmente variam entre tons azuis, cinzentos, rosados ou verdes. Orcs tendem a uma compleição física mais corpulenta, e sua altura média varia entre 1,5m e 1,95m.</p>"
+    },
+    "Ribbet": {
+      "name": "Quacho",
+      "description": "<p>Quachos lembram sapos antropomórficos, com olhos protuberantes e mãos e pés membranosos. Eles têm uma pele úmida e lisa, que também pode ser rugosa, e olhos nas laterais da cabeça. Alguns quachos têm patas traseiras duas vezes maiores que o tórax; outros têm membros curtos. Não importando sua altura (que varia entre 90cm e 1,35m), quachos se movem principalmente pulando. Todos têm apêndices membranosos que lhes facilitam nadar. Alguns possuem uma camuflagem natural verde-amarronzada, enquanto outros têm cores vibrantes com padrões vívidos. Não importando sua aparência, todos os quachos nascem de ovos depositados na água, vivem seus anos iniciais como girinos e, após cerca de 6 ou 7 anos, tornam-se anfibios capazes de viver em terra firme, em média até os 100 anos.</p>"
+    },
+    "Simiah": {
+      "name": "Símio",
+      "description": "<p>Símios são primatas antropomórficos, de membros compridos e pés preênseis. Embora sua aparência possa se assemelhar à de qualquer primata, do maior gorila ao menor sagui, sua contraparte animal não reflete em sua altura, que pode variar entre 60cm e 1,8m. Todos os símios podem usar os pés para lutar, trabalhar e se comunicar não verbalmente. Além disso, alguns símios também têm caudas preênseis capazes de pegar objetos ou auxiliar no equilíbrio durante movimentos complicados. Tudo isso lhes fornece uma agilidade inigualável que os ajuda em diversas tarefas físicas. Símios são particularmente ótimos em escalar e conseguem alternar facilmente entre o movimento bípede e o deslocamento com apoio nas mãos, tanto para andar quanto para escalar. Símios vivem em média 100 anos.</p>"
+    },
+    "Adaptability": {
+      "name": "Adaptabilidade",
+      "description": "<p>Ao rolar uma falha em um teste que usou uma de suas Experiências, você pode marcar 1 Ponto de Fadiga para fazer a rolagem novamente.</p>",
+      "actions": {
+        "D7EE2L2Y96nfrfTW": {
+          "name": "Marcar 1 Ponto de Fadiga",
+          "description": "<p>Se você falhar em um teste no qual uma de suas Experiências foi usada, você pode <strong>marcar 1 Ponto de Fadiga</strong>, para rolá-lo novamente.</p>"
+        }
+      }
+    },
+    "Amphibious": {
+      "name": "Anfíbio",
+      "description": "<p>Você pode respirar e se movimentar naturalmente debaixo d’água.</p>"
+    },
+    "Caprine Leap": {
+      "name": "Salto Caprino",
+      "description": "<p>Você pode saltar para qualquer ponto no alcance Próximo como se estivesse usando seu movimento normal, o que lhe permite transpor obstáculos, atravessar fendas no solo ou escalar barreiras com facilidade.</p>"
+    },
+    "Celestial Trance": {
+      "name": "Transe Celestial",
+      "description": "<p>Durante um descanso, você pode entrar em um transe celestial para escolher um movimento de repouso adicional.</p>",
+      "effects": {
+        "LqQvZJJLNMnFkt1D": {
+          "name": "Transe Celestial",
+          "description": "<p>Durante um descanso, você pode entrar em um transe celestial para escolher um movimento de repouso adicional.</p>"
+        }
+      }
+    },
+    "Charge": {
+      "name": "Investida",
+      "description": "<p>Ao obter sucesso em um teste de Agilidade para se movimentar do alcance Distante ou Muito Distante para Corpo a Corpo a um ou mais alvos, você pode marcar 1 Ponto de Fadiga para causar 1d12 de dano físico a todos os alvos em alcance Corpo a Corpo.</p>",
+      "actions": {
+        "KLg0T6I1w24sfIbH": {
+          "name": "Causar Dano",
+          "description": "<p>Ao obter sucesso em um teste de Agilidade para se movimentar do alcance Distante ou Muito Distante para Corpo a Corpo a um ou mais alvos, você pode <strong>marcar 1 Ponto de Fadiga</strong>, para causar <strong>1d12</strong> de dano físico a todos os alvos em alcance Corpo a Corpo.</p>"
+        }
+      }
+    },
+    "Danger Sense": {
+      "name": "Cheiro de Perigo",
+      "description": "<p>Uma vez por descanso, marque 1 Ponto de Fadiga para forçar um adversário a fazer novamente um teste de ataque contra você ou um aliado Muito Próximo.</p>",
+      "actions": {
+        "V2K3pMWOCVwBUnjq": {
+          "name": "Marcar 1 Ponto de Fadiga",
+          "description": "<p>Uma vez por descanso, você pode <strong>marcar 1 Ponto de Fadiga</strong>, para forçar um adversário a fazer novamente um teste de ataque contra você ou um aliado Muito Próximo.</p>"
+        }
+      }
+    },
+    "Death Connection": {
+      "name": "Vínculo Mortal",
+      "description": "<p>Enquanto estiver tocando um cadáver que tenha morrido recentemente, você pode marcar 1 Ponto de Fadiga para extrair dele uma memória relacionada a uma emoção ou sensação específica à sua escolha.</p>",
+      "actions": {
+        "0RdKeWfbPRTHcAMf": {
+          "name": "Extrair",
+          "description": "<p>Ao tocar um corpo recém-morto, você pode <strong>marcar 1 Ponto de Fadiga</strong>, para extrair dele uma memória associada à emoção ou sensação escolhida por você.</p>"
+        }
+      }
+    },
+    "Dread Visage": {
+      "name": "Aspecto Apavorante",
+      "description": "<p>Você tem vantagem em testes para intimidar criaturas hostis.</p>",
+      "effects": {
+        "2Gd6iHQX521aAZqC": {
+          "name": "Aspecto Apavorante",
+          "description": "<p>Você tem vantagem em testes para intimidar criaturas hostis.</p>",
+          "advantageSources": {
+            "Dread Visage: Rolls to intimidate hostile creatures": "Testes para intimidar criaturas hostis"
+          }
+        }
+      }
+    },
+    "Efficient": {
+      "name": "Eficiente",
+      "description": "<p>Ao fazer um descanso curto, você pode escolher um movimento de descanso longo em vez de uma de descanso curto.</p>",
+      "effects": {
+        "EEryWN2nE33ppGHi": {
+          "name": "Eficiente",
+          "description": "<p>Ao fazer um descanso curto, você pode escolher um movimento de descanso longo em vez de uma de descanso curto.</p>"
+        }
+      }
+    },
+    "Elemental Breath": {
+      "name": "Sopro Elemental",
+      "description": "<p>Escolha um elemento para seu sopro (como eletricidade, fogo ou gelo). Você pode usar esse sopro contra um alvo ou grupo de alvos Muito Próximo, tratando-o como uma arma que usa Instinto e causa d8 de dano mágico com sua Proficiência.</p>",
+      "actions": {
+        "a6WROv0OKx0lbYVa": {
+          "name": "Ataque",
+          "description": "<p>Escolha um elemento para seu sopro (como eletricidade, fogo ou gelo). Você pode usar esse sopro contra um alvo ou grupo de alvos Muito Próximo, tratando-o como uma arma que usa Instinto e causa <strong>d8</strong> de dano mágico com sua Proficiência.</p>"
+        }
+      }
+    },
+    "Endurance": {
+      "name": "Resistência",
+      "description": "<p>Receba 1 Ponto de Vida adicional durante a criação de personagem.</p>",
+      "effects": {
+        "db8W2Q0Qty84XV0x": {
+          "name": "Resistência",
+          "description": "<p>Receba 1 Ponto de Vida adicional durante a criação de personagem.</p>"
+        }
+      }
+    },
+    "Fearless": {
+      "name": "Destemido",
+      "description": "<p>Quando rolar com Medo, você pode marcar 2 Pontos de Fadiga para rolar com Esperança em vez disso.</p>",
+      "actions": {
+        "G1H7k5RdvS1EJgFu": {
+          "name": "Marcar 1 Ponto de Fadiga",
+          "description": "<p>Quando rolar com Medo, você pode <strong>marcar 2 Pontos de Fadiga</strong>, para rolar com Esperança em vez disso.</p>"
+        }
+      }
+    },
+    "Feline Instincts": {
+      "name": "Instinto Felino",
+      "description": "<p>Ao fazer uma teste de Agilidade, você pode gastar 2 Pontos de Esperança para rolar seu Dado de Esperança novamente.</p>",
+      "actions": {
+        "ALsGHOy0q5THGxz5": {
+          "name": "Gastar Esperança",
+          "description": "<p>Ao fazer um teste de Agilidade, você pode <strong>gastar 2 Pontos de Esperança</strong>, para rolar seu Dado de Esperança novamente.</p>"
+        }
+      }
+    },
+    "Fungril Network": {
+      "name": "Conexão Fungril",
+      "description": "<p>Faça um teste de Instinto (12) para conversar com outros membros de sua ancestralidade por meio da rede micelial. Em um sucesso, você pode se comunicar a qualquer distância.</p>",
+      "actions": {
+        "ZYfigAyUdDUteczO": {
+          "name": "Conectar-se",
+          "description": "<p>Faça <strong>Teste de Instinto (12)</strong>, para conversar com outros membros de sua ancestralidade por meio da rede micelial. Em um sucesso, você pode se comunicar a qualquer distância.</p>"
+        }
+      }
+    },
+    "High Stamina": {
+      "name": "Resiliência",
+      "description": "<p>Receba 1 Ponto de Fadiga adicional durante a criação de personagem.</p>",
+      "effects": {
+        "Xl3TsKUJcl6vi1ly": {
+          "name": "Resiliência",
+          "description": "<p>Receba 1 Ponto de Fadiga adicional durante a criação de personagem.</p>"
+        }
+      }
+    },
+    "Increased Fortitude": {
+      "name": "Vigoroso",
+      "description": "<p>Gaste 3 Pontos de Esperança para reduzir à metade o dano físico sofrido.</p>",
+      "actions": {
+        "pFPbjyexOPx5gog6": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 Pontos de Esperança</strong>, para reduzir à metade o dano físico sofrido.</p>"
+        }
+      }
+    },
+    "Internal Compass": {
+      "name": "Senso de Direção",
+      "description": "<p>Ao rolar 1 no Dado de Esperança, você pode rolá-lo novamente.</p>"
+    },
+    "Kick": {
+      "name": "Coice",
+      "description": "<p>Quando você acerta um ataque contra um alvo Corpo a Corpo, você pode marcar 1 Ponto de Fadiga para dar um coice, causando 2d6 de dano adicional. Ao fazer isso, você empurra o adversário ou a si mesmo para um ponto em alcance Muito Próximo.</p>",
+      "actions": {
+        "bXbQ57CB1Hfj5XrS": {
+          "name": "Causar Dano",
+          "description": "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você pode <strong>marcar 1 Ponto de Fadiga</strong>, para dar um coice, causando adicionalmente <strong>2d6</strong> de dano adicional e empurrando o adversário ou a si mesmo para um ponto em alcance Muito Próximo.</p>"
+        }
+      }
+    },
+    "Long Tongue": {
+      "name": "Linguarudo",
+      "description": "<p>Você pode usar sua língua comprida para agarrar coisas Próximas. Marque 1 Ponto de Fadiga para usá-la como uma arma de Acuidade com alcance Próximo que causa d12 de dano físico com sua Proficiência.</p>",
+      "actions": {
+        "MhAWv7tuvkfOf7wQ": {
+          "name": "Marcar 1 Ponto de Fadiga",
+          "description": "<p>Você pode usar sua língua comprida para agarrar coisas Próximas. <strong>Marque 1 Ponto de Fadiga</strong>, para usá-la como uma arma de Acuidade com alcance Próximo que causa <strong>d12</strong> de dano físico com sua Proficiência.</p>"
+        }
+      }
+    },
+    "Luckbender": {
+      "name": "Testar a Sorte",
+      "description": "<p>Uma vez por sessão, após você ou um aliado voluntário Próximo fazer um teste, você pode gastar 3 Pontos de Esperança para rolar novamente os Dados de Dualidade.</p>",
+      "actions": {
+        "l1wUmqMzG8YF9sqb": {
+          "name": "Gastar Esperança",
+          "description": "<p>Uma vez por sessão, após você ou um aliado voluntário Próximo fazer um teste, você pode <strong>gastar 3 Pontos de Esperança</strong>, para rolar novamente os Dados de Dualidade.</p>"
+        }
+      }
+    },
+    "Luckbringer": {
+      "name": "Talismã da Sorte",
+      "description": "<p>No início de cada sessão, todos os membros de seu grupo recebem 1 Ponto de Esperança.</p>",
+      "actions": {
+        "8sK3t73bFkpb999C": {
+          "name": "Receber Esperança",
+          "description": "<p>No início de cada sessão, todos os membros do seu grupo recebem 1 Ponto de Esperança.</p>"
+        }
+      }
+    },
+    "Natural Climber": {
+      "name": "Escalador Natural",
+      "description": "<p>Você tem vantagem em testes de Agilidade envolvendo equilibrar-se e escalar.</p>",
+      "effects": {
+        "HQeQH9gUfrjlWWcg": {
+          "name": "Escalador Natural",
+          "description": "<p>Você tem vantagem em testes de Agilidade envolvendo equilibrar-se e escalar.</p>",
+          "advantageSources": {
+            "Agility Rolls that involve balancing and climbing": "Testes de Agilidade envolvendo equilibrar-se e escalar"
+          }
+        }
+      }
+    },
+    "Nimble": {
+      "name": "Ágil",
+      "description": "<p>Você recebe um bônus permanente de +1 na Evasão durante a criação de personagem.</p>",
+      "effects": {
+        "zaxVYqKzUYDJ3SDq": {
+          "name": "Ágil",
+          "description": "<p>Receba um bônus permanente de +1 na Evasão durante a criação de personagem.</p>"
+        }
+      }
+    },
+    "Purposeful Design": {
+      "name": "Projeto Intencional",
+      "description": "<p>Decida quem construiu você e para que propósito. Durante a criação de personagem, escolha uma de suas Experiências que seja mais alinhada a esse propósito e receba um bônus permanente de +1 nela.</p>"
+    },
+    "Quick Reactions": {
+      "name": "Reação Rápida",
+      "description": "<p>Marque 1 Ponto de Fadiga para receber vantagem em um teste de reação.</p>",
+      "actions": {
+        "6Av1Y8JXWDkteLhc": {
+          "name": "Marcar 1 Ponto de Fadiga",
+          "description": "<p><strong>Marque 1 Ponto de Fadiga</strong>, para receber vantagem em um teste de reação.</p>"
+        }
+      }
+    },
+    "Reach": {
+      "name": "Alcance",
+      "description": "<p>Trate qualquer arma, talento, magia ou outra habilidade com alcance Corpo a Corpo como se ela tivesse alcance Muito Próximo.</p>"
+    },
+    "Retracting Claws": {
+      "name": "Garras Retráteis",
+      "description": "<p>Faça um teste de Agilidade para arranhar um alvo Corpo a Corpo. Em um sucesso, ele fica temporariamente Vulnerável.</p>",
+      "actions": {
+        "LcFhDb3sJk8sraAc": {
+          "name": "Arranhar",
+          "description": "<p>Faça <strong>Teste de Agilidade</strong>, para arranhar um alvo Corpo a Corpo. Em um sucesso, ele fica temporariamente <em>Vulnerável</em>.</p>"
+        }
+      },
+      "effects": {
+        "pO76svFkmWmZ6LjC": {
+          "name": "Garras Retráteis"
+        }
+      }
+    },
+    "Retract": {
+      "name": "Retração",
+      "description": "<p>Marque 1 Ponto de Fadiga para entrar na sua carapaça. Enquanto estiver dentro dela, você tem resistência a dano físico, desvantagem em testes e não pode se mover.</p>",
+      "actions": {
+        "HfiAg14hrYt7Yvnj": {
+          "name": "Marcar 1 Ponto de Fadiga"
+        }
+      },
+      "effects": {
+        "3V4FPoyjJUnFP9WS": {
+          "name": "Retração",
+          "description": "<p>Enquanto estiver na carapaça, você tem resistência a dano físico, desvantagem em testes e não pode se mover.</p>",
+          "disadvantageSources": {
+            "Retract": "Ações enquanto estiver na carapaça"
+          }
+        }
+      }
+    },
+    "Scales": {
+      "name": "Escamas",
+      "description": "<p>Suas escamas servem como proteção natural. Quando sofrer dano grave, você pode marcar 1 Ponto de Fadiga para marcar 1 Ponto de Vida a menos.</p>",
+      "effects": {
+        "b6Pkwwk7pgBeeUTe": {
+          "name": "Escamas",
+          "description": "<p>Quando sofrer dano grave, você pode marcar 1 Ponto de Fadiga para marcar 1 Ponto de Vida a menos.</p>"
+        }
+      }
+    },
+    "Shell": {
+      "name": "Carapaça",
+      "description": "<p>Você recebe um bônus nos seus limiares de dano igual à sua Proficiência.</p>",
+      "effects": {
+        "41uiZKXzSSomf9YD": {
+          "name": "Carapaça",
+          "description": "<p>Receba um bônus nos seus limiares de dano igual à sua Proficiência.</p>"
+        }
+      }
+    },
+    "Sturdy": {
+      "name": "Robusto",
+      "description": "<p>Quando você tem apenas 1 Ponto de Vida restante, ataques contra você têm desvantagem.</p>"
+    },
+    "Surefooted": {
+      "name": "Passo Firme",
+      "description": "<p>Você ignora desvantagem em testes de Agilidade.</p>"
+    },
+    "Thick Skin": {
+      "name": "Pele Espessa",
+      "description": "<p>Quando sofre dano leve, você pode marcar 2 Pontos de Fadiga em vez de marcar 1 Ponto de Vida.</p>",
+      "effects": {
+        "4Lc40mNnRInTKMC5": {
+          "name": "Pele Grossa",
+          "description": "<p>Quando sofre dano leve, você pode marcar 2 Pontos de Fadiga em vez de marcar 1 Ponto de Vida.</p>"
+        }
+      }
+    },
+    "Tusks": {
+      "name": "Presas",
+      "description": "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você pode gastar 1 Ponto de Esperança para perfurá-lo com suas presas, causando 1d6 de dano adicional.</p>",
+      "actions": {
+        "ytSFDCONRi5L4THz": {
+          "name": "Gastar Esperança",
+          "description": "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você pode <strong>gastar 1 Ponto de Esperança</strong>, para perfurá-lo com suas presas, causando adicionalmente <strong>1d6</strong> de dano.</p>"
+        }
+      },
+      "effects": {
+        "klEyAxQa5YHXVnrl": {
+          "name": "Presas",
+          "description": "<p>Você perfura o alvo com suas presas, causando adicionalmente <span>1d6</span> de dano adicional com este ataque.</p>"
+        }
+      }
+    },
+    "Unshakeable": {
+      "name": "Inabalável",
+      "description": "<p>Quando for marcar 1 Ponto de Fadiga, role 1d6. Se tirar 6, não o marque.</p>",
+      "actions": {
+        "x8xbjyCrJ0okOpIU": {
+          "name": "Usar"
+        }
+      }
+    },
+    "Wings": {
+      "name": "Asas",
+      "description": "<p>Você pode voar. Enquanto estiver voando, e após um adversário atacar você, você pode marcar 1 Ponto de Fadiga para receber um bônus de +2 na Evasão contra esse ataque.</p>",
+      "actions": {
+        "dpKxkDSjXsP8kHMI": {
+          "name": "Marcar 1 Ponto de Fadiga",
+          "description": "<p>Você pode voar. Enquanto estiver voando, você pode <strong>marcar 1 Ponto de Fadiga</strong> após um adversário atacar você, para receber um bônus de +2 na Evasão contra esse ataque.</p>"
+        }
+      },
+      "effects": {
+        "zD3xVdwkEQi2ivOn": {
+          "name": "Asas",
+          "description": "<p>Você recebe um bônus de +2 na sua Evasão contra o ataque de um adversário.</p>"
+        }
+      }
+    }
+  }
+}

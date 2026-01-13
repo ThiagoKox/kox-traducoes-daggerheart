@@ -1,0 +1,134 @@
+{
+  "label": "Ancestralidades",
+  "folders": {
+    "Ancestry Features": "Características de Ancestralidade"
+  },
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Aetheris": {
+      "name": "Éteris",
+      "description": "<p><em>Éteris são humanoides que possuem auras radiantes e olhos brilhantes. Eles são descendentes dos celestiais dos Salões Acima.</em></p>"
+    },
+    "Amphibious": {
+      "name": "Anfíbio",
+      "description": "<p>Você pode respirar e se mover naturalmente debaixo d'água.</p>"
+    },
+    "Divine Countenance": {
+      "name": "Semblante Divino",
+      "description": "<p>Você tem vantagem em rolagens para comandar ou persuadir.</p>"
+    },
+    "Drow": {
+      "name": "Drow"
+    },
+    "Earthkin": {
+      "name": "Terrano",
+      "description": "<p>Terranos descendem de elementais da terra. São humanoides cujos corpos são feitos de carne e pedra.</p>"
+    },
+    "Emberkin": {
+      "name": "Ígnis",
+      "description": "<p>Ígnis descendem de elementais do fogo. São humanoides cujos corpos são feitos de carne e fogo.</p>"
+    },
+    "Eye of the Storm": {
+      "name": "Olho da Tempestade",
+      "description": "<p><strong>Gaste 2 Esperanças</strong> para conceder um bônus de <strong>+1</strong> na sua Evasão ou na de um aliado até você sofrer Dano Severo ou usar Olho da Tempestade novamente.</p>",
+      "actions": {
+        "vAye9U4dccbe1k2L": {
+          "name": "Gaste 2 Esperanças"
+        }
+      }
+    },
+    "Fireproof": {
+      "name": "Ignífugo",
+      "description": "<p>Você é imune a dano de chamas mágicas ou mundanas.</p>"
+    },
+    "Gale Force": {
+      "name": "Força do Vendaval",
+      "description": "<p><strong>Marque um Estresse</strong> para conjurar uma rajada de vento que leva você ou um aliado até alcance Muito Distante. Além disso, você sempre pode controlar a velocidade da sua queda.</p>",
+      "actions": {
+        "fhLkxWEPFFNWetCf": {
+          "name": "Marque um Estresse"
+        }
+      }
+    },
+    "Gnome": {
+      "name": "Gnomo",
+      "description": "<p><em>Gnomos são humanoides pequenos, facilmente reconhecidos por sua musculatura densa, braços longos e traços faciais grandes.</em></p>"
+    },
+    "Hallowed Aura": {
+      "name": "Aura Sagrada",
+      "description": "<p>Uma vez por descanso, quando um aliado a alcance Próximo rola com Medo, você pode transformar em uma rolagem com Esperança.</p>"
+    },
+    "Ignition": {
+      "name": "Ignição",
+      "description": "<p><strong>Marque um Estresse</strong> para envolver sua arma principal em chamas até o fim da cena. Enquanto em chamas, ela emite luz intensa e concede um bônus de <strong>1d6</strong> às rolagens de dano contra alvos a alcance Corpo a Corpo.</p>",
+      "actions": {
+        "BTfApd0klK0V4X2g": {
+          "name": "Marque um Estresse"
+        }
+      }
+    },
+    "Immoveable": {
+      "name": "Inamovível",
+      "description": "<p>Enquanto seus pés estiverem tocando o chão, você não pode ser erguido ou movido contra a sua vontade.</p>"
+    },
+    "Lifespring": {
+      "name": "Manancial da Vida",
+      "description": "<p>Uma vez por descanso, quando você tiver acesso a uma pequena quantidade de água, você pode <strong>marcar 2 Estresses</strong> para curar 1 PV em você ou em um aliado.</p>",
+      "actions": {
+        "jSfUr06O577wK8Pl": {
+          "name": "Marque 2 Estresses"
+        }
+      }
+    },
+    "Low-Light Living": {
+      "name": "Vida em Baixa Luz",
+      "description": "<p>Quando você estiver em uma área com pouca luz ou sombra pesada, você tem vantagem em rolagens para se esconder, investigar ou perceber detalhes naquela área.</p>",
+      "effects": {
+        "LqQvZJJLNMnFkt1D": {
+          "name": "Transe Celestial"
+        }
+      }
+    },
+    "Magical Sense": {
+      "name": "Sentido Mágico",
+      "description": "<p>Você pode sentir a presença de criaturas mágicas. Você tem vantagem em rolagens para rastrear ou localizar criaturas com habilidade mágica.</p>"
+    },
+    "Nimble Fingers": {
+      "name": "Dedos Ágeis",
+      "description": "<p>Quando você faz um teste de Maestria, você pode <strong>gastar 2 Esperanças</strong> para rerrolar seu Dado de Esperança.</p>",
+      "actions": {
+        "oeDdOJHLKQf7vjPb": {
+          "name": "Dedos Ágeis",
+          "description": "<p>Quando você faz um teste de Maestria, você pode <strong>gastar 2 Esperanças</strong> para rerrolar seu Dado de Esperança.</p>"
+        }
+      }
+    },
+    "Skykin": {
+      "name": "Aéris",
+      "description": "<p>Aéris descendem de elementais do ar. São humanoides cujos corpos são feitos de carne e ar.</p>"
+    },
+    "Stoneskin": {
+      "name": "Pele de Pedra",
+      "description": "<p>Receba um bônus de <strong>+1</strong> na sua Pontuação de Armadura e nos Limiares de Dano.</p>",
+      "effects": {
+        "UFpatriYCNtw7g4S": {
+          "name": "Pele de Pedra"
+        }
+      }
+    },
+    "Tidekin": {
+      "name": "Aquano",
+      "description": "<p>Aquanos descendem de elementais da água. São humanoides cujos corpos são feitos de carne e água.</p>"
+    }
+  }
+}

@@ -1,0 +1,978 @@
+{
+  "label": "Ambientes",
+  "mapping": {
+    "description": "system.description",
+    "impulses": "system.impulses",
+    "potentialAdversaries": {
+      "path": "system.potentialAdversaries",
+      "converter": "toPotentialAdversaries"
+    },
+    "items": {
+      "path": "items",
+      "converter": "toItemsWithActions"
+    }
+  },
+  "folders": {
+    "Tier 1": "Patamar 1",
+    "Tier 2": "Patamar 2",
+    "Tier 3": "Patamar 3",
+    "Tier 4": "Patamar 4"
+  },
+  "entries": {
+    "Abandoned Grove": {
+      "name": "Bosque Esquecido",
+      "description": "<p>Um antigo bosque druídico abandonado e totalmente retomado pela natureza.</p>",
+      "impulses": "Atrair os curiosos, ecoar o passado",
+      "potentialAdversaries": {
+        "VbbsqTQkmScgraqy": {
+          "label": "Bestas"
+        },
+        "oKq6LhpXvSWnmqyS": {
+          "label": "Guardiões do Bosque"
+        }
+      },
+      "items": {
+        "MX4q2xxuWts9gBfT": {
+          "name": "Campo de Batalha Tomado",
+          "description": "<p>Houve uma batalha aqui. Um personagem pode fazer um teste de Instinto para identificar evidências dessa luta. Com sucesso com Esperança, descubra as três informações abaixo. Com sucesso com Medo, descubra duas. Em caso de falha, o personagem pode marcar 1 Estresse para descobrir uma e ganhar vantagem na próxima rolagem de ação para investigar este ambiente. Um personagem com um antecedente ou Experiência adequada pode descobrir um detalhe adicional e fazer uma pergunta de acompanhamento sobre a cena, recebendo uma resposta verdadeira (ainda que nem sempre completa).</p><ul><li><p>Vestígios de uma batalha (armas e galhos quebrados, sulcos no chão) espalham-se pelo local.</p></li><li><p>Um tronco coberto de musgo é, na verdade, o cadáver de um ente.</p></li><li><p>As árvores ainda de pé estão retorcidas de forma estranha, como se por magia poderosa.</p></li></ul><section id=\"secret-eSdgCltFm45vLh9H\" class=\"secret\"><p><em>Por que esses grupos entraram em conflito? Por que o bosque está abandonado agora?</em></p></section>"
+        },
+        "maK5OyfrOxcjCoPt": {
+          "name": "Cipós Farpados",
+          "description": "<p>Escolha um ponto dentro do bosque. Todos os alvos a alcance Muito Próximo desse ponto devem ter sucesso em um teste de Reação de Agilidade ou sofrer <strong>1d8+3</strong> de dano físico e ficar <em>Imobilizados</em> por cipós farpados. Imobilizado dura até serem libertados com um teste bem-sucedido de Maestria ou Força, ou ao causar pelo menos 6 de dano aos cipós.</p><section id=\"secret-WVGl1YkqOicSEwlf\" class=\"secret\"><p><em>Quantos cipós existem? Onde eles o agarram? Eles o puxam para baixo ou o erguem do chão?</em></p></section>",
+          "actions": {
+            "47fcdhe1FDdm9rQU": {
+              "name": "Teste de Reação",
+              "description": "<p>Escolha um ponto dentro do bosque. Todos os alvos a alcance Muito Próximo desse ponto devem ter sucesso em um teste de Reação de Agilidade ou sofrer <strong>1d8+3</strong> de dano físico e ficar <em>Imobilizados</em> por cipós farpados. Imobilizado dura até serem libertados com um teste bem-sucedido de Maestria ou Força, ou ao causar pelo menos 6 de dano aos cipós.</p><p>@Template[type:rect|range:vc]</p>"
+            }
+          },
+          "effects": {
+            "LSeftEwgBbXXkLw3": {
+              "name": "Cipós Farpados",
+              "description": "<p><em>Imobilizado</em> dura até você se libertar com um teste bem-sucedido de Maestria ou Força, ou ao causar pelo menos 6 de dano aos cipós.</p>"
+            }
+          }
+        },
+        "uG5A2XQuUcPsXzgP": {
+          "name": "Você Não é Bem-Vindo Aqui",
+          "description": "<p>Uma @UUID[Compendium.daggerheart.adversaries.Actor.8yUj2Mzvnifhxegm]{Jovem Dríade}, dois @UUID[Compendium.daggerheart.adversaries.Actor.VtFBt9XBE0WrGGxP]{Soldados da Floresta} e um número de @UUID[Compendium.daggerheart.adversaries.Actor.G62k4oSkhkoXEs2D]{Jovens Entes} igual ao número de personagens aparecem para confrontar o grupo por sua intrusão.</p><section id=\"secret-01hkXuVJc5Kei4QW\" class=\"secret\"><p><em>O que os guardiões do bosque estão escondendo? Que ameaça à floresta os personagens poderiam enfrentar para apaziguar a Dríade?</em></p></section>"
+        },
+        "3kkkbnWEvXk5TPK8": {
+          "name": "Profanador",
+          "description": "<p><strong>Gaste um Medo</strong> para invocar um @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{Elemental do Caos Menor} atraído pelos ecos de violência e discórdia. Ele aparece a alcance Distante de um personagem escolhido e imediatamente recebe o destaque.</p><section id=\"secret-ChOafrgiTeYqsqoe\" class=\"secret\"><p><em>Que cor a grama assume quando o elemental aparece? Como o caos distorce insetos e pequenos animais dentro do bosque?</em></p></section>",
+          "actions": {
+            "p6V4k4yMwJ1UPZMz": {
+              "name": "Gaste um Medo",
+              "description": "<p><strong>Gaste um Medo</strong> para invocar um @UUID[Compendium.daggerheart.adversaries.Actor.sRn4bqerfARvhgSV]{Elemental do Caos Menor} atraído pelos ecos de violência e discórdia. Ele aparece a alcance Distante de um personagem escolhido e imediatamente recebe o destaque.</p><section id=\"secret-iCbXJnMeqDXXOc8n\" class=\"secret\"><p><em>Que cor a grama assume quando o elemental aparece? Como o caos distorce insetos e pequenos animais dentro do bosque?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Ambushed": {
+      "name": "Emboscados",
+      "description": "<p>Uma emboscada é armada para pegar um grupo desprevenido.</p>",
+      "impulses": "Subjugar, dispersar, cercar",
+      "items": {
+        "NMErq9B4NS3NSiMy": {
+          "name": "Força Relativa",
+          "description": "<p>A Dificuldade deste ambiente é igual à do adversário com a maior Dificuldade.</p><section class=\"secret\" id=\"secret-FZokhR7CFr2tXkGn\"><p><em>Quem dá o sinal da emboscada? O que deixa claro que essa pessoa está no comando?</em></p></section>"
+        },
+        "HfuVxgVidIVsapvI": {
+          "name": "Surpresa",
+          "description": "<p>Os emboscadores se revelam ao grupo, você ganha 2 Medos e o destaque passa imediatamente para um dos adversários emboscadores.</p><section id=\"secret-LcyhfZXPS4MD9dMC\" class=\"secret\"><p><em>O que os emboscadores querem do grupo? Como as táticas deles na emboscada refletem isso?</em></p></section>",
+          "actions": {
+            "TRSiqdwc1mYTHv4d": {
+              "name": "Ganhe Medo",
+              "description": "<p>Os emboscadores se revelam ao grupo, você ganha 2 Medos e o destaque passa imediatamente para um dos adversários emboscadores.</p><section class=\"secret\" id=\"secret-HTrPBtn99ANW7ON7\"><p><em>O que os emboscadores querem do grupo? Como as táticas deles na emboscada refletem isso?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Ambushers": {
+      "name": "Emboscada",
+      "description": "<p>Uma emboscada é armada pelos personagens para pegar adversários desprevenidos.</p>",
+      "impulses": "Escapar, agrupar-se, proteger os mais vulneráveis",
+      "items": {
+        "hAGzlRjI3lpadVs7": {
+          "name": "Emboscadores",
+          "description": "<p>A Dificuldade deste ambiente é igual à do adversário com a maior Dificuldade.</p><section class=\"secret\" id=\"secret-zPYO0951x4IKM5FN\"><p><em>Qual adversário está menos preparado? Qual está mais?</em></p></section>"
+        },
+        "b6Qviz1ANG8OrAYq": {
+          "name": "De Onde Eles Vieram?",
+          "description": "<p>Quando um personagem inicia a emboscada contra adversários desprevenidos, você perde 2 Medos e o primeiro teste de ataque que um personagem fizer tem vantagem.</p><section class=\"secret\" id=\"secret-0BW2MHYrwlL7iHiR\"><p><em>O que os adversários estavam fazendo quando a emboscada começou? Como isso impacta a abordagem deles na luta?</em></p></section>",
+          "actions": {
+            "6DKa1Pm605HpChPd": {
+              "name": "Perca Medo",
+              "description": "<p>Quando um personagem inicia a emboscada contra adversários desprevenidos, você perde 2 Medos e o primeiro teste de ataque que um personagem fizer tem vantagem.</p><section class=\"secret\" id=\"secret-WV3oLdq2IoLoSZqe\"><p><em>O que os adversários estavam fazendo quando a emboscada começou? Como isso impacta a abordagem deles na luta?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Burning Heart of the Woods": {
+      "name": "Coração Ardente da Floresta",
+      "description": "<p>Cinzas índigo espessas enchem o ar ao redor de uma árvore imensa coberta de musgo que queima eternamente com chamas de um tom azul doentio.</p>",
+      "impulses": "Marcar um ritmo inquietante para todos seguirem, corromper a floresta",
+      "potentialAdversaries": {
+        "x0uI3WUhqmIcqimN": {
+          "label": "Bestas"
+        },
+        "ndk8FXXrRjHiPN0R": {
+          "label": "Elementais"
+        },
+        "XD3YccQrTKsxtlSZ": {
+          "label": "Defensores Verdejantes"
+        }
+      },
+      "items": {
+        "hU32a8QZy62gdLGc": {
+          "name": "Foco de Magia Caótica",
+          "description": "<p>Quando um personagem faz um teste de Conjuração, deve rolar dois Dados de Medo e usar o resultado mais alto.</p><section id=\"secret-oR4iWlNQoOg4IXMr\" class=\"secret\"><p><em>Como é conjurar magia neste lugar tocado pelo caos? O que você teme que aconteça se perder o controle do feitiço?</em></p></section>"
+        },
+        "nrwEMjdl5F86oES9": {
+          "name": "A Chama Índigo",
+          "description": "<p>Personagens que se aproximam da árvore central podem fazer um teste de Conhecimento para tentar identificar a magia que consumiu este ambiente.</p><ul><li><p><strong>Em caso de sucesso:</strong> Eles descobrem três dos detalhes abaixo. Com sucesso com Medo, descobrem dois.</p></li><li><p><strong>Em caso de falha:</strong> Eles podem marcar um Estresse para descobrir um e ganhar vantagem na próxima rolagem de ação para investigar este ambiente.</p></li><li><p><strong>Detalhes:</strong> Isso é resultado de magia dos Caídos. A corrupção se espalha pelo musgo coberto de cinzas. Ela só pode ser purificada por um ritual de magia da natureza com uma Contagem Regressiva de Progresso (8).</p></li></ul><section id=\"secret-SkDRzA8454MaIFU3\" class=\"secret\"><p><em>Que culto dos Caídos corrompeu estas matas? O que eles já fizeram com a madeira e a seiva amaldiçoadas desta árvore?</em></p></section>"
+        },
+        "1aOeMMX0XuDtZbbB": {
+          "name": "Cipós Agarradores",
+          "description": "<p>Cipós animados, eriçados de espinhos, chicoteiam o mato para enredar os personagens. Um alvo deve ter sucesso em um teste de Reação de Agilidade ou ficar <em>Imobilizado</em> e <em>Vulnerável</em> até se libertar, encerrando ambas as condições, com um teste bem-sucedido de Maestria ou Força ou ao causar 10 de dano aos cipós. Quando o alvo faz uma rolagem para escapar, ele sofre <strong>1d8+4</strong> de dano físico e perde uma Esperança.</p><section id=\"secret-ysaK5Lw0DGsZsgxO\" class=\"secret\"><p><em>Que memórias dolorosas os cipós trazem à tona quando perfuram a carne?</em></p></section>",
+          "actions": {
+            "SfUlV5CL2kWJvXQX": {
+              "name": "Teste de Reação",
+              "description": "<p>Cipós animados, eriçados de espinhos, chicoteiam o mato para enredar os personagens. Um alvo deve ter sucesso em um teste de Reação de Agilidade ou ficar <em>Imobilizado</em> e <em>Vulnerável</em> até se libertar, encerrando ambas as condições, com um teste bem-sucedido de Maestria ou Força ou ao causar 10 de dano aos cipós. Quando o alvo faz uma rolagem para escapar, ele sofre <strong>1d8+4</strong> de dano físico e perde uma Esperança.</p><section class=\"secret\" id=\"secret-MEwPtrJUdIHjgb1k\"><p><em>Que memórias dolorosas os cipós trazem à tona quando perfuram a carne?</em></p></section>"
+            }
+          },
+          "effects": {
+            "gCkqvBUljsOsYacB": {
+              "name": "Cipós Agarradores",
+              "description": "<p><em>Imobilizado</em> e <em>Vulnerável</em> até você se libertar, encerrando ambas as condições, com um teste bem-sucedido de Maestria ou Força ou ao causar 10 de dano aos cipós. Quando o alvo faz uma rolagem para escapar, ele sofre <strong>1d8+4</strong> de dano físico e perde uma Esperança.</p><section class=\"secret\" id=\"secret-Eui1zx8GKoUhEXq6\"><p><em>Que memórias dolorosas os cipós trazem à tona quando perfuram a carne?</em></p></section>"
+            }
+          }
+        },
+        "JKFkDvwUOP35Tsr1": {
+          "name": "Construtos de Carvão",
+          "description": "<p>Animais deformados envoltos em chama índigo atropelam um ponto à sua escolha. Todos os alvos a alcance Próximo desse ponto devem fazer um teste de Reação de Agilidade. Alvos que falharem sofrem <strong>3d12+3</strong> de dano físico. Alvos que tiverem sucesso sofrem metade do dano.</p><p>@Template[type:emanation|range:c]</p><section class=\"secret\" id=\"secret-696PMvOPzHmkdtYc\"><p><em>São animais reais consumidos pela chama ou meros construtos da magia corruptora?</em></p></section>",
+          "actions": {
+            "gbXIaKr8em134IZC": {
+              "name": "Teste de Reação",
+              "description": "<p>Animais deformados envoltos em chama índigo atropelam um ponto à sua escolha. Todos os alvos a alcance Próximo desse ponto devem fazer um teste de Reação de Agilidade. Alvos que falharem sofrem <strong>3d12+3</strong> de dano físico. Alvos que tiverem sucesso sofrem metade do dano.</p><p>@Template[type:emanation|range:c]</p><section class=\"secret\" id=\"secret-O068IjvyIOaaS29o\"><p><em>São animais reais consumidos pela chama ou meros construtos da magia corruptora?</em></p></section>"
+            }
+          }
+        },
+        "kYxuTZjH7HDUGeWh": {
+          "name": "Cinza Asfixiante",
+          "description": "<p><em>Contagem Regressiva (Ciclo 6)</em>. Quando os personagens entram no Coração Ardente da Floresta, ative a contagem regressiva. Quando ela é acionada, todos os personagens devem fazer um teste de Reação de Força ou Instinto. Alvos que falharem sofrem <strong>4d6+5</strong> de dano físico direto. Alvos que tiverem sucesso sofrem metade do dano. Máscaras ou roupas protetoras concedem vantagem no teste de reação.</p><section class=\"secret\" id=\"secret-qQq9TrwyjdayheMk\"><p><em>Que alucinações a cinza provoca? Que gosto incongruente ela tem?</em></p></section>",
+          "actions": {
+            "4XVdHOzycOXM5bh9": {
+              "name": "Dano",
+              "description": "<p>Todos os personagens devem fazer um teste de Reação de Força ou Instinto. Alvos que falharem sofrem <strong>4d6+5</strong> de dano físico direto. Alvos que tiverem sucesso sofrem metade do dano. Máscaras ou roupas protetoras concedem vantagem no teste de reação.</p><section class=\"secret\" id=\"secret-pf0x4kYIYL4CathW\"><p><em>Que alucinações a cinza provoca? Que gosto incongruente ela tem?</em></p></section>"
+            },
+            "3L0T97ZzTqZU6BE6": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p><em>Contagem Regressiva (Ciclo 6)</em>. Quando os personagens entram no Coração Ardente da Floresta, ative a contagem regressiva.</p>",
+              "countdown": {
+                "Choking Ash": "Cinza Asfixiante"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Bustling Marketplace": {
+      "name": "Mercado Movimentado",
+      "description": "<p>O coração econômico do assentamento, com artesãos locais, mercadores viajantes e clientes de todas as classes sociais.</p>",
+      "impulses": "Comprar barato e vender caro, tentar e seduzir com mercadorias de perto e de longe",
+      "potentialAdversaries": {
+        "4rGNjVN6eT9xjsAa": {
+          "label": "Guardas"
+        },
+        "ucd2xJvPBS43bybO": {
+          "label": "Outros"
+        }
+      },
+      "items": {
+        "w8YmhoWPGc66Wrx3": {
+          "name": "Inclinar a Balança",
+          "description": "<p>Os personagens podem ganhar vantagem em um teste de Presença oferecendo um punhado de ouro como parte da interação.</p><section id=\"secret-SkvXxhBWKBtYdJaq\" class=\"secret\"><p><em>Qualquer moeda será aceita ou apenas a moeda local? Quão explícitos os personagens são ao oferecer esse suborno?</em></p></section>"
+        },
+        "60uDqt9omFifZ7xd": {
+          "name": "Achado Inesperado",
+          "description": "<p>Revele aos personagens que um dos mercadores tem algo que eles querem ou precisam, como comida de sua terra, um livro raro, componentes mágicos, um mapa do tesouro duvidoso ou uma chave mágica.</p><section id=\"secret-vuqosTt63aXllb93\" class=\"secret\"><p><em>Que custo além de ouro o mercador pedirá em troca dessa raridade?</em></p></section>"
+        },
+        "56qjiKMoN6S9riI6": {
+          "name": "Mãos Leves",
+          "description": "<p>Um ladrão tenta roubar algo de um personagem. O personagem deve ter sucesso em um teste de Instinto para notar o ladrão ou perder um item à escolha do MJ enquanto o ladrão escapa para alcance Próximo. Para recuperar o item roubado, os personagens devem completar uma <em>Contagem Regressiva de Progresso (6)</em> para perseguir o ladrão antes que ele complete uma <em>Contagem Regressiva de Consequência (4)</em> e fuja para o esconderijo.</p><section class=\"secret\" id=\"secret-UHBqg2AqmIAxgB15\"><p><em>O que levou essa pessoa à batedeira? Onde fica o esconderijo do ladrão e como ele passou despercebido?</em></p></section>",
+          "actions": {
+            "GMy6OcMQnNJDDmtV": {
+              "name": "Teste de Instinto",
+              "description": "<p>Um ladrão tenta roubar algo de um personagem. O personagem deve ter sucesso em um teste de Instinto para notar o ladrão ou perder um item à escolha do MJ enquanto o ladrão escapa para alcance Próximo.</p>"
+            },
+            "L2TFexCvxvuCOCXe": {
+              "name": "Iniciar Contagens Regressivas",
+              "countdown": {
+                "Chase Thief": "Perseguir o Ladrão",
+                "Escape To Hideout": "Fuga para o Esconderijo"
+              }
+            }
+          }
+        },
+        "l2FzZpR2reVmlkdp": {
+          "name": "A Multidão Fecha o Cerco",
+          "description": "<p>Quando um dos personagens se separa do grupo, a multidão se move e o corta do restante do grupo.</p><section id=\"secret-JECVv19GdEo8ngkq\" class=\"secret\"><p><em>Para onde o movimento da multidão os leva? Como se sentem por estar sozinhos, mas cercados?</em></p></section>"
+        }
+      }
+    },
+    "Castle Siege": {
+      "name": "Cerco ao Castelo",
+      "description": "<p>Um cerco ativo com uma força atacante lutando para ganhar acesso a um castelo fortificado.</p>",
+      "impulses": "Esgotar a vontade de lutar, romper as muralhas, aumentar a tensão",
+      "potentialAdversaries": {
+        "yNuW3h5S2tsbgLm4": {
+          "label": "Mercenários"
+        },
+        "djL6ySNZ1A0skdMT": {
+          "label": "Forças Nobres"
+        }
+      },
+      "items": {
+        "2qUw5c3e22eywSwg": {
+          "name": "Entrada Secreta",
+          "description": "<p>Um personagem pode encontrar ou lembrar um caminho secreto para entrar no castelo com um teste bem-sucedido de Instinto ou Conhecimento.</p><section id=\"secret-6U0wYxm3kM3G7mAX\" class=\"secret\"><p><em>Como eles entram sem revelar o caminho para os atacantes? Algum dos defensores está monitorando essa passagem?</em></p></section>"
+        },
+        "eSTq8Y0v4Dwd13XU": {
+          "name": "Armas de Cerco (Mudança de Ambiente)",
+          "description": "<p><em>Contagem Regressiva de Consequência (6)</em>. A força atacante coloca armas de cerco para tentar arrasar as fortificações dos defensores. Ative a contagem regressiva quando o cerco começar (para um cerco prolongado, faça disso uma contagem regressiva de longo prazo). Quando ela é acionada, as fortificações dos defensores são rompidas e os atacantes invadem. Você ganha 2 Medos, depois mude para o ambiente Batalha Campal e dê destaque a ele.</p><section class=\"secret\" id=\"secret-P5oJplxVBVJGtggb\"><p><em>Que armas de cerco estão sendo usadas? Elas são mágicas, mundanas ou uma mistura de ambas? Que defesas os personagens precisam superar para invadir o castelo?</em></p></section>",
+          "actions": {
+            "TGWI1Kvw4ZEP3QEo": {
+              "name": "Ganhe Medo",
+              "description": "<p>As fortificações dos defensores foram rompidas e os atacantes invadem. Você ganha 2 Medos, depois mude para o ambiente Batalha Campal e dê destaque a ele.</p>"
+            },
+            "udKS3ME8VKuayEyO": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p><em>Contagem Regressiva de Consequência (6)</em>. A força atacante coloca armas de cerco para tentar arrasar as fortificações dos defensores. Ative a contagem regressiva quando o cerco começar (para um cerco prolongado, faça disso uma contagem regressiva de longo prazo).</p>",
+              "countdown": {
+                "Siege Weapons (Environment Change)": "Armas de Cerco (Mudança de Ambiente)"
+              }
+            }
+          }
+        },
+        "U59K0WKVjwbgzMZU": {
+          "name": "Reforços!",
+          "description": "<p>Invoque um @UUID[Compendium.daggerheart.adversaries.Actor.7ai2opemrclQe3VF]{Cavaleiro da Coroa}, um número de Lacaios de Patamar 3 igual ao número de personagens e dois adversários à sua escolha a alcance Distante de um personagem escolhido como reforços. O Cavaleiro da Coroa recebe imediatamente o destaque.</p><section id=\"secret-qYx1WuL81hHF5XW8\" class=\"secret\"><p><em>Quem eles atacam primeiro? Que formação eles adotam?</em></p></section>"
+        },
+        "bemKmwjBtbEFVWXM": {
+          "name": "Danos Colaterais",
+          "description": "<p>Quando um adversário é derrotado, você pode <strong>gastar um Medo</strong> para fazer com que um ataque perdido de uma arma de cerco atinja um ponto no campo de batalha. Todos os alvos a alcance Muito Próximo desse ponto devem fazer um teste de Reação de Agilidade.</p><p>@Template[type:circle|range:vc]</p><ul><li><p>Alvos que falharem sofrem <strong>3d8+3</strong> de dano físico ou mágico e devem marcar um Estresse.</p></li><li><p>Alvos que tiverem sucesso devem marcar um Estresse.</p></li></ul><section id=\"secret-JdhetLsgL626ouo7\" class=\"secret\"><p><em>Que destroços são espalhados pelo ataque? O que é quebrado pelo impacto que não pode ser facilmente reparado?</em></p></section>",
+          "actions": {
+            "r5JN5oFYL5DC6Qqw": {
+              "name": "Teste de Reação",
+              "description": "<p>Quando um adversário é derrotado, você pode <strong>gastar um Medo</strong> para fazer com que um ataque perdido de uma arma de cerco atinja um ponto no campo de batalha. Todos os alvos a alcance Muito Próximo desse ponto devem fazer um teste de Reação de Agilidade.</p><p>@Template[type:circle|range:vc]</p><ul><li><p>Alvos que falharem sofrem <strong>3d8+3</strong> de dano físico ou mágico e devem marcar um Estresse.</p></li><li><p>Alvos que tiverem sucesso devem marcar um Estresse.</p></li></ul><section class=\"secret\" id=\"secret-qe1DM7HUSefRAplk\"><p><em>Que destroços são espalhados pelo ataque? O que é quebrado pelo impacto que não pode ser facilmente reparado?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Chaos Realm": {
+      "name": "Reino do Caos",
+      "description": "<p>Um espaço de outro mundo onde as leis da realidade são instáveis e perigosas.</p>",
+      "impulses": "Anular a certeza, consumir poder, desafiar a lógica",
+      "potentialAdversaries": {
+        "2E8iPHwHt7srzJRS": {
+          "label": "Monstruosidades do Reino Exterior"
+        }
+      },
+      "items": {
+        "yXCBy1MQuh5GwH5Q": {
+          "name": "Arquitetura Impossível",
+          "description": "<p>Para cima é para baixo, para baixo é para a direita, a direita é em direção às estrelas. A gravidade e a direção estão em fluxo, e qualquer tentativa de se mover por este reino é uma odisseia em si, exigindo uma <em>Contagem Regressiva de Progresso (8)</em>. Em caso de falha, um personagem deve marcar um Estresse além das outras consequências da rolagem.</p><section class=\"secret\" id=\"secret-j76pJfYX7Cbt61Pq\"><p><em>Como é se mover em um espaço tão estranho ao Reino Mortal? Em que marco ou ponto você foca para manter o equilíbrio? Que marcos estranhos você atravessa na jornada?</em></p></section>",
+          "actions": {
+            "hli84bleKqYoU7YL": {
+              "name": "Marque Estresse",
+              "description": "<p>Em caso de falha, um personagem deve marcar um Estresse além das outras consequências da rolagem.</p>"
+            },
+            "uZgtjZJVCedm93aJ": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p>Para cima é para baixo, para baixo é para a direita, a direita é em direção às estrelas. A gravidade e a direção estão em fluxo, e qualquer tentativa de se mover por este reino é uma odisseia em si, exigindo uma <em>Contagem Regressiva de Progresso (8)</em>.</p><section class=\"secret\" id=\"secret-rsf1tT4N3HBDgKna\"><p><em>Como é se mover em um espaço tão estranho ao Reino Mortal? Em que marco ou ponto você foca para manter o equilíbrio? Que marcos estranhos você atravessa na jornada?</em></p></section>",
+              "countdown": {
+                "Impossible Architecture": "Arquitetura Impossível"
+              }
+            }
+          }
+        },
+        "0OYHJZqT0DlVz5be": {
+          "name": "Tudo o que Você É Este Lugar Vai Tomar de Você",
+          "description": "<p><em>Contagem Regressiva (Ciclo 1d4)</em>. Ative a contagem regressiva. Quando ela é acionada, todos os personagens devem ter sucesso em um teste de Reação de Presença ou o traço mais alto deles é temporariamente reduzido em [[/r 1d4]] a menos que marquem uma quantidade de Estresse igual ao valor. Qualquer ponto de traço perdido é recuperado se o personagem tiver sucesso crítico ou escapar do Reino do Caos.</p><section class=\"secret\" id=\"secret-uG9quQrfVqBYix6p\"><p><em>Como este lugar tenta roubar de você aquilo que o torna lendário? Como é ter esse poder arrancado de você?</em></p></section>",
+          "actions": {
+            "zOQMo13vSiX3QReJ": {
+              "name": "Teste de Reação",
+              "description": "<p>Todos os personagens devem ter sucesso em um teste de Reação de Presença ou o traço mais alto deles é temporariamente reduzido em [[/r 1d4]] a menos que marquem uma quantidade de Estresse igual ao valor. Qualquer ponto de traço perdido é recuperado se o personagem tiver sucesso crítico ou escapar do Reino do Caos.</p><section class=\"secret\" id=\"secret-nXjHVXTDY3UzkRVb\"><p><em>Como este lugar tenta roubar de você aquilo que o torna lendário? Como é ter esse poder arrancado de você?</em></p></section>"
+            },
+            "FxAFpgPbGcmi3nlh": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p><em>Contagem Regressiva (Ciclo 1d4)</em>. Ative a contagem regressiva.</p>",
+              "countdown": {
+                "Everything You Are This Place Will Take from You": "Tudo o que Você É Este Lugar Vai Tomar de Você"
+              }
+            }
+          }
+        },
+        "RNbAdBZM6gDNaRPn": {
+          "name": "Desfazer",
+          "description": "<p><strong>Gaste um Medo</strong> para forçar um personagem a fazer um teste de Reação de Força. Em caso de falha, ele sofre <strong>4d10</strong> de dano mágico direto. Em caso de sucesso, deve marcar um Estresse.</p><section id=\"secret-HGAS3UaO0JcUPdlT\" class=\"secret\"><p><em>Que vislumbre de outros mundos você enxerga enquanto este lugar tenta desfazê-lo? Que faceta central da sua personalidade esse desfazer tenta apagar?</em></p></section>",
+          "actions": {
+            "6AT7qvUE6I6eVHU8": {
+              "name": "Teste de Reação",
+              "description": "<p><strong>Gaste um Medo</strong> para forçar um personagem a fazer um teste de Reação de Força. Em caso de falha, ele sofre <strong>4d10</strong> de dano mágico direto. Em caso de sucesso, deve marcar um Estresse.</p><section class=\"secret\" id=\"secret-ycMBQOJJjDI4wEwK\"><p><em>Que vislumbre de outros mundos você enxerga enquanto este lugar tenta desfazê-lo? Que faceta central da sua personalidade esse desfazer tenta apagar?</em></p></section>"
+            }
+          }
+        },
+        "SZpUJeJETVQtZwae": {
+          "name": "Predadores dos Reinos Exteriores",
+          "description": "<p><strong>Gaste um Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Abominação dos mundos exteriores}, um @UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{Tentador dos Mundos Exteriores} e [[/r 2d6]] @UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Servos dos Mundos Exteriores}, que aparecem a alcance Próximo de um personagem escolhido em desafio à lógica e à causalidade. Dê destaque imediatamente a um desses adversários, e você pode gastar um Medo adicional para obter sucesso automático no ataque padrão desse adversário.</p><section class=\"secret\" id=\"secret-psXRRXLoibTKFpaW\"><p><em>Que restos meio consumidos do mundo despedaçado essas monstruosidades abandonam na busca por carne viva? Que reflexos serrilhados de antiga personalidade você vê entre momentos de malícia inquestionável?</em></p></section>",
+          "actions": {
+            "5a8ESNroEQHAm7rO": {
+              "name": "Gaste um Medo",
+              "description": "<p><strong>Gaste um Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.A0SeeDzwjvqOsyof]{Abominação dos mundos exteriores}, um @UUID[Compendium.daggerheart.adversaries.Actor.ms6nuOl3NFkhPj1k]{Tentador dos Mundos Exteriores} e [[/r 2d6]] @UUID[Compendium.daggerheart.adversaries.Actor.moJhHgKqTKPS2WYS]{Servos dos Mundos Exteriores}, que aparecem a alcance Próximo de um personagem escolhido em desafio à lógica e à causalidade. Dê destaque imediatamente a um desses adversários, e você pode gastar um Medo adicional para obter sucesso automático no ataque padrão desse adversário.</p><section class=\"secret\" id=\"secret-ADMZbUwBRqcZNks5\"><p><em>Que restos meio consumidos do mundo despedaçado essas monstruosidades abandonam na busca por carne viva? Que reflexos serrilhados de antiga personalidade você vê entre momentos de malícia inquestionável?</em></p></section>"
+            }
+          }
+        },
+        "MyIh4CJsDnkjmeYs": {
+          "name": "Realidade Desorientadora",
+          "description": "<p>Em um resultado com Medo, você pode pedir ao personagem para descrever quais de seus medos o Reino do Caos evoca enquanto uma visão da realidade se desfaz e se recompõe diante dele. O personagem perde uma Esperança. Se for a última Esperança, você ganha um Medo.</p><section id=\"secret-0TIAabOXzWKwGdZ4\" class=\"secret\"><p><em>Que momento ele vê? Se for uma memória, como ela é distorcida por este lugar? Quão difícil será se apegar à memória real?</em></p></section>",
+          "actions": {
+            "YIOvMuMMML7WeMWs": {
+              "name": "Perca Esperança",
+              "description": "<p>Em um resultado com Medo, você pode pedir ao personagem para descrever quais de seus medos o Reino do Caos evoca enquanto uma visão da realidade se desfaz e se recompõe diante dele. O personagem perde uma Esperança. Se for a última Esperança, você ganha um Medo.</p><section class=\"secret\" id=\"secret-2PNCQTvkwRTu3IYz\"><p><em>Que momento ele vê? Se for uma memória, como ela é distorcida por este lugar? Quão difícil será se apegar à memória real?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Cliffside Ascent": {
+      "name": "Escalada na Falésia",
+      "description": "<p>Uma encosta íngreme e rochosa alta o bastante para tornar a travessia perigosa.</p>",
+      "impulses": "Lançar os desprevenidos a uma morte rochosa, atrair pessoas com a promessa do que há no topo",
+      "potentialAdversaries": {
+        "hWhlWzJ8nNKAMmXx": {
+          "label": "Other"
+        }
+      },
+      "items": {
+        "bKBwM72OwVnlsHG6": {
+          "name": "A Escalada",
+          "description": "<p>Subir a encosta usa uma <em>Contagem Regressiva de Progresso (12)</em>. Ela avança conforme os seguintes critérios quando os personagens fazem uma rolagem de ação para escalar:</p><ul><li><p><strong>Sucesso Crítico</strong>: reduza 3</p></li><li><p><strong>Sucesso com Esperança</strong>: reduza 2</p></li><li><p><strong>Sucesso com Medo</strong>: reduza 1</p></li><li><p><strong>Falha com Esperança</strong>: sem avanço</p></li><li><p><strong>Falha com Medo</strong>: aumente 1</p></li></ul><p>Quando a contagem é acionada, o grupo alcançou o topo da falésia.</p><section class=\"secret\" id=\"secret-TUIXsJs6D65YsP9f\"><p><em>Em que formações estranhas as pedras estão dispostas? Que avisos sinistros os aventureiros anteriores deixaram?</em></p></section>",
+          "actions": {
+            "TMEBwqlfvL3mb3hQ": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p>Subir a encosta usa uma <em>Contagem Regressiva de Progresso (12)</em>. Ela avança conforme os seguintes critérios quando os personagens fazem uma rolagem de ação para escalar:</p><ul><li><p><strong>Sucesso Crítico</strong>: reduza 3</p></li><li><p><strong>Sucesso com Esperança</strong>: reduza 2</p></li><li><p><strong>Sucesso com Medo</strong>: reduza 1</p></li><li><p><strong>Falha com Esperança</strong>: sem avanço</p></li><li><p><strong>Falha com Medo</strong>: aumente 1</p></li></ul><p>Quando a contagem é acionada, o grupo alcançou o topo da falésia.</p><section class=\"secret\" id=\"secret-5teov2eI5kV1P3LD\"><p><em>Em que formações estranhas as pedras estão dispostas? Que avisos sinistros os aventureiros anteriores deixaram?</em></p></section>",
+              "countdown": {
+                "The Climb": "A Escalada"
+              }
+            }
+          }
+        },
+        "t8ZbtlGiYC8MKqqu": {
+          "name": "Pitões Deixados para Trás",
+          "description": "<p>Escaladores anteriores deixaram grandes hastes metálicas que podem ser usadas para auxiliar a escalada. Se um personagem usando os pitões falhar em uma rolagem de ação para escalar, ele pode <strong>marcar um Estresse</strong> em vez de aumentar a contagem regressiva.</p><section class=\"secret\" id=\"secret-qk9dYgHaJUBCtFBR\"><p><em>O que a forma e o material desses pitões dizem sobre os escaladores anteriores? A que distância eles estão uns dos outros?</em></p></section>",
+          "actions": {
+            "p1UiGEiGyl6r7PrA": {
+              "name": "Marque Estresse",
+              "description": "<p>Escaladores anteriores deixaram grandes hastes metálicas que podem ser usadas para auxiliar a escalada. Se um personagem usando os pitões falhar em uma rolagem de ação para escalar, ele pode <strong>marcar um Estresse</strong> em vez de aumentar a contagem regressiva.</p><section class=\"secret\" id=\"secret-fWHkzBQAxCLDmV6H\"><p><em>O que a forma e o material desses pitões dizem sobre os escaladores anteriores? A que distância eles estão uns dos outros?</em></p></section>"
+            }
+          }
+        },
+        "EP4FXeQqbqFGQoIX": {
+          "name": "Queda",
+          "description": "<p>Gaste um Medo para fazer com que o apoio de mão de um personagem falhe, fazendo-o despencar rumo ao chão. Se ele não for salvo na próxima ação, ele atinge o solo e aumenta a contagem regressiva em 2. O personagem sofre <strong>1d12</strong> de dano físico se a contagem estiver entre 8 e 12, <strong>2d12</strong> entre 4 e 7 e <strong>3d12</strong> se estiver em 3 ou menos.</p><section class=\"secret\" id=\"secret-M5AEA24dk07O00FA\"><p><em>Como você percebe que muitos outros já caíram aqui? O que vive nessas paredes que pode tentar assustar aventureiros para que caiam e virem refeição?</em></p></section>",
+          "actions": {
+            "LVEPUPIAJJMiCtbV": {
+              "name": "Role 1d12"
+            },
+            "F9B1uVeil6z1ZWoz": {
+              "name": "Role 2d12"
+            },
+            "gx8HEZvgf3yO9WOp": {
+              "name": "Role 3d12"
+            },
+            "M8MfD2qBfYCwNKvH": {
+              "name": "Gaste um Medo",
+              "description": "<p>Gaste um Medo para fazer com que o apoio de mão de um personagem falhe, fazendo-o despencar rumo ao chão. Se ele não for salvo na próxima ação, ele atinge o solo e aumenta a contagem regressiva em 2. O personagem sofre <strong>1d12</strong> de dano físico se a contagem estiver entre 8 e 12, <strong>2d12</strong> entre 4 e 7 e <strong>3d12</strong> se estiver em 3 ou menos.</p><section class=\"secret\" id=\"secret-ufZ6ifPWxU4MkKow\"><p><em>Como você percebe que muitos outros já caíram aqui? O que vive nessas paredes que pode tentar assustar aventureiros para que caiam e virem refeição?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Cult Ritual": {
+      "name": "Ritual do Culto",
+      "description": "<p>Um culto dos Caídos se reúne em torno de um sigilo dos deuses derrotados e de uma fogueira que queima em um tom verde doentio.</p>",
+      "impulses": "Profanar a terra, unir o Reino Mortal aos Círculos Inferiores",
+      "potentialAdversaries": {
+        "hNREaghvi4LqHQ06": {
+          "label": "Cult of the Fallen"
+        }
+      },
+      "items": {
+        "iiHjguQG2aBn9g8i": {
+          "name": "Solo Profanado",
+          "description": "<p>Cultistas dedicaram este lugar aos Deuses Caídos, e sua influência pútrida se infiltra nele. Reduza o Dado de Esperança dos personagens para d10 enquanto estiverem neste ambiente. A profanação pode ser removida com uma Contagem Regressiva de Progresso (6).</p><section class=\"secret\" id=\"secret-iPgKjrXJYw4cy0EX\"><p><em>Como os personagens percebem pela primeira vez que há algo errado neste lugar? Que medos ressurgem enquanto a esperança é mantida à distância?</em></p></section>"
+        },
+        "0Rgqw1kUPeJ11ldd": {
+          "name": "Poder Blasfemo",
+          "description": "<p>Uma parte do poder do ritual é desviada para um membro do culto para afastar intrusos. Escolha um adversário para ser Imbuído com magia terrível até a cena terminar ou ele ser derrotado. Um adversário Imbuído recebe imediatamente o destaque e ganha um dos benefícios a seguir, ou todos os três se você <strong>gastar um Medo</strong>:</p><ul><li><p>Ele ganha vantagem em todos os ataques.</p></li><li><p>Ele causa <strong>1d10</strong> de dano extra em um ataque bem-sucedido.</p></li><li><p>Ele ganha a seguinte característica: <strong>Implacável (2) - Passivo</strong>. Este adversário pode receber destaque até duas vezes por turno do MJ. Gaste Medo normalmente para dar destaque a ele.</p></li></ul><section class=\"secret\" id=\"secret-600LhfEy1uNSxWdJ\"><p><em>Como o inimigo muda de aparência? Que medos os golpes dele trazem à tona?</em></p></section>",
+          "actions": {
+            "EATw4ZkcuGeDfgLZ": {
+              "name": "Imbuir",
+              "description": "<p>Uma parte do poder do ritual é desviada para um membro do culto para afastar intrusos. Escolha um adversário para ser Imbuído com magia terrível até a cena terminar ou ele ser derrotado. Um adversário Imbuído recebe imediatamente o destaque e ganha um dos benefícios a seguir, ou todos os três se você <strong>gastar um Medo</strong>:</p><ul><li><p>Ele ganha vantagem em todos os ataques.</p></li><li><p>Ele causa <strong>1d10</strong> de dano extra em um ataque bem-sucedido.</p></li><li><p>Ele ganha a seguinte característica: <strong>Implacável (2) - Passivo</strong>. Este adversário pode receber destaque até duas vezes por turno do MJ. Gaste Medo normalmente para dar destaque a ele.</p></li></ul><section class=\"secret\" id=\"secret-5wFIFufzFAPrIDaq\"><p><em>Como o inimigo muda de aparência? Que medos os golpes dele trazem à tona?</em></p></section>"
+            }
+          },
+          "effects": {
+            "dYQBQq1xIysM0qLo": {
+              "name": "Poder Blasfemo",
+              "description": "<p>Uma parte do poder do ritual ? desviada para um membro do culto para afastar intrusos. Escolha um advers?rio para ser Imbu?do com magia terr?vel at? a cena terminar ou ele ser derrotado. Um advers?rio Imbu?do recebe imediatamente o destaque e ganha um dos benef?cios a seguir, ou todos os tr?s se voc? <strong>gastar um Medo</strong>:</p><ul><li><p>Ele ganha vantagem em todos os ataques.</p></li><li><p>Ele causa <strong>1d10</strong> de dano extra em um ataque bem-sucedido.</p></li><li><p>Ele ganha a seguinte caracter?stica: <strong>Implac?vel (2) - Passivo</strong>. Este advers?rio pode receber destaque at? duas vezes por turno do MJ. Gaste Medo normalmente para dar destaque a ele.</p></li></ul><section class=\"secret\" id=\"secret-YOHA68Na64uXDAxu\"><p><em>Como o inimigo muda de apar?ncia? Que medos os golpes dele trazem ? tona?</em></p></section>"
+            },
+            "Hxw5lXE77bGzuaOu": {
+              "name": "Poder Blasfemo - Dano"
+            }
+          }
+        },
+        "oFfu3hUhp4ta4qwT": {
+          "name": "A Invocação",
+          "description": "<p><em>Contagem Regressiva (6)</em>. Quando os personagens entram na cena ou o culto começa o ritual para invocar um demônio, ative a contagem regressiva. Designe um adversário para liderar o ritual. A contagem regressiva diminui quando um personagem rola com Medo. Quando ela é acionada, invoque um @UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Demônio Pequeno} a alcance Muito Próximo do líder do ritual. Se o líder for derrotado, a contagem termina sem efeito, pois o ritual falha.</p><section class=\"secret\" id=\"secret-OXdRqIZ0R8wGn3Gm\"><p><em>O que o culto fará com esse demônio preso se tiver sucesso? O que eles tentarão invocar em seguida?</em></p></section>",
+          "actions": {
+            "bUIfzuWd1VfiV8sc": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p><em>Contagem Regressiva (6)</em>. Quando os personagens entram na cena ou o culto começa o ritual para invocar um demônio, ative a contagem regressiva. Designe um adversário para liderar o ritual. A contagem regressiva diminui quando um personagem rola com Medo.</p>",
+              "countdown": {
+                "The Summoning": "A Invocação"
+              }
+            },
+            "suFEnfpOfeVRvnJF": {
+              "name": "Invocar Demônio",
+              "description": "<p>Invoque um @UUID[Compendium.daggerheart.adversaries.Actor.3tqCjDwJAQ7JKqMb]{Demônio Pequeno} a alcance Muito Próximo do líder do ritual.</p>"
+            }
+          }
+        },
+        "WltEUhtYwfnX8WCc": {
+          "name": "Completar o Ritual",
+          "description": "<p>Se o líder do ritual for alvo de um ataque ou feitiço, um aliado a alcance Muito Próximo dele pode <strong>marcar um Estresse</strong> para ser alvo desse ataque ou feitiço no lugar.</p><section id=\"secret-4QYQNJKFywfwkGGp\" class=\"secret\"><p><em>Como é ver tamanha devoção voltada à busca por medo e dominação?</em></p></section>"
+        }
+      }
+    },
+    "Divine Usurpation": {
+      "name": "Usurpação Divina",
+      "description": "<p>Um ritual massivo projetado para romper os portões dos Salões Acima e derrubar os Novos Deuses.</p>",
+      "impulses": "Coletar poder, impressionar, silenciar a dissidência",
+      "potentialAdversaries": {
+        "IMQDBXkxdUIUSjsm": {
+          "label": "Other"
+        }
+      },
+      "items": {
+        "IHLJjpOQyWjmCLAL": {
+          "name": "Preparativos Finais",
+          "description": "<p>Quando o ambiente recebe o destaque pela primeira vez, designe um adversário como o Usurpador que busca derrubar os deuses. Ative uma <em>Contagem Regressiva de Longo Prazo (8)</em> enquanto o Usurpador reúne o que precisa para conduzir o ritual. Quando ela é acionada, dê destaque a este ambiente para usar o recurso \"Início do Fim\". Enquanto este ambiente estiver em jogo, você pode manter até 15 Medos.</p><section class=\"secret\" id=\"secret-5ezbFLP3BnyqQPov\"><p><em>O que o Usurpador ainda precisa: o coração de um Alto Serafim? A pedra de uma antiga passagem? A lealdade de dois arqui-inimigos? As lágrimas de coração partido de uma alma pura?</em></p></section>",
+          "actions": {
+            "UMGyEHdQhYXyGEss": {
+              "name": "Acionar Contagem Regressiva",
+              "description": "<p>Dê destaque a este ambiente para usar o recurso \"Início do Fim\".</p>"
+            },
+            "uJSaDLFcrtvIPFaD": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p>Quando o ambiente recebe o destaque pela primeira vez, designe um adversário como o Usurpador que busca derrubar os deuses. Ative uma <em>Contagem Regressiva de Longo Prazo (8)</em> enquanto o Usurpador reúne o que precisa para conduzir o ritual.</p><section class=\"secret\" id=\"secret-FyeeA41DYc7DdjY7\"><p><em>O que o Usurpador ainda precisa: o coração de um Alto Serafim? A pedra de uma antiga passagem? A lealdade de dois arqui-inimigos? As lágrimas de coração partido de uma alma pura?</em></p></section>",
+              "countdown": {
+                "Final Preparations": "Preparativos Finais"
+              }
+            }
+          }
+        },
+        "fA2wVTxpDPaTlP9v": {
+          "name": "Bênção Divina",
+          "description": "<p>Quando um personagem obtém sucesso crítico, ele pode gastar 2 Esperanças para renovar uma habilidade normalmente limitada por usos (como uma vez por descanso, uma vez por sessão).</p><section id=\"secret-IRlwaXlRxPqtJ6eg\" class=\"secret\"><p><em>Que deus favorece você enquanto luta contra esta usurpação? Como seu poder renovado reflete a influência dele?</em></p></section>"
+        },
+        "OWUM3eFiZrIn0Bjd": {
+          "name": "Profanadores Abundam",
+          "description": "<p><strong>Gaste 2 Medos</strong> para invocar [[/r 1d4+2]] @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Soldado caído} que aparecem a alcance Próximo do Usurpador para auxiliar seu cerco divino. Dê destaque imediatamente aos soldados para usar uma ação de \"Ataque em Grupo\".</p><section class=\"secret\" id=\"secret-QJHdwGNSuTgS59gn\"><p><em>Qual Alto Caído esses soldados servem? De que carne de deus eles desejam se banquetear?</em></p></section>",
+          "actions": {
+            "qIQTEO5t72xFtKYI": {
+              "name": "Gaste Medo",
+              "description": "<p><strong>Gaste 2 Medos</strong> para invocar [[/r 1d4+2]] @UUID[Compendium.daggerheart.adversaries.Actor.OsLG2BjaEdTZUJU9]{Soldado caído} que aparecem a alcance Próximo do Usurpador para auxiliar seu cerco divino. Dê destaque imediatamente aos soldados para usar uma ação de \"Ataque em Grupo\".</p><section class=\"secret\" id=\"secret-fNfGy8lT8b7elPcE\"><p><em>Qual Alto Caído esses soldados servem? De que carne de deus eles desejam se banquetear?</em></p></section>"
+            }
+          }
+        },
+        "CL3wPZNOtw6m5WVT": {
+          "name": "Matador de Deuses",
+          "description": "<p>Se a Contagem Regressiva do Cerco Divino (veja \"Início do Fim\") foi acionada, você pode <strong>gastar 3 Medos</strong> para descrever o Usurpador abatendo um dos deuses dos Salões Acima, devorando seu poder e ficando mais forte. O Usurpador recupera 2 PV. Aumente a Dificuldade, o dano, o modificador de ataque ou dê a ele uma nova característica do deus abatido.</p><section id=\"secret-OIyf1RZFfLopuMlg\" class=\"secret\"><p><em>Qual deus encontra o fim? Quais são suas últimas palavras? Como o novo poder roubado do Usurpador se manifesta?</em></p></section>",
+          "actions": {
+            "hwQsng6Kt8pQBD3Z": {
+              "name": "Gaste Medo",
+              "description": "<p>Se a Contagem Regressiva do Cerco Divino (veja \"Início do Fim\") foi acionada, você pode <strong>gastar 3 Medos</strong> para descrever o Usurpador abatendo um dos deuses dos Salões Acima, devorando seu poder e ficando mais forte. O Usurpador recupera 2 PV. Aumente a Dificuldade, o dano, o modificador de ataque ou dê a ele uma nova característica do deus abatido.</p><section class=\"secret\" id=\"secret-SDqxukOa9Sz8zbGZ\"><p><em>Qual deus encontra o fim? Quais são suas últimas palavras? Como o novo poder roubado do Usurpador se manifesta?</em></p></section>"
+            }
+          },
+          "effects": {
+            "znFFS76Nopwb8Yi7": {
+              "name": "Matador de Deuses"
+            },
+            "i3KYskkA9D4GHbXi": {
+              "name": "Matador de Deuses",
+              "description": "<p>Aumente a Dificuldade, o dano, o modificador de ataque ou d? a ele uma nova caracter?stica do deus abatido.</p><section class=\"secret\" id=\"secret-BLw5aVqkkCtUQXnk\"><p><em>Qual deus encontra o fim? Quais s?o suas ?ltimas palavras? Como o novo poder roubado do Usurpador se manifesta?</em></p></section>"
+            }
+          }
+        },
+        "AJdG1krRvixBFCZG": {
+          "name": "Início do Fim",
+          "description": "<p>Quando a contagem de longo prazo \"Preparativos Finais\" é acionada, o Usurpador começa a golpear os portões dos próprios Salões. Ative uma <em>Contagem Regressiva do Cerco Divino (10)</em>. Dê destaque ao Usurpador para descrever o ataque e reduzir essa contagem em 1. Se o Usurpador sofrer dano Maior ou superior, aumente a contagem em 1. Quando ela é acionada, o Usurpador despedaça a barreira entre o Reino Mortal e os Salões Acima para matar os deuses e tomar seu lugar. Você ganha um Medo para cada PV não marcado que o Usurpador tiver. Você pode usar imediatamente o recurso \"Matador de Deuses\" sem gastar Medo para fazer um movimento adicional do MJ.</p><section class=\"secret\" id=\"secret-eVeMBBA7aAZgn9FO\"><p><em>Como o Reino Mortal se contorce quando a ordem natural é violada? Que mortais testemunham essa blasfêmia à distância?</em></p></section>",
+          "actions": {
+            "N83u4SKOlCfLvdYI": {
+              "name": "Acionar Contagem Regressiva",
+              "description": "<p>O Usurpador despedaça a barreira entre o Reino Mortal e os Salões Acima para matar os deuses e tomar seu lugar. Você ganha um Medo para cada PV não marcado que o Usurpador tiver. Você pode usar imediatamente o recurso \"Matador de Deuses\" sem gastar Medo para fazer um movimento adicional do MJ.</p>"
+            },
+            "KNWpWnJboRIaZ3Yu": {
+              "name": "Contagem Regressiva",
+              "description": "<p>Quando a contagem de longo prazo \"Preparativos Finais\" é acionada, o Usurpador começa a golpear os portões dos próprios Salões. Ative uma <em>Contagem Regressiva do Cerco Divino (10)</em>. Dê destaque ao Usurpador para descrever o ataque e reduzir essa contagem em 1. Se o Usurpador sofrer dano Maior ou superior, aumente a contagem em 1.</p><section class=\"secret\" id=\"secret-u7mt9OivMXWU5s3S\"><p><em>Como o Reino Mortal se contorce quando a ordem natural é violada? Que mortais testemunham essa blasfêmia à distância?</em></p></section>",
+              "countdown": {
+                "Beginning of the End": "Início do Fim"
+              }
+            }
+          }
+        },
+        "GUAo44cJCnS1GE9p": {
+          "name": "Núcleo Ritual",
+          "description": "<p>Em qualquer falha com Medo contra o Usurpador, o personagem deve marcar <strong>1d4</strong> de Estresse devido ao rebote do poder mágico.</p><section id=\"secret-FROwYRDYLwvnn2lH\" class=\"secret\"><p><em>Que visões de falhas passadas o atormentam quando seus esforços falham? Como essas memórias são distorcidas pelo Usurpador?</em></p></section>",
+          "actions": {
+            "9qXDsVnWI436IWEk": {
+              "name": "Marque Estresse",
+              "description": "<p>Em qualquer falha com Medo contra o Usurpador, o personagem deve marcar <strong>1d4</strong> de Estresse devido ao rebote do poder mágico.</p><section class=\"secret\" id=\"secret-ysZhGlH7LtJS0qua\"><p><em>Que visões de falhas passadas o atormentam quando seus esforços falham? Como essas memórias são distorcidas pelo Usurpador?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Hallowed Temple": {
+      "name": "Templo Exaltado",
+      "description": "<p>Um templo movimentado, porém bem cuidado, que oferece cura e realiza serviços regulares, supervisionado por um sacerdote ou serafim.</p>",
+      "impulses": "Conectar o Reino Mortal aos Salões Acima, exibir o poder do divino, oferecer ajuda e consolo aos fiéis",
+      "potentialAdversaries": {
+        "4oKNnCRPuWEFni6D": {
+          "label": "Guards"
+        }
+      },
+      "items": {
+        "hgHpS2k1sVxHKiG1": {
+          "name": "Um Lugar de Cura",
+          "description": "<p>Um personagem que descansa no Templo Exaltado automaticamente recupera todos os PV.</p><section class=\"secret\" id=\"secret-L4xPjXbsFBvAJkG3\"><p><em>Como o incenso cheira? Que tipo de canções os acólitos cantam?</em></p></section>",
+          "actions": {
+            "uLCoTKa7Jn2HaRqR": {
+              "name": "Cura",
+              "description": "<p>Um personagem que descansa no Templo Exaltado automaticamente recupera todos os PV.</p><section class=\"secret\" id=\"secret-vN4UFTYIQW8nd2mC\"><p><em>Como o incenso cheira? Que tipo de canções os acólitos cantam?</em></p></section>"
+            }
+          }
+        },
+        "uqV1mTkJmXJwMYue": {
+          "name": "Orientação Divina",
+          "description": "<p>Um personagem que reza para uma divindade enquanto está no Templo Exaltado pode fazer um teste de Instinto para receber respostas. Se o deus a quem ele suplica não é bem-vindo neste templo, a rolagem é feita com desvantagem.</p><ul><li><p><strong>Sucesso Crítico:</strong> O personagem recebe informações claras. Além disso, ele ganha [[/r 1d4]] Esperanças, que podem ser distribuídas entre o grupo se ele compartilhar a visão e a orientação recebidas.</p></li><li><p><strong>Sucesso com Esperança:</strong> O personagem recebe informações claras.</p></li><li><p><strong>Sucesso com Medo:</strong> O personagem recebe breves lampejos de insight e uma impressão emocional que transmite uma resposta.</p></li><li><p><strong>Qualquer Falha:</strong> O personagem recebe apenas lampejos vagos. Ele pode marcar um Estresse para receber uma imagem clara sem contexto.</p></li></ul><section class=\"secret\" id=\"secret-EYCrn403Zbz0NQKo\"><p><em>Como é a sensação quando você é tocado por essa visão? Que sentimento permanece depois que as imagens passam?</em></p></section>"
+        },
+        "vICfHK2urDQ2Jm8s": {
+          "name": "Esperança Implacável",
+          "description": "<p>Uma vez por cena, cada personagem pode marcar um Estresse para transformar um resultado com Medo em um resultado com Esperança.</p><section id=\"secret-z2wMjfAVnSoTHSlR\" class=\"secret\"><p><em>Com quais emoções ou memórias você se conecta quando o medo se aproxima?</em></p></section>",
+          "actions": {
+            "VlBjJ32dXlboSANv": {
+              "name": "Marque Estresse",
+              "description": "<p>Uma vez por cena, cada personagem pode marcar um Estresse para transformar um resultado com Medo em um resultado com Esperança.</p><section class=\"secret\" id=\"secret-1BKTtBh9igK1y871\"><p><em>Com quais emoções ou memórias você se conecta quando o medo se aproxima?</em></p></section>"
+            }
+          }
+        },
+        "8tGAuFRyM4onvQ2o": {
+          "name": "Censura Divina",
+          "description": "<p>Quando os personagens invadiram, blasfemaram ou ofenderam o clero, você pode <strong>gastar um Medo</strong> para invocar um @UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{Alto Serafim} e [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Espadachim da Guarda} a alcance Próximo do sacerdote sênior para reforçar sua vontade.</p><section class=\"secret\" id=\"secret-bJG5Vk2KPgau6rQB\"><p><em>Que símbolos ou ícones eles carregam que indicam que são agentes ungidos da divindade? Quem lidera o grupo e o que os levou a esse chamado?</em></p></section>",
+          "actions": {
+            "pJVipg7CbA9CB0Um": {
+              "name": "Gaste um Medo",
+              "description": "<p>Quando os personagens invadiram, blasfemaram ou ofenderam o clero, você pode <strong>gastar um Medo</strong> para invocar um @UUID[Compendium.daggerheart.adversaries.Actor.r1mbfSSwKWdcFdAU]{Alto Serafim} e [[/r 1d4]] @UUID[Compendium.daggerheart.adversaries.Actor.B4LZcGuBAHzyVdzy]{Espadachim da Guarda} a alcance Próximo do sacerdote sênior para reforçar sua vontade.</p><section class=\"secret\" id=\"secret-tG902NbtYpyK0NFi\"><p><em>Que símbolos ou ícones eles carregam que indicam que são agentes ungidos da divindade? Quem lidera o grupo e o que os levou a esse chamado?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Haunted City": {
+      "name": "Cidade Assombrada",
+      "description": "<p>Uma cidade abandonada povoada pelos espíritos inquietos de eras passadas.</p>",
+      "impulses": "Desorientar e confundir, reviver apocalipses públicos e pessoais",
+      "potentialAdversaries": {
+        "h07vZopQbVt6dlY6": {
+          "label": "Ghosts"
+        }
+      },
+      "items": {
+        "h8Dv8pToiCVklPhv": {
+          "name": "Conhecimento Enterrado",
+          "description": "<p>A cidade tem incontáveis mistérios a revelar. Um personagem que busca conhecimento sobre a cidade caída pode fazer um teste de Instinto ou Conhecimento para aprender sobre este lugar e descobrir tesouros (possivelmente assombrados).</p><ul><li><p><strong>Sucesso Crítico</strong>: Ganhe informações valiosas e um item útil relacionado.</p></li><li><p><strong>Sucesso com Esperança:</strong> Ganhe informações valiosas.</p></li><li><p><strong>Sucesso com Medo:</strong> Descubra informações vagas ou incompletas.</p></li><li><p><strong>Qualquer Falha:</strong> Marque um Estresse para encontrar uma pista após uma busca exaustiva.</p></li></ul><section id=\"secret-b7Tkr2KzblSvwAPj\" class=\"secret\"><p><em>Que segredos maiores a cidade guarda? Por que tantos fantasmas permaneceram aqui? Que aventureiros condenados já encontraram um fim ruim aqui?</em></p></section>"
+        },
+        "gRpkBU3CLJvDnB7I": {
+          "name": "Forma Fantasmagórica",
+          "description": "<p>Adversários que aparecem aqui têm forma fantasmagórica. Eles têm resistência a dano físico e podem <strong>marcar um Estresse</strong> para se mover até alcance Próximo através de objetos sólidos.</p><section id=\"secret-P15mCN36Cns7QUHw\" class=\"secret\"><p><em>Que ferimentos no corpo deles indicam a causa da morte? Que propósito não cumprido os prende ao Plano Mortal?</em></p></section>",
+          "actions": {
+            "VCWX0P9kq2oGTpUo": {
+              "name": "Forma Fantasmagórica",
+              "description": "<p>Adversários que aparecem aqui têm forma fantasmagórica. Eles têm resistência a dano físico e podem <strong>marcar um Estresse</strong> para se mover até alcance Próximo através de objetos sólidos.</p><section class=\"secret\" id=\"secret-Ol8146pzjrPjVjqt\"><p><em>Que ferimentos no corpo deles indicam a causa da morte? Que propósito não cumprido os prende ao Plano Mortal?</em></p></section>"
+            }
+          },
+          "effects": {
+            "S9gl4jqdrziC1F0h": {
+              "name": "Forma Fantasmag?rica",
+              "description": "<p>Advers?rios que aparecem aqui t?m forma fantasmag?rica. Eles t?m resist?ncia a dano f?sico e podem <strong>marcar um Estresse</strong> para se mover at? alcance Pr?ximo atrav?s de objetos s?lidos.</p><section class=\"secret\" id=\"secret-o5a4SMwemuVEfDMq\"><p><em>Que ferimentos no corpo deles indicam a causa da morte? Que prop?sito n?o cumprido os prende ao Plano Mortal?</em></p></section>"
+            }
+          }
+        },
+        "ZA2RzxH5FlnrcYLN": {
+          "name": "Becos Sem Saída",
+          "description": "<p>Os fantasmas de uma era anterior manifestam cenas de seu tempo, como um festival de rua, uma revolução ou um assalto. Essas assombrações mudam o layout da cidade ao redor dos personagens, bloqueando o caminho atrás deles, forçando um desvio ou apresentando um desafio, como confundi-los com ladrões rivais durante o assalto.</p><section id=\"secret-ttpwol0cvVxPyK7e\" class=\"secret\"><p><em>O que os fantasmas querem de você? O que você precisa deles?</em></p></section>"
+        },
+        "i0FV2Djaq0vB57cq": {
+          "name": "O Apocalipse",
+          "description": "<p><strong>Gaste um Medo</strong> para manifestar o eco de um desastre passado que devastou a cidade. Ative uma <em>Contagem Regressiva de Progresso (5)</em> enquanto o desastre se repete ao redor dos personagens. Para completar a contagem e escapar da catástrofe, os personagens devem superar ameaças como incêndios descontrolados, civis em debandada, prédios desabando ou ruas ruindo, enquanto recordam a história e encontram pistas para escapar do inevitável.</p><section class=\"secret\" id=\"secret-3MamLVZP4l2SxHzO\"><p><em>Foi este o desastre que levou a cidade a ser abandonada? O que se sabe sobre ele e como isso pode ajudar os personagens a escapar?</em></p></section>",
+          "actions": {
+            "VhqZKDA4032i8zY3": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p><strong>Gaste um Medo</strong> para manifestar o eco de um desastre passado que devastou a cidade. Ative uma <em>Contagem Regressiva de Progresso (5)</em> enquanto o desastre se repete ao redor dos personagens. Para completar a contagem e escapar da catástrofe, os personagens devem superar ameaças como incêndios descontrolados, civis em debandada, prédios desabando ou ruas ruindo, enquanto recordam a história e encontram pistas para escapar do inevitável.</p><section class=\"secret\" id=\"secret-2Ou4kbqfCwCgsG5X\"><p><em>Foi este o desastre que levou a cidade a ser abandonada? O que se sabe sobre ele e como isso pode ajudar os personagens a escapar?</em></p></section>",
+              "countdown": {
+                "Apocalypse Then": "O Apocalipse"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Imperial Court": {
+      "name": "Corte Imperial",
+      "description": "<p>O domínio majestoso de um poderoso império, luxuosamente adornado com tesouros roubados.</p>",
+      "impulses": "Justificar e perpetuar o domínio imperial, seduzir rivais com promessas de poder e conforto",
+      "potentialAdversaries": {
+        "JTuzman711Fqs3u1": {
+          "label": "Other"
+        }
+      },
+      "items": {
+        "OXUbWRt1Dj0vk7mW": {
+          "name": "Todos os Caminhos Levam Aqui",
+          "description": "<p>Enquanto estiver na Corte Imperial, um personagem tem desvantagem em testes de Presença feitos para ações que não se encaixam no modo de vida imperial ou não apoiam o domínio do império.</p><section id=\"secret-P8G0DAghe8QgaSZV\" class=\"secret\"><p><em>Como a maneira como a linguagem é usada torna difícil até discutir formas alternativas de viver? Que benefícios óbvios da lealdade criam fricção quando você tenta discutir alternativas?</em></p></section>"
+        },
+        "LURReixasmMbiP2C": {
+          "name": "Vassalos Rivais",
+          "description": "<p>Os personagens podem encontrar súditos imperiais, vassalos e suplicantes na corte, cada um buscando favor, proximidade do poder, trocando favores por lealdade e elevando seu status acima dos outros. Alguns podem estar desesperados para minar seus rivais, enquanto outros podem até estar abertos a discussões que beiram a sedição.</p><section id=\"secret-pDDW0dor0MhTdx4c\" class=\"secret\"><p><em>Como eles se beneficiam da vassalagem e o que isso lhes custou? Que exploração os leva a considerar se opor ao imparável?</em></p></section>"
+        },
+        "tm9FL5gJF7Oheu21": {
+          "name": "A Gravidade do Império",
+          "description": "<p><strong>Gaste um Medo</strong> para apresentar a um personagem uma grande oportunidade ou uma oferta para satisfazer um objetivo importante em troca de obedecer ou apoiar o império. O alvo deve fazer um teste de Reação de Presença. Em caso de falha, ele deve marcar todo o Estresse ou aceitar a oferta. Se já tiver marcado todo o Estresse, deve aceitar a oferta ou se exilar do império. Em caso de sucesso, ele deve marcar <strong>1d4</strong> de Estresse, taxado pela tentação.</p><section class=\"secret\" id=\"secret-4carYxEQygk6m4cQ\"><p><em>O que os personagens desejam tanto que considerariam se aliar a esse poder implacável? Como os agentes imperiais descobriram os maiores desejos do personagem?</em></p></section>",
+          "actions": {
+            "Pr8CpaOehr1cE1b8": {
+              "name": "Teste de Reação",
+              "description": "<p><strong>Gaste um Medo</strong> para apresentar a um personagem uma grande oportunidade ou uma oferta para satisfazer um objetivo importante em troca de obedecer ou apoiar o império. O alvo deve fazer um teste de Reação de Presença. Em caso de falha, ele deve marcar todo o Estresse ou aceitar a oferta. Se já tiver marcado todo o Estresse, deve aceitar a oferta ou se exilar do império. Em caso de sucesso, ele deve marcar <strong>1d4</strong> de Estresse, taxado pela tentação.</p><section class=\"secret\" id=\"secret-jB2klJ9141Yiot3c\"><p><em>O que os personagens desejam tanto que considerariam se aliar a esse poder implacável? Como os agentes imperiais descobriram os maiores desejos do personagem?</em></p></section>"
+            }
+          }
+        },
+        "HwSKX5r40ux0OfJN": {
+          "name": "Decreto Imperial",
+          "description": "<p><strong>Gaste um Medo</strong> para reduzir uma contagem regressiva de longo prazo relacionada à agenda do império em [[/r 1d4]]. Se isso acionar a contagem, um decreto relacionado à agenda é anunciado na corte à medida que o plano é executado.</p><section class=\"secret\" id=\"secret-kuZLu5mJvqvQ1NvT\"><p><em>Que demonstração de poder ou transferência de riqueza foi necessária para acelerar esse plano? Que vidas foram perturbadas ou viradas de cabeça para baixo para que isso acontecesse?</em></p></section>",
+          "actions": {
+            "9ipckCFMz9DVw8ab": {
+              "name": "Role d4",
+              "description": "<p><strong>Gaste um Medo</strong> para reduzir uma contagem regressiva de longo prazo relacionada à agenda do império em [[/r 1d4]]. Se isso acionar a contagem, um decreto relacionado à agenda é anunciado na corte à medida que o plano é executado.</p><section class=\"secret\" id=\"secret-ThoGDjazxfPoUvJS\"><p><em>Que demonstração de poder ou transferência de riqueza foi necessária para acelerar esse plano? Que vidas foram perturbadas ou viradas de cabeça para baixo para que isso acontecesse?</em></p></section>"
+            }
+          }
+        },
+        "YPMgWUagVq1Hicqo": {
+          "name": "Olhos em Toda Parte",
+          "description": "<p>Em um resultado com Medo, você pode <strong>gastar um Medo</strong> para fazer com que alguém leal ao império ouça uma conversa sediciosa dentro da corte. Um personagem deve ter sucesso em um teste de Reação de Instinto para perceber que o grupo foi ouvido, de modo que possam tentar interceptar a testemunha antes que os personagens sejam expostos.</p><section class=\"secret\" id=\"secret-kN4J3annyev9WWUs\"><p><em>Como o império comprometeu essa testemunha? Por que o primeiro impulso dela é proteger o império mesmo que ele não a trate bem?</em></p></section>",
+          "actions": {
+            "czEbFu3uIlW5Spju": {
+              "name": "Teste de Reação",
+              "description": "<p>Em um resultado com Medo, você pode <strong>gastar um Medo</strong> para fazer com que alguém leal ao império ouça uma conversa sediciosa dentro da corte. Um personagem deve ter sucesso em um teste de Reação de Instinto para perceber que o grupo foi ouvido, de modo que possam tentar interceptar a testemunha antes que os personagens sejam expostos.</p><section class=\"secret\" id=\"secret-lCrNuPGNEGSBiTSY\"><p><em>Como o império comprometeu essa testemunha? Por que o primeiro impulso dela é proteger o império mesmo que ele não a trate bem?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Local Tavern": {
+      "name": "Taverna Local",
+      "description": "<p>Uma taverna animada que serve como ponto social da cidade.</p>",
+      "impulses": "Oferecer oportunidades a aventureiros, nutrir a comunidade",
+      "potentialAdversaries": {
+        "H53IurNOv7hOTz88": {
+          "label": "Guards"
+        },
+        "2g6jJtdA8WiA0ihA": {
+          "label": "Mercenaries"
+        },
+        "TzAxfdQKMVRRx5z5": {
+          "label": "Other"
+        }
+      },
+      "items": {
+        "7to5Zu0lNycExCQi": {
+          "name": "Qual é o Assunto da Cidade?",
+          "description": "<p>Um personagem pode perguntar ao bartender, à equipe ou aos clientes sobre eventos locais, rumores e trabalhos em potencial com um teste de Presença. Em caso de sucesso, ele pode escolher dois dos detalhes abaixo para descobrir — ou três se obtiver sucesso crítico. Em caso de falha, pode escolher um e marcar um Estresse enquanto o local continua falando sobre algo irrelevante.</p><ul><li><p>Um rumor fascinante com ligação ao antecedente de um personagem</p></li><li><p>Um trabalho promissor para o grupo envolvendo uma ameaça ou situação próxima</p></li><li><p>Folclore local que se relaciona com algo que eles viram</p></li><li><p>Fofoca da cidade que indica um problema da comunidade</p></li></ul><section id=\"secret-x6IPMS6Z4MFBE65u\" class=\"secret\"><p><em>Quem sabe que tipo de informação? Que fofoca os locais começam a espalhar sobre os personagens?</em></p></section>"
+        },
+        "oLn3co1mN83OiFWo": {
+          "name": "Cante pelo seu Jantar",
+          "description": "<p>Um personagem pode se apresentar uma vez para os clientes fazendo um teste de Presença. Em caso de sucesso, ele ganha <strong>[[/r 1d4]]</strong> punhados de ouro (<strong>[[/r 2d4]]</strong> se obtiver sucesso crítico). Em caso de falha, ele marca um Estresse.</p><section id=\"secret-vrH9YdQGP2sTa3cV\" class=\"secret\"><p><em>Que peça você apresenta? O que essa peça significa para você? Quando foi a última vez que você a apresentou para uma plateia?</em></p></section>"
+        },
+        "cAbSo5VQHxJqJPKm": {
+          "name": "Estranho Misterioso",
+          "description": "<p>Revele um estranho ocultando sua identidade, espreitando em uma cabine sombreada.</p><section id=\"secret-tgxS9TgbDCpI1kZC\" class=\"secret\"><p><em>O que ele quer? Qual é a impressão dele sobre os personagens? Que maneirismos ou acessórios ele tem?</em></p></section>"
+        },
+        "QPezCAC18vIc5xRC": {
+          "name": "Alguém Chega à Cidade",
+          "description": "<p>Apresente um NPC importante que quer contratar o grupo para algo ou que se relaciona ao antecedente de um personagem.</p><section class=\"secret\" id=\"secret-DB6Th0yGCjAsAZp6\"><p><em>Ele sabia que os personagens estavam aqui? O que ele quer nesta cidade?</em></p></section>"
+        },
+        "H3LNvVrUbsAkgjni": {
+          "name": "Briga de Bar",
+          "description": "<p><strong>Gaste um Medo</strong> para fazer uma briga de bar explodir na taverna. Quando um personagem tenta se mover pela taverna enquanto a briga persiste, ele deve ter sucesso em um teste de Agilidade ou Presença ou sofrer <strong>1d6+2</strong> de dano físico de um golpe perdido ou objeto arremessado. Um personagem pode tentar ativar este recurso obtendo sucesso em uma rolagem de ação que provocaria os clientes da taverna.</p><section class=\"secret\" id=\"secret-xLK8VSKLM6JQRySG\"><p><em>Quem iniciou a briga? O que será necessário para pará-la?</em></p></section>",
+          "actions": {
+            "4UjyjYaMdcnFmVrL": {
+              "name": "Dano"
+            }
+          }
+        }
+      }
+    },
+    "Mountain Pass": {
+      "name": "Passagem Montanhosa",
+      "description": "<p>Picos rochosos que perfuram as nuvens, com uma trilha sinuosa subindo e descendo por várias curvas fechadas.</p>",
+      "impulses": "Cobrar um preço gelado em suprimentos e resistência, revelar interferência mágica, desacelerar a viagem",
+      "potentialAdversaries": {
+        "f08TnNkCjPIzmQHh": {
+          "label": "Beasts"
+        },
+        "8aqHp1uxtxvnuNSU": {
+          "label": "Other"
+        }
+      },
+      "items": {
+        "cIAMenvMXHPTpOFn": {
+          "name": "Sigilos Gravados",
+          "description": "<p>Grandes marcas e gravuras foram feitas na encosta da montanha. Um personagem com antecedente ou Experiência relevante as identifica como magia climática que aumenta o poder dos ventos gélidos. Um personagem que obtiver sucesso em um teste de Conhecimento pode recordar informações sobre os sigilos, possíveis informações sobre seus criadores e o conhecimento de como dissipá-los. Se um personagem obtiver sucesso crítico, ele reconhece que os sigilos são de um estilo criado por encantadores da crista e ganha vantagem em um teste para dissipar os sigilos.</p><section id=\"secret-5FNK8Z7pIo0nEyCA\" class=\"secret\"><p><em>Quem lançou esse encantamento? Eles estão por perto? Por que queriam que o clima fosse mais intimidador?</em></p></section>"
+        },
+        "jkm03DXYYajsRk2j": {
+          "name": "Avalanche",
+          "description": "<p>Gaste um Medo para cortar a montanha com uma torrente de gelo, causando uma avalanche. Todos os personagens no caminho devem ter sucesso em um teste de Reação de Agilidade ou Força ou serem derrubados e carregados montanha abaixo. Um personagem usando corda, pitões ou outro equipamento de escalada ganha vantagem neste teste. Alvos que falham são arrastados montanha abaixo para alcance Distante, sofrem <strong>2d20</strong> de dano físico e devem marcar um Estresse. Alvos que têm sucesso devem marcar um Estresse.</p><section id=\"secret-3gM8fEJj1vD9W88k\" class=\"secret\"><p><em>Como os personagens tentam resistir à avalanche? Que abordagem eles adotam para encontrar uns aos outros quando os companheiros despencam pela encosta?</em></p></section>",
+          "actions": {
+            "P2fHddwfyEGUwpCH": {
+              "name": "Dano",
+              "description": "<p>Gaste um Medo para cortar a montanha com uma torrente de gelo, causando uma avalanche. Todos os personagens no caminho devem ter sucesso em um teste de Reação de Agilidade ou Força ou serem derrubados e carregados montanha abaixo. Um personagem usando corda, pitões ou outro equipamento de escalada ganha vantagem neste teste. Alvos que falham são arrastados montanha abaixo para alcance Distante, sofrem <strong>2d20</strong> de dano físico e devem marcar um Estresse. Alvos que têm sucesso devem marcar um Estresse.</p><section class=\"secret\" id=\"secret-scxxru7P29oZ1dt8\"><p><em>Como os personagens tentam resistir à avalanche? Que abordagem eles adotam para encontrar uns aos outros quando os companheiros despencam pela encosta?</em></p></section>"
+            }
+          }
+        },
+        "hkZVEduCWJFR0h2S": {
+          "name": "Ninho de Raptores",
+          "description": "<p>Quando os personagens entram no território de caça dos raptores, duas @UUID[Compendium.daggerheart.adversaries.Actor.OMQ0v6PE8s1mSU0K]{Águias Gigantes} aparecem a alcance Muito Distante de um personagem escolhido, identificando os personagens como presas prováveis.</p><section id=\"secret-aU19zKlmhVBdS2oF\" class=\"secret\"><p><em>Quanto tempo faz desde que as águias encontraram presas pela última vez? Elas têm ovos no ninho ou filhotes sem penas?</em></p></section>"
+        },
+        "K8ld4m5yTA6WZwUs": {
+          "name": "Ventos Gélidos",
+          "description": "<p><em>Contagem Regressiva (Ciclo 4)</em>. Quando os personagens entram na passagem montanhosa, ative a contagem regressiva. Quando ela é acionada, todos os personagens que viajam pela passagem devem ter sucesso em um teste de Reação de Força ou marcar um Estresse. Um personagem vestindo roupas apropriadas para frio extremo ganha vantagem nesses testes.</p><section class=\"secret\" id=\"secret-FsJMzj3ZZuf134s2\"><p><em>Que partes do corpo do personagem ficam dormentes primeiro? Como eles tentam se manter aquecidos enquanto avançam?</em></p></section>",
+          "actions": {
+            "kDV2h9DhO6fEDcjl": {
+              "name": "Teste de Reação",
+              "description": "<p>Todos os personagens que viajam pela passagem devem ter sucesso em um teste de Reação de Força ou marcar um Estresse. Um personagem vestindo roupas apropriadas para frio extremo ganha vantagem nesses testes.</p><section class=\"secret\" id=\"secret-nEZRdWaqMAIUoQG0\"><p><em>Que partes do corpo do personagem ficam dormentes primeiro? Como eles tentam se manter aquecidos enquanto avançam?</em></p></section>"
+            },
+            "yJj6IsNNTEyKndvO": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p><em>Contagem Regressiva (Ciclo 4)</em>. Quando os personagens entram na passagem montanhosa, ative a contagem regressiva.</p>",
+              "countdown": {
+                "Icy Winds": "Ventos Gélidos"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Necromancer’s Ossuary": {
+      "name": "Ossuário do Necromante",
+      "description": "<p>Uma cripta empoeirada com uma biblioteca, corredores sinuosos e abundantes sarcófagos, salpicada com o sangue de invasores malfadados.</p>",
+      "impulses": "Confundir intrusos, mergulhar em segredos que devem permanecer enterrados, manifestar a não-vida, liberar uma maré de mortos-vivos",
+      "potentialAdversaries": {
+        "eYaDM6WMAmdzysKZ": {
+          "label": "Arch-Necromancer's Host"
+        }
+      },
+      "items": {
+        "SJo1Pw0fE4vKnisr": {
+          "name": "Nenhum Lugar para os Vivos",
+          "description": "<p>Um recurso ou ação que recupere PV exige gastar uma Esperança para usar. Se já custar Esperança, o personagem deve gastar uma Esperança adicional.</p><section class=\"secret\" id=\"secret-kxbv8Ju7dkBJnduH\"><p><em>Como é tentar se curar em um lugar tão antitético à vida?</em></p></section>",
+          "actions": {
+            "jVY198vniaTSlgsX": {
+              "name": "Perca Esperança",
+              "description": "<p>Um recurso ou ação que recupere PV exige gastar uma Esperança para usar. Se já custar Esperança, o personagem deve gastar uma Esperança adicional.</p><section class=\"secret\" id=\"secret-Ls4rMO6N9zzuR2Ib\"><p><em>Como é tentar se curar em um lugar tão antitético à vida?</em></p></section>"
+            }
+          }
+        },
+        "Egi337jsYlldHzEH": {
+          "name": "Séculos de Conhecimento",
+          "description": "<p>Um personagem pode investigar a biblioteca e o laboratório e fazer um teste de Conhecimento para aprender informações relacionadas a arcana, história local e os planos do Necromante.</p><section id=\"secret-HAWRKErLm6NSqzHc\" class=\"secret\"><p><em>Quais são os nomes dos tomos? Em que projeto o necromante está trabalhando e o que isso comunica sobre seus planos?</em></p></section>"
+        },
+        "asSGMUdf4gG4PO8F": {
+          "name": "Explosão Esquelética",
+          "description": "<p>Todos os alvos a alcance Próximo de um ponto que você escolher neste ambiente devem ter sucesso em um teste de Reação de Agilidade ou sofrer <strong>4d8+8</strong> de dano físico de estilhaços ósseos enquanto parte do ossuário detona ao redor deles.</p><p>@Template[type:circle|range:c]</p><section id=\"secret-b6zF5gClmMcrmeVT\" class=\"secret\"><p><em>Que arquitetura esquelética antiga é destruída? Que ossos ficam presos na sua armadura?</em></p></section>",
+          "actions": {
+            "M1mOwi4Limw2hRwL": {
+              "name": "Teste de Reação",
+              "description": "<p>Todos os alvos a alcance Próximo de um ponto que você escolher neste ambiente devem ter sucesso em um teste de Reação de Agilidade ou sofrer <strong>4d8+8</strong> de dano físico de estilhaços ósseos enquanto parte do ossuário detona ao redor deles.</p><p>@Template[type:circle|range:c]</p><section class=\"secret\" id=\"secret-xjKFOtdFFWAgx2Cv\"><p><em>Que arquitetura esquelética antiga é destruída? Que ossos ficam presos na sua armadura?</em></p></section>"
+            }
+          }
+        },
+        "mnpqMpYCjdlwtvBp": {
+          "name": "Aura da Morte",
+          "description": "<p>Uma vez por cena, role um <strong>d4</strong>. Cada morto-vivo a alcance Distante do Necromante pode recuperar PV e Estresse iguais ao resultado. Os mortos-vivos podem escolher como dividir esse número entre PV e Estresse.</p><section id=\"secret-LzevSyHyOxNxLwwh\" class=\"secret\"><p><em>Como o vigor renovado deles se manifesta? Eles parecem mais vivos ou, paradoxalmente, mais decompostos, porém vigorosos?</em></p></section>",
+          "actions": {
+            "UWCibXbQZG22PJ3l": {
+              "name": "Role d4",
+              "description": "<p>Uma vez por cena, role um <strong>d4</strong>. Cada morto-vivo a alcance Distante do Necromante pode recuperar PV e Estresse iguais ao resultado. Os mortos-vivos podem escolher como dividir esse número entre PV e Estresse.</p><section class=\"secret\" id=\"secret-frj3OBrXCjpKtWSg\"><p><em>Como o vigor renovado deles se manifesta? Eles parecem mais vivos ou, paradoxalmente, mais decompostos, porém vigorosos?</em></p></section>"
+            }
+          }
+        },
+        "chJRXNg5zyTGbcG5": {
+          "name": "Eles Não Param de Vir!",
+          "description": "<p><strong>Gaste um Medo</strong> para invocar [[/r 1d6]] @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{Zumbi Podre}, dois @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{Zumbi Perfeito} ou uma @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Legião de Zumbis}, que aparecem a alcance Próximo de um personagem escolhido.</p><section class=\"secret\" id=\"secret-O5DKa2eIgNp51OVK\"><p><em>Quem eram essas pessoas antes de se tornarem marionetes do necromante? Que vestígios dessas vidas permanecem para os heróis verem?</em></p></section>",
+          "actions": {
+            "hFeTdiHWeCYkb8Hg": {
+              "name": "Gaste um Medo",
+              "description": "<p><strong>Gaste um Medo</strong> para invocar [[/r 1d6]] @UUID[Compendium.daggerheart.adversaries.Actor.gP3fWTLzSFnpA8EJ]{Zumbi Podre}, dois @UUID[Compendium.daggerheart.adversaries.Actor.CP6iRfHdyFWniTHY]{Zumbi Perfeito} ou uma @UUID[Compendium.daggerheart.adversaries.Actor.YhJrP7rTBiRdX5Fp]{Legião de Zumbis}, que aparecem a alcance Próximo de um personagem escolhido.</p><section class=\"secret\" id=\"secret-Du2785Ih29RVrHpG\"><p><em>Quem eram essas pessoas antes de se tornarem marionetes do necromante? Que vestígios dessas vidas permanecem para os heróis verem?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Outpost Town": {
+      "name": "Localidade Estratégica",
+      "description": "<p>Uma pequena cidade nos arredores de uma nação ou região, perto de uma masmorra, tumbas ou outros destinos de aventura.</p>",
+      "impulses": "Levar os desesperados a uma ruína certa, lucrar com uma esperança desgastada",
+      "potentialAdversaries": {
+        "yZr3dTicergVkU0d": {
+          "label": "Bandidos da Faca Serrilhada"
+        },
+        "KZSZadT58Pd1kaDH": {
+          "label": "Outros"
+        }
+      },
+      "items": {
+        "whN2Ztn2wMqD7uW3": {
+          "name": "Rumores se Espalham",
+          "description": "<p>Fofoca é a moeda que mais rápido viaja no reino. Um personagem pode perguntar sobre grandes eventos fazendo um teste de Presença. O que ele descobre depende do resultado da rolagem, conforme os critérios abaixo:</p><ul><li><p><strong>Sucesso Crítico:</strong> Descubra dois grandes eventos. O personagem pode fazer uma pergunta de acompanhamento sobre um dos rumores e receber uma resposta verdadeira (ainda que nem sempre completa).</p></li><li><p><strong>Sucesso com Esperança:</strong> Descubra dois eventos, pelo menos um deles relacionado ao antecedente do personagem.</p></li><li><p><strong>Sucesso com Medo:</strong> Descubra um rumor alarmante relacionado ao antecedente do personagem.</p></li><li><p><strong>Qualquer Falha:</strong> Os locais reagem mal às perguntas. O personagem deve marcar um Estresse para descobrir um rumor relevante.</p></li></ul><section id=\"secret-IRa0gzmTR2psynpd\" class=\"secret\"><p><em>Que novidades os personagens têm que poderiam compartilhar com viajantes curiosos? O que os locais pensam sobre esses eventos?</em></p></section>"
+        },
+        "nhf2TK7HSkuAgIi8": {
+          "name": "Sociedade da Bússola Quebrada",
+          "description": "<p>Uma sociedade de aventureiros mantém uma sede aqui, onde heróis trocam bravatas e rumores, bebem por seus sucessos imaginados e conspiram para minar seus rivais.</p><section id=\"secret-dqbYBpMMEMIe3Woh\" class=\"secret\"><p><em>Que bravatas os aventureiros fazem aqui e quais você acha que são verdadeiras?</em></p></section>"
+        },
+        "cPozA1iT4NLwsWqB": {
+          "name": "Grupo Rival",
+          "description": "<p>Outro grupo de aventureiros está aqui, buscando o mesmo tesouro ou pistas que os personagens.</p><section id=\"secret-1CvOSOAzIzFqPzXt\" class=\"secret\"><p><em>Qual personagem tem ligação com um dos membros do grupo rival? Eles abordam o personagem primeiro ou esperam o personagem se mover?</em></p></section>"
+        },
+        "uxu8YrvYVxP3Qc2y": {
+          "name": "Seria uma Pena se Algo Acontecesse com Sua Loja",
+          "description": "<p>Os personagens testemunham agentes de um chefe do crime local extorquindo uma loja de suprimentos gerais.</p><section id=\"secret-QbURC6tIeF3hLLT6\" class=\"secret\"><p><em>Que problema isso causa se os personagens intervirem?</em></p></section>"
+        },
+        "21tdueq5Wgvj3vG4": {
+          "name": "Lugar Errado, Hora Errada",
+          "description": "<p>À noite, ou quando o grupo está sozinho em um beco, você pode <strong>gastar um Medo</strong> para introduzir um bando de ladrões que tenta roubá-los. Os ladrões aparecem a alcance Próximo de um personagem escolhido e incluem um @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Joelheira com faca irregular}, tantos @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Seis da Faca Jagged} quanto o número de personagens e um @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Tenente de \"A Faca Jagged\"}. Para um grupo maior, adicione um @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Feiticeiro de \"A Faca Jagged\"} ou um @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Atirador de faca irregular}.</p><section class=\"secret\" id=\"secret-5MEuvRtxMnpLEwAA\"><p><em>Que detalhes mostram ao grupo que essas pessoas são ex-aventureiros desesperados?</em></p></section>",
+          "actions": {
+            "UBHQzK5D6Dn5QuPc": {
+              "name": "Gaste um Medo",
+              "description": "<p>À noite, ou quando o grupo está sozinho em um beco, você pode <strong>gastar um Medo</strong> para introduzir um bando de ladrões que tenta roubá-los. Os ladrões aparecem a alcance Próximo de um personagem escolhido e incluem um @UUID[Compendium.daggerheart.adversaries.Actor.CBKixLH3yhivZZuL]{Joelheira com faca irregular}, tantos @UUID[Compendium.daggerheart.adversaries.Actor.C0OMQqV7pN6t7ouR]{Seis da Faca Jagged} quanto o número de personagens e um @UUID[Compendium.daggerheart.adversaries.Actor.aTljstqteGoLpCBq]{Tenente de \"A Faca Jagged\"}.</p><section id=\"secret-8U6iwKGNeWQ27x1A\" class=\"secret\"><p>Para um grupo maior, adicione um @UUID[Compendium.daggerheart.adversaries.Actor.MbBPIOxaxXYNApXz]{Feiticeiro de \"A Faca Jagged\"} ou um @UUID[Compendium.daggerheart.adversaries.Actor.1zuyof1XuIfi3aMG]{Atirador de faca irregular}.</p><p><em>Que detalhes mostram ao grupo que essas pessoas são ex-aventureiros desesperados?</em></p></section>"
+            }
+          }
+        }
+      }
+    },
+    "Pitched Battle": {
+      "name": "Batalha Campal",
+      "description": "<p>Um combate massivo entre dois grandes grupos de combatentes armados.</p>",
+      "impulses": "Tomar pessoas, terras e riqueza, derramar sangue por ganância e glória",
+      "potentialAdversaries": {
+        "tGf8mFL6DiGaOzxS": {
+          "label": "Mercenários"
+        },
+        "E13BxwBg4sKl01IR": {
+          "label": "Forças Nobres"
+        }
+      },
+      "items": {
+        "HG9GwIZoCDcqOEOc": {
+          "name": "Batalha Campal",
+          "description": "<p>Atravessar um campo de batalha durante um combate ativo é extremamente perigoso. Um personagem deve ter sucesso em um teste de Agilidade para se mover e pode ir apenas até alcance Próximo em caso de sucesso. Se um adversário estiver a alcance Corpo a Corpo dele, deve marcar um Estresse para fazer um teste de Agilidade e se mover.</p><section id=\"secret-c0pwA8OrITyfhrCX\" class=\"secret\"><p><em>Os combatentes o confundem com o inimigo ou o consideram intruso? Você consegue distinguir aliado de inimigo no meio do caos?</em></p></section>"
+        },
+        "fnvOiHKsd34EaLqG": {
+          "name": "Saque e Devastação",
+          "description": "<p>A força atacante aumenta a aposta ao incendiar um local, roubar um bem valioso, sequestrar uma pessoa importante ou matar a população.</p><section id=\"secret-5JBRdq8QJcmurvLp\" class=\"secret\"><p><em>O que é valioso aqui? Quem é o mais vulnerável?</em></p></section>"
+        },
+        "r9kkodHghWm01mje": {
+          "name": "Magia de Guerra",
+          "description": "<p><strong>Gaste um Medo</strong> enquanto um mago de um dos lados usa magia destrutiva em grande escala. Escolha um ponto no campo de batalha a alcance Muito Distante do mago. Todos os alvos a alcance Próximo desse ponto devem fazer um teste de Reação de Agilidade. Alvos que falharem sofrem <strong>3d12+8</strong> de dano mágico e devem marcar um Estresse.</p><p>@Template[type:circle|range:c]</p><section id=\"secret-PpyF0dXMEudYnFqh\" class=\"secret\"><p><em>Que forma o ataque assume — bola de fogo, chuva de ácido, tempestade de lâminas? Que objetivo tático esse ataque pretende cumprir e o que acontece em seguida?</em></p></section>",
+          "actions": {
+            "1giAFbu3tGqXwi8g": {
+              "name": "Teste de Reação",
+              "description": "<p><strong>Gaste um Medo</strong> enquanto um mago de um dos lados usa magia destrutiva em grande escala. Escolha um ponto no campo de batalha a alcance Muito Distante do mago. Todos os alvos a alcance Próximo desse ponto devem fazer um teste de Reação de Agilidade. Alvos que falharem sofrem <strong>3d12+8</strong> de dano mágico e devem marcar um Estresse.</p><p>@Template[type:circle|range:c]</p><section class=\"secret\" id=\"secret-jbI9lwrzP59CTRUt\"><p><em>Que forma o ataque assume — bola de fogo, chuva de ácido, tempestade de lâminas? Que objetivo tático esse ataque pretende cumprir e o que acontece em seguida?</em></p></section>"
+            }
+          }
+        },
+        "ZAIvH5CfhehW48EY": {
+          "name": "Reforços",
+          "description": "<p>Invoque um @UUID[Compendium.daggerheart.adversaries.Actor.7ai2opemrclQe3VF]{Cavaleiro da Coroa}, um número de Lacaios de Patamar 3 igual ao número de personagens e dois adversários à sua escolha a alcance Distante de um personagem escolhido como reforços. O Cavaleiro da Coroa recebe imediatamente o destaque.</p><section id=\"secret-ZNhg3daBKekzABSQ\" class=\"secret\"><p><em>Quem eles atacam primeiro? Que formação eles adotam?</em></p></section>"
+        }
+      }
+    },
+    "Raging River": {
+      "name": "Manancial Raivoso",
+      "description": "<p>Um rio de correnteza rápida sem ponte para atravessar, profundo o bastante para arrastar a maioria das pessoas.</p>",
+      "impulses": "Barrar a travessia, levar os despreparados, dividir a terra",
+      "potentialAdversaries": {
+        "UUdCj6oiRrJ4QWWD": {
+          "label": "Bestas"
+        },
+        "IOPWkNbGuLvPgnSy": {
+          "label": "Bandidos da Faca Serrilhada"
+        }
+      },
+      "items": {
+        "4ILX7BCinmsGqrJM": {
+          "name": "Travessia Perigosa",
+          "description": "<p>Atravessar o rio exige que o grupo complete uma <em>Contagem Regressiva de Progresso (4)</em>.</p><section class=\"secret\" id=\"secret-l7tHfgFFOGdvlnll\"><p>Um personagem que obtiver falha com Medo é imediatamente alvo da ação <em>Contracorrente</em> sem exigir que um Medo seja gasto no recurso.</p></section><p></p><section class=\"secret\" id=\"secret-VF0r7nXxQlmuwMpj\"><p><em>Algum personagem já atravessou rios assim? Algum deles tem medo de se afogar?</em></p></section>",
+          "actions": {
+            "91HPIEEcVKPQ5qqn": {
+              "name": "Iniciar Contagem Regressiva",
+              "description": "<p>Atravessar o rio exige que o grupo complete uma <em>Contagem Regressiva de Progresso (4)</em>.</p><section class=\"secret\" id=\"secret-aKJuTbAZaPUFxoiE\"><p>Um personagem que obtiver falha com Medo é imediatamente alvo da ação <em>Contracorrente</em> sem exigir que um Medo seja gasto no recurso.</p></section><p></p><section class=\"secret\" id=\"secret-GSYTFIq8J3k2a4Ww\"><p><em>Algum personagem já atravessou rios assim? Algum deles tem medo de se afogar?</em></p></section>",
+              "countdown": {
+                "Dangerous Crossing": "Travessia Perigosa"
+              }
+            }
+          }
+        },
+        "WsNoSwwtv0r80BMj": {
+          "name": "Contracorrente",
+          "description": "<p><strong>Gaste um Medo</strong> para pegar um personagem na contracorrente. Ele deve fazer um teste de Reação de Agilidade. Em caso de falha, ele sofre <strong>1d6+1</strong> de dano físico e é movido a alcance Próximo rio abaixo, ficando <em>Vulnerável</em> até sair do rio. Em caso de sucesso, ele deve marcar um Estresse.</p><section id=\"secret-H6i1kuyHdtq9Eqgw\" class=\"secret\"><p><em>Que bugigangas e quinquilharias estão no fundo do leito do rio? Predadores nadam nesses rios?</em></p></section>",
+          "actions": {
+            "f2e3gbhzD7z8BdCc": {
+              "name": "Teste de Reação",
+              "description": "<p><strong>Gaste um Medo</strong> para pegar um personagem na contracorrente. Ele deve fazer um teste de Reação de Agilidade. Em caso de falha, ele sofre <strong>1d6+1</strong> de dano físico e é movido a alcance Próximo rio abaixo, ficando <em>Vulnerável</em> até sair do rio. Em caso de sucesso, ele deve marcar um Estresse.</p><section class=\"secret\" id=\"secret-FmZbu6m2gtachqyE\"><p><em>Que bugigangas e quinquilharias estão no fundo do leito do rio? Predadores nadam nesses rios?</em></p></section>"
+            }
+          },
+          "effects": {
+            "T0ouSQyR8cVpAn79": {
+              "name": "Contracorrente",
+              "description": "<p><em>Vulnerável</em> até você sair do rio.</p>"
+            }
+          }
+        },
+        "SDTS3LOPMVJOt1S1": {
+          "name": "Caçador Paciente",
+          "description": "<p><strong>Gaste um Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0]{Cobra de vidro} a alcance Próximo de um personagem escolhido. A cobra aparece no rio ou perto dele e imediatamente recebe o destaque para usar sua ação <em>Serpente Giratória</em>.</p><section class=\"secret\" id=\"secret-F8zsJQg3xWOPpH5v\"><p><em>Que tesouros a fera guarda em seu covil? Que viajantes já foram vítimas desse predador?</em></p></section>",
+          "actions": {
+            "Mnp0Yzc7EPVXm8So": {
+              "name": "Gaste um Medo",
+              "description": "<p><strong>Gaste um Medo</strong> para invocar uma @UUID[Compendium.daggerheart.adversaries.Actor.8KWVLWXFhlY2kYx0]{Cobra de vidro} a alcance Próximo de um personagem escolhido. A cobra aparece no rio ou perto dele e imediatamente recebe o destaque para usar sua ação <em>Serpente Giratória</em>.</p><section class=\"secret\" id=\"secret-YIc1Y8jgJKanim7f\"><p><em>Que tesouros a fera guarda em seu covil? Que viajantes já foram vítimas desse predador?</em></p></section>"
+            }
+          }
+        }
+      }
+    }
+  }
+}

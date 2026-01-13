@@ -1,0 +1,531 @@
+{
+  "label": "Mais Adversários",
+  "mapping": {
+    "description": "items.system.description",
+    "attack": "system.attack.name",
+    "experiences": "system.experiences.{}.name",
+    "motivesAndTactics": "system.motivesAndTactics",
+    "name": "items.name"
+  },
+  "folders": {
+    "Bruiser": "Brutamontes",
+    "Tier 1": "Grau 1",
+    "Tier 3": "Grau 3",
+    "Standard": "Padrão",
+    "Tier 2": "Grau 2",
+    "Horde": "Horda",
+    "Minion": "Lacaio",
+    "Skulk": "Espreitador",
+    "Solo": "Solo",
+    "Social": "Social",
+    "Tier 4": "Grau 4",
+    "Leader": "Líder",
+    "Adversaries": "Adversários"
+  },
+  "entries": {
+    "Lord of Night": {
+      "name": "Lorde da Noite",
+      "tokenName": "Lorde da Noite",
+      "items": {
+        "Beam Of Decay": {
+          "name": "Raio de Decomposição"
+        },
+        "Not Today, My Dears": {
+          "name": "Não Hoje, Meus Queridos"
+        },
+        "Your Life Is Mine": {
+          "name": "Sua Vida É Minha"
+        },
+        "Terrifying": {
+          "name": "Aterrorizante"
+        },
+        "Look into My Eyes": {
+          "name": "Olhe nos Meus Olhos"
+        },
+        "Lifesuck": {
+          "name": "Suga-Vida"
+        },
+        "The Hunt Is On": {
+          "name": "A Caçada Começou"
+        },
+        "Feed on Followers": {
+          "name": "Alimentar-se dos Seguidores"
+        },
+        "Nightmare Tableau": {
+          "name": "Tableau do Pesadelo"
+        },
+        "Slippery": {
+          "name": "Escorregadio"
+        },
+        "Relentless (3)": {
+          "name": "Implacável (3)"
+        }
+      },
+      "description": "Senhor Vampiro",
+      "attack": "Explosão Necrótica",
+      "motivesAndTactics": "Encantar, Criar Servos, Voar, Intimidar, Comandar"
+    },
+    "Crush": {
+      "name": "Paixão",
+      "tokenName": "Paixão",
+      "items": {
+        "Ribbet in Your Throat - Passive": {
+          "name": "Crocitar na Sua Garganta - Passivo"
+        },
+        "A Tiny Request - Action": {
+          "name": "Um Pequeno Pedido - Ação"
+        },
+        "Don't Blow It! - Reaction": {
+          "name": "Não Estrague Tudo! - Reação"
+        },
+        "Shared Smile - Reaction": {
+          "name": "Sorriso Compartilhado - Reação"
+        },
+        "Basking in Attention - Reaction": {
+          "name": "Se Deliciar na Atenção - Reação"
+        }
+      },
+      "description": "Uma pessoa que ocupa um lugar especial, talvez angustiante, no afeto de alguém. Ela pode ser encantadoramente distraída, divertidamente tímida ou simplesmente possuir uma aura que dificulta o pensamento coerente de seu admirador, muitas vezes causando constrangimento involuntariamente ou aumentando a tensão das interações sociais apenas por estar presente.",
+      "attack": "Grampo de Cabelo Ornado",
+      "motivesAndTactics": "Perder deixas, bancar o(a) difícil, deixar tudo constrangedor, buscar validação, evitar confronto"
+    },
+    "Chaos Spawn - Gray": {
+      "name": "Cria do Caos - Cinza",
+      "tokenName": "Cria do Caos - Cinza",
+      "items": {
+        "Backstab": {
+          "name": "Punhalada pelas Costas"
+        },
+        "Cloaked": {
+          "name": "Encoberto"
+        },
+        "Chaos Claws": {
+          "name": "Garras do Caos"
+        }
+      },
+      "description": "",
+      "attack": "Garras",
+      "motivesAndTactics": "Flanquear, fazer kiting, amaldiçoar, alvos à distância/voadores primeiro"
+    },
+    "Chaos Spawn - Green": {
+      "name": "Cria do Caos - Verde",
+      "tokenName": "Cria do Caos - Verde",
+      "items": {
+        "Curse": {
+          "name": "Maldição"
+        },
+        "Chaotic Flux": {
+          "name": "Fluxo Caótico"
+        },
+        "Move as a Unit": {
+          "name": "Mover como uma Unidade"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        }
+      },
+      "description": "",
+      "attack": "Cajado do Caos",
+      "motivesAndTactics": "Flanquear, fazer kiting, amaldiçoar, alvos à distância/voadores primeiro"
+    },
+    "Hook Horror": {
+      "name": "Horror de Gancho",
+      "tokenName": "Horror de Gancho",
+      "items": {
+        "Hook Attack": {
+          "name": "Ataque de Gancho"
+        },
+        "Double Strike": {
+          "name": "Golpe Duplo"
+        },
+        "Impale": {
+          "name": "Empalar"
+        }
+      },
+      "description": "",
+      "attack": "Ataque de Garra",
+      "motivesAndTactics": "Caçar, ataque implacável, perseguir"
+    },
+    "Oculorb": {
+      "name": "Oculorbe",
+      "tokenName": "Oculorbe",
+      "items": {
+        "Relentless (2)": {
+          "name": "Implacável (2)"
+        },
+        "All Must fall": {
+          "name": "Todos Devem Cair"
+        },
+        "Weeping Eyes": {
+          "name": "Olhos Lacrimejantes"
+        },
+        "Reaper": {
+          "name": "Ceifador"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        },
+        "Nullifying Gaze": {
+          "name": "Olhar Anulador"
+        }
+      },
+      "description": "",
+      "attack": "Raio Ocular",
+      "motivesAndTactics": "Espalhar desespero, disparar raios oculares, voadores primeiro"
+    },
+    "Gargoyle": {
+      "name": "Gárgula",
+      "tokenName": "Gárgula",
+      "items": {
+        "Flight - Passive": {
+          "name": "Voo - Passivo"
+        },
+        "Ambush - Action": {
+          "name": "Emboscada - Ação"
+        },
+        "Relentless (2)": {
+          "name": "Implacável (2)"
+        },
+        "Stone Form - Passive": {
+          "name": "Forma de Pedra - Passivo"
+        }
+      },
+      "description": "",
+      "attack": "Garras",
+      "motivesAndTactics": "Defender, Espreitar, Emboscar"
+    },
+    "Mimic": {
+      "name": "Mímico",
+      "tokenName": "Mímico",
+      "items": {
+        "False Appearance - Passive": {
+          "name": "Aparência Falsa - Passivo"
+        },
+        "Sticky Touch - Passive": {
+          "name": "Toque Grudento - Passivo"
+        },
+        "Lick of Acid - Action": {
+          "name": "Lambida de Ácido - Ação"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        },
+        "Shapechanger - Action": {
+          "name": "Metamorfo - Ação"
+        }
+      },
+      "description": "",
+      "attack": "Pseudópode",
+      "motivesAndTactics": "Emboscar, se misturar, capturar presas, enganar"
+    },
+    "Chaos Spawn - Red": {
+      "name": "Cria do Caos - Vermelha",
+      "tokenName": "Cria do Caos - Vermelha",
+      "items": {
+        "Armor-Shredding Shards": {
+          "name": "Estilhaços que Dilaceram Armadura"
+        },
+        "Spinning Claws": {
+          "name": "Garras Giratórias"
+        },
+        "Horrifying": {
+          "name": "Horripilante"
+        }
+      },
+      "description": "",
+      "attack": "Mordida",
+      "motivesAndTactics": ""
+    },
+    "Cloaker Mutate": {
+      "name": "Mutação Encoberta",
+      "tokenName": "Mutação Encoberta",
+      "items": {
+        "Relentless (2)": {
+          "name": "Implacável (2)"
+        },
+        "Corpse Swipe": {
+          "name": "Arranhão de Cadáver"
+        },
+        "Tormented Screams": {
+          "name": "Gritos Atormentados"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        }
+      },
+      "description": "",
+      "attack": "Ataque de Cauda",
+      "motivesAndTactics": "Absorver cadáveres, se debater, fome, aterrorizar"
+    },
+    "Quaggoth Pack": {
+      "name": "Matilha de Quaggoth",
+      "tokenName": "Matilha de Quaggoth",
+      "items": {
+        "Horde (1d4+1)": {
+          "name": "Horda (1d4+1)"
+        },
+        "Savage Mauling": {
+          "name": "Dilacerar Selvagem"
+        },
+        "Wounded Fury": {
+          "name": "Fúria Ferida"
+        }
+      },
+      "description": "",
+      "attack": "Ataque de Garra",
+      "motivesAndTactics": "Defender território, Lutar Até o Fim, sobrepujar intrusos com superioridade numérica"
+    },
+    "Great Mimic": {
+      "name": "Grande Mímico",
+      "tokenName": "Mímico",
+      "items": {
+        "False Appearance - Passive": {
+          "name": "Aparência Falsa - Passivo"
+        },
+        "Swallow - Passive": {
+          "name": "Engolir - Passivo"
+        },
+        "Lick of Acid - Action": {
+          "name": "Lambida de Ácido - Ação"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        },
+        "Shapechanger - Action": {
+          "name": "Metamorfo - Ação"
+        },
+        "Relentless (3)": {
+          "name": "Implacável (3)"
+        },
+        "Engulfed": {
+          "name": "Engolfado"
+        }
+      },
+      "description": "",
+      "attack": "Pseudópode",
+      "motivesAndTactics": "emboscar, se misturar, capturar presas, enganar"
+    },
+    "Behir": {
+      "name": "Behir",
+      "tokenName": "Behir",
+      "items": {
+        "Relentless (3)": {
+          "name": "Implacável (3)"
+        },
+        "Lightning Breath": {
+          "name": "Sopro de Relâmpago"
+        },
+        "Swallow": {
+          "name": "Engolir"
+        },
+        "Bite and Swallow": {
+          "name": "Morder e Engolir"
+        }
+      },
+      "description": "",
+      "attack": "Mordida",
+      "motivesAndTactics": "Arrastar para longe, alimentar-se, constrição, agressivo"
+    },
+    "Flesh Meld": {
+      "name": "Fusão de Carne",
+      "tokenName": "Fusão de Carne",
+      "items": {
+        "Terrifying": {
+          "name": "Aterrorizante"
+        },
+        "Aura of Death": {
+          "name": "Aura da Morte"
+        },
+        "Inevitable Death": {
+          "name": "Morte Inevitável"
+        },
+        "Rampage": {
+          "name": "Destruição"
+        },
+        "Envelop": {
+          "name": "Envolver"
+        }
+      },
+      "description": "",
+      "attack": "Rasgar a Carne",
+      "motivesAndTactics": "Devorar, caçar, rastrear, assimilar"
+    },
+    "Grell": {
+      "name": "Grell",
+      "tokenName": "Grell",
+      "items": {
+        "Pack tactics": {
+          "name": "Táticas de Matilha"
+        },
+        "Paralyzing Tentacles": {
+          "name": "Tentáculos Paralisantes"
+        },
+        "From Above": {
+          "name": "De Cima"
+        }
+      },
+      "description": "",
+      "attack": "Bico",
+      "motivesAndTactics": "Incapacitar, Alimentar-se, Isolar e Paralisar, Sobrepujar com Táticas de Matilha"
+    },
+    "Ocular Sentinel": {
+      "name": "Sentinela Ocular",
+      "tokenName": "Sentinela Ocular",
+      "items": {
+        "Relentless (3)": {
+          "name": "Implacável (3)"
+        },
+        "Maddening Presence - Passive": {
+          "name": "Presença Enlouquecedora - Passivo"
+        },
+        "Aberrant Levitation - Passive": {
+          "name": "Levitação Aberrante - Passivo"
+        },
+        "Unraveling Gaze - Action": {
+          "name": "Olhar Desfiador - Ação"
+        },
+        "Tentacular Embrace - Action": {
+          "name": "Abraço Tentacular - Ação"
+        },
+        "Psychic Retaliation - Reaction": {
+          "name": "Retaliação Psíquica - Reação"
+        }
+      },
+      "description": "",
+      "attack": "Chicote de Tentáculo",
+      "motivesAndTactics": "Observar, corromper, desfazer mentes, dominar"
+    },
+    "Townfolk": {
+      "name": "Povo da Cidade",
+      "tokenName": "Povo da Cidade",
+      "items": {
+        "Safety in Numbers": {
+          "name": "Segurança em Números"
+        },
+        "Spread Rumor": {
+          "name": "Espalhar Boato"
+        },
+        "Curiosity": {
+          "name": "Curiosidade"
+        }
+      },
+      "description": "",
+      "attack": "Briga",
+      "motivesAndTactics": "Proteger a família, compartilhar fofocas, evitar problemas, negociar."
+    },
+    "Chicken": {
+      "name": "Galinha",
+      "tokenName": "Galinha",
+      "items": {
+        "Minion (3)": {
+          "name": "Lacaio (3)"
+        },
+        "Group Attack": {
+          "name": "Ataque em Grupo"
+        }
+      },
+      "description": "",
+      "attack": "Bico",
+      "motivesAndTactics": "Catar restos, sobrepujar, proteger"
+    },
+    "Chaos Spawn - Blue": {
+      "name": "Cria do Caos - Azul",
+      "tokenName": "Cria do Caos - Azul",
+      "items": {
+        "Double Strike": {
+          "name": "Golpe Duplo"
+        },
+        "Noxious Claws": {
+          "name": "Garras Nocivas"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        }
+      },
+      "description": "",
+      "attack": "Mordida",
+      "motivesAndTactics": "Engajar-se em violência direta e brutal"
+    },
+    "Gibbering Mouther": {
+      "name": "Murmurador Balbuciante",
+      "tokenName": "Murmurador Balbuciante",
+      "items": {
+        "Aberrant Grasp": {
+          "name": "Agarre Aberrante"
+        },
+        "Grounding Spittle": {
+          "name": "Cusparada Aterradora"
+        },
+        "Gibbering": {
+          "name": "Balbuciar"
+        }
+      },
+      "description": "",
+      "attack": "Mordida",
+      "motivesAndTactics": "Escalar, alimentar-se, assustar"
+    },
+    "Shaman of Chaos": {
+      "name": "Xamã do Caos",
+      "tokenName": "Xamã do Caos",
+      "items": {
+        "Chaotic Surge – Passive": {
+          "name": "Surto Caótico – Passivo"
+        },
+        "Hex of Unraveling – Action": {
+          "name": "Praga de Desfiar – Ação"
+        },
+        "Entropic Command – Action": {
+          "name": "Comando Entrópico – Ação"
+        },
+        "Momentum": {
+          "name": "Momentum"
+        }
+      },
+      "description": "",
+      "attack": "Cajado do Caos",
+      "motivesAndTactics": "Confundir, corromper, comandar, espalhar caos"
+    },
+    "Boomfiend": {
+      "name": "Demônio-Estouro",
+      "tokenName": "Demônio-Estouro",
+      "items": {
+        "Ignition - Action": {
+          "name": "Ignição - Ação"
+        },
+        "Cloaked - Action": {
+          "name": "Encoberto - Ação"
+        }
+      },
+      "description": "",
+      "attack": "Pisoteão",
+      "motivesAndTactics": "Detonar, Erradicar, Espreitar, Emboscar, Isolar"
+    },
+    "Wraith of the Grave": {
+      "name": "Espectro da Sepultura",
+      "tokenName": "Espectro da Sepultura",
+      "items": {
+        "Ghost": {
+          "name": "Fantasma"
+        },
+        "Phasing Strike - Action": {
+          "name": "Golpe de Fase - Ação"
+        },
+        "Possession - Action": {
+          "name": "Possessão - Ação"
+        },
+        "Echoes of the Fall - Action": {
+          "name": "Ecos da Queda - Ação"
+        },
+        "Vengeful Echo - Reaction": {
+          "name": "Eco Vingativo - Reação"
+        },
+        "Anguished Whispers - Passive": {
+          "name": "Sussurros Angustiados - Passivo"
+        }
+      },
+      "description": "",
+      "attack": "Golpe Espectral",
+      "motivesAndTactics": "Vingança, ódio, destruir o alvo, assombrar, fazê-los sofrer"
+    }
+  }
+}

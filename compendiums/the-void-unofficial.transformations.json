@@ -1,0 +1,97 @@
+{
+  "label": "Transformações",
+  "folders": {
+    "Demigod": "Semideus",
+    "Ghost": "Fantasma",
+    "Reanimated": "Reanimado",
+    "Shapeshifter": "Metamorfo",
+    "Vampire": "Vampiro",
+    "Werewolf": "Lobisomem"
+  },
+  "mapping": {
+    "description": "system.description",
+    "examples": "system.examples",
+    "advantageOn": {
+      "path": "system.advantageOn",
+      "converter": "toAdvantageList"
+    },
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Demigod - Ichor of the God": {
+      "name": "Semideus - Ícor dos Deuses",
+      "description": "<p>Semideuses são criaturas nas veias das quais corre o sangue dos deuses.</p><p>Ícor dos Deuses: Seu dado de vantagem é sempre <strong>d10</strong> em vez de d6.</p>"
+    },
+    "Demigod - Weight of Divinity": {
+      "name": "Semideus - Peso da Divindade",
+      "description": "<p>Semideuses são criaturas nas veias das quais corre o sangue dos deuses.</p><p>Peso da Divindade: Quando você falha em uma rolagem com Medo, você deve <strong>marcar Estresse</strong> ou dar ao Mestre 1 Medo adicional.</p>",
+      "actions": {
+        "91OiwLVKKsTTn1tH": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Ghost - Ephemeral": {
+      "name": "Fantasma - Efêmero",
+      "description": "<p>Fantasmas são espíritos presos entre o mundo dos mortais e o véu da morte.</p><p>Efêmero: Quando você pega esta carta — e toda vez que sobe de rank — risque uma Caixa de Feridas.</p><p>Se você marcar a última Caixa, seu Movimento à Beira da Morte deve ser \"Chama da Glória\".</p>"
+    },
+    "Ghost - Spirit Form": {
+      "name": "Fantasma - Forma Espiritual",
+      "description": "<p>Fantasmas são espíritos presos entre o mundo dos mortais e o véu da morte.</p><p>Forma Espiritual: Seu invólucro físico pode alternar entre um estado material e um estado imaterial.</p><p><strong>Marque Estresse</strong> para entrar ou sair da Forma Espiritual.</p><p>Enquanto estiver nesse estado, você pode atravessar objetos sólidos,</p><p>e também fica imune a dano físico, mas sofre o dobro de dano mágico.</p><p>Para atacar ou interagir com o mundo material, gaste <strong>2 Esperanças</strong>.</p>",
+      "actions": {
+        "N8EWQEXilcjeXn3X": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Reanimated - Corpse": {
+      "name": "Reanimado - Cadáver",
+      "description": "<p>Reanimados são cadáveres que foram trazidos de volta à vida.</p><p>Cadáver: Quando, como Movimento à Beira da Morte, você escolhe \"Arriscar Tudo\" e falha, você pode, em vez disso, <strong>marcar permanentemente 1 Ferida</strong> para obter sucesso. Quando fizer isso, você ainda usa o valor do dado de Esperança para remover Feridas e Estresse.</p>"
+    },
+    "Reanimated - Stitch Up": {
+      "name": "Reanimado - Costurar",
+      "description": "<p>Reanimados são cadáveres que foram trazidos de volta à vida.</p><p>Costurar: Durante um descanso, você só pode limpar Feridas se tiver acesso aos restos de uma criatura recém-falecida. Descreva como o uso desse material afetou sua aparência. Você não pode limpar Feridas de nenhuma forma além de movimentos de descanso ou do Movimento à Beira da Morte \"Arriscar Tudo\".</p>"
+    },
+    "Shapeshifter - Change Shape": {
+      "name": "Metamorfo - Mudar Forma",
+      "description": "<p>Metamorfos são criaturas capazes de alterar sua forma física.</p><p>Mudar Forma: Durante um descanso longo, você pode gastar um movimento de descanso para substituir sua linhagem atual por outra. Ao fazer isso, descreva como sua aparência mudou.</p>"
+    },
+    "Shapeshifter - Only Skin Deep": {
+      "name": "Metamorfo - Apenas Pele",
+      "description": "<p>Metamorfos são criaturas capazes de alterar sua forma física.</p><p>Apenas Pele: Ao mudar de forma, você assume apenas uma característica da nova linhagem, à sua escolha.</p><p>Você também pode gastar um movimento de descanso para trocar essa característica por outra característica dessa linhagem.</p>"
+    },
+    "Vampire - Fangs": {
+      "name": "Vampiro - Presas",
+      "description": "<p>Vampiros são mortos-vivos com presas que se alimentam do sangue de seres vivos.</p><p>Presas: Faça uma <strong>Rolagem de Força</strong> para morder um alvo em distância Corpo a Corpo, causando <strong>d8</strong> de dano físico, usando sua Maestria.</p><p>@UUID[Compendium.the-void-unofficial.weapons.Item.8LzsXmE2aEgjDPRP]{Presas}</p>"
+    },
+    "Vampire - Feed": {
+      "name": "Vampiro - Alimentar-se",
+      "description": "<p>Vampiros são mortos-vivos com presas que se alimentam do sangue de seres vivos.</p><p>Alimentar-se: Em um ataque bem-sucedido com Presas contra uma criatura viva, você pode <strong>marcar Estresse</strong> para se Alimentar. Coloque nesta carta um número de marcadores igual ao número de Feridas que o alvo marcou. Você pode manter até <strong>5</strong> marcadores ao mesmo tempo. Gaste 1 marcador antes de uma rolagem de ação para que seu dado de Medo se torne <strong>d20</strong>. Quando você fizer um Descanso Longo, remova 1 marcador. Se não houver marcadores nesta carta, todas as suas rolagens de ação e reação são feitas com desvantagem.</p>"
+    },
+    "Werewolf - Frenzy": {
+      "name": "Lobisomem - Frenesi",
+      "description": "<p>Lobisomens são criaturas que se transformam em lobos sobrenaturais.</p><p>Frenesi: Quando você marca seu último Estresse enquanto estiver na Forma de Lobo, você entra em Frenesi. Role uma quantidade de <strong>d20</strong> igual ao seu rank e cause automaticamente a mesma quantidade de dano físico a todas as criaturas em Distância Próxima. Depois disso, saia da Forma de Lobo.</p>",
+      "actions": {
+        "LUtAWVWH5JaDlixp": {
+          "name": "Dano"
+        }
+      }
+    },
+    "Werewolf - Wolf Form": {
+      "name": "Lobisomem - Forma de Lobo",
+      "description": "<p>Lobisomens são criaturas que se transformam em lobos sobrenaturais.</p><p>Forma de Lobo: Quando você marca uma ou mais Feridas, você pode <strong>marcar Estresse</strong> para assumir a Forma de Lobo. Nessa forma, você recebe um <strong>d10</strong> Dado de Lobo, que é somado a todas as rolagens de ataque e de dano. Quando você ganharia Esperança enquanto estiver na Forma de Lobo, em vez disso você marca Estresse.</p>",
+      "actions": {
+        "DK7iGDB26DGrdxG9": {
+          "name": "Marcar Estresse"
+        }
+      }
+    }
+  }
+}

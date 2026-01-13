@@ -1,0 +1,35 @@
+{
+  "label": "Regras da casa",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Scars": "Cicatrizes"
+  },
+  "entries": {
+    "Scar (Hit Point)": {
+      "name": "Cicatriz (Ponto de Vida)",
+      "description": "<p>@UUID[Compendium.daggerheart-extra-content.useful-journals.JournalEntry.39fmNJ0qCd7XcCtd.JournalEntryPage.Fq64nm1YpDOa8l1q]{Scar Alternative}</p>"
+    },
+    "Scar (Stress)": {
+      "name": "Cicatriz (Estresse)",
+      "description": "<p>@UUID[Compendium.daggerheart-extra-content.useful-journals.JournalEntry.39fmNJ0qCd7XcCtd.JournalEntryPage.Fq64nm1YpDOa8l1q]{Scar Alternative}</p>"
+    },
+    "Scar (Negative Experience)": {
+      "name": "Cicatriz (Experiência Negativa)",
+      "description": "<p>Descreva aqui sua experiência negativa: </p><p></p><p>@UUID[Compendium.daggerheart-extra-content.useful-journals.JournalEntry.39fmNJ0qCd7XcCtd.JournalEntryPage.Fq64nm1YpDOa8l1q]{Scar Alternative}</p>"
+    },
+    "Scar (Thresholds)": {
+      "name": "Cicatriz (Limiares)",
+      "description": "<p>@UUID[Compendium.daggerheart-extra-content.useful-journals.JournalEntry.39fmNJ0qCd7XcCtd.JournalEntryPage.Fq64nm1YpDOa8l1q]{Scar Alternative}</p>"
+    },
+    "Scar (Evasion)": {
+      "name": "Cicatriz (Evasão)",
+      "description": "<p>@UUID[Compendium.daggerheart-extra-content.useful-journals.JournalEntry.39fmNJ0qCd7XcCtd.JournalEntryPage.Fq64nm1YpDOa8l1q]{Scar Alternative}</p>"
+    },
+    "Scar (Hope)": {
+      "name": "Cicatriz (Esperança)",
+      "description": "<p>@UUID[Compendium.daggerheart-extra-content.useful-journals.JournalEntry.39fmNJ0qCd7XcCtd.JournalEntryPage.Fq64nm1YpDOa8l1q]{Scar Alternative}</p>"
+    }
+  }
+}

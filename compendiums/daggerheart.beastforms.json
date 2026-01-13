@@ -1,0 +1,745 @@
+{
+    "label":  "Forma de Fera",
+    "folders":  {
+                    "Tier 3":  "Patamar 3",
+                    "Tier 2":  "Patamar 2",
+                    "Tier 4":  "Patamar 4",
+                    "Tier 1":  "Patamar 1",
+                    "Beastform Features":  "Características de Forma de Fera"
+                },
+    "mapping":  {
+                    "description":  "system.description",
+                    "examples":  "system.examples",
+                    "advantageOn":  {
+                                        "path":  "system.advantageOn",
+                                        "converter":  "toAdvantageList"
+                                    },
+                    "actions":  {
+                                    "path":  "system.actions",
+                                    "converter":  "toActions"
+                                },
+                    "effects":  {
+                                    "path":  "effects",
+                                    "converter":  "toEffects"
+                                }
+                },
+    "entries":  {
+                    "Agile Scout":  {
+                                        "effects":  {
+                                                        "ehfx2SUKMiM6f5Pd":  {
+                                                                                 "name":  "Explorador Ágil",
+                                                                                 "description":  null
+                                                                             }
+                                                    },
+                                        "description":  null,
+                                        "name":  "Explorador Ágil",
+                                        "examples":  "Camundongo, doninha, raposa etc.",
+                                        "advantageOn":  [
+                                                            "Enganar",
+                                                            "Detectar",
+                                                            "Furtividade"
+                                                        ]
+                                    },
+                    "Aquatic Predator":  {
+                                             "effects":  {
+                                                             "7OTbmhQNtKhRAl59":  {
+                                                                                      "name":  "Predador Aquático",
+                                                                                      "description":  null
+                                                                                  }
+                                                         },
+                                             "description":  null,
+                                             "name":  "Predador Aquático",
+                                             "examples":  "Golfinho, orca, tubarão etc.",
+                                             "advantageOn":  [
+                                                                 "Ataque",
+                                                                 "Natação",
+                                                                 "Rastrear"
+                                                             ]
+                                         },
+                    "Aquatic Scout":  {
+                                          "effects":  {
+                                                          "TsXyfEOCk0ma5tp9":  {
+                                                                                   "name":  "Explorador Aquático",
+                                                                                   "description":  null
+                                                                               }
+                                                      },
+                                          "description":  null,
+                                          "name":  "Explorador Aquático",
+                                          "examples":  "Enguia, peixe, polvo etc.",
+                                          "advantageOn":  [
+                                                              "Navegar",
+                                                              "Furtividade",
+                                                              "Natação"
+                                                          ]
+                                      },
+                    "Armored Sentry":  {
+                                           "effects":  {
+                                                           "hd0uVl6ZZeyPJn9O":  {
+                                                                                    "name":  "Carapaça Vigilante",
+                                                                                    "description":  null
+                                                                                }
+                                                       },
+                                           "description":  null,
+                                           "name":  "Carapaça Vigilante",
+                                           "examples":  "Pangolim, tartaruga, tatu etc.",
+                                           "advantageOn":  [
+                                                               "Escavar",
+                                                               "Detectar",
+                                                               "Proteger"
+                                                           ]
+                                       },
+                    "Epic Aquatic Beast":  {
+                                               "effects":  {
+                                                               "zYUexUr2e3k4kzhw":  {
+                                                                                        "name":  "Fera Aquática Épica",
+                                                                                        "description":  null
+                                                                                    }
+                                                           },
+                                               "description":  null,
+                                               "name":  "Fera Aquática Épica",
+                                               "examples":  "Baleia, lula gigante etc.",
+                                               "advantageOn":  [
+                                                                   "Detectar",
+                                                                   "Proteger",
+                                                                   "Intimidar",
+                                                                   "Rastrear"
+                                                               ]
+                                           },
+                    "Great Predator":  {
+                                           "effects":  {
+                                                           "TFzvHClwIAQUFxyP":  {
+                                                                                    "name":  "Grande Predador",
+                                                                                    "description":  null
+                                                                                }
+                                                       },
+                                           "description":  null,
+                                           "name":  "Grande Predador",
+                                           "examples":  "Lobo atroz, tigre dente-de-sabre, velocirraptor etc.",
+                                           "advantageOn":  [
+                                                               "Ataque",
+                                                               "Furtividade",
+                                                               "Correr"
+                                                           ]
+                                       },
+                    "Great Winged Beast":  {
+                                               "effects":  {
+                                                               "qGSm1QpICpxRZxLn":  {
+                                                                                        "name":  "Grande Fera Alada",
+                                                                                        "description":  null
+                                                                                    }
+                                                           },
+                                               "description":  null,
+                                               "name":  "Grande Fera Alada",
+                                               "examples":  "Águia gigante, falcão etc.",
+                                               "advantageOn":  [
+                                                                   "Enganar",
+                                                                   "Distrair",
+                                                                   "Detectar"
+                                                               ]
+                                           },
+                    "Household Friend":  {
+                                             "effects":  {
+                                                             "CzMAMg2q5gL15JrZ":  {
+                                                                                      "name":  "Animal Doméstico",
+                                                                                      "description":  null
+                                                                                  }
+                                                         },
+                                             "description":  null,
+                                             "name":  "Animal Doméstico",
+                                             "examples":  "Cão, coelho, gato etc.",
+                                             "advantageOn":  [
+                                                                 "Escalar",
+                                                                 "Detectar",
+                                                                 "Proteger"
+                                                             ]
+                                         },
+                    "Legendary Beast":  {
+                                            "effects":  {
+                                                            "cL4kH57pf2nGIxaK":  {
+                                                                                     "name":  "Transformação de Forma de Fera",
+                                                                                     "description":  "<p>Escolha uma opção de Forma de Fera do Patamar 1 e se torne uma versão maior e mais poderosa dessa criatura. Enquanto estiver nessa forma, você mantém todos os traços e características da forma original e recebe os seguintes bônus:</p><ul><li>Bônus de +6 nas rolagens de dano</li><li>Bônus de +1 no atributo usado por essa forma</li><li>Bônus de +2 na Evasão</li></ul>"
+                                                                                 }
+                                                        },
+                                            "description":  null,
+                                            "name":  "Fera Lendária",
+                                            "examples":  "Aprimoradamento de 1º patamar"
+                                        },
+                    "Legendary Hybrid":  {
+                                             "effects":  {
+                                                             "RbZKFWATkfLZm67j":  {
+                                                                                      "name":  "Transformação de Forma de Fera",
+                                                                                      "description":  "<p>Para se transformar nesta criatura, marque 1 Ponto de Fadiga adicional. Escolha quaisquer duas opções de Forma de Fera dos Patamares 1-2. Escolha, no total, quatro vantagens e duas características dessas opções.</p>"
+                                                                                  }
+                                                         },
+                                             "description":  null,
+                                             "name":  "Híbrido Lendário",
+                                             "examples":  "Esfinge, grifo etc."
+                                         },
+                    "Massive Behemoth":  {
+                                             "effects":  {
+                                                             "RR6ySJU5zaC7ws6A":  {
+                                                                                      "name":  "Fera Massiva",
+                                                                                      "description":  null
+                                                                                  }
+                                                         },
+                                             "description":  null,
+                                             "name":  "Fera Massiva",
+                                             "examples":  "Elefante, mamute, rinoceronte etc.",
+                                             "advantageOn":  [
+                                                                 "Detectar",
+                                                                 "Proteger",
+                                                                 "Intimidar",
+                                                                 "Correr"
+                                                             ]
+                                         },
+                    "Mighty Lizard":  {
+                                          "effects":  {
+                                                          "d13EzuP8Co04Jk8K":  {
+                                                                                   "name":  "Lagarto Poderoso",
+                                                                                   "description":  null
+                                                                               }
+                                                      },
+                                          "description":  null,
+                                          "name":  "Lagarto Poderoso",
+                                          "examples":  "Crocodilo, jacaré, monstro-de-gila etc.",
+                                          "advantageOn":  [
+                                                              "Ataque",
+                                                              "Furtividade",
+                                                              "Rastrear"
+                                                          ]
+                                      },
+                    "Mighty Strider":  {
+                                           "effects":  {
+                                                           "IWg2cWUdvucUOLAL":  {
+                                                                                    "name":  "Trotador Robusto",
+                                                                                    "description":  null
+                                                                                }
+                                                       },
+                                           "description":  null,
+                                           "name":  "Trotador Robusto",
+                                           "examples":  "Camelo, cavalo, zebra etc.",
+                                           "advantageOn":  [
+                                                               "Saltar",
+                                                               "Navegar",
+                                                               "Correr"
+                                                           ]
+                                       },
+                    "Mythic Aerial Hunter":  {
+                                                 "effects":  {
+                                                                 "hnKnaOaswWJdaYmf":  {
+                                                                                          "name":  "Caçador Aéreo Mítico",
+                                                                                          "description":  null
+                                                                                      }
+                                                             },
+                                                 "description":  null,
+                                                 "name":  "Caçador Aéreo Mítico",
+                                                 "examples":  "Dragão, pterodátilo, roca, serpe etc.",
+                                                 "advantageOn":  [
+                                                                     "Ataque",
+                                                                     "Enganar",
+                                                                     "Detectar",
+                                                                     "Navegar"
+                                                                 ]
+                                             },
+                    "Mythic Beast":  {
+                                         "effects":  {
+                                                         "vhwbPQ2YT64qD1t1":  {
+                                                                                  "name":  "Transformação de Forma de Fera",
+                                                                                  "description":  "<p>Escolha uma opção de Forma de Fera do Patamar 1 ou 2 e se torne uma versão maior e mais poderosa dessa criatura. Enquanto estiver nessa forma, você mantém todos os traços e características da forma original e recebe os seguintes bônus:</p><ul><li>Bônus de +9 nas rolagens de dano</li><li>Bônus de +2 no atributo usado por essa forma</li><li>Bônus de +3 na Evasão</li><li>Seu dado de dano aumenta um tamanho (d6 vira d8, d8 vira d10, etc.)</li></ul>"
+                                                                              }
+                                                     },
+                                         "description":  null,
+                                         "name":  "Fera Mítica",
+                                         "examples":  "Aprimoramento de 1º ou 2º patamar"
+                                     },
+                    "Mythic Hybrid":  {
+                                          "effects":  {
+                                                          "HutJQ9HGtr1Eoibp":  {
+                                                                                   "name":  "Transformação de Forma de Fera",
+                                                                                   "description":  "<p>Para se transformar nesta criatura, marque 2 Pontos de Fadiga adicionais. Escolha quaisquer três opções de Forma de Fera dos Patamares 1-3. Escolha, no total, cinco vantagens e três características dessas opções.</p>"
+                                                                               }
+                                                      },
+                                          "description":  null,
+                                          "name":  "Híbrido Mítico",
+                                          "examples":  "Cocatriz, mantícora, quimera etc."
+                                      },
+                    "Nimble Grazer":  {
+                                          "effects":  {
+                                                          "lIbJFb5XQ98Eaauu":  {
+                                                                                   "name":  "Ruminante Arisco",
+                                                                                   "description":  null
+                                                                               }
+                                                      },
+                                          "description":  null,
+                                          "name":  "Ruminante Arisco",
+                                          "examples":  "Cabra, cervo, gazela etc.",
+                                          "advantageOn":  [
+                                                              "Saltar",
+                                                              "Furtividade",
+                                                              "Correr"
+                                                          ]
+                                      },
+                    "Pack Predator":  {
+                                          "effects":  {
+                                                          "amuFS9LlEnzZnaIN":  {
+                                                                                   "name":  "Predador de Bando",
+                                                                                   "description":  null
+                                                                               }
+                                                      },
+                                          "description":  null,
+                                          "name":  "Predador de Bando",
+                                          "examples":  "Coiote, hiena, lobo etc.",
+                                          "advantageOn":  [
+                                                              "Ataque",
+                                                              "Correr",
+                                                              "Rastrear"
+                                                          ]
+                                      },
+                    "Pouncing Predator":  {
+                                              "effects":  {
+                                                              "GSmW6nJ3kyIoEK2H":  {
+                                                                                       "name":  "Predador Furtivo",
+                                                                                       "description":  null
+                                                                                   }
+                                                          },
+                                              "description":  null,
+                                              "name":  "Predador Furtivo",
+                                              "examples":  "Guepardo, leão, pantera etc.",
+                                              "advantageOn":  [
+                                                                  "Ataque",
+                                                                  "Escalar",
+                                                                  "Furtividade"
+                                                              ]
+                                          },
+                    "Powerful Beast":  {
+                                           "effects":  {
+                                                           "AZGTvqzFVHa4wS1a":  {
+                                                                                    "name":  "Fera Poderosa",
+                                                                                    "description":  null
+                                                                                }
+                                                       },
+                                           "description":  null,
+                                           "name":  "Fera Poderosa",
+                                           "examples":  "Alce, touro, urso etc.",
+                                           "advantageOn":  [
+                                                               "Navegar",
+                                                               "Proteger",
+                                                               "Intimidar"
+                                                           ]
+                                       },
+                    "Stalking Arachnid":  {
+                                              "effects":  {
+                                                              "YkZX2yc2X0QDFPBG":  {
+                                                                                       "name":  "Aracnídeo Espreitador",
+                                                                                       "description":  null
+                                                                                   }
+                                                          },
+                                              "description":  null,
+                                              "name":  "Aracnídeo Espreitador",
+                                              "examples":  "Aranha-lobo, tarântula etc.",
+                                              "advantageOn":  [
+                                                                  "Ataque",
+                                                                  "Escalar",
+                                                                  "Furtividade"
+                                                              ]
+                                          },
+                    "Striking Serpent":  {
+                                             "effects":  {
+                                                             "qGhLojWa5430zRd1":  {
+                                                                                      "name":  "Serpente Traiçoeira",
+                                                                                      "description":  null
+                                                                                  }
+                                                         },
+                                             "description":  null,
+                                             "name":  "Serpente Traiçoeira",
+                                             "examples":  "Cascavel, naja, víbora etc.",
+                                             "advantageOn":  [
+                                                                 "Escalar",
+                                                                 "Enganar",
+                                                                 "Correr"
+                                                             ]
+                                         },
+                    "Terrible Lizard":  {
+                                            "effects":  {
+                                                            "qPtjZIkRVm68TGHN":  {
+                                                                                     "name":  "Lagarto Terrível",
+                                                                                     "description":  null
+                                                                                 }
+                                                        },
+                                            "description":  null,
+                                            "name":  "Lagarto Terrível",
+                                            "examples":  "Braquiossauro, tiranossauro etc.",
+                                            "advantageOn":  [
+                                                                "Ataque",
+                                                                "Enganar",
+                                                                "Intimidar",
+                                                                "Rastrear"
+                                                            ]
+                                        },
+                    "Winged Beast":  {
+                                         "effects":  {
+                                                         "Ln3atrxiqtPA0Wi6":  {
+                                                                                  "name":  "Fera Alada",
+                                                                                  "description":  null
+                                                                              }
+                                                     },
+                                         "description":  null,
+                                         "name":  "Fera Alada",
+                                         "examples":  "Coruja, corvo, gavião etc.",
+                                         "advantageOn":  [
+                                                             "Enganar",
+                                                             "Detectar",
+                                                             "Intimidar"
+                                                         ]
+                                     },
+                    "Agile":  {
+                                  "actions":  {
+                                                  "4yQ56hSL5LBkzrV6":  {
+                                                                           "name":  "Ágil",
+                                                                           "description":  "<p>Seu movimento é silencioso e você pode gastar 1 Ponto de Esperança para se mover até um ponto Distante sem precisar fazer um teste.</p>"
+                                                                       }
+                                              },
+                                  "name":  "Ágil",
+                                  "description":  "Seu movimento é silencioso e você pode gastar 1 Ponto de Esperança para se mover até um ponto Distante sem precisar fazer um teste."
+                              },
+                    "Aquatic":  {
+                                    "name":  "Aquático",
+                                    "description":  "Você pode respirar e se movimentar naturalmente embaixo d’água."
+                                },
+                    "Armored Shell":  {
+                                          "actions":  {
+                                                          "15XSCpCAZ2JLspmN":  {
+                                                                                   "name":  "Carapaça Reforçada",
+                                                                                   "description":  "<p>Seu exterior sólido concede resistência a dano físico. Além disso, você pode marcar 1 Ponto de Armadura para se recolher em sua carapaça. Enquanto estiver dentro dela, o dano físico que você sofre é reduzido em um número igual à sua Armadura (após aplicar a resistência), mas você não pode realizar outros movimentos.</p>"
+                                                                               }
+                                                      },
+                                          "effects":  {
+                                                          "XFmEC0kDQJNrGbtr":  {
+                                                                                   "name":  "Carapaça Reforçada",
+                                                                                   "description":  "<p>Seu exterior sólido concede resistência a dano físico. Além disso, você pode marcar 1 Ponto de Armadura para se recolher em sua carapaça. Enquanto estiver dentro dela, o dano físico que você sofre é reduzido em um número igual à sua Armadura (após aplicar a resistência), mas você não pode realizar outros movimentos.</p>"
+                                                                               },
+                                                          "OY3lEB3vuDKNLzxv":  {
+                                                                                   "name":  "Carapaça Reforçada",
+                                                                                   "description":  "<p>Seu exterior sólido concede resistência a dano físico. Além disso, você pode marcar 1 Ponto de Armadura para se recolher em sua carapaça. Enquanto estiver dentro dela, o dano físico que você sofre é reduzido em um número igual à sua Armadura (após aplicar a resistência), mas você não pode realizar outros movimentos.</p>"
+                                                                               }
+                                                      },
+                                          "name":  "Carapaça Reforçada",
+                                          "description":  "Seu exterior sólido concede resistência a dano físico. Além disso, você pode marcar 1 Ponto de Armadura para se recolher em sua carapaça. Enquanto estiver dentro dela, o dano físico que você sofre é reduzido em um número igual à sua Armadura (após aplicar a resistência), mas você não pode realizar outros movimentos."
+                                      },
+                    "Bird's-Eye View":  {
+                                                 "actions":  {
+                                                                 "JRCE5826Yhh09aaI":  {
+                                                                                          "name":  "Visão Aérea",
+                                                                                          "description":  "<p>Você pode voar à vontade. Uma vez por descanso, e enquanto estiver no ar, você pode perguntar ao mestre algo sobre a paisagem abaixo sem precisar de teste. Na primeira vez em que um personagem fizer um teste para agir em relação a essa informação, ele o faz com vantagem.</p>"
+                                                                                      }
+                                                             },
+                                                 "name":  "Visão Aérea",
+                                                 "description":  "Você pode voar à vontade. Uma vez por descanso, e enquanto estiver no ar, você pode perguntar ao mestre algo sobre a paisagem abaixo sem precisar de teste. Na primeira vez em que um personagem fizer um teste para agir em relação a essa informação, ele o faz com vantagem."
+                                             },
+                    "Cannonball":  {
+                                       "actions":  {
+                                                       "5Vxm8LyBHE1GYbsv":  {
+                                                                                "name":  "Canhão Ricochete",
+                                                                                "description":  "<p>Marque 1 Ponto de Fadiga para que um aliado arremesse você contra um adversário. Para fazer isso, o aliado faz um teste de ataque usando Agilidade ou Força (à escolha dele) contra um alvo Próximo. Em um sucesso, o adversário sofre d12+2 de dano físico usando a Proficiência de seu aliado. Você pode gastar 1 Ponto de Esperança para escolher outro adversário Muito Próximo do primeiro como alvo. O segundo alvo sofre metade do dano causado ao primeiro alvo.</p>"
+                                                                            },
+                                                       "QCQzArBrajYi2D2I":  {
+                                                                                "name":  "Canhão Ricochete",
+                                                                                "description":  "<p>Marque 1 Ponto de Fadiga para que um aliado arremesse você contra um adversário. Para fazer isso, o aliado faz um teste de ataque usando Agilidade ou Força (à escolha dele) contra um alvo Próximo. Em um sucesso, o adversário sofre d12+2 de dano físico usando a Proficiência de seu aliado. Você pode gastar 1 Ponto de Esperança para escolher outro adversário Muito Próximo do primeiro como alvo. O segundo alvo sofre metade do dano causado ao primeiro alvo.</p>"
+                                                                            }
+                                                   },
+                                       "name":  "Canhão Ricochete",
+                                       "description":  "Marque 1 Ponto de Fadiga para que um aliado arremesse você contra um adversário. Para fazer isso, o aliado faz um teste de ataque usando Agilidade ou Força (à escolha dele) contra um alvo Próximo. Em um sucesso, o adversário sofre d12+2 de dano físico usando a Proficiência de seu aliado. Você pode gastar 1 Ponto de Esperança para escolher outro adversário Muito Próximo do primeiro como alvo. O segundo alvo sofre metade do dano causado ao primeiro alvo."
+                                   },
+                    "Carrier":  {
+                                    "name":  "Besta de Carga",
+                                    "description":  "Você pode carregar até dois aliados voluntários com você enquanto se movimenta."
+                                },
+                    "Companion":  {
+                                      "name":  "Companhia",
+                                      "description":  "Ao ajudar um aliado, você pode rolar 1d8 como seu dado de vantagem."
+                                  },
+                    "Deadly Raptor":  {
+                                          "name":  "Ave de Rapina Mortal",
+                                          "description":  "Você pode voar à vontade e se mover até um ponto em alcance Distante como parte de seu movimento. Quando ataca um alvo após se mover em linha reta até ficar Corpo a Corpo a ele a partir de no mínimo alcance Próximo, você pode rolar novamente todos os dados de dano com um resultado menor que sua Proficiência."
+                                      },
+                    "Demolish":  {
+                                     "actions":  {
+                                                     "5SXMT39vrZoK7GBM":  {
+                                                                              "name":  "Demolir",
+                                                                              "description":  "<p>Gaste 1 Ponto de Esperança para se mover até um ponto Distante em linha reta e atacar todos os alvos Corpo a Corpo à linha. Alvos atingidos sofrem d8+10 de dano físico usando sua Proficiência e ficam temporariamente Vulneráveis.</p>"
+                                                                          }
+                                                 },
+                                     "effects":  {
+                                                     "FXdFgEgqVl5gIWJS":  {
+                                                                              "name":  "Demolir",
+                                                                              "description":  "<p>Gaste 1 Ponto de Esperança para se mover até um ponto Distante em linha reta e atacar todos os alvos Corpo a Corpo à linha. Alvos atingidos sofrem d8+10 de dano físico usando sua Proficiência e ficam temporariamente Vulneráveis.</p>"
+                                                                          }
+                                                 },
+                                     "name":  "Demolir",
+                                     "description":  "Gaste 1 Ponto de Esperança para se mover até um ponto Distante em linha reta e atacar todos os alvos Corpo a Corpo à linha. Alvos atingidos sofrem d8+10 de dano físico usando sua Proficiência e ficam temporariamente Vulneráveis."
+                                 },
+                    "Devastating Strikes":  {
+                                                "actions":  {
+                                                                "Il2C9zALU6a1gGrg":  {
+                                                                                         "name":  "Golpes Devastadores",
+                                                                                         "description":  "<p>Quando causa dano grave em um alvo Corpo a Corpo, você pode marcar 1 Ponto de Fadiga para forçá-lo a marcar 1 PV adicional.</p>"
+                                                                                     }
+                                                            },
+                                                "name":  "Golpes Devastadores",
+                                                "description":  "Quando causa dano grave em um alvo Corpo a Corpo, você pode marcar 1 Ponto de Fadiga para forçá-lo a marcar 1 PV adicional."
+                                            },
+                    "Elusive Prey":  {
+                                         "actions":  {
+                                                         "9lvrqQKTEB3NRwvM":  {
+                                                                                  "name":  "Presa Arisca",
+                                                                                  "description":  "<p>Quando sofre um ataque, você pode marcar 1 Ponto de Fadiga para rolar 1d4 e somar o resultado à sua Evasão contra esse ataque.</p>"
+                                                                              }
+                                                     },
+                                         "name":  "Presa Arisca",
+                                         "description":  "Quando sofre um ataque, você pode marcar 1 Ponto de Fadiga para rolar 1d4 e somar o resultado à sua Evasão contra esse ataque."
+                                     },
+                    "Fleet":  {
+                                  "actions":  {
+                                                  "pn5p2ocVvVPzDyAX":  {
+                                                                           "name":  "Disparada",
+                                                                           "description":  "<p>Gaste 1 Ponto de Esperança para se mover até um ponto em alcance Distante sem precisar fazer um teste.</p>"
+                                                                       }
+                                              },
+                                  "name":  "Disparada",
+                                  "description":  "Gaste 1 Ponto de Esperança para se mover até um ponto em alcance Distante sem precisar fazer um teste."
+                              },
+                    "Fragile":  {
+                                    "name":  "Frágil",
+                                    "description":  "Ao sofrer dano maior ou grave, você sai da Forma de Fera."
+                                },
+                    "Hobbling Strike":  {
+                                            "actions":  {
+                                                            "p8DESOMGA6dLwEMz":  {
+                                                                                     "name":  "Golpe Debilitante",
+                                                                                     "description":  "<p>Quando você acerta um ataque contra um alvo Corpo a Corpo, você pode marcar 1 Ponto de Fadiga para torná-lo temporariamente Vulnerável.</p>"
+                                                                                 }
+                                                        },
+                                            "effects":  {
+                                                            "2kKkV9zhfvqA2vlt":  {
+                                                                                     "name":  "Golpe Debilitante",
+                                                                                     "description":  "<p>Quando você acerta um ataque contra um alvo Corpo a Corpo, você pode marcar 1 Ponto de Fadiga para torná-lo temporariamente Vulnerável.</p>"
+                                                                                 }
+                                                        },
+                                            "name":  "Golpe Debilitante",
+                                            "description":  "Quando você acerta um ataque contra um alvo Corpo a Corpo, você pode marcar 1 Ponto de Fadiga para torná-lo temporariamente Vulnerável."
+                                        },
+                    "Hollow Bones":  {
+                                         "effects":  {
+                                                         "RM8wHu5GIF6zfF7V":  {
+                                                                                  "name":  "Ossos Ocos",
+                                                                                  "description":  "<p>Você sofre uma penalidade de-2 nos seus limiares de dano.</p>"
+                                                                              }
+                                                     },
+                                         "name":  "Ossos Ocos",
+                                         "description":  "Você sofre uma penalidade de-2 nos seus limiares de dano."
+                                     },
+                    "Massive Stride":  {
+                                           "name":  "Disparada Massiva",
+                                           "description":  "Você pode se mover até um ponto em alcance Distante sem precisar fazer uma teste. Você ignora terreno difícil (a critério do mestre) devido ao seu tamanho."
+                                       },
+                    "Ocean Master":  {
+                                         "actions":  {
+                                                         "ge2koBRj4snhIzDA":  {
+                                                                                  "name":  "Mestre do Oceano",
+                                                                                  "description":  "<p>Você pode respirar e se movimentar naturalmente debaixo d'água. Quando acerta um ataque contra um alvo Corpo a Corpo, você pode deixá-lo temporariamente Imobilizado.</p>"
+                                                                              }
+                                                     },
+                                         "effects":  {
+                                                         "6GBczj8REkDmgX2Q":  {
+                                                                                  "name":  "Mestre do Oceano",
+                                                                                  "description":  "<p>Você pode respirar e se movimentar naturalmente debaixo d'água. Quando acerta um ataque contra um alvo Corpo a Corpo, você pode deixá-lo temporariamente Imobilizado.</p>"
+                                                                              }
+                                                     },
+                                         "name":  "Mestre do Oceano",
+                                         "description":  "Você pode respirar e se movimentar naturalmente debaixo d'água. Quando acerta um ataque contra um alvo Corpo a Corpo, você pode deixá-lo temporariamente Imobilizado."
+                                     },
+                    "Pack Hunting":  {
+                                         "name":  "Caça em Bando",
+                                         "description":  "Quando você acerta um ataque contra um alvo atingido por um aliado imediatamente antes de você, seu dano aumenta em +1d8."
+                                     },
+                    "Physical Defense":  {
+                                             "effects":  {
+                                                             "hs9vWE92QQQx15ET":  {
+                                                                                      "name":  "Armadura Física",
+                                                                                      "description":  "<p>Você recebe um bônus de +3 em seus limiares de dano.</p>"
+                                                                                  }
+                                                         },
+                                             "name":  "Armadura Física",
+                                             "description":  "Você recebe um bônus de +3 em seus limiares de dano."
+                                         },
+                    "Rampage":  {
+                                    "actions":  {
+                                                    "N7IoOHpqcvcJNsJQ":  {
+                                                                             "name":  "Ataque Violento",
+                                                                             "description":  "<p>Quando tira 1 em um dado de dano, você pode rolar 1d10 e somar o resultado à rolagem de dano. Além disso, antes de fazer um teste de ataque, você pode marcar 1 Ponto de Fadiga para receber um bônus de +1 em sua Proficiência para esse ataque.</p>"
+                                                                         }
+                                                },
+                                    "effects":  {
+                                                    "A7l4JEBC1FFQajsN":  {
+                                                                             "name":  "Ataque Violento",
+                                                                             "description":  "<p>Quando tira 1 em um dado de dano, você pode rolar 1d10 e somar o resultado à rolagem de dano. Além disso, antes de fazer um teste de ataque, você pode marcar 1 Ponto de Fadiga para receber um bônus de +1 em sua Proficiência para esse ataque.</p>"
+                                                                         }
+                                                },
+                                    "name":  "Ataque Violento",
+                                    "description":  "Quando tira 1 em um dado de dano, você pode rolar 1d10 e somar o resultado à rolagem de dano. Além disso, antes de fazer um teste de ataque, você pode marcar 1 Ponto de Fadiga para receber um bônus de +1 em sua Proficiência para esse ataque."
+                                },
+                    "Snapping Strike":  {
+                                            "actions":  {
+                                                            "ib94yYJ1HA0dm0VC":  {
+                                                                                     "name":  "Golpe Súbito",
+                                                                                     "description":  "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você pode gastar 1 Ponto de Esperança para segurá-lo com a mandíbula, deixando-o temporariamente Imobilizado e Vulnerável.</p>"
+                                                                                 }
+                                                        },
+                                            "effects":  {
+                                                            "y3EsJuInxE7juNXT":  {
+                                                                                     "name":  "Golpe Súbito",
+                                                                                     "description":  "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você pode gastar 1 Ponto de Esperança para segurá-lo com a mandíbula, deixando-o temporariamente Imobilizado e Vulnerável.</p>"
+                                                                                 }
+                                                        },
+                                            "name":  "Golpe Súbito",
+                                            "description":  "Quando acerta um ataque contra um alvo Corpo a Corpo, você pode gastar 1 Ponto de Esperança para segurá-lo com a mandíbula, deixando-o temporariamente Imobilizado e Vulnerável."
+                                        },
+                    "Takedown":  {
+                                     "actions":  {
+                                                     "DKorr1QzvtBz7d9y":  {
+                                                                              "name":  "Abate",
+                                                                              "description":  "<p>Marque 1 Ponto de Fadiga para se mover até ficar Corpo a Corpo a um alvo e fazer um teste de ataque contra ele. Em um sucesso, você recebe um bônus de +2 em sua Proficiência para esse ataque e o alvo deve marcar 1 Ponto de Fadiga.</p>"
+                                                                          }
+                                                 },
+                                     "effects":  {
+                                                     "hE6ciIusvKEtUQ8U":  {
+                                                                              "name":  "Abate",
+                                                                              "description":  "<p>Marque 1 Ponto de Fadiga para se mover até ficar Corpo a Corpo a um alvo e fazer um teste de ataque contra ele. Em um sucesso, você recebe um bônus de +2 em sua Proficiência para esse ataque e o alvo deve marcar 1 Ponto de Fadiga.</p>"
+                                                                          }
+                                                 },
+                                     "name":  "Abate",
+                                     "description":  "Marque 1 Ponto de Fadiga para se mover até ficar Corpo a Corpo a um alvo e fazer um teste de ataque contra ele. Em um sucesso, você recebe um bônus de +2 em sua Proficiência para esse ataque e o alvo deve marcar 1 Ponto de Fadiga."
+                                 },
+                    "Thick Hide":  {
+                                       "effects":  {
+                                                       "ZoUJy8EOm9mVXuAw":  {
+                                                                                "name":  "Couro Espesso",
+                                                                                "description":  "<p>Você recebe +2 de bônus nos seus limiares de dano.</p>"
+                                                                            }
+                                                   },
+                                       "name":  "Couro Espesso",
+                                       "description":  "Você recebe +2 de bônus nos seus limiares de dano."
+                                   },
+                    "Trample":  {
+                                    "actions":  {
+                                                    "YCOTIv9IVEKpumbJ":  {
+                                                                             "name":  "Atropelar",
+                                                                             "description":  "<p>Marque 1 Ponto de Fadiga para se mover até um ponto em alcance Próximo em linha reta e atacar todos os alvos Corpo a Corpo à linha. Alvos atingidos sofrem d8+1 de dano físico usando sua Proficiência e ficam temporariamente Vulneráveis.</p>"
+                                                                         }
+                                                },
+                                    "effects":  {
+                                                    "LkekG4IngVW9rFjI":  {
+                                                                             "name":  "Atropelar",
+                                                                             "description":  "<p>Marque 1 Ponto de Fadiga para se mover até um ponto em alcance Próximo em linha reta e atacar todos os alvos Corpo a Corpo à linha. Alvos atingidos sofrem d8+1 de dano físico usando sua Proficiência e ficam temporariamente Vulneráveis.</p>"
+                                                                         }
+                                                },
+                                    "name":  "Atropelar",
+                                    "description":  "Marque 1 Ponto de Fadiga para se mover até um ponto em alcance Próximo em linha reta e atacar todos os alvos Corpo a Corpo à linha. Alvos atingidos sofrem d8+1 de dano físico usando sua Proficiência e ficam temporariamente Vulneráveis."
+                                },
+                    "Undaunted":  {
+                                      "effects":  {
+                                                      "wVoUVQJ2Ik7CiUuV":  {
+                                                                               "name":  "Impávido",
+                                                                               "description":  "<p>Você recebe um bônus de +2 em seus limiares de dano.</p>"
+                                                                           }
+                                                  },
+                                      "name":  "Impávido",
+                                      "description":  "Você recebe um bônus de +2 em seus limiares de dano."
+                                  },
+                    "Unyielding":  {
+                                       "actions":  {
+                                                       "hiGZCQpdTVqE5W4B":  {
+                                                                                "name":  "Robusto",
+                                                                                "description":  "<p>Quando for marcar Ponto de Armadura, role 1d6. Em um resultado 5 ou mais, reduza a gravidade em um limiar sem marcar PA.</p>"
+                                                                            }
+                                                   },
+                                       "name":  "Robusto",
+                                       "description":  "Quando for marcar Ponto de Armadura, role 1d6. Em um resultado 5 ou mais, reduza a gravidade em um limiar sem marcar PA."
+                                   },
+                    "Venomous Bite":  {
+                                          "actions":  {
+                                                          "eow90DYK6cUWOk7g":  {
+                                                                                   "name":  "Picada Peçonhenta",
+                                                                                   "description":  "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você o deixa temporariamente Envenenado. Uma criatura Envenenada sofre 1d10 de dano físico direto cada vez que age.</p>"
+                                                                               }
+                                                      },
+                                          "effects":  {
+                                                          "TTyAKKoUCoYXSMs4":  {
+                                                                                   "name":  "Picada Peçonhenta",
+                                                                                   "description":  "<p>Quando acerta um ataque contra um alvo Corpo a Corpo, você o deixa temporariamente Envenenado. Uma criatura Envenenada sofre 1d10 de dano físico direto cada vez que age.</p>"
+                                                                               }
+                                                      },
+                                          "name":  "Picada Peçonhenta",
+                                          "description":  "Quando acerta um ataque contra um alvo Corpo a Corpo, você o deixa temporariamente Envenenado. Uma criatura Envenenada sofre 1d10 de dano físico direto cada vez que age."
+                                      },
+                    "Venomous Strike":  {
+                                            "actions":  {
+                                                            "igRoXxgaTT9tBQS7":  {
+                                                                                     "name":  "Bote Peçonhento",
+                                                                                     "description":  "<p>Faça um ataque contra qualquer número de alvos Próximos. Em um sucesso, o alvo fica temporariamente Envenenado. Uma criatura Envenenada sofre 1d10 de dano físico direto a cada vez que age.</p>"
+                                                                                 }
+                                                        },
+                                            "effects":  {
+                                                            "1iQPj96LqUNkRaxE":  {
+                                                                                     "name":  "Bote Peçonhento",
+                                                                                     "description":  "<p>Faça um ataque contra qualquer número de alvos Próximos. Em um sucesso, o alvo fica temporariamente Envenenado. Uma criatura Envenenada sofre 1d10 de dano físico direto a cada vez que age.</p>"
+                                                                                 }
+                                                        },
+                                            "name":  "Bote Peçonhento",
+                                            "description":  "Faça um ataque contra qualquer número de alvos Próximos. Em um sucesso, o alvo fica temporariamente Envenenado. Uma criatura Envenenada sofre 1d10 de dano físico direto a cada vez que age."
+                                        },
+                    "Vicious Maul":  {
+                                         "actions":  {
+                                                         "Cc53vyYz5ggKdIbx":  {
+                                                                                  "name":  "Ataque Voraz",
+                                                                                  "description":  "<p>Quando acerta um ataque em um alvo, você pode gastar 1 Ponto de Esperança para deixá-lo temporariamente Vulnerável e receber um bônus de +1 em Proficiência nesse ataque.</p>"
+                                                                              }
+                                                     },
+                                         "effects":  {
+                                                         "MIAh9XNwDXGDktCm":  {
+                                                                                  "name":  "Ataque Voraz",
+                                                                                  "description":  "<p>Quando acerta um ataque em um alvo, você pode gastar 1 Ponto de Esperança para deixá-lo temporariamente Vulnerável e receber um bônus de +1 em Proficiência nesse ataque.</p>"
+                                                                              }
+                                                     },
+                                         "name":  "Ataque Voraz",
+                                         "description":  "Quando acerta um ataque em um alvo, você pode gastar 1 Ponto de Esperança para deixá-lo temporariamente Vulnerável e receber um bônus de +1 em Proficiência nesse ataque."
+                                     },
+                    "Warning Hiss":  {
+                                         "actions":  {
+                                                         "D9YmUP1aeiCzNxcC":  {
+                                                                                  "name":  "Silvo de alerta",
+                                                                                  "description":  "<p>Marque 1 Ponto de Fadiga para forçar qualquer número de alvos Corpo a Corpo a se afastarem até ficarem Muito Próximos.</p>"
+                                                                              }
+                                                     },
+                                         "name":  "Silvo de alerta",
+                                         "description":  "Marque 1 Ponto de Fadiga para forçar qualquer número de alvos Corpo a Corpo a se afastarem até ficarem Muito Próximos."
+                                     },
+                    "Webslinger":  {
+                                       "actions":  {
+                                                       "vRU6xutkp3VYxZ0i":  {
+                                                                                "name":  "Lança-teia",
+                                                                                "description":  "<p>Você pode criar uma poderosa teia, útil nas aventuras e nas batalhas. Ela é resistente o bastante para suportar uma criatura. Você pode Imobilizar temporariamente um alvo Próximo se passar em um teste de Acuidade contra ele.</p>"
+                                                                            }
+                                                   },
+                                       "effects":  {
+                                                       "cBJueH89gNvvDKfQ":  {
+                                                                                "name":  "Lança-teia",
+                                                                                "description":  "<p>Você pode criar uma poderosa teia, útil nas aventuras e nas batalhas. Ela é resistente o bastante para suportar uma criatura. Você pode Imobilizar temporariamente um alvo Próximo se passar em um teste de Acuidade contra ele.</p>"
+                                                                            }
+                                                   },
+                                       "name":  "Lança-teia",
+                                       "description":  "Você pode criar uma poderosa teia, útil nas aventuras e nas batalhas. Ela é resistente o bastante para suportar uma criatura. Você pode Imobilizar temporariamente um alvo Próximo se passar em um teste de Acuidade contra ele."
+                                   }
+                }
+}
+

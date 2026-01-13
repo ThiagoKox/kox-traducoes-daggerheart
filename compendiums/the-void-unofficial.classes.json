@@ -1,0 +1,314 @@
+{
+  "label": "Classes",
+  "folders": {
+    "Assassin": "Assassino",
+    "Blood Hunter": "Caçador de Sangue",
+    "Brawler": "Lutador",
+    "Warlock": "Bruxo",
+    "Witch": "Bruxa",
+    "Class Features": "Características de Classe",
+    "Class Items": "Itens de Classe",
+    "Standard Take": "Conjunto Básico"
+  },
+  "mapping": {
+    "description": "system.description",
+    "backgroundQuestions": "system.backgroundQuestions",
+    "connections": "system.connections",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "50ft of Rope": {
+      "name": "Corda (15 m)"
+    },
+    "A Carving That Symbolizes Your Patron": {
+      "name": "Uma escultura que simboliza seu Patrono"
+    },
+    "A List of Names with Several Marked Off": {
+      "name": "Uma lista de nomes com vários já riscados"
+    },
+    "A Ring You Can't Remove": {
+      "name": "Um anel que você não consegue remover"
+    },
+    "Assassin": {
+      "name": "Assassino",
+      "description": "<p>Assassinos são verdadeiros mestres na arte de atravessar as defesas dos inimigos, infligindo dores terríveis e golpes mortais. Quando um assassino marca uma vítima para morrer, ele a persegue com uma determinação implacável.</p>",
+      "backgroundQuestions": [
+        "Qual organização te treinou na arte de matar, e como você se tornou parte dela?",
+        "Ao longo de toda a sua carreira, um alvo sempre escapou de você. Quem é essa pessoa e como ela consegue escapar?",
+        "Você está sempre disposto a fazer qualquer coisa para eliminar seu alvo, mas existe uma linha que você nunca cruza. Qual é?"
+      ],
+      "connections": [
+        "O que em mim te assusta mais?",
+        "Certa vez, você me pediu para fazer algo que até hoje não te deixa dormir à noite. O que foi?",
+        "Qual segredo meu eu revelei a você, e por que isso mudou sua opinião sobre mim?"
+      ]
+    },
+    "Basic Supplies": {
+      "name": "Suprimentos Básicos"
+    },
+    "Blood Hunter": {
+      "name": "Caçador de Sangue",
+      "description": "<p>Domine a arte da magia de sangue e descubra quais segredos podem ser revelados no poder do seu próprio sangue. Caçadores de Sangue são praticantes habilidosos que buscam incansavelmente novas magias e capacidades sombrias, à espera de serem descobertas dentro deles mesmos!</p><p></p><h3>Características Recomendadas</h3><p>+1 Instinto, 0 Influência, 0 Conhecimento</p><p><strong>Assassino de Fantasmas / Mutante:</strong> +2 Agilidade, −1 Força, +1 Maestria</p><p><strong>Licantropo:</strong> +1 Agilidade, +2 Força, −1 Maestria</p><p></p><h3>Arma Principal Recomendada</h3><p><strong>Assassino de Fantasmas / Mutante:</strong> Espada Longa (Agilidade Corpo a Corpo, d8 + 3 físico, Duas Mãos)</p><p><strong>Licantropo:</strong> Machado de Batalha (Força Corpo a Corpo, d10 + 3 físico, Duas Mãos)</p>"
+    },
+    "Blood Maledict": {
+      "name": "Maledicção de Sangue",
+      "description": "<p>Gaste 3 Esperanças para escolher uma criatura em Alcance Distante ou na sua linha de visão por meio da sua Psicometria Sombria. Até você concluir um descanso, sofrer Dano Grave ou usar esta característica novamente, você tem vantagem em todas as rolagens de ação contra esse alvo.</p>",
+      "actions": {
+        "Z9pHUbpS5aoHCOPt": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Book about a Hobby": {
+      "name": "Livro sobre um hobby",
+      "description": "<p>Este livro é sobre o seu hobby especial. Diga qual é.</p>"
+    },
+    "Brawler": {
+      "name": "Lutador",
+      "description": "<p>Especialistas em combate corporal, lutadores transformam seus corpos em armas mortais, usando técnicas marciais impressionantes. Quer tenham treinado em uma escola organizada ou adquirido habilidade em confrontos reais, o processo sempre é duro — no qual desenvolvem corpo e mente para funcionarem como um só.</p>",
+      "backgroundQuestions": [
+        "Onde você passou sua juventude que, direta ou indiretamente, te ensinou a lutar do jeito que você luta hoje?",
+        "Qual grupo ou organização sempre te apoiou, e como você ganhou o favor deles?",
+        "Quem você perdeu para há muito tempo e com quem você desesperadamente quer uma revanche?"
+      ],
+      "connections": [
+        "Do que nós dois temos medo?",
+        "Eu dependo de você para algo importante durante nossas viagens. O que é, e como você se sente sobre isso?",
+        "Eu ainda não te perdoei pelo que você me disse. O que foi, e por que você disse aquilo?"
+      ]
+    },
+    "Combo Strikes (D10)": {
+      "name": "Golpes em Combo (D10)",
+      "description": "<p>Após fazer uma rolagem de dano com uma arma de alcance Corpo a Corpo, mas antes de causar o dano ao alvo, marque Estresse para iniciar um combo. Quando fizer isso, role o <em>Dado de Combo</em> e anote o resultado. Em seguida, role mais um <em>Dado de Combo</em>. Se o resultado do segundo dado for igual ou maior que o do seu primeiro <em>Dado de Combo</em>, continue rolando dados adicionais até que o resultado do último <em>Dado de Combo</em> seja menor do que o resultado do anterior. Some todos os resultados e adicione esse total ao dano da sua arma. Esses valores não podem ser alterados por características que afetem dados de dano.</p><p>Seu <em>Dado de Combo</em> começa como <strong>d4</strong>. Quando você ganha um novo nível, uma vez por grau, você pode usar uma das suas opções de progressão para aumentar seu <em>Dado de Combo</em> em um passo (d4 -> d6, d6 -> d8, e assim por diante).</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "Combo!"
+        }
+      }
+    },
+    "Combo Strikes (D4)": {
+      "name": "Golpes em Combo (D4)",
+      "description": "<p>Após fazer uma rolagem de dano com uma arma de alcance Corpo a Corpo, mas antes de causar o dano ao alvo, marque Estresse para iniciar um combo. Quando fizer isso, role o <em>Dado de Combo</em> e anote o resultado. Em seguida, role mais um <em>Dado de Combo</em>. Se o resultado do segundo dado for igual ou maior que o do seu primeiro <em>Dado de Combo</em>, continue rolando dados adicionais até que o resultado do último <em>Dado de Combo</em> seja menor do que o resultado do anterior. Some todos os resultados e adicione esse total ao dano da sua arma. Esses valores não podem ser alterados por características que afetem dados de dano.</p><p>Seu <em>Dado de Combo</em> começa como <strong>d4</strong>. Quando você ganha um novo nível, uma vez por grau, você pode usar uma das suas opções de progressão para aumentar seu <em>Dado de Combo</em> em um passo (d4 -> d6, d6 -> d8, e assim por diante).</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "Combo!"
+        }
+      }
+    },
+    "Combo Strikes (D6)": {
+      "name": "Golpes em Combo (D6)",
+      "description": "<p>Após fazer uma rolagem de dano com uma arma de alcance Corpo a Corpo, mas antes de causar o dano ao alvo, marque Estresse para iniciar um combo. Quando fizer isso, role o <em>Dado de Combo</em> e anote o resultado. Em seguida, role mais um <em>Dado de Combo</em>. Se o resultado do segundo dado for igual ou maior que o do seu primeiro <em>Dado de Combo</em>, continue rolando dados adicionais até que o resultado do último <em>Dado de Combo</em> seja menor do que o resultado do anterior. Some todos os resultados e adicione esse total ao dano da sua arma. Esses valores não podem ser alterados por características que afetem dados de dano.</p><p>Seu <em>Dado de Combo</em> começa como <strong>d4</strong>. Quando você ganha um novo nível, uma vez por grau, você pode usar uma das suas opções de progressão para aumentar seu <em>Dado de Combo</em> em um passo (d4 -> d6, d6 -> d8, e assim por diante).</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "Combo!"
+        }
+      }
+    },
+    "Combo Strikes (D8)": {
+      "name": "Golpes em Combo (D8)",
+      "description": "<p>Após fazer uma rolagem de dano com uma arma de alcance Corpo a Corpo, mas antes de causar o dano ao alvo, marque Estresse para iniciar um combo. Quando fizer isso, role o <em>Dado de Combo</em> e anote o resultado. Em seguida, role mais um <em>Dado de Combo</em>. Se o resultado do segundo dado for igual ou maior que o do seu primeiro <em>Dado de Combo</em>, continue rolando dados adicionais até que o resultado do último <em>Dado de Combo</em> seja menor do que o resultado do anterior. Some todos os resultados e adicione esse total ao dano da sua arma. Esses valores não podem ser alterados por características que afetem dados de dano.</p><p>Seu <em>Dado de Combo</em> começa como <strong>d4</strong>. Quando você ganha um novo nível, uma vez por grau, você pode usar uma das suas opções de progressão para aumentar seu <em>Dado de Combo</em> em um passo (d4 -> d6, d6 -> d8, e assim por diante).</p>",
+      "actions": {
+        "iR7sJDYH2qxJ3XUa": {
+          "name": "Combo!"
+        }
+      }
+    },
+    "Commune": {
+      "name": "Comunhão",
+      "description": "<p>Uma vez antes do próximo descanso, em um momento de calma, você pode estabelecer contato com um ancestral, divindade, espírito ou entidade de outro mundo. Faça uma pergunta e, em seguida, role um número de <strong>[[/r d6]]</strong> igual ao seu Atributo de Conjurador. Escolha um dos resultados obtidos e consulte a tabela abaixo para determinar o efeito:</p><ul><li><strong>1-3:</strong> Você sente um gosto, cheiro ou sensação física relacionada à resposta.</li></ul><ul><li><strong>4-5:</strong> Você ouve sons ou vê uma visão relacionada à resposta.</li></ul><ul><li><strong>6:</strong> Você vivencia mentalmente uma cena relacionada à resposta, como se estivesse lá.</li></ul>",
+      "actions": {
+        "ukjfQXHHCr2d2TbU": {
+          "name": "Entrar em comunhão",
+          "description": "<p>Uma vez antes do próximo descanso, em um momento de calma, você pode estabelecer contato com um ancestral, divindade, espírito ou entidade de outro mundo. Faça uma pergunta e, em seguida, role um número de <strong>d6</strong> igual ao seu Atributo de Conjurador. Escolha um dos resultados obtidos e consulte a tabela abaixo para determinar o efeito:</p><ul><li><strong>1-3:</strong> Você sente um gosto, cheiro ou sensação física relacionada à resposta.</li></ul><ul><li><strong>4-5:</strong> Você ouve sons ou vê uma visão relacionada à resposta.</li></ul><ul><li><strong>6:</strong> Você vivencia mentalmente uma cena relacionada à resposta, como se estivesse lá.</li></ul>"
+        }
+      }
+    },
+    "Crimson Rite": {
+      "name": "Rito Carmesim",
+      "description": "<p>Você pode encantar seus golpes com um poder sedento por sangue ao custo da sua própria vitalidade. Marque uma Ferida para encantar uma das suas armas ativas.</p><p></p><p>Até você concluir o próximo descanso, essa arma causa dano físico ou mágico (escolha ao usar esta característica) e causa 1d6 de dano adicional ao acertar. Esse dano adicional aumenta para 2d6 no 5º nível e para 3d6 no 8º nível.</p>",
+      "actions": {
+        "eQ44S7qWqk3UoKTT": {
+          "name": "Marcar uma Ferida"
+        }
+      },
+      "effects": {
+        "m8FpjPisLRkUpcaD": {
+          "name": "Grau 1"
+        },
+        "7DRdwl3LsnIGzWPI": {
+          "name": "Nível 5"
+        },
+        "OA51Rp7Se2RdGh4O": {
+          "name": "Nível 8"
+        }
+      }
+    },
+    "Favor": {
+      "name": "Favor",
+      "description": "<p>Comece com 3 pontos de Favor. Durante um descanso, gaste um dos seus Turnos de Descanso como tributo ao seu Patrono. Quando fizer isso, ganhe uma quantidade de Favor igual à sua Influência. Se você optar por se abster dessa oferenda, o Mestre ganha Medo.</p>"
+    },
+    "Get In & Get Out": {
+      "name": "Entrar e Sair",
+      "description": "<p><strong>Gaste Esperança</strong> para pedir ao Mestre que aponte um caminho rápido ou discreto para entrar ou sair de um prédio ou estrutura que você consiga ver. Sua próxima rolagem em que usar essa informação é feita com vantagem.</p>",
+      "actions": {
+        "V9BXDm9xen2flEZx": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Grim Psychometry": {
+      "name": "Psicometria Sombria",
+      "description": "<p>Ao examinar uma criatura, lugar ou objeto em Alcance Próximo, faça uma Rolagem de Conjuração (12). Em caso de sucesso, marque Estresse para ver uma visão do último ato de violência associado ao alvo. Até você concluir um descanso, você tem vantagem em qualquer rolagem de ação para recordar conhecimentos sobre coisas vistas na visão.</p>"
+    },
+    "Grim Resolve": {
+      "name": "Determinação Sombria",
+      "description": "<p><strong>Gaste 3 Esperanças</strong> para limpar 2 de Estresse.</p>",
+      "actions": {
+        "ksk3CYijTOKkSjiE": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Hand Wraps": {
+      "name": "Faixas para as mãos",
+      "description": "<p>Essas faixas para as mãos vieram do seu mentor.</p>"
+    },
+    "Hex": {
+      "name": "Maldição",
+      "description": "<p>Quando uma criatura fizer você ou um aliado em Alcance Médio marcar qualquer quantidade de Feridas, você pode <strong>marcar Estresse</strong> para <em>Amaldiçoá-la</em>. Rolagens de ação e de dano contra o alvo <em>Amaldiçoado</em> recebem um bônus igual ao seu grau.</p><p>Essa condição dura até que o Mestre gaste uma quantidade de Medo igual ao seu Atributo de Conjurador, ou até você <em>Amaldiçoar</em> outra criatura. Caso contrário, a condição termina ao fim da cena.</p>",
+      "actions": {
+        "12QoobkmHaZw8yDx": {
+          "name": "Marcar Estresse",
+          "description": "<p>Quando uma criatura fizer você ou um aliado em Alcance Médio marcar qualquer quantidade de Feridas, você pode <strong>marcar Estresse</strong> para <em>Amaldiçoá-la</em>. Rolagens de ação e de dano contra o alvo <em>Amaldiçoado</em> recebem um bônus igual ao seu grau.</p>"
+        }
+      },
+      "effects": {
+        "PtMSqVyzo52cGpJn": {
+          "name": "Maldição",
+          "description": "<p>Rolagens de ação e de dano contra uma criatura Amaldiçoada recebem um bônus igual ao seu grau.</p>"
+        }
+      }
+    },
+    "I Am the Weapon": {
+      "name": "Eu Sou a Arma",
+      "description": "<p>Enquanto você não estiver com nenhuma arma equipada:</p><ul><li>Você recebe <strong>+1</strong> em Esquiva.</li></ul><ul><li>Seus golpes desarmados contam como uma arma de alcance Corpo a Corpo, usam um atributo à sua escolha e causam <strong>d8+d6</strong> de dano físico usando sua Maestria.</li></ul>",
+      "actions": {
+        "VYXl3fEMzbWMUSQ8": {
+          "name": "Golpe desarmado",
+          "description": "<p>Seus golpes desarmados contam como uma arma de alcance Corpo a Corpo, usam um atributo à sua escolha e causam <strong>d8+d6</strong> de dano físico usando sua Maestria.</p>"
+        }
+      },
+      "effects": {
+        "RzQRBURPH5ZgxMOO": {
+          "name": "Esquiva +1",
+          "description": "<p>Eu Sou a Arma: você recebe +1 em Esquiva.</p>"
+        }
+      }
+    },
+    "Marked for Death": {
+      "name": "Marcado para Morrer",
+      "description": "<p>Ao acertar uma ataque com arma, você pode <strong>marcar Estresse</strong> para dar ao alvo a condição <em>Marcado para Morrer</em>. Os ataques que você fizer contra um alvo <em>Marcado para Morrer</em> recebem um bônus de dano igual a <strong>+1d4</strong> por grau.</p><p>Você só pode ter um inimigo <em>Marcado para Morrer</em> por vez, e não pode transferir nem remover essa condição a não ser derrotando o alvo. O Mestre pode gastar uma quantidade de Medo igual à sua Maestria para remover <em>Marcado para Morrer</em>. Caso contrário, ela termina automaticamente quando você descansa.</p>",
+      "actions": {
+        "f6GryCLwsDo0ejCu": {
+          "name": "Marcar Estresse"
+        },
+        "U9jFMI21QDXEsi2Q": {
+          "name": "Dano"
+        }
+      }
+    },
+    "Mortar and Pestle Inscribed With a Mysterious Insignia": {
+      "name": "Almofariz e pilão inscritos com um símbolo misterioso"
+    },
+    "Patron's Boon": {
+      "name": "Bênção do Patrono",
+      "description": "<p><strong>Gaste 3 Esperanças</strong> para pedir ajuda ao seu Patrono e ganhe <strong>1d4</strong> de Favor.</p>",
+      "actions": {
+        "LswokIXWOo1W01ec": {
+          "name": "Gastar Esperança"
+        }
+      },
+      "effects": {
+        "JO6GClT2A29xddR1": {
+          "name": "Bênção do Patrono"
+        }
+      }
+    },
+    "Staggering Strike": {
+      "name": "Golpe Atordoante",
+      "description": "<p><strong>Gaste 3 Esperanças</strong>, quando você tiver sucesso em um ataque, para <em>Atordoar</em> temporariamente o alvo e fazê-lo marcar Estresse. Enquanto o alvo estiver <em>Atordoado</em>, todas as rolagens de ataque dele são feitas com desvantagem.</p>",
+      "actions": {
+        "F8rse36409E4a9As": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 Esperanças</strong>, quando você tiver sucesso em um ataque, para <em>Atordoar</em> temporariamente o alvo e fazê-lo marcar Estresse. Enquanto o alvo estiver <em>Atordoado</em>, todas as rolagens de ataque dele são feitas com desvantagem.</p>"
+        }
+      }
+    },
+    "Steel Needle": {
+      "name": "Agulha de aço"
+    },
+    "Talking Skull": {
+      "name": "Crânio Falante",
+      "description": "<p>Um crânio falante encantado.</p>"
+    },
+    "Tiny Pet": {
+      "name": "Pequeno Mascote",
+      "description": "<p>Um animal pequeno e inofensivo, ligado a você como seu familiar.</p>"
+    },
+    "Torch": {
+      "name": "Tocha"
+    },
+    "Vial Holding a Foe’s Blood": {
+      "name": "Frasco com o sangue de um inimigo"
+    },
+    "Warlock": {
+      "name": "Bruxo",
+      "description": "<p>Aqueles que entregaram sua vida — e talvez sua alma — a um Patrono sobrenatural em troca de um poder incrível são conhecidos como bruxos. Muitas vezes, esses mortais estão em um desespero que os leva a esse sacrifício — para proteger a si mesmos ou alguém amado, ajudar sua comunidade, se vingar, elevar seu status ou de alguma forma impulsionar suas ambições.</p>",
+      "backgroundQuestions": [
+        "Que situação desesperadora te levou a dedicar sua vida ao seu Patrono?",
+        "Seu Patrono te deu uma tarefa que você deve cumprir acima de tudo. O que é, e por que isso te incomoda?",
+        "Você e seu Patrono são muito parecidos em um aspecto específico. Qual característica vocês compartilham, e o que você acha disso?"
+      ],
+      "connections": [
+        "Eu compartilho com você o que meu Patrono diz e faz. Por quê?",
+        "Você uma vez me viu prestar tributo ao meu Patrono, e isso mudou a forma como você me vê. O que você viu, e como isso te afetou?",
+        "Certa vez eu fiz algo muito estúpido, e até hoje você não consegue me perdoar. O que foi?"
+      ]
+    },
+    "Warlock Patron": {
+      "name": "Patrono do Bruxo",
+      "description": "<p>Você se dedicou a um Patrono (um deus, demônio, fada ou outra entidade sobrenatural) em troca de poder. Anote o nome dele acima. Em seguida, escolha as esferas de influência dele em conversa com o Mestre (Natureza e Discórdia, Amor e Guerra, Conhecimento e Sombra, etc.), anote-as abaixo e defina o valor delas como +2. Cada vez que você aumentar seu grau, essas esferas de influência também recebem um bônus permanente de +1. Antes de fazer uma rolagem de ação relacionada a uma das esferas de influência do seu Patrono, você pode <strong>gastar Favor</strong> para pedir a ajuda dele e somar o valor dessa esfera à rolagem.</p>"
+    },
+    "Witch": {
+      "name": "Bruxa",
+      "description": "<p>Magos que entram em contato com forças da natureza e com entidades de mundos além. Bruxas canalizam seu poder por meio de artesanato, rituais, feitiços, ervas, pedras, velas e outros atributos para manifestar sua vontade e conjurar encantamentos poderosos.</p>",
+      "backgroundQuestions": [
+        "Como você descobriu pela primeira vez sua inclinação para o ofício da magia?",
+        "Certa vez, você usou seu poder para ajudar alguém em apuros. Quem era e por que essa pessoa recorreu a você?",
+        "Sua magia um dia abriu uma porta que seria melhor ter deixado fechada. Quem — ou o quê — estava do outro lado?"
+      ],
+      "connections": [
+        "O que na minha prática mágica mais te deixa inquieto?",
+        "Certa vez eu apareci para você em um sonho e mostrei uma visão do futuro. O que eu te contei naquele momento?",
+        "Por que você vem a mim pedir conselho?"
+      ]
+    },
+    "Witch's Charm": {
+      "name": "Encanto da Bruxa",
+      "description": "<p>Quando você ou um aliado em Alcance Distante falhar em uma rolagem de ação, você pode <strong>gastar 3 Esperanças</strong> para transformá-la em um sucesso com Medo.</p>",
+      "actions": {
+        "vLCzHEepLS96g9Ff": {
+          "name": "Gastar Esperança",
+          "description": "<p>Quando você ou um aliado em Alcance Distante falhar em uma rolagem de ação, você pode <strong>gastar 3 Esperanças</strong> para transformá-la em um sucesso com Medo.</p>"
+        }
+      }
+    }
+  }
+}

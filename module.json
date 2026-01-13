@@ -1,0 +1,57 @@
+{
+  "id": "kox-traducoes-daggerheart",
+  "title": "Tradução Completa para Português BR Daggerheart",
+  "description": "Uma Tradução do sistema Daggerheart e de Compêndiums extras.",
+  "version": "2025.12.29",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.7.5"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.2.1",
+          "verified": "1.2.1"
+        }
+      }
+    ]
+  },
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/daggerheart-pt-BR.css"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "system": "daggerheart",
+      "path": "system/pt-BR.json"
+    }
+  ],
+  "authors":
+    {
+      "name": "ThiagoKox",
+      "url": "https://github.com/ThiagoKox"
+    },
+  "url": "https://github.com/ThiagoKox/kox-traducoes-daggerheart",
+  "readme": "https://github.com/ThiagoKox/kox-traducoes-daggerheart#readme",
+  "changelog": "https://github.com/ThiagoKox/kox-traducoes-daggerheart/releases",
+  "bugs": "https://github.com/ThiagoKox/kox-traducoes-daggerheart/issues",
+  "license": "MIT",
+  "manifest": "https://raw.githubusercontent.com/ThiagoKox/kox-traducoes-daggerheart/main/module.json",
+  "download": "https://github.com/ThiagoKox/kox-traducoes-daggerheart/releases/download/v2025.12.29/fvtt-daggerheart-ru-v2025.12.29.zip"
+}

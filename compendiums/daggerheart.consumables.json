@@ -1,0 +1,773 @@
+{
+  "label": "Consumíveis",
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Acidpaste": {
+      "name": "Pasta Ácida",
+      "description": "<p>Esta pasta corrói paredes e outras superfícies em meio a clarões de luz.</p>",
+      "actions": {
+        "FQ2Ty0pP3z6JrBr6": {
+          "name": "Usar",
+          "description": "<p>Esta pasta corrói paredes e outras superfícies em meio a clarões de luz.</p>"
+        }
+      }
+    },
+    "Armor Stitcher": {
+      "name": "Remendo de Armadura",
+      "description": "<p>Ao usar este item, gaste um número qualquer de Pontos de Esperança e recuperar o mesmo número de PA.</p>",
+      "actions": {
+        "htoGx8qrv8trds81": {
+          "name": "Costurar",
+          "description": "<p>Ao usar este item, gaste um número qualquer de Pontos de Esperança e recuperar o mesmo número de PA.</p>"
+        }
+      }
+    },
+    "Attune Potion": {
+      "name": "Poção da Sintonia",
+      "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Instinto.</p>",
+      "actions": {
+        "aiyNOQZbVpTDagXy": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Instinto.</p>"
+        }
+      },
+      "effects": {
+        "I5vgALTNDVApxy9d": {
+          "name": "Poção da Sintonia"
+        }
+      }
+    },
+    "Blinding Orb": {
+      "name": "Orbe Cegante",
+      "description": "<p>Você pode ativar este orbe para criar um clarão de luz brilhante. Todos os alvos Próximos ficam Vulneráveis até marcarem PV.</p><p>@Template[type:emanation|range:c]</p>",
+      "actions": {
+        "vk4dE0C8bjNdTwAF": {
+          "name": "Ativar",
+          "description": "<p>Você pode ativar este orbe para criar um clarão de luz brilhante. Todos os alvos Próximos ficam Vulneráveis até marcarem PV.</p><p>@Template[type:emanation|range:c]</p>"
+        }
+      },
+      "effects": {
+        "nryJhrF26hyFQUxH": {
+          "name": "Orbe Cegante",
+          "description": "<p><span>Você fica Vulnerável até marcar 1 PV.</span></p>"
+        }
+      }
+    },
+    "Blood of the Yorgi": {
+      "name": "Sangue dos Yorgi",
+      "description": "<p>Você pode beber esse sangue para desaparecer do local em que está e imediatamente aparecer em um ponto em alcance Muito Distante que você consiga ver.</p>",
+      "actions": {
+        "6QGfkGkFqqzuVOOY": {
+          "name": "Beber",
+          "description": "<p>Você pode beber esse sangue para desaparecer do local em que está e imediatamente aparecer em um ponto em alcance Muito Distante que você consiga ver.</p>"
+        }
+      }
+    },
+    "Bolster Potion": {
+      "name": "Poção do Impulso",
+      "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Força.</p>",
+      "actions": {
+        "YqbQKTgblItoZOm8": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Força.</p>"
+        }
+      },
+      "effects": {
+        "HVCJp9Tkhr1i4Oc1": {
+          "name": "Poção do Impulso"
+        }
+      }
+    },
+    "Bonding Honey": {
+      "name": "Mel da União",
+      "description": "<p>Este objeto pode ser usado para colar objetos permanentemente em outros.</p>",
+      "actions": {
+        "SWrgUGHIWCXpED1b": {
+          "name": "Usar",
+          "description": "<p>Este objeto pode ser usado para colar objetos permanentemente em outros.</p>"
+        }
+      }
+    },
+    "Bridge Seed": {
+      "name": "Semente da Ponte",
+      "description": "<p>Vinhas grossas crescem do local onde você está até um ponto à sua escolha em alcance Distante, permitindo que você atrevesse; elas se dissipam no seu próximo descanso curto.</p>",
+      "actions": {
+        "dk7fhkfA4m5lqNWB": {
+          "name": "Plantar",
+          "description": "<p>Vinhas grossas crescem do local onde você está até um ponto à sua escolha em alcance Distante, permitindo que você atrevesse; elas se dissipam no seu próximo descanso curto.</p>"
+        }
+      }
+    },
+    "Channelstone": {
+      "name": "Pedra Canalizadora",
+      "description": "<p>Você pode usar esta pedra para pegar uma magia ou grimório da sua reserva, usá-lo uma vez e então devolvê-lo à reserva.</p>",
+      "actions": {
+        "X4KtBG5Uve09hRoj": {
+          "name": "Usar",
+          "description": "<p>Você pode usar esta pedra para pegar uma magia ou grimório da sua reserva, usá-lo uma vez e então devolvê-lo à reserva.</p>"
+        }
+      }
+    },
+    "Charm Potion": {
+      "name": "Poção do Charme",
+      "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Presença.</p>",
+      "actions": {
+        "2trd3JYIb527LIrn": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Presença.</p>"
+        }
+      },
+      "effects": {
+        "COrKb7gBin4Ro6r6": {
+          "name": "Poção do Charme"
+        }
+      }
+    },
+    "Circle of the Void": {
+      "name": "Círculo do Vazio",
+      "description": "<p>Marque 1 Ponto de Fadiga para criar um espaço anti-magia que se estende até o alcance Distante. Nenhuma a magia pode ser conjurada nesta área e criaturas dentro dela são imunes a dano mágico.</p>",
+      "actions": {
+        "ovR11FWCpXaFMPVx": {
+          "name": "Usar",
+          "description": "<p>Marque 1 Ponto de Fadiga para criar um espaço anti-magia que se estende até o alcance Distante. Nenhuma a magia pode ser conjurada nesta área e criaturas dentro dela são imunes a dano mágico.</p>"
+        }
+      }
+    },
+    "Control Potion": {
+      "name": "Poção do Controle",
+      "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Acuidade.</p>",
+      "actions": {
+        "l5dx5uYsH0btLDJq": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Acuidade.</p>"
+        }
+      },
+      "effects": {
+        "1VAQYZ1YYc9ew9UR": {
+          "name": "Poção do Controle"
+        }
+      }
+    },
+    "Death Tea": {
+      "name": "Chá da Morte",
+      "description": "<p>Após beber este chá, seu próximo sucesso crítico em um ataque mata o alvo instantaneamente. Se não tiver nenhum sucesso crítico até seu próximo descanso longo, você morre.</p>",
+      "actions": {
+        "U7da5R4pgVkEQJVj": {
+          "name": "Beber",
+          "description": "<p>Após beber este chá, seu próximo sucesso crítico em um ataque mata o alvo instantaneamente. Se não tiver nenhum sucesso crítico até seu próximo descanso longo, você morre.</p>"
+        }
+      },
+      "effects": {
+        "IqlpqsgurXsUEQhs": {
+          "name": "Chá da Morte",
+          "description": "<p><span>Após beber este chá, você mata instantaneamente seu alvo quando obtém um sucesso crítico em um ataque. Se não obtiver um sucesso crítico em um ataque antes do seu próximo descanso longo, você morre.</span></p>"
+        }
+      }
+    },
+    "Dragonbloom Tea": {
+      "name": "Chá de Erva-dragão",
+      "description": "<p>Você pode beber esse chá para lançar um único sopro de fogo. Faça um teste de Instinto contra todos os adversários Próximos na sua frente. Alvos atingidos sofrem d20 de dano físico com sua Proficiência.</p>",
+      "actions": {
+        "rcHEz3ImUDwo6lPC": {
+          "name": "Beber",
+          "description": "<p>Você pode beber este chá para liberar um ataque de sopro flamejante. Faça um teste de Instinto contra todos os adversários à sua frente em alcance Próximo. Alvos em que você obtiver sucesso sofrem d20 de dano físico usando sua Proficiência.</p><p>@Template[type:emanation|range:c]</p>"
+        }
+      }
+    },
+    "Dripfang Poison": {
+      "name": "Veneno da Presa Gotejante",
+      "description": "<p>Uma criatura que consumir este veneno sofre 8d10 de dano mágico direto.</p>",
+      "actions": {
+        "F8CUhhCuZMnXVCrw": {
+          "name": "Consumir",
+          "description": "<p>Uma criatura que consumir este veneno sofre 8d10 de dano mágico direto.</p>"
+        }
+      }
+    },
+    "Enlighten Potion": {
+      "name": "Poção da Iluminação",
+      "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Conhecimento.</p>",
+      "actions": {
+        "F3K719gxEwQH697e": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Conhecimento.</p>"
+        }
+      },
+      "effects": {
+        "QNzVrDW73jF1d5wE": {
+          "name": "Poção da Iluminação"
+        }
+      }
+    },
+    "Feast of Xuria": {
+      "name": "Ceia de Xúria",
+      "description": "<p>Você pode comer esta refeição para recuperar todos os seus PV e sua Fadiga, além de receber 1d4 Pontos de Esperança.</p>",
+      "actions": {
+        "TL1fJitAJmDzrnHT": {
+          "name": "Comer",
+          "description": "<p>Você pode comer esta refeição para recuperar todos os seus PV e sua Fadiga, além de receber 1d4 Pontos de Esperança.</p>"
+        }
+      }
+    },
+    "Featherbone": {
+      "name": "Osso-pena",
+      "description": "<p>Use este osso para controlar sua velocidade de queda por um número de minutos equivalente ao seu nível.</p>",
+      "actions": {
+        "MC0EA6TDZpEHMz11": {
+          "name": "Usar",
+          "description": "<p>Use este osso para controlar sua velocidade de queda por um número de minutos equivalente ao seu nível.</p>"
+        }
+      },
+      "effects": {
+        "VfJIJBW96e45xQHY": {
+          "name": "Osso-pena",
+          "description": "<p>Use este osso para controlar sua velocidade de queda por um número de minutos equivalente ao seu nível.</p>"
+        }
+      }
+    },
+    "Gill Salve": {
+      "name": "Unguento de Guelras",
+      "description": "<p>Você pode aplicar este unguento em seu pescoço para respirar sob a água por um número de minutos igual ao seu nível.</p>",
+      "actions": {
+        "57IIcyhEs2ByoENx": {
+          "name": "Aplicar",
+          "description": "<p>Você pode aplicar este unguento em seu pescoço para respirar sob a água por um número de minutos igual ao seu nível.</p>"
+        }
+      },
+      "effects": {
+        "5rL9CY5GO9SJcEZq": {
+          "name": "Unguento de Guelras",
+          "description": "<p>Você pode aplicar este unguento em seu pescoço para respirar sob a água por um número de minutos igual ao seu nível.</p>"
+        }
+      }
+    },
+    "Grindletooth Venom": {
+      "name": "Veneno de Presâmia",
+      "description": "<p>Você pode aplicar este veneno a uma arma que causa dano físico para somar 1d6 em sua próxima rolagem de dano com ela.</p>",
+      "actions": {
+        "BuzdaD4vLsbBS2gy": {
+          "name": "Aplicar",
+          "description": "<p>Você pode aplicar este veneno a uma arma que causa dano físico para somar 1d6 em sua próxima rolagem de dano com ela.</p>"
+        }
+      },
+      "effects": {
+        "yx4ZkXeuXgw2KvV4": {
+          "name": "Veneno de Presâmia",
+          "description": "<p><span>Você causa 1d6 de dano físico adicional na sua próxima rolagem de dano com a arma à qual o veneno foi aplicado.</span></p>"
+        }
+      }
+    },
+    "Growing Potion": {
+      "name": "Poção do Crescimento",
+      "description": "<p>Beba esta poção para duplicar seu tamanho até decidir voltar ao normal ou até seu próximo descanso. Enquanto estiver maior, você recebe um bônus de +2 em Força e +1 em sua Proficiência.</p>",
+      "actions": {
+        "A8wHvMnKnewQ2J3m": {
+          "name": "Beber",
+          "description": "<p>Beba esta poção para duplicar seu tamanho até decidir voltar ao normal ou até seu próximo descanso. Enquanto estiver maior, você recebe um bônus de +2 em Força e +1 em sua Proficiência.</p>"
+        }
+      },
+      "effects": {
+        "YEGd74Lssj7rCmpF": {
+          "name": "Poção do Crescimento"
+        }
+      }
+    },
+    "Health Potion": {
+      "name": "Poção de Vida",
+      "description": "<p>Recupere 1d4+1 PV.</p>",
+      "actions": {
+        "O5MYyHpkiEz9uf6A": {
+          "name": "Beber",
+          "description": "<p>Recupere 1d4+1 PV.</p>"
+        }
+      }
+    },
+    "Homet’s Secret Potion": {
+      "name": "Poção Secreta de Homet",
+      "description": "<p>Após beber esta poção, seu próximo sucesso em um teste de ataque deve ser considerado um sucesso crítico.</p>",
+      "actions": {
+        "NCcqIcPhEsUnFh7S": {
+          "name": "Beber",
+          "description": "<p>Após beber esta poção, seu próximo sucesso em um teste de ataque deve ser considerado um sucesso crítico.</p>"
+        }
+      },
+      "effects": {
+        "QyzXAnvho7lVQQtP": {
+          "name": "Poção Secreta de Homet",
+          "description": "<p><span>O próximo ataque bem-sucedido que você fizer é um sucesso crítico.</span></p>"
+        }
+      }
+    },
+    "Hopehold Flare": {
+      "name": "Fogareiro da Esperança",
+      "description": "<p>Quando você usa este fogareiro, aliados Próximos rolam 1d6 ao gastar 1 Ponto de Esperança. Se rolarem 6, eles recebem o efeito da Esperança sem precisar gastá-la. O Fogareiro dura até o final da cena.</p><p>@Template[type:emanation|range:c]</p>",
+      "actions": {
+        "hTF2K4uWcrUypLbs": {
+          "name": "Usar",
+          "description": "<p>Quando você usa este fogareiro, aliados Próximos rolam 1d6 ao gastar 1 Ponto de Esperança. Se rolarem 6, eles recebem o efeito da Esperança sem precisar gastá-la. O Fogareiro dura até o final da cena.</p><p>@Template[type:emanation|range:c]</p>"
+        }
+      }
+    },
+    "Improved Arcane Shard": {
+      "name": "Fragmento Arcano Aprimorado",
+      "description": "<p>Você pode fazer um teste de Acuidade para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 2d20 de dano mágico.</p>",
+      "actions": {
+        "g3sQoxS6sL3mut3u": {
+          "name": "Arremessar",
+          "description": "<p>Você pode fazer um teste de Acuidade para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 2d20 de dano mágico.</p>"
+        }
+      }
+    },
+    "Improved Grindletooth Venom": {
+      "name": "Veneno de Presâmia Aprimorado",
+      "description": "<p>Você pode aplicar este veneno a uma arma que causa dano físico para somar 1d8 em sua próxima rolagem de dano com ela.</p>",
+      "actions": {
+        "KhZ4WVT9cLA1a1y8": {
+          "name": "Aplicar",
+          "description": "<p>Você pode aplicar este veneno a uma arma que causa dano físico para somar 1d8 em sua próxima rolagem de dano com ela.</p>"
+        }
+      },
+      "effects": {
+        "P7tbNjq58bQ9R1Cc": {
+          "name": "Veneno de Presâmia Aprimorado",
+          "description": "<p><span>Você causa 1d8 de dano físico adicional na sua próxima rolagem de dano com a arma à qual o veneno foi aplicado.</span></p>"
+        }
+      }
+    },
+    "Jar of Lost Voices": {
+      "name": "Jarra de Vozes Perdidas",
+      "description": "<p>Você pode abrir essa jarra para libertar um eco ensurdecedor de vozes por uma quantidade de minutos igual ao seu Instinto. Criaturas Distantes não estão preparadas para o som e sofrem 6d8 de dano mágico.</p><p>@Template[type:emanation|range:f]</p>",
+      "actions": {
+        "QEk4TaJeN9FX8cZN": {
+          "name": "Abrir",
+          "description": "<p>Você pode abrir essa jarra para libertar um eco ensurdecedor de vozes por uma quantidade de minutos igual ao seu Instinto. Criaturas Distantes não estão preparadas para o som e sofrem 6d8 de dano mágico.</p><p>@Template[type:emanation|range:f]</p>"
+        }
+      }
+    },
+    "Jumping Root": {
+      "name": "Raiz da Cambalhota",
+      "description": "<p>Coma esta raiz para saltar para um ponto em alcance Distante uma vez sem precisar fazer teste.</p>",
+      "actions": {
+        "TT4jzve7o2ykPcQO": {
+          "name": "Comer",
+          "description": "<p>Coma esta raiz para saltar para um ponto em alcance Distante uma vez sem precisar fazer teste.</p>"
+        }
+      }
+    },
+    "Knowledge Stone": {
+      "name": "Pedra do Conhecimento",
+      "description": "<p>Se você morrer com esta pedra nas mãos, um aliado pode escolher uma das cartas em sua mão e colocá-la na própria mão ou reserva. Após isso, a pedra se esfarela.</p>",
+      "actions": {
+        "We38aIuxBrv8zhfr": {
+          "name": "Usar",
+          "description": "<p>Se você morrer com esta pedra nas mãos, um aliado pode escolher uma das cartas em sua mão e colocá-la na própria mão ou reserva. Após isso, a pedra se esfarela.</p>"
+        }
+      }
+    },
+    "Major Arcane Shard": {
+      "name": "Fragmento Arcano Maior",
+      "description": "<p>Você pode fazer um teste de Acuidade para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 4d20 de dano mágico.</p>",
+      "actions": {
+        "8JHqtEYD0uOGwHdd": {
+          "name": "Arremessar",
+          "description": "<p>Você pode fazer um teste de Acuidade para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 4d20 de dano mágico.</p>"
+        }
+      }
+    },
+    "Major Attune Potion": {
+      "name": "Poção da Sintonia Maior",
+      "description": "<p>Você recebe um bônus de +1 em Instinto até seu próximo descanso.</p>",
+      "actions": {
+        "zerWKpcBvtiaUfaw": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em Instinto até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "v2EXGXbJaewaMxFC": {
+          "name": "Poção da Sintonia Maior"
+        }
+      }
+    },
+    "Major Bolster Potion": {
+      "name": "Poção do Impulso Maior",
+      "description": "<p>Você recebe um bônus de +1 em Força até seu próximo descanso.</p>",
+      "actions": {
+        "Z7ehTbRegQvq74tl": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em Força até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "3PfXBJy0ZjLBDAIn": {
+          "name": "Poção do Impulso Maior"
+        }
+      }
+    },
+    "Major Charm Potion": {
+      "name": "Poção do Charme Maior",
+      "description": "<p>Você recebe um bônus de +1 em Presença até seu próximo descanso.</p>",
+      "actions": {
+        "Bz6oZUN317mLvQSk": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em Presença até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "3iXv9QiuLGOfDCi2": {
+          "name": "Poção do Charme Maior"
+        }
+      }
+    },
+    "Major Control Potion": {
+      "name": "Poção do Controle Maior",
+      "description": "<p>Você recebe um bônus de +1 em Acuidade até seu próximo descanso.</p>",
+      "actions": {
+        "fk272mE2zHIHq8qR": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em Acuidade até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "YOgojNdjARXUUrky": {
+          "name": "Poção do Controle Maior"
+        }
+      }
+    },
+    "Major Enlighten Potion": {
+      "name": "Poção da Iluminação Maior",
+      "description": "<p>Você recebe um bônus de +1 em Conhecimento até seu próximo descanso.</p>",
+      "actions": {
+        "cZL1A3hNXHbjfwi3": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em Conhecimento até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "Ul5brgnx88npVGNj": {
+          "name": "Poção da Iluminação Maior"
+        }
+      }
+    },
+    "Major Health Potion": {
+      "name": "Poção de Vida Maior",
+      "description": "<p>Recupere 1d4+2 PV.</p>",
+      "actions": {
+        "Xm2ldAlmUQY4jlLb": {
+          "name": "Beber",
+          "description": "<p>Recupere 1d4+2 PV.</p>"
+        }
+      }
+    },
+    "Major Stamina Potion": {
+      "name": "Poção de Vigor Maior",
+      "description": "<p>Recupere 1d4+2 Pontos de Fadiga.</p>",
+      "actions": {
+        "3duuNVqCeQaUUKTo": {
+          "name": "Beber",
+          "description": "<p>Recupere 1d4+2 Pontos de Fadiga.</p>"
+        }
+      }
+    },
+    "Major Stride Potion": {
+      "name": "Poção da Velocidade Maior",
+      "description": "<p>Você recebe um bônus de +1 em Agilidade até seu próximo descanso.</p>",
+      "actions": {
+        "UIVnvI726LJnlK86": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em Agilidade até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "L9dAw8pws1o02XkE": {
+          "name": "Poção da Velocidade Maior"
+        }
+      }
+    },
+    "Minor Health Potion": {
+      "name": "Poção de Vida Menor",
+      "description": "<p>Recupere 1d4 Pontos de Vida.</p>",
+      "actions": {
+        "9HVL2MPFX9VGiSsV": {
+          "name": "Beber",
+          "description": "<p>Recupere 1d4 Pontos de Vida.</p>"
+        }
+      }
+    },
+    "Minor Stamina Potion": {
+      "name": "Poção de Vigor Menor",
+      "description": "<p>Recupere 1d4 Pontos de Fadiga.</p>",
+      "actions": {
+        "fdjpkjhzHQOrZPm0": {
+          "name": "Beber",
+          "description": "<p>Recupere 1d4 Pontos de Fadiga.</p>"
+        }
+      }
+    },
+    "Mirror of Marigold": {
+      "name": "Espelho Maravilha",
+      "description": "<p>Quando sofre dano, você pode gastar 1 Ponto de Esperança para negar o dano sofrido. Após isso, este espelho se despedaça.</p>",
+      "actions": {
+        "EPN43cQmNC97cCw9": {
+          "name": "Usar",
+          "description": "<p>Quando sofre dano, você pode gastar 1 Ponto de Esperança para negar o dano sofrido. Após isso, este espelho se despedaça.</p>"
+        }
+      }
+    },
+    "Morphing Clay": {
+      "name": "Molde de Argila",
+      "description": "<p>Você pode gastar 1 Ponto de Esperança para usar esta argila, alterando seu rosto para ficar irreconhecível até seu próximo descanso.</p>",
+      "actions": {
+        "S4wEG1RzfLNtvcg7": {
+          "name": "Usar",
+          "description": "<p>Você pode gastar 1 Ponto de Esperança para usar esta argila, alterando seu rosto para ficar irreconhecível até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "rMno0zO5Cbwlu4zn": {
+          "name": "Molde de Argila",
+          "description": "<p><span>Seu rosto fica irreconhecível até seu próximo descanso.</span></p>"
+        }
+      }
+    },
+    "Mythic Dust": {
+      "name": "Pó Mítico",
+      "description": "<p>Você pode aplicar este pó em uma arma que causa dano mágico para acrescentar 1d12 à sua próxima rolagem de dano feita com ela.</p>",
+      "actions": {
+        "oHph7e6VrOwPetbE": {
+          "name": "Usar",
+          "description": "<p>Você pode aplicar este pó em uma arma que causa dano mágico para acrescentar 1d12 à sua próxima rolagem de dano feita com ela.</p>"
+        }
+      },
+      "effects": {
+        "L68lFhuWdS3ppDxR": {
+          "name": "Pó Mítico",
+          "description": "<p><span>Você causa 1d12 de dano mágico adicional na sua próxima rolagem de dano com a arma à qual o veneno foi aplicado.</span></p>"
+        }
+      }
+    },
+    "Ogre Musk": {
+      "name": "Almíscar do Ogro",
+      "description": "<p>Você pode usar este almíscar para evitar ser rastreado de forma mundana ou mágica até seu próximo descanso.</p>",
+      "actions": {
+        "t0vgSnAuIcj7IevQ": {
+          "name": "Usar",
+          "description": "<p>Você pode usar este almíscar para evitar ser rastreado de forma mundana ou mágica até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "n73d0J4oMCBIPWHN": {
+          "name": "Almíscar do Ogro",
+          "description": "<p><span>Você não pode ser rastreado por meios mundanos ou mágicos até seu próximo descanso.</span></p>"
+        }
+      }
+    },
+    "Potion of Stability": {
+      "name": "Poção da Estabilidade",
+      "description": "<p>Você pode beber desta poção para fazer uma açao de repouso adicional.</p>",
+      "actions": {
+        "ifj42z5FhfMVyyd1": {
+          "name": "Beber",
+          "description": "<p>Você pode beber desta poção para fazer uma açao de repouso adicional.</p>"
+        }
+      },
+      "effects": {
+        "PjjGC4TpzjSz9z8s": {
+          "name": "Poção da Estabilidade"
+        }
+      }
+    },
+    "Redthorn Saliva": {
+      "name": "Saliva de Espinho-vermelho",
+      "description": "<p>Você pode aplicar esta saliva a uma arma que cause dano físico para acrescentar 1d12 à sua próxima rolagem de dano feita com ela.</p>",
+      "actions": {
+        "kOU2DpAIHvQsFY5A": {
+          "name": "Aplicar",
+          "description": "<p>Você pode aplicar esta saliva a uma arma que cause dano físico para acrescentar 1d12 à sua próxima rolagem de dano feita com ela.</p>"
+        }
+      },
+      "effects": {
+        "tWf00ezdpxQQLuZ1": {
+          "name": "Saliva de Espinho-vermelho",
+          "description": "<p><span>Você causa 1d12 de dano físico adicional na sua próxima rolagem de dano com a arma à qual a saliva foi aplicada.</span></p>"
+        }
+      }
+    },
+    "Replication Parchment": {
+      "name": "Pergaminho da Cópia",
+      "description": "<p>Ao tocar outro pergaminho com este, você copia perfeitamente os conteúdos do segundo pergaminho. Após ser usado, este pergaminho se torna um pedaço de papel mundano.</p>",
+      "actions": {
+        "j5gIVHXvcGu7PEZZ": {
+          "name": "Usar",
+          "description": "<p>Ao tocar outro pergaminho com este, você copia perfeitamente os conteúdos do segundo pergaminho. Após ser usado, este pergaminho se torna um pedaço de papel mundano.</p>"
+        }
+      }
+    },
+    "Shrinking Potion": {
+      "name": "Poção do Encolhimento",
+      "description": "<p>Beba esta poção para reduzir seu tamanho à metade até decidir voltar ao normal ou até seu próximo descanso. Enquanto estiver menor, você recebe um bônus de +2 em Agilidade e –1 em sua Proficiência.</p>",
+      "actions": {
+        "F9vKFVwtJfR4Q8Kh": {
+          "name": "Beber",
+          "description": "<p>Beba esta poção para reduzir seu tamanho à metade até decidir voltar ao normal ou até seu próximo descanso. Enquanto estiver menor, você recebe um bônus de +2 em Agilidade e –1 em sua Proficiência.</p>"
+        }
+      },
+      "effects": {
+        "yaRLd7eHWYm2MHRM": {
+          "name": "Poção do Encolhimento"
+        }
+      }
+    },
+    "Sleeping Sap": {
+      "name": "Seiva do Sono",
+      "description": "<p>Você pode beber esta poção para ter uma noite inteira de Descanso. Você recupera toda sua Fadiga ao acordar.</p>",
+      "actions": {
+        "0cqzI66ChzO6x8WF": {
+          "name": "Acordar",
+          "description": "<p>Você pode beber esta poção para ter uma noite inteira de Descanso. Você recupera toda sua Fadiga ao acordar.</p>"
+        }
+      }
+    },
+    "Snap Powder": {
+      "name": "Pó do Estalo",
+      "description": "<p>Marque 1 Ponto de Fadiga para recuperar 1 Ponto de Vida.</p>",
+      "actions": {
+        "FVn1NAbzHHyX2lsM": {
+          "name": "Beber",
+          "description": "<p>Marque 1 Ponto de Fadiga para recuperar 1 Ponto de Vida.</p>"
+        }
+      }
+    },
+    "Stamina Potion": {
+      "name": "Poção de Vigor",
+      "description": "<p>Recupere 1d4+1 Pontos de Fadiga.</p>",
+      "actions": {
+        "BnYXCo5zr50Sw8gj": {
+          "name": "Beber",
+          "description": "<p>Recupere 1d4+1 Pontos de Fadiga.</p>"
+        }
+      }
+    },
+    "Stardrop": {
+      "name": "Gota Estelar",
+      "description": "<p>Você pode usar esta gota estelar para invocar uma tempestade de cometas, que causam 8d20 de dano físico a todos os alvos em alcance Muito Distante.</p><p>@Template[type:emanation|range:vf]</p>",
+      "actions": {
+        "pt5U6hlyx4T7MUOa": {
+          "name": "Usar",
+          "description": "<p>Você pode usar esta gota estelar para invocar uma tempestade de cometas, que causam 8d20 de dano físico a todos os alvos em alcance Muito Distante.</p><p>@Template[type:emanation|range:vf]</p>"
+        }
+      }
+    },
+    "Stride Potion": {
+      "name": "Poção da Velocidade",
+      "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Agilidade.</p>",
+      "actions": {
+        "GwQgdB3E1HogFKvD": {
+          "name": "Beber",
+          "description": "<p>Você recebe um bônus de +1 em seu próximo teste de Agilidade.</p>"
+        }
+      },
+      "effects": {
+        "xQ0xPDxskzZH4jeK": {
+          "name": "Poção da Velocidade"
+        }
+      }
+    },
+    "Sun Tree Sap": {
+      "name": "Seiva da Árvore do Sol",
+      "description": "<p>Consuma esta seiva e role 1d6. Se tirar 5 ou 6, recupere 2 PV. Se tirar 2 ou 4, recupere 3 Pontos de Fadiga. Se tirar 1, veja o que existe do outro lado do véu da morte e volte com uma cicatriz.</p>",
+      "actions": {
+        "Fh7OR8ZmiLNvRPHa": {
+          "name": "Consumir",
+          "description": "<p>Consuma esta seiva e role 1d6. Se tirar 5 ou 6, recupere 2 PV. Se tirar 2 ou 4, recupere 3 Pontos de Fadiga. Se tirar 1, veja o que existe do outro lado do véu da morte e volte com uma cicatriz.</p>"
+        }
+      }
+    },
+    "Sweet Moss": {
+      "name": "Musgo Doce",
+      "description": "<p>Você pode consumir este musgo durante um descanso para recuperar 1d4 PV ou 1d4 Pontos de Fadiga.</p>",
+      "actions": {
+        "Sft4HkhlqsYH5qKI": {
+          "name": "Recuperar PV",
+          "description": "<p>Você pode consumir este musgo durante um descanso para recuperar 1d10 PV.</p>"
+        },
+        "IolxVguij8PjHSVt": {
+          "name": "Recuperar Fadiga",
+          "description": "<p>Você pode consumir este musgo durante um descanso para recuperar 1d10 Pontos de Fadiga.</p>"
+        }
+      }
+    },
+    "Unstable Arcane Shard": {
+      "name": "Fragmento Arcano Instável",
+      "description": "<p>Você pode fazer um teste de Acuidade para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 1d20 de dano mágico.</p>",
+      "actions": {
+        "D7BTCUV5DOXmqC0l": {
+          "name": "Arremessar",
+          "description": "<p>Você pode fazer um teste de Acuidade para lançar este fragmento em um grupo Distante de adversários. Alvos atingidos sofrem 1d20 de dano mágico.</p>"
+        }
+      }
+    },
+    "Varik Leaves": {
+      "name": "Folhas de Varik",
+      "description": "<p>Você pode comer as folhas para receber 2 Pontos de Esperança.</p>",
+      "actions": {
+        "9e4l2Yiy8uV26SQF": {
+          "name": "Comer",
+          "description": "<p>Você pode comer as folhas para receber 2 Pontos de Esperança.</p>"
+        }
+      }
+    },
+    "Vial of Darksmoke": {
+      "name": "Frasco de Fumaça Negra",
+      "description": "<p>Ao ser alvo de um ataque, use este frasco e role um número de d6 igual à sua Agilidade. Some o valor mais alto à sua Evasão contra este ataque.</p>",
+      "actions": {
+        "4nFnAoyH5dENizsx": {
+          "name": "Usar",
+          "description": "<p>Ao ser alvo de um ataque, use este frasco e role um número de d6 igual à sua Agilidade. Some o valor mais alto à sua Evasão contra este ataque.</p>"
+        }
+      }
+    },
+    "Vial of Moondrip": {
+      "name": "Frasco de Gota Lunar",
+      "description": "<p>Quando beber o conteúdo deste frasco, você consegue enxergar na escuridão até seu próximo descanso.</p>",
+      "actions": {
+        "6Ny75zR1b8I8Ycsb": {
+          "name": "Beber",
+          "description": "<p>Quando beber o conteúdo deste frasco, você consegue enxergar na escuridão até seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "548KAUPcSbQLsivh": {
+          "name": "Frasco de Gota Lunar",
+          "description": "<p><span>Você pode enxergar na escuridão total até seu próximo descanso.</span></p>"
+        }
+      }
+    },
+    "Wingsprout": {
+      "name": "Asas Mágicas",
+      "description": "<p>Você recebe asas que o permitem voar por uma quantidade de minutos equivalente ao seu nível.</p>",
+      "actions": {
+        "HopgGHn12CHiDNuk": {
+          "name": "Usar",
+          "description": "<p>Você recebe asas que o permitem voar por uma quantidade de minutos equivalente ao seu nível.</p>"
+        }
+      },
+      "effects": {
+        "80F8gAn7ejhhNL7R": {
+          "name": "Asas Mágicas",
+          "description": "<p><span>Você ganha asas mágicas que permitem voar por um número de minutos igual ao seu nível.</span></p>"
+        }
+      }
+    }
+  }
+}

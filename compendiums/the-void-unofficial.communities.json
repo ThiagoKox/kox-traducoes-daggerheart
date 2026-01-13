@@ -1,0 +1,68 @@
+{
+  "label": "Comunidades",
+  "folders": {
+    "Community Features": "Características"
+  },
+  "mapping": {
+    "description": "system.description",
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Brave Face": {
+      "name": "Coragem Contida",
+      "description": "<p>Uma vez por sessão, quando um ataque faria você marcar Estresse, você pode <strong>gastar Esperança</strong> em vez disso.</p>"
+    },
+    "Close-Knit": {
+      "name": "Unidos",
+      "description": "<p>Uma vez até o próximo descanso longo, você pode gastar qualquer quantidade de Esperança para conceder a um aliado a mesma quantidade de Esperança.</p>"
+    },
+    "Duneborne": {
+      "name": "Nascidos das Dunas",
+      "description": "<p>Pertencer a uma comunidade das dunas significa que você encontrou um lar entre areias mutáveis e o clima árido do deserto.</p>"
+    },
+    "Found Family": {
+      "name": "Família Encontrada",
+      "description": "<p>Uma vez por sessão, você pode <strong>gastar Esperança</strong> para usar uma característica de comunidade de um aliado. Quando você faz isso, o aliado ganha Esperança.</p>",
+      "actions": {
+        "Wrq0vEGLsiLWy8tl": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Freeborne": {
+      "name": "Libertos",
+      "description": "<p>Pertencer a uma comunidade liberta significa que você vem de um povo que viveu sob opressão e conquistou a liberdade.</p>"
+    },
+    "Frostborne": {
+      "name": "Nascidos do Gelo",
+      "description": "<p>Pertencer a uma comunidade do gelo significa que você cresceu entre neve e gelo.</p>"
+    },
+    "Hardy": {
+      "name": "Resistente",
+      "description": "<p>Uma vez até o próximo descanso, você pode Ajudar um Aliado a atravessar terreno difícil sem gastar Esperança.</p>"
+    },
+    "Hearthborne": {
+      "name": "Do Lar",
+      "description": "<p>Pertencer a uma comunidade do lar significa que você vem de vilarejos e pequenos povoados modestos, onde tudo se sustenta na proximidade e no cuidado.</p>"
+    },
+    "Oasis": {
+      "name": "Oásis",
+      "description": "<p>Durante um descanso curto, você ou um aliado pode rerrolar 1 dado de uma jogada de descanso.</p>"
+    },
+    "Reborne": {
+      "name": "Esquecidos",
+      "description": "<p>Você já pertenceu a outra comunidade, mas não se lembra mais dela.</p><p>A qualquer momento em que você encontrar uma comunidade da qual já fez parte, ou se juntar a uma nova comunidade, você pode trocar permanentemente esta carta de comunidade por uma nova.</p>"
+    },
+    "Unbound": {
+      "name": "Indomável",
+      "description": "<p>Uma vez por sessão, quando você fizer uma rolagem de ação com Medo, você pode substituí-la por uma rolagem com Esperança.</p>"
+    },
+    "Warborne": {
+      "name": "Forjados na Guerra",
+      "description": "<p>Pertencer a uma comunidade de guerra significa que você cresceu em terras marcadas pela guerra — passada ou ainda em fúria.</p>"
+    }
+  }
+}

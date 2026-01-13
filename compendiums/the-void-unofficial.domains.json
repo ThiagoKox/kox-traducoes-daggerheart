@@ -1,0 +1,398 @@
+{
+  "label": "Domínios",
+  "folders": {
+    "Blood": "Sangue",
+    "Level 01": "Nível 01",
+    "Level 02": "Nível 02",
+    "Level 03": "Nível 03",
+    "Level 04": "Nível 04",
+    "Level 05": "Nível 05",
+    "Level 06": "Nível 06",
+    "Level 07": "Nível 07",
+    "Level 08": "Nível 08",
+    "Level 09": "Nível 09",
+    "Level 10": "Nível 10",
+    "Dread": "Pavor"
+  },
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    }
+  },
+  "entries": {
+    "Avatar of Terror": {
+      "name": "Avatar do Medo",
+      "description": "<p><strong>Marque Estresse</strong> para se transformar em uma criatura que se alimenta de medo. Enquanto estiver nessa forma, suas rolagens de dano recebem um bônus de <strong>+1d6</strong> para cada marcador de <strong>Medo</strong> do Mestre. Além disso, você ganha <strong>Esperança</strong> quando o Mestre usa uma característica de Medo de um adversário dentro de Distância Média.</p><p>Você deve <strong>gastar Esperança</strong> para fazer uma rolagem de ação nessa forma. Caso contrário, você sai dessa forma.</p>",
+      "actions": {
+        "h0M9skrk3ZHoJN3y": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Blighting Strike": {
+      "name": "Golpe Definhante",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração</strong> contra um alvo em Distância Longa. Em caso de sucesso, o alvo sofre <strong>d6+1</strong> de dano mágico, usando sua Maestria, e na próxima vez que o alvo causar dano a um aliado, esse dano será reduzido pela metade. Se você obtiver sucesso com Medo, em vez disso o alvo sofre <strong>d10+1</strong> de dano mágico, usando sua Maestria.</p>",
+      "actions": {
+        "uV0uqW0vTYOU8G5a": {
+          "name": "Rolagem de Conjuração"
+        },
+        "U9WzF1ggi2gD6GhS": {
+          "name": "Dano (Esperança)"
+        },
+        "bE8h8BujouIvRe6I": {
+          "name": "Dano (Medo)"
+        }
+      }
+    },
+    "Blood Bind": {
+      "name": "Grilhões de Sangue",
+      "description": "<p>Faça uma Rolagem de Conjuração contra um alvo em Distância Longa. Em caso de sucesso, marque Estresse, desacelerando a força vital do alvo. O alvo fica temporariamente <em>Imobilizado</em> e temporariamente <em>Vulnerável</em>. Sempre que o alvo se tornar ativo enquanto qualquer um desses estados permanecer nele, o alvo sofre <strong>d10</strong> de dano mágico, usando sua Maestria. A magia termina antes se você usar isso novamente.</p>",
+      "actions": {
+        "a7O0qVSCOvL6460p": {
+          "name": "Marcar Estresse"
+        },
+        "JoF7vm39bqE7elsT": {
+          "name": "Dano"
+        }
+      }
+    },
+    "Blood Puppet": {
+      "name": "Marionete de Sangue",
+      "description": "<p>Faça uma Rolagem de Conjuração contra uma criatura (viva ou morta) em Distância Longa. Em caso de sucesso, gaste Esperança para controlar o alvo, fazendo-o se mover, atacar ou ambos. Se fizer ambos, você escolhe a ordem. Se fizer a criatura se mover, ela se desloca para um local escolhido por você em até Distância Média dela. Se fizer a criatura atacar, faça uma Rolagem de Conjuração contra um alvo em distância Corpo a Corpo dela. Em caso de sucesso, cause d10 de dano físico, usando sua Maestria.</p>",
+      "actions": {
+        "1XsZ5bi8etvZSkAc": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Blood Spike": {
+      "name": "Espinho de Sangue",
+      "description": "<p>Faça uma Rolagem de Conjuração contra um alvo em Distância Longa. Em caso de sucesso, marque Estresse para causar <strong>d10</strong> de dano mágico ao alvo, usando sua Maestria. Em um sucesso com Esperança, o alvo também marca Estresse. Em uma rolagem com Medo, marque Estresse.</p>",
+      "actions": {
+        "heFBYHKGNPMnWV6N": {
+          "name": "Dano"
+        }
+      }
+    },
+    "Blood-Touched": {
+      "name": "Tocado pelo Sangue",
+      "description": "<p>Enquanto 4 ou mais cartas de domínio na sua mão forem do domínio Sangue, você recebe os seguintes benefícios: </p><ul><li><p>Quando você receber dano suficiente para marcar 2 ou mais Feridas, ganhe Esperança. </p></li><li><p>Para cada 3 Feridas que você tiver marcadas, ganhe +1 de bônus em sua Esquiva.</p></li></ul>"
+    },
+    "Bloodbath": {
+      "name": "Banho de Sangue",
+      "description": "<p>Uma vez por descanso, gaste Esperança para liberar ondas de sangue ao seu redor. Faça uma Rolagem de Conjuração contra cada adversário em Distância Média. Em caso de sucesso, o alvo marca uma Ferida e Estresse. Em caso de falha, o alvo marca Estresse. Cada aliado em Distância Média marca Estresse, mas limpa uma Ferida.</p>",
+      "actions": {
+        "iwOmlSsL1300AuKm": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Brand of Castigation": {
+      "name": "Marca de Castigo",
+      "description": "<p>Quando você causar dano a uma criatura, marque Estresse para queimar nela uma marca mágica vermelha. Enquanto essa marca não desaparecer, você sempre sabe a direção da criatura marcada em relação a você, e essa criatura marca Estresse sempre que causar dano a você ou a um aliado seu em Distância Próxima de você. A marca desaparece quando você conjura esta magia novamente.</p>",
+      "actions": {
+        "NPHmC7BSCkxKuyp3": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Burning Blood": {
+      "name": "Sangue Ardente",
+      "description": "<p>Faça uma Rolagem de Conjuração (12). Em caso de sucesso, marque uma Ferida, criando uma gota de sangue que você arremessa em um ponto em Distância Longa. Uma onda de calor preenche a área em Distância Próxima desse ponto, incendiando as entranhas de quem estiver nela. Cada alvo na área marca 1 Ferida. Em um sucesso com Esperança, em vez disso cada alvo na área marca 2 Feridas.</p>",
+      "actions": {
+        "qwSGmwPfVdo73QVO": {
+          "name": "Marcar Ferida"
+        }
+      }
+    },
+    "Chains of Affliction": {
+      "name": "Correntes de Aflição",
+      "description": "<p>Marque <strong>2 Estresses</strong> para temporariamente <em>Acorrentar</em> um alvo em Distância Média. Quando uma criatura <em>Acorrentada</em> causar dano, o alvo do ataque dela reduz em 1 a quantidade de Feridas marcadas. Você não pode ter mais de uma criatura <em>Acorrentada</em> ao mesmo tempo.</p>",
+      "actions": {
+        "ggYMquEUvkhGNNDU": {
+          "name": "Marcar 2 Estresses"
+        }
+      }
+    },
+    "Crimson Adamance": {
+      "name": "Tenacidade Carmesim",
+      "description": "<p>Quando você teria que marcar sua última Ferida, gaste Esperança para, em vez disso, marcar Estresse.</p>",
+      "actions": {
+        "Ru8giJeYjpj4Wkc5": {
+          "name": "Gastar Esperança / Marcar Estresse"
+        }
+      }
+    },
+    "Damnation": {
+      "name": "Condenação",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração</strong> contra um alvo em Distância Longa. Em caso de sucesso, <strong>marque qualquer quantidade de Estresse</strong> para rolar a mesma quantidade de <strong>d20</strong> e causar dano mágico igual ao total. Se o alvo for derrotado por esse ataque, todos os adversários em Distância Longa marcam Estresse.</p>"
+    },
+    "Dark Army": {
+      "name": "Exército das Trevas",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração (14)</strong>. Uma vez até o próximo descanso longo, em caso de sucesso você pode invocar um grupo de demônios que o cercam e se movem com você. Coloque 8 marcadores nesta carta. Quando você causar dano a um alvo em Distância Próxima, você pode gastar um marcador para aumentá-lo em <strong>+1d8</strong>. Além disso, quando você receber dano, você pode gastar um marcador para reduzi-lo em <strong>1d8</strong>. Cada vez que você gasta um marcador, um demônio age em seu benefício e então desaparece.</p><p>Remova todos os marcadores desta carta durante seu próximo descanso.</p>"
+    },
+    "Darkfire": {
+      "name": "Fogo Sombrio",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração</strong> contra todos os adversários em Distância Média. Você pode <strong>gastar Esperança</strong> para quaisquer alvos contra os quais você obtiver sucesso, e eles devem fazer uma <strong>Rolagem de Reação (14)</strong>. Em caso de falha, eles sofrem <strong>d8+6</strong> de dano mágico, usando sua Maestria, envoltos em fogo sombrio. Em caso de sucesso, eles sofrem metade do dano.</p>",
+      "actions": {
+        "82rtYgOuXmZRCuog": {
+          "name": "Rolagem de Conjuração"
+        }
+      }
+    },
+    "Dire Strike": {
+      "name": "Golpe Funesto",
+      "description": "<p>Depois de realizar um ataque bem-sucedido, você pode <strong>gastar 2 Esperanças</strong> para absorver o poder do alvo. Para cada Ferida marcada pelo alvo por esse ataque, o Mestre perde Medo.</p>",
+      "actions": {
+        "jxbwIhqmWYtIQd9X": {
+          "name": "Gastar 2 Esperanças"
+        }
+      }
+    },
+    "Dread-Touched": {
+      "name": "Tocado pelo Pavor",
+      "description": "<p>Quando 4 ou mais cartas de domínio no seu inventário forem do domínio \"Pavor\", você recebe os seguintes benefícios:</p><ul><li>Quando você obtiver sucesso com Medo, você pode <strong>marcar 2 Estresses</strong> para impedir que o Mestre ganhe Medo.</li></ul><ul><li>Uma vez até o próximo descanso, em uma rolagem de ação, você pode adicionar +1 à rolagem para cada marcador de Medo do Mestre.</li></ul>",
+      "actions": {
+        "Ky5wcwBqgm5bJCK1": {
+          "name": "Marcar Estresse",
+          "description": "<p>Quando você obtiver sucesso com Medo, você pode <strong>marcar 2 Estresses</strong> para impedir que o Mestre ganhe Medo.</p>"
+        }
+      },
+      "effects": {
+        "sNBuI2xIZAI4RgZy": {
+          "name": "Tocado pelo Pavor",
+          "description": "<p>Quando 4 ou mais cartas de domínio no seu inventário forem do domínio \"Pavor\", você recebe os seguintes benefícios:</p><ul><li>Quando você obtiver sucesso com Medo, você pode <strong>marcar 2 Estresses</strong> para impedir que o Mestre ganhe Medo.</li><li>Uma vez até o próximo descanso, em uma rolagem de ação, você pode adicionar +1 à rolagem para cada marcador de Medo do Mestre.</li></ul>"
+        }
+      }
+    },
+    "Eldritch Flesh": {
+      "name": "Carne Sobrenatural",
+      "description": "<p>Você encarna a escuridão com a qual antes apenas brincava. Enquanto esta carta estiver no seu inventário:</p><ul><li>Receba +1 nos seus limiares de dano para cada Estresse que você tiver marcado.</li></ul><ul><li>Em rolagens com Medo, você pode <strong>gastar 2 Esperanças</strong> para limpar 1 Caixa de Armadura.</li></ul>"
+    },
+    "Glyph of Hemorrhaging": {
+      "name": "Glifo de Hemorragia",
+      "description": "<p>Faça uma Rolagem de Conjuração contra uma criatura em Distância Longa. Em caso de sucesso, marque uma Ferida para queimar no alvo um glifo mágico que permanece até que o Mestre gaste 2 Medos para removê-lo, ou até você sofrer Dano Grave. Sempre que o alvo marcar qualquer Ferida enquanto o glifo permanecer, você pode marcar Estresse para fazer com que ele marque uma Ferida adicional.</p>",
+      "actions": {
+        "eJjJL3MIVLViaO3r": {
+          "name": "Marcar Ferida"
+        },
+        "5A3yXgfg8W01OdTC": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Grisly Harpoon": {
+      "name": "Arpão Macabro",
+      "description": "<p>Você dispara um arpão de sangue em um local ou criatura em Distância Longa. Se o alvo for um local, faça uma Rolagem de Conjuração (13). Em caso de sucesso, marque Estresse para se puxar até ficar em distância Corpo a Corpo dele. Se o alvo for uma criatura, faça uma Rolagem de Conjuração contra ela. Em caso de sucesso, marque Estresse para causar <strong>3d8</strong> de dano mágico ao alvo. Em seguida, você puxa o alvo diretamente até você ou puxa você diretamente até o alvo, ficando em distância Corpo a Corpo um do outro.</p>",
+      "actions": {
+        "ogTYoxej37HWFOVO": {
+          "name": "Marcar Estresse"
+        },
+        "1mJczo48w5cuNl2B": {
+          "name": "Marcar Estresse e causar dano"
+        }
+      }
+    },
+    "Hideous Retribution": {
+      "name": "Retaliação Hedionda",
+      "description": "<p>Quando um aliado em Distância Média sofre dano de um adversário que você consegue ver, você pode fazer uma <strong>Rolagem de Reação</strong> contra esse adversário, usando seu atributo de conjurador. Em caso de sucesso, <strong>marque Estresse</strong> para causar <strong>d6</strong> de dano mágico a ele, usando sua Maestria.</p>",
+      "actions": {
+        "WVhpGOGf4znrsFxy": {
+          "name": "Rolagem de Conjuração"
+        },
+        "gGXHLdoNuiTv2Zgu": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Invoke Torment": {
+      "name": "Invocar Tormento",
+      "description": "<p>Criaturas com todas as caixas de Estresse marcadas sofrem dano dobrado dos seus ataques.</p><p>Além disso, quando você derrota uma criatura com todas as caixas de Estresse marcadas, você limpa Estresse.</p>"
+    },
+    "Life Leash": {
+      "name": "Coleira da Vida",
+      "description": "<p>Gaste Esperança para permitir que você e um aliado consentido em Distância Longa redistribuam as Feridas marcadas entre vocês dois. Você não pode usar Coleira da Vida novamente nesse aliado até que termine um descanso.</p>",
+      "actions": {
+        "xEafpseQkvpJFjXr": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Lifeblood Talisman": {
+      "name": "Talismã do Sangue Vital",
+      "description": "<p>Marque uma Ferida para criar um talismã cheio da sua essência vital. O talismã aparece na sua mão, e quem o portar recebe este benefício: sempre que o portador do talismã marcar 2 ou mais Feridas, ele pode gastar Esperança para reduzir em 1 a quantidade de Feridas marcadas. O talismã desaparece se você não tiver Feridas marcadas ou se conjurar esta magia novamente.</p>",
+      "actions": {
+        "DFvUULwSt63L43iI": {
+          "name": "Marcar Ferida"
+        }
+      }
+    },
+    "Mutual Suffering": {
+      "name": "Sofrimento Mútuo",
+      "description": "<p>Quando o ataque de uma criatura faz você marcar uma ou mais Feridas, você pode fazer uma Rolagem de Reação, usando seu atributo de Conjuração contra a criatura. Em caso de sucesso, a criatura marca a mesma quantidade de Feridas que você, e você não pode usar esta magia novamente até que termine um descanso.</p>"
+    },
+    "Parasite Of The Will": {
+      "name": "Parasita da Vontade",
+      "description": "<p>Faça uma Rolagem de Conjuração contra uma criatura em Distância Muito Longa. Em caso de sucesso, marque uma Ferida para criar um pequeno verme mágico de sangue que se enterra no alvo. Em um sucesso com Esperança, o alvo não sabe do verme dentro dele. </p><p></p><p>Você tem vantagem em qualquer rolagem de Influência contra o alvo, e sempre que ele fizer uma rolagem, você pode gastar Esperança para impor desvantagem à rolagem. Você pode destruir o verme de sangue para fazer o alvo marcar uma Ferida.</p>",
+      "actions": {
+        "ZPc1ahPAntVaVuqx": {
+          "name": "Marcar Ferida"
+        },
+        "lzsSCH6X5zBOsa7e": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Power Through Pain": {
+      "name": "Força Através da Dor",
+      "description": "<p>Se você tiver pelo menos uma Ferida marcada, você recebe um bônus nas suas rolagens de dano. O bônus é igual ao dobro do número de Feridas que você tiver marcadas.</p>"
+    },
+    "Runic Adrenaline": {
+      "name": "Adrenalina Rúnica",
+      "description": "<p>Sua prática de magia de sangue se infiltrou na sua corrente sanguínea, impulsionando seus sinais vitais em momentos de necessidade. Quando você rolar com vantagem, use d8 em vez de d6 como dado de vantagem se você tiver 1 ou mais Feridas marcadas. Depois de fazer uma rolagem de Força, Agilidade ou Perícia, você pode marcar uma Ferida para rolar 1d8 e adicionar ao resultado.</p>",
+      "actions": {
+        "PJFq9megcZzATmj9": {
+          "name": "Marcar Ferida"
+        }
+      }
+    },
+    "Sanguine Feast": {
+      "name": "Banquete Sanguíneo",
+      "description": "<p>Faça uma Rolagem de Conjuração contra um adversário em Distância Média. Em caso de sucesso, gaste 2 Esperanças para marcar 1–3 Feridas, e o alvo marca o dobro de Feridas do que você marcou. Se isso fizer o alvo marcar a última Ferida, você pode limpar as Feridas que marcou para conjurar esta magia.</p>",
+      "actions": {
+        "6epIeOe2FMQ24mw8": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Savor the Anguish": {
+      "name": "Saborear a Angústia",
+      "description": "<p>Quando um adversário em Distância Média marca Estresse ou sofre Dano Grave, você pode <strong>gastar Esperança</strong> para limpar Estresse ou fazer o Mestre perder 1 marcador de Medo.</p>",
+      "actions": {
+        "vbMcxqfAgg6uykxh": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Shared Trauma": {
+      "name": "Trauma Compartilhado",
+      "description": "<p>Você pode transferir o sofrimento de uma criatura para outra. Uma vez até o próximo descanso, marque qualquer quantidade de Feridas em uma criatura consentida em distância Corpo a Corpo para limpar a mesma quantidade de Feridas em outra criatura consentida em distância Corpo a Corpo. Você pode escolher você mesmo no lugar de qualquer uma dessas criaturas.</p>"
+    },
+    "Siphon Essence": {
+      "name": "Sifonar Essência",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração</strong> contra um alvo em Distância Próxima. Em caso de sucesso, uma vez até o próximo descanso longo, o alvo sofre <strong>d20</strong> de dano mágico, usando sua Maestria. Você limpa um número de Feridas igual à quantidade de Feridas marcadas pelo alvo por este ataque. Em um sucesso com Medo, você recebe +1 de Maestria para este ataque.</p>",
+      "actions": {
+        "ZUxdiPgJWHSc2Ig9": {
+          "name": "Rolagem de Conjuração"
+        }
+      }
+    },
+    "Spectral Mist": {
+      "name": "Névoa Espectral",
+      "description": "<p><strong>Marque Estresse</strong> para invocar uma névoa sinistra que torna você e todos os alvos em Distância Média momentaneamente intangíveis. Enquanto uma criatura estiver intangível, ela pode atravessar objetos sólidos e é imune a dano físico. A criatura volta a ser tangível depois de atravessar um objeto sólido ou fazer uma rolagem de ação. Caso contrário, este efeito termina no fim da cena.</p>",
+      "actions": {
+        "zNvUolwaFrSNiAu4": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Summon Horror": {
+      "name": "Invocar Horror",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração</strong> contra um alvo em Distância Longa. Em caso de sucesso, <strong>gaste Esperança</strong> para convocar uma criatura sobrenatural que ataca o alvo e causa <strong>d10</strong> de dano mágico, usando sua Maestria. O alvo também deve obter sucesso em uma <strong>Rolagem de Reação (12)</strong> para resistir a esse horror; caso contrário, ele deve marcar <strong>1d4</strong> de Estresse.</p><p>Após realizar o ataque, a criatura se dissipa.</p>"
+    },
+    "Terrify": {
+      "name": "Aterrorizar",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração</strong> contra um alvo em Distância Longa. Em caso de sucesso, o alvo marca <strong>1d4 de Estresse</strong>, e você pode forçá-lo a fugir uma categoria de distância para longe de você (Média -> Longa, Longa -> Muito Longa etc.). Em um sucesso com Medo, o alvo fica temporariamente <em>Vulnerável</em>.</p>",
+      "actions": {
+        "wklmI4hh5xUYL4OS": {
+          "name": "Rolagem de Conjuração"
+        }
+      }
+    },
+    "Umbra Veil": {
+      "name": "Véu de Sombras",
+      "description": "<p>Uma vez até o próximo descanso, em uma rolagem com Medo, você pode <strong>gastar qualquer quantidade de Esperança</strong> e colocar o mesmo número de marcadores nesta carta para se envolver em energia sombria. Depois que uma rolagem de ataque for feita contra você, você pode gastar qualquer quantidade de marcadores para aplicar um redutor de <strong>-1</strong> na rolagem de ataque para cada marcador gasto. No seu próximo descanso, remova todos os marcadores desta carta.</p>"
+    },
+    "Vampiric Strike": {
+      "name": "Golpe Vampírico",
+      "description": "<p>Quando você obtiver sucesso em uma rolagem de ataque contra um adversário e fizer com que ele marque 2 ou mais Feridas, você pode gastar Esperança para limpar uma Ferida ou Estresse.</p>",
+      "actions": {
+        "CyA18XaKclBsJfs6": {
+          "name": "Limpar Ferida"
+        },
+        "jsgezt0GPEZwKfkp": {
+          "name": "Limpar Estresse"
+        }
+      }
+    },
+    "Vital Ward": {
+      "name": "Proteção Vital",
+      "description": "<p>Marque uma Ferida para traçar um círculo de sangue ao seu redor em Distância Próxima. Enquanto estiver dentro do círculo, você tem resistência a dano físico ou mágico, à sua escolha (escolha ao conjurar). Aliados também recebem este benefício enquanto estiverem no círculo. O círculo desaparece se você sair dele, marcar 2 ou mais Feridas, ou conjurar esta magia novamente.</p>",
+      "actions": {
+        "K1H6sywGxcpjZ4zH": {
+          "name": "Marcar Ferida"
+        }
+      }
+    },
+    "Vitality Manipulation": {
+      "name": "Manipulação da Vitalidade",
+      "description": "<p>Faça uma Rolagem de Conjuração contra um alvo em Distância Próxima. Se você conjurar isso em um aliado, faça a rolagem com vantagem. Em caso de sucesso, marque Estresse e escolha um dos seguintes efeitos: </p><ul><li><p>O alvo se acalma e limpa Estresse. Em um sucesso com Esperança, ele limpa 2 Estresses. </p></li><li><p>O alvo fica mais ansioso e marca Estresse. Em um sucesso com Esperança, ele marca 2 Estresses.</p></li></ul>",
+      "actions": {
+        "2exmeeTCAD4WqgiU": {
+          "name": "Limpar 1 Estresse"
+        },
+        "aUoh8aQcHJOUWMlI": {
+          "name": "Limpar 2 Estresses"
+        },
+        "1FPv6RARCS5PXVQD": {
+          "name": "Marcar 1 Estresse"
+        },
+        "CjLIfCbNE2P3obQY": {
+          "name": "Marcar 2 Estresses"
+        }
+      }
+    },
+    "Voice of Dread": {
+      "name": "Voz do Pavor",
+      "description": "<p>Você pode, magicamente, falar direto nos ouvidos de uma criatura que você consiga ver. Para torturá-la com suas palavras, faça uma <strong>Rolagem de Conjuração</strong> contra ela. Em caso de sucesso, ela deve marcar Estresse e fica temporariamente <em>Vulnerável</em>.</p>",
+      "actions": {
+        "JrGujKVX0intRWfj": {
+          "name": "Ataque"
+        }
+      }
+    },
+    "Wailing Leap": {
+      "name": "Salto Assombrado",
+      "description": "<p>Quando você causa dano mágico a um alvo, você pode <strong>marcar Estresse</strong> para se teletransportar imediatamente para distância Corpo a Corpo dele. Quando você faz isso, o alvo fica <em>Vulnerável</em> até marcar uma ou mais Feridas.</p>",
+      "actions": {
+        "bMbVBpDdepXrLbjs": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Wall of Hunger": {
+      "name": "Muralha da Fome",
+      "description": "<p>Obtenha sucesso em uma <strong>Rolagem de Conjuração (13)</strong> para criar uma parede visível de energia necrótica retorcida em uma linha entre dois pontos em Distância Longa. Ela existe até você marcar uma Ferida ou conjurar esta magia novamente. Quaisquer criaturas que estiverem dentro da parede quando ela surgir, ou que tentarem atravessá-la, devem <strong>marcar 2 Estresses</strong> e fazer uma <strong>Rolagem de Reação (16)</strong>. Em caso de falha, elas ficam temporariamente <em>Imobilizadas</em> pela parede.</p>"
+    },
+    "Weave The Flesh": {
+      "name": "Tramar a Carne",
+      "description": "<p>Uma vez por descanso, marque uma Ferida para permitir que cada aliado em Distância Média limpe uma Ferida ou Estresse. Você pode marcar Estresse para permitir que esses aliados limpem 1 ponto de cada.</p>",
+      "actions": {
+        "WNAIadDdOxFPKDnI": {
+          "name": "Marcar Ferida"
+        },
+        "zYtMOEnJwxtOVxVI": {
+          "name": "Marcar Estresse"
+        },
+        "7HRAhpwU01ONCgkb": {
+          "name": "Limpar Ferida"
+        },
+        "lxtpj9N7niFoN2LW": {
+          "name": "Limpar Estresse"
+        }
+      }
+    }
+  }
+}

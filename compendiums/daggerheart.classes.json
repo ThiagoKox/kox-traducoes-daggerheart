@@ -1,0 +1,496 @@
+{
+  "label": "Classes",
+  "folders": {
+    "Class Features": "Características de Classe",
+    "Class Items": "Itens de Classe",
+    "Standard Take": "Equipamento Inicial",
+    "Bard": "Bardo",
+    "Druid": "Druida",
+    "Guardian": "Guardião",
+    "Ranger": "Patrulheiro",
+    "Rogue": "Ladino",
+    "Seraph": "Serafim",
+    "Sorcerer": "Feiticeiro",
+    "Warrior": "Guerreiro",
+    "Wizard": "Mago"
+  },
+  "mapping": {
+    "description": "system.description",
+    "backgroundQuestions": "system.backgroundQuestions",
+    "connections": "system.connections",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Bard": {
+      "name": "Bardo",
+      "description": "<p><strong>Nota:</strong> A partir do 5º nível, use a habilidade “Reunir (Nível 5)” em vez da versão básica. No momento, o sistema não faz essa substituição automaticamente.</p><p>O bardo é o personagem mais carismático em qualquer canto do mundo. Os membros dessa classe são verdadeiros mestres do encanto, dominando muitas formas de performance: canto, instrumentos, histórias, piadas e números teatrais. Onde quer que se apresentem — para uma multidão ou cara a cara — bardos estão no seu elemento quando precisam conquistar atenção, arrancar risadas ou comover até as lágrimas. Normalmente treinados em guildas e escolas, raramente encontram-se bardos sem uma pitada de vaidade. Sim, eles sabem unir pessoas e acender corações, mas um temperamento ruim pode com a mesma facilidade destruir amizades e rachar o grupo por dentro.</p><p></p><h4>ITENS DE CLASSE</h4><p>Romance romântico ou Carta (nunca aberta)</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO BARDO</h4><p><em><strong>Fazer Cena:</strong></em> <strong>Gaste 3 de Esperança</strong> para <em>Distrair</em> temporariamente um alvo a Distância Média, aplicando a ele penalidade de -2 na Dificuldade.</p><p></p><h4>CARACTERÍSTICA DE CLASSE</h4><p><em><strong>Reunir</strong></em></p><p>Uma vez por sessão, descreva como você anima o grupo — então você e todos os aliados recebem um Dado de Reunião. No 1º nível, ele é um <strong>d6</strong>. Um jogador pode gastar seu Dado de Reunião e rolá-lo para somar o resultado a um teste de ação, teste de reação, teste de dano ou remover Estresse igual ao resultado. Ao fim da sessão, remova todos os Dados de Reunião não usados.</p><p>No 5º nível, seu Dado de Reunião passa a ser um <strong>d8</strong>.</p>",
+      "backgroundQuestions": [
+        "Quem da sua comunidade lhe ensinou a ser tão confiante?",
+        "Certa vez você esteve apaixonado(a). Quem você amava e como essa pessoa te feriu?",
+        "Você sempre admirou outros bardos. Quem eles são e por que você os idolatra?"
+      ],
+      "connections": [
+        "O que te fez perceber que seríamos grandes amigos?",
+        "Que atitudes minhas te irritam?",
+        "Por que você segura minha mão à noite?"
+      ]
+    },
+    "Druid": {
+      "name": "Druida",
+      "description": "<p>Tornar-se druida não é apenas escolher uma profissão — é atender a um chamado. É o caminho de quem busca compreender e proteger a magia da natureza indomada.</p><p>A suavidade de um druida ocupado com o trabalho tranquilo de cultivar plantas pode enganar — mas quem canaliza a força bruta da natureza é capaz de inspirar terror.</p><p>Em geral, druidas desenvolvem suas habilidades em pequenos círculos, unidos por crenças ou por um lugar, mas alguns preferem trilhar o caminho solitário.</p><p>Anos de estudo e devoção permitem aos druidas assumir formas animais e alterar a própria trama da natureza.</p><p></p><h4>ITENS DE CLASSE</h4><p>Pequeno saco com pedras e ossos ou Pingente estranho encontrado na lama</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO DRUIDA</h4><p><em><strong>Evolução:</strong></em> <strong>Gaste 3 de Esperança</strong> para assumir uma Forma Bestial sem marcar Estresse. Quando fizer isso, escolha um Atributo e aumente-o em +1 até sair dessa forma.</p><p></p><h4>CARACTERÍSTICAS DE CLASSE</h4><p><em><strong>Forma Bestial: </strong></em><strong>Marque Estresse</strong> para se transformar magicamente em uma criatura do seu Grau ou inferior da lista de Formas Bestiais. Você pode sair dessa forma a qualquer momento. Durante a transformação, você não pode usar armas nem conjurar magias de Cartas de Domínio, mas ainda pode usar outras características ou habilidades disponíveis. Magias conjuradas antes da transformação continuam ativas e duram normalmente, e você pode falar e se comunicar como de costume. Além disso, você ganha as características da Forma Bestial, soma o bônus de Evasão dela à sua Evasão e usa o Atributo indicado na ficha dela para seus ataques. Enquanto estiver em Forma Bestial, sua armadura vira parte do seu corpo, e você marca Espaços de Armadura normalmente. Ao sair da Forma Bestial, esses Espaços de Armadura permanecem marcados. Se você marcar sua última Ferida, você automaticamente sai dessa forma.</p><p><em><strong>Toque Selvagem: </strong></em>Você pode, à vontade, provocar pequenas manifestações inofensivas de magia natural. Isso pode ser o crescimento rápido de uma flor, uma brisa leve ou uma fogueira se acendendo sozinha.</p>",
+      "backgroundQuestions": [
+        "Por que a comunidade onde você cresceu dependia tanto da natureza e de suas criaturas?",
+        "Qual foi o primeiro animal selvagem com quem você fez amizade? Por que esse vínculo terminou?",
+        "Quem tentou te caçar? O que eles querem de você?"
+      ],
+      "connections": [
+        "O que você me confiou que me faz correr perigo por você sempre que preciso?",
+        "Que animal você acha que eu lembro?",
+        "Que apelido carinhoso você me deu?"
+      ]
+    },
+    "Guardian": {
+      "name": "Guardião",
+      "description": "<p>Ser Guardião é menos uma profissão e mais um título que abrange muitos caminhos de combate. Ele fala, acima de tudo, de um compasso interno de honra e de uma determinação inquebrável — não de um método específico de luta. Muitos guardiões se juntam às forças armadas — pela pátria ou pela guerra — mas, mais frequentemente, seguem aqueles poucos que realmente lhes importam, mesmo contra o mundo inteiro. Guardiões são conhecidos por lutar com uma fúria impressionante mesmo em situações sem esperança, colocando a proteção dos companheiros acima de tudo. Ai de quem ousar ferir um aliado de um guardião — a resposta virá à altura.</p><p></p><h4>ITENS DE CLASSE</h4><p>Totem do seu mentor ou Chave secreta</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO GUARDIÃO</h4><p><em><strong>Escudo da Linha de Frente:</strong></em> <strong>Gaste 3 de Esperança</strong> para limpar 2 Espaços de Armadura.</p><p></p><h4>CARACTERÍSTICA DE CLASSE</h4><p><em><strong>Imparável:</strong></em> Uma vez antes do próximo descanso longo, você pode se tornar <em>Imparável</em>. Você recebe um Dado de Imparabilidade. No 1º nível, seu Dado de Imparabilidade é um <strong>d4</strong>. Coloque-o na ficha do personagem no espaço apropriado, começando com o valor 1 no topo. Depois de realizar um teste de dano que causaria 1 ou mais Feridas no alvo, aumente o valor do Dado de Imparabilidade em 1. Quando o valor do dado exceder o valor máximo ou quando a cena terminar, remova o dado e encerre o estado <em>Imparável</em>. No 5º nível, seu Dado de Imparabilidade aumenta para <strong>d6</strong>.</p><p>Enquanto estiver <em>Imparável</em>, você recebe os seguintes benefícios:</p><p>• Você reduz a gravidade do dano físico em um nível (Grave para Considerável, Considerável para Leve, Leve para zero).</p><p>• Você adiciona o valor atual do Dado de Imparabilidade ao seu teste de dano.</p><p>• Você não pode ficar <em>Imobilizado</em> nem <em>Vulnerável</em>.</p>",
+      "backgroundQuestions": [
+        "Quem da sua comunidade você não conseguiu proteger, e por que ainda pensa nessa pessoa?",
+        "Você recebeu a missão de proteger algo importante e levar isso a um lugar perigoso. O que é e para onde deve levar?",
+        "Você considera algum aspecto de si uma fraqueza. O que é e como isso te afetou?"
+      ],
+      "connections": [
+        "Como eu salvei sua vida no nosso primeiro encontro?",
+        "Que pequeno presente você me deu e que, como percebeu, eu sempre carrego comigo?",
+        "Que mentira você me contou sobre você e na qual eu acredito sem hesitar?"
+      ]
+    },
+    "Ranger": {
+      "name": "Patrulheiro",
+      "description": "<p>Patrulheiros são caçadores altamente qualificados que, apesar de sua capacidade de combate, raramente colocam seus talentos a serviço de um exército. Graças ao domínio do próprio corpo e a uma compreensão profunda da natureza selvagem, patrulheiros se tornam táticos astutos, perseguindo sua presa com paciência e malícia. Muitos patrulheiros rastreiam e lutam ao lado de um companheiro animal, com quem forjaram um poderoso vínculo espiritual. Ao aprimorar suas habilidades na natureza, patrulheiros tornam-se exploradores experientes, capazes tanto de atrair inimigos para armadilhas quanto de enfrentá-los de frente.</p><p></p><h4>ITENS DE CLASSE</h4><p>Troféu da sua primeira caçada ou Bússola aparentemente quebrada</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO PATRULHEIRO</h4><p><em><strong>Segure-os:</strong></em> <strong>Gaste 3 de Esperança</strong> quando acertar um ataque com arma, para usar o mesmo Teste de Ataque contra até dois inimigos adicionais ao alcance do ataque.</p><p></p><h4>CARACTERÍSTICA DE CLASSE</h4><p><em><strong>Marca do Patrulheiro:</strong></em> <strong>Gaste Esperança</strong> e faça um ataque contra um alvo. Com sucesso, cause o dano normal do ataque e marque temporariamente o alvo com a sua <em>Marca</em>. Enquanto essa característica não terminar ou até você marcar outra criatura com sua <em>Marca</em>, você recebe os seguintes benefícios contra o alvo marcado:</p><p>• Você sabe exatamente em que direção ele está.</p><p>• Quando você causa dano a ele, ele deve Marcar Estresse.</p><p>• Quando você erra um ataque contra ele, você pode encerrar a Marca do Patrulheiro para rerrolar seus Dados de Dualidade.</p>",
+      "backgroundQuestions": [
+        "Uma criatura terrível feriu sua comunidade e você jurou caçá-la. Que criatura é e que rastro ou sinal único ela deixa?",
+        "Sua primeira caçada quase te matou. O que foi, e que parte de você nunca mais foi a mesma depois disso?",
+        "Você já esteve em muitas terras perigosas, mas que lugar você se recusa a visitar?"
+      ],
+      "connections": [
+        "Qual é a nossa competição amigável?",
+        "Por que você age diferente quando estamos a sós do que quando há outras pessoas por perto?",
+        "Que ameaça você me pediu para vigiar, e por que isso te preocupa?"
+      ]
+    },
+    "Rogue": {
+      "name": "Ladino",
+      "description": "<p>Ladinos são canalhas — muitas vezes tanto no comportamento quanto na prática. Famosos como mentirosos e ladrões, os melhores dessa classe atravessam o mundo sem deixar nome. Com mente afiada e lâmina na mão, ladinos enganam inimigos com manipulação social tão facilmente quanto arrombam fechaduras, entram por janelas ou golpeiam pelas costas. Esses artesãos do ofício (às vezes mágico) manipulam sombra e movimento, aumentando seu arsenal com inúmeras ferramentas mortais. Ladinos frequentemente formam guildas para encontrar futuros cúmplices, contratar trabalhos e aperfeiçoar habilidades secretas, provando que existe honra entre ladrões — para quem sabe onde procurar.</p><p></p><h4>ITENS DE CLASSE</h4><p>Kit de falsificação ou Gancho de escalada</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO LADINO</h4><p><em><strong>Esquiva do Ladino:</strong></em> <strong>Gaste 3 de Esperança</strong> para receber +2 de bônus na sua Evasão até o próximo ataque bem-sucedido contra você. Caso contrário, esse bônus dura até o fim do seu próximo descanso.</p><p></p><h4>CARACTERÍSTICAS DE CLASSE</h4><p><em><strong>Camuflado:</strong></em> Sempre que você estiver <em>Oculto</em>, em vez disso você é considerado <em>Camuflado</em>. Além de todos os benefícios de estar <em>Oculto</em>, enquanto estiver <em>Camuflado</em>, você permanece despercebido se não se mover, mesmo quando um inimigo entra em uma posição de onde normalmente poderia te ver. Você perde <em>Camuflado</em> se fizer um ataque ou terminar um movimento em linha de visão direta de um inimigo.</p><p><em><strong>Ataque Furtivo:</strong></em> Quando você acerta um ataque em uma criatura enquanto estiver <em>Camuflado</em> ou se um aliado estiver Adjacente ao alvo, adicione uma quantidade de <strong>d6</strong> igual ao seu Grau ao Teste de Dano.</p>",
+      "backgroundQuestions": [
+        "Pelo que você foi pego(a), levando ao seu exílio da comunidade natal?",
+        "Você teve outra vida, mas tentou deixá-la para trás. Quem do seu passado ainda te persegue?",
+        "De quem, no seu passado, foi mais triste se despedir?"
+      ],
+      "connections": [
+        "O que eu te convenci a fazer recentemente que colocou nós dois em encrenca?",
+        "O que eu descobri sobre seu passado que mantenho em segredo dos outros?",
+        "Quem você conhece do meu passado, e como isso afetou o que você sente por mim?"
+      ]
+    },
+    "Seraph": {
+      "name": "Serafim",
+      "description": "<p>Serafins são guerreiros e curadores divinos, investidos de um propósito sagrado. Há muitos deuses nos mundos, e cada um escolhe seus serafins. Suas crenças geralmente refletem a esfera de influência ou objetivos de sua divindade: proteger os fracos, realizar vingança sagrada, guardar uma região ou artefato, ou sustentar uma fé específica. Alguns serafins se aliam a exércitos ou regiões — o que muitas vezes agrada governantes locais — enquanto outros, como cruzados, lutam contra a loucura do Mundo Mortal. É melhor ser aliado de um serafim do que ficar no caminho dele — eles impõem temor a todos que ousam se colocar entre eles e seu objetivo.</p><p></p><h4>ITENS DE CLASSE</h4><p>Feixe de oferendas ou Símbolo do seu deus</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO SERAFIM</h4><p><em><strong>Sustentar Vida:</strong></em> <strong>Gaste 3 de Esperança</strong> para limpar uma Ferida de um aliado a Distância Média.</p><p></p><h4>CARACTERÍSTICA DE CLASSE</h4><p><em><strong>Dados de Oração:</strong></em> No início de cada sessão, role uma quantidade de <strong>d4</strong> igual ao seu atributo conjurador e coloque-os na ficha no espaço apropriado. Esses são seus Dados de Oração. Você pode gastar qualquer quantidade de Dados de Oração para ajudar a si mesmo ou a um aliado a Distância Longa. Você pode usar o valor do dado gasto para reduzir dano recebido, somar ao resultado de um teste após rolar, ou ganhar Esperança igual ao resultado. Ao fim de cada sessão, remova todos os Dados de Oração não usados.</p>",
+      "backgroundQuestions": [
+        "A qual deus você se dedicou? Que feito incrível ele realizou por você em um momento de desespero?",
+        "Como sua aparência mudou depois de fazer seu juramento?",
+        "De que forma estranha ou única você se comunica com seu deus?"
+      ],
+      "connections": [
+        "Com que promessa você me fez concordar, caso você morra no campo de batalha?",
+        "Por que você me faz tantas perguntas sobre o meu deus?",
+        "Você me disse para proteger um integrante do nosso grupo acima de todos — até de você. Quem é e por quê?"
+      ]
+    },
+    "Sorcerer": {
+      "name": "Feiticeiro",
+      "description": "<p>Nem todos que nascem com magia inata escolhem desenvolver suas habilidades, mas aqueles que o fazem podem se tornar feiticeiros poderosos. Seu dom é herdado, mesmo que a família não saiba disso — ou evite práticas mágicas. As capacidades de um feiticeiro podem ir de elementos a ilusões — e muito além. Muitos se reúnem em comunidades de acordo com o tipo de dom.</p><p>Tornar-se um feiticeiro verdadeiramente temível não é ganhar poder, mas aprender a domar e direcionar o que já dorme dentro de si. A magia de um feiticeiro sem disciplina e sabedoria é, de fato, perigosa.</p><p></p><h4>ITENS DE CLASSE</h4><p>Orbe sussurrante ou Relíquia de família</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO FEITICEIRO</h4><p><em><strong>Magia Instável:</strong></em> <strong>Gaste 3 de Esperança</strong> para rerrolar qualquer quantidade de Dados de Dano de um ataque que cause dano mágico.</p><p></p><h4>CARACTERÍSTICAS DE CLASSE</h4><p><em><strong>Sentido Arcano:</strong></em> Você sente a presença de criaturas e itens mágicos a Distância Média.</p><p><em><strong>Ilusão Menor:</strong></em> Faça um <strong>Teste de Conjuração (10)</strong>. Com sucesso, você cria uma pequena ilusão visual, de tamanho não maior que você, a Distância Média. A ilusão é convincente para qualquer um a Distância Média ou maior.</p><p><em><strong>Canalizar Energia Bruta:</strong></em> Uma vez antes do próximo descanso longo, você pode colocar uma carta de domínio do seu inventário no armazenamento e escolher um:</p><p>• Ganhar uma quantidade de Esperança igual ao nível da carta.</p><p>• Fortalecer uma magia que cause dano, recebendo bônus no teste de dano igual ao dobro do nível da carta.</p>",
+      "backgroundQuestions": [
+        "O que você fez que fez as pessoas da sua comunidade terem medo de você?",
+        "Que mentor te ensinou a controlar sua magia indomada, e por que ele não pode mais te guiar?",
+        "Você tem um medo profundo que esconde de todos. Qual é e por que ele te assusta?"
+      ],
+      "connections": [
+        "Por que você confia tanto em mim?",
+        "O que eu fiz que fez você ter mais cuidado comigo?",
+        "Por que mantemos nosso passado em comum em segredo?"
+      ]
+    },
+    "Warrior": {
+      "name": "Guerreiro",
+      "description": "<p>Tornar-se um guerreiro exige anos — muitas vezes uma vida inteira — de treino e devoção ao domínio de armas e violência. Enquanto muitos que desejam lutar só lapidam a força, guerreiros entendem a importância de um corpo e uma mente flexíveis, o que os torna alguns dos combatentes mais requisitados em todos os reinos. Guerreiros com frequência encontram trabalho em exércitos, companhias mercenárias ou até na guarda real, mas seu potencial se perde em qualquer função onde não possam continuar aprimorando e expandindo suas habilidades. É sabido que guerreiros têm uma arma favorita; ficar entre eles e sua lâmina seria um erro mortal.</p><p></p><h4>ITENS DE CLASSE</h4><p>Desenho de um(a) amado(a) ou Pedra de amolar</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO GUERREIRO</h4><p><em><strong>Sem Piedade:</strong></em> <strong>Gaste 3 de Esperança</strong> para receber +1 de bônus nos seus Testes de Ataque até o seu próximo descanso.</p><p></p><h4>CARACTERÍSTICAS DE CLASSE</h4><p><em><strong>Ataque de Oportunidade:</strong></em> Se um inimigo Adjacente a você tentar sair dessa distância, faça um Teste de Reação usando um Atributo à sua escolha contra a Dificuldade dele. Escolha um efeito com sucesso, ou dois com Sucesso Crítico:</p><p>• O alvo não pode se mover</p><p>• Você causa dano a ele igual ao dano da sua arma principal</p><p>• Você se move junto com o alvo</p><p><em><strong>Treinamento de Combate:</strong></em> Você ignora “Empunhadura” ao equipar armas. Quando causa dano físico, você recebe bônus no seu Teste de Dano igual ao seu Nível.</p>",
+      "backgroundQuestions": [
+        "Quem te ensinou a lutar e por que ficou para trás quando você saiu de casa?",
+        "Alguém te derrotou anos atrás e te deixou para morrer. Quem foi e como te traiu?",
+        "Que lugar lendário você sempre quis visitar e por que ele é tão especial?"
+      ],
+      "connections": [
+        "Nós nos conhecíamos muito antes desse grupo se formar. Como?",
+        "Com qual tarefa do dia a dia você costuma me ajudar fora do campo de batalha?",
+        "Que medo eu te ajudo a superar?"
+      ]
+    },
+    "Wizard": {
+      "name": "Mago",
+      "description": "<p>Seja por instituições ou por estudo individual, aqueles chamados de magos adquirem e refinam um enorme poder mágico ao longo de anos de aprendizagem, usando várias ferramentas — livros, pedras, poções e ervas. Alguns magos dedicam a vida a uma escola específica de magia, enquanto outros estudam muitas disciplinas diferentes. Muitos magos se tornam figuras sábias e poderosas em suas comunidades, aconselhando governantes, oferecendo remédios e cura e até liderando conselhos militares. Embora todos esses conjuradores trabalhem pelo objetivo comum de reunir conhecimento mágico, magos costumam ter os maiores conflitos entre si, pois a aquisição, preservação e disseminação de segredos poderosos é tema de debates intensos — que já levaram a incontáveis mortes.</p><p></p><h4>ITENS DE CLASSE</h4><p>Livro não traduzido ou Pequeno mascote elemental</p><p></p><h4>CARACTERÍSTICA DE ESPERANÇA DO MAGO</h4><p><em><strong>Hoje Não:</strong></em> <strong>Gaste 3 de Esperança</strong> para fazer um inimigo a Distância Longa rerrolar um Teste de Ataque ou um Teste de Dano.</p><p></p><h4>CARACTERÍSTICAS DE CLASSE</h4><p><em><strong>Truques:</strong></em> Você pode criar efeitos mágicos inofensivos e pequenos à vontade. Por exemplo, mudar a cor de um objeto, criar um cheiro, acender uma vela, fazer um objeto minúsculo flutuar, iluminar uma sala ou consertar um objeto pequeno.</p><p><em><strong>Padrões Estranhos:</strong></em> Escolha um número de 1 a 12. Sempre que esse número aparecer nos seus Dados de Dualidade, você ganha Esperança ou remove Estresse. Você pode mudar esse número após concluir um Descanso Longo.</p>",
+      "backgroundQuestions": [
+        "Que deveres sua comunidade já colocou sobre você? Como você falhou com eles?",
+        "Você passou a vida buscando um livro ou objeto de grande importância. O que é e por que é tão importante para você?",
+        "Você tem um rival poderoso. Quem é e por que você está tão decidido(a) a vencê-lo?"
+      ],
+      "connections": [
+        "Que favor eu te pedi, mas você não tem certeza se consegue cumprir?",
+        "Que hobby estranho ou interesse peculiar nós dois compartilhamos?",
+        "Que segredo sobre você você confiou somente a mim?"
+      ]
+    },
+    "Arcane Sense": {
+      "name": "Sentido Arcano",
+      "description": "<p>Você sente a presença de criaturas e itens mágicos a Distância Média.</p>"
+    },
+    "Attack Of Opportunity": {
+      "name": "Ataque de Oportunidade",
+      "description": "<p>Se um inimigo Adjacente a você tentar sair dessa distância, faça um Teste de Reação usando um Atributo à sua escolha contra a Dificuldade dele. Escolha um efeito com sucesso, ou dois com Sucesso Crítico:</p><ul><li>O alvo não pode se mover</li></ul><ul><li>Você causa dano a ele igual ao dano da sua arma principal</li></ul><ul><li>Você se move junto com o alvo</li></ul>"
+    },
+    "Beastform": {
+      "name": "Forma Bestial",
+      "description": "<p><strong>Marque Estresse</strong> para se transformar magicamente em uma criatura do seu Grau ou inferior da lista de Formas Bestiais. Você pode sair dessa forma a qualquer momento. Durante a transformação, você não pode usar armas nem conjurar magias de Cartas de Domínio, mas ainda pode usar outras características ou habilidades disponíveis.</p><p>Magias conjuradas antes da transformação continuam ativas e duram normalmente, e você pode falar e se comunicar como de costume. Além disso, você recebe as características da Forma Bestial, soma o bônus de Evasão dela à sua Evasão e usa o Atributo indicado na ficha dela para seus ataques. Enquanto estiver em Forma Bestial, sua armadura vira parte do seu corpo, e você marca Espaços de Armadura normalmente. Ao sair da Forma Bestial, esses Espaços de Armadura permanecem marcados.</p><p>Se você marcar sua última Ferida, você automaticamente sai dessa forma.</p>",
+      "actions": {
+        "MN2U7f7ypnQeg1PY": {
+          "name": "Assumir forma bestial"
+        }
+      }
+    },
+    "Channel Raw Power": {
+      "name": "Canalizar Energia Bruta",
+      "description": "<p>Uma vez antes do próximo descanso longo, você pode colocar uma carta de domínio do seu inventário no armazenamento e escolher um:</p><ul><li>Ganhar uma quantidade de Esperança igual ao nível da carta.</li></ul><ul><li>Fortalecer uma magia que cause dano, recebendo bônus no teste de dano igual ao dobro do nível da carta.</li></ul>",
+      "actions": {
+        "YFmqnbMx540su2Ni": {
+          "name": "Canalizar energia",
+          "description": "<p>Uma vez antes do próximo descanso longo, você pode colocar uma carta de domínio do seu inventário no armazenamento e escolher um:</p><ul><li>Ganhar uma quantidade de Esperança igual ao nível da carta.</li></ul><ul><li>Fortalecer uma magia que cause dano, recebendo bônus no teste de dano igual ao dobro do nível da carta.</li></ul>"
+        }
+      }
+    },
+    "Cloaked": {
+      "name": "Camuflado",
+      "description": "<p>Sempre que você estiver <em>Oculto</em>, em vez disso você é considerado <em>Camuflado</em>. Além de todos os benefícios de estar <em>Oculto</em>, enquanto estiver <em>Camuflado</em>, você permanece despercebido se não se mover, mesmo quando um inimigo entra em um lugar de onde normalmente poderia te ver. Você perde <em>Camuflado</em> se fizer um ataque ou terminar um movimento em linha de visão direta de um inimigo.</p>"
+    },
+    "Combat Training": {
+      "name": "Treinamento de Combate",
+      "description": "<p>Você ignora “Empunhadura” ao equipar armas. Quando causa dano físico, você recebe bônus no seu Teste de Dano igual ao seu Nível.</p>",
+      "effects": {
+        "Y7sTM0tw0VpgU6pC": {
+          "name": "Treinamento de Combate",
+          "description": "<p>Você ignora “Empunhadura” ao equipar armas. Quando causa dano físico, você recebe bônus no seu Teste de Dano igual ao seu Nível.</p>"
+        }
+      }
+    },
+    "Evolution": {
+      "name": "Evolução",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para assumir uma Forma Bestial sem marcar Estresse. Quando fizer isso, escolha um Atributo e aumente-o em +1 até sair dessa forma.</p><p><strong>Nota:</strong> ative um dos efeitos “Evolução: ...” na aba de efeitos (por exemplo, “Evolução: Agilidade”) para aplicar o bônus.</p>",
+      "actions": {
+        "bj4m9E8ObFT0xDQ4": {
+          "name": "Assumir forma bestial",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para assumir uma Forma Bestial sem marcar Estresse. Quando fizer isso, escolha um Atributo e aumente-o em +1 até sair dessa forma.</p>"
+        }
+      },
+      "effects": {
+        "vQOqLZAxOltAzsVv": {
+          "name": "Evolução: Agilidade",
+          "description": "<p>Ative para +1 em Agilidade enquanto Evolução estiver ativa. Desative ao sair da Forma Bestial.</p>"
+        },
+        "cwEsO1NZpkQHuoTT": {
+          "name": "Evolução: Força",
+          "description": "<p>Ative para +1 em Força enquanto Evolução estiver ativa. Desative ao sair da Forma Bestial.</p>"
+        },
+        "8P0nwRHNsVnHVPjq": {
+          "name": "Evolução: Destreza",
+          "description": "<p>Ative para +1 em Destreza enquanto Evolução estiver ativa. Desative ao sair da Forma Bestial.</p>"
+        },
+        "i2GhNGo5TnGtLuA0": {
+          "name": "Evolução: Instinto",
+          "description": "<p>Ative para +1 em Instinto enquanto Evolução estiver ativa. Desative ao sair da Forma Bestial.</p>"
+        },
+        "APQF1in1LXjBZh9n": {
+          "name": "Evolução: Influência",
+          "description": "<p>Ative para +1 em Influência enquanto Evolução estiver ativa. Desative ao sair da Forma Bestial.</p>"
+        },
+        "WwOvGJYJb4d37cOy": {
+          "name": "Evolução: Conhecimento",
+          "description": "<p>Ative para +1 em Conhecimento enquanto Evolução estiver ativa. Desative ao sair da Forma Bestial.</p>"
+        }
+      }
+    },
+    "Frontline Tank": {
+      "name": "Escudo da Linha de Frente",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para limpar 2 Espaços de Armadura.</p>",
+      "actions": {
+        "pRMSzC9XDSKmmLqT": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para limpar 2 Espaços de Armadura.</p>"
+        }
+      }
+    },
+    "Hold Them Off": {
+      "name": "Segure-os",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> quando acertar um ataque com arma, para usar o mesmo Teste de Ataque contra até dois inimigos adicionais ao alcance do ataque.</p>",
+      "actions": {
+        "yhVUna5biFAN0o2Y": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> quando acertar um ataque com arma, para usar o mesmo Teste de Ataque contra até dois inimigos adicionais ao alcance do ataque.</p>"
+        }
+      }
+    },
+    "Life Support": {
+      "name": "Sustentar Vida",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para limpar uma Ferida de um aliado a Distância Média.</p>",
+      "actions": {
+        "7xzDLC2PrlK1E2XO": {
+          "name": "Curar",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para limpar uma Ferida de um aliado a Distância Média.</p>"
+        }
+      }
+    },
+    "Make a Scene": {
+      "name": "Fazer Cena",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para <em>Distrair</em> temporariamente um alvo a Distância Média, aplicando a ele penalidade de -2 na Dificuldade.</p>",
+      "actions": {
+        "T6sfMJ9DRvF0IQZ4": {
+          "name": "Gastar Esperança"
+        }
+      },
+      "effects": {
+        "8G9zDv1gac6dEHmS": {
+          "name": "Fazer Cena"
+        }
+      }
+    },
+    "Minor Illusion": {
+      "name": "Ilusão Menor",
+      "description": "<p>Faça um <strong>Teste de Conjuração (10)</strong>. Com sucesso, você cria uma pequena ilusão visual, de tamanho não maior que você, a Distância Média. A ilusão é convincente para qualquer um a Distância Média ou maior.</p>",
+      "actions": {
+        "gLjqQ6KgxVeJljRt": {
+          "name": "Conjurar"
+        }
+      }
+    },
+    "Not This Time": {
+      "name": "Hoje Não",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para fazer um inimigo a Distância Longa rerrolar um Teste de Ataque ou um Teste de Dano.</p>",
+      "actions": {
+        "lX5FtnuXaKOdRlLF": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para fazer um inimigo a Distância Longa rerrolar um Teste de Ataque ou um Teste de Dano.</p>"
+        }
+      }
+    },
+    "No Mercy": {
+      "name": "Sem Piedade",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para receber +1 de bônus nos seus Testes de Ataque até o seu próximo descanso.</p>",
+      "actions": {
+        "Kwav1cV1xvVO13sR": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para receber +1 de bônus nos seus Testes de Ataque até o seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "XK4cCcz9sRGDJr0q": {
+          "name": "Sem Piedade",
+          "description": "<p>Você recebe +1 de bônus nos seus Testes de Ataque até o seu próximo descanso.</p>"
+        }
+      }
+    },
+    "Prayer Dice": {
+      "name": "Dados de Oração",
+      "description": "<p>No início de cada sessão, role uma quantidade de <strong>d4</strong> igual ao seu atributo conjurador e coloque-os na ficha no espaço apropriado. Esses são seus Dados de Oração. Você pode gastar qualquer quantidade de Dados de Oração para ajudar a si mesmo ou a um aliado a Distância Longa. Você pode usar o valor do dado gasto para reduzir dano recebido, somar ao resultado de um teste após rolar, ou ganhar Esperança igual ao resultado. Ao fim de cada sessão, remova todos os Dados de Oração não usados.</p>"
+    },
+    "Prestidigitation": {
+      "name": "Truques",
+      "description": "<p>Você pode criar efeitos mágicos inofensivos e pequenos à vontade. Por exemplo, mudar a cor de um objeto, criar um cheiro, acender uma vela, fazer um objeto minúsculo flutuar, iluminar uma sala ou consertar um objeto pequeno.</p>"
+    },
+    "Rally": {
+      "name": "Reunir",
+      "description": "<p>Uma vez por sessão, descreva como você anima o grupo — então você e todos os aliados recebem um Dado de Reunião. No 1º nível, ele é um <strong>d6</strong>.</p><p>Um jogador pode gastar seu Dado de Reunião e rolá-lo para somar o resultado a um teste de ação, teste de reação, teste de dano ou remover Estresse igual ao resultado. Ao fim da sessão, remova todos os Dados de Reunião não usados.</p><p>No 5º nível, seu Dado de Reunião passa a ser um <strong>d8</strong>.</p>",
+      "actions": {
+        "vI4Fph3y9ygsya9e": {
+          "name": "Reunir aliados!"
+        }
+      },
+      "effects": {
+        "FrSJH9vzDHkFGYQL": {
+          "name": "Reunir"
+        }
+      }
+    },
+    "Rally (Level 5)": {
+      "name": "Reunir (Nível 5)",
+      "description": "<p>Uma vez por sessão, descreva como você anima o grupo — então você e todos os aliados recebem um Dado de Reunião. No 1º nível, ele é um <strong>d6</strong>.</p><p>Um jogador pode gastar seu Dado de Reunião e rolá-lo para somar o resultado a um teste de ação, teste de reação, teste de dano ou remover Estresse igual ao resultado. Ao fim da sessão, remova todos os Dados de Reunião não usados.</p><p>No 5º nível, seu Dado de Reunião passa a ser um <strong>d8</strong>.</p>",
+      "actions": {
+        "Z1KWFrpXOqZWuZD1": {
+          "name": "Reunir aliados"
+        }
+      },
+      "effects": {
+        "8CFxYJV8zE6Wabwj": {
+          "name": "Reunir (Nível 5)"
+        }
+      }
+    },
+    "Ranger's Focus": {
+      "name": "Marca do Patrulheiro",
+      "description": "<p><strong>Gaste Esperança</strong> e faça um ataque contra um alvo. Com sucesso, cause o dano normal do ataque e marque temporariamente o alvo com a sua <em>Marca</em>. Enquanto essa característica não terminar ou até você marcar outra criatura com sua <em>Marca</em>, você recebe os seguintes benefícios contra o alvo marcado:</p><ul><li>Você sabe exatamente em que direção ele está.</li></ul><ul><li>Quando você causa dano a ele, ele deve Marcar Estresse.</li></ul><ul><li>Quando você erra um ataque contra ele, você pode encerrar a Marca do Patrulheiro para rerrolar seus Dados de Dualidade.</li></ul>",
+      "actions": {
+        "dTkLqUxZpW4xOEKW": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste Esperança</strong> e faça um ataque contra um alvo. Com sucesso, cause o dano normal do ataque e marque temporariamente o alvo com a sua <em>Marca</em>. Enquanto essa característica não terminar ou até você marcar outra criatura com sua <em>Marca</em>, você recebe os seguintes benefícios contra o alvo marcado:</p><ul><li>Você sabe exatamente em que direção ele está.</li></ul><ul><li>Quando você causa dano a ele, ele deve Marcar Estresse.</li></ul><ul><li>Quando você erra um ataque contra ele, você pode encerrar a Marca do Patrulheiro para rerrolar seus Dados de Dualidade.</li></ul>"
+        }
+      },
+      "effects": {
+        "SXi2dQWqpwY9fap4": {
+          "name": "Marca do Patrulheiro",
+          "description": "<p>Enquanto essa característica não terminar ou até você marcar outra criatura com sua <em>Marca</em>, você recebe os seguintes benefícios contra o alvo marcado:</p><ul><li>Você sabe exatamente em que direção ele está.</li><li>Quando você causa dano a ele, ele deve Marcar Estresse.</li><li>Quando você erra um ataque contra ele, você pode encerrar a Marca do Patrulheiro para rerrolar seus Dados de Dualidade.</li></ul>"
+        }
+      }
+    },
+    "Rogue's Dodge": {
+      "name": "Esquiva do Ladino",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para receber +2 de bônus na sua Evasão até o próximo ataque bem-sucedido contra você. Caso contrário, esse bônus dura até o fim do seu próximo descanso.</p>",
+      "actions": {
+        "GbQca7YphTh7skHG": {
+          "name": "Gastar Esperança",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para receber +2 de bônus na sua Evasão até o próximo ataque bem-sucedido contra você. Caso contrário, esse bônus dura até o fim do seu próximo descanso.</p>"
+        }
+      },
+      "effects": {
+        "hhVjBro2osGDTT5g": {
+          "name": "Esquiva do Ladino",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para receber +2 de bônus na sua Evasão até o próximo ataque bem-sucedido contra você. Caso contrário, esse bônus dura até o fim do seu próximo descanso.</p>"
+        }
+      }
+    },
+    "Sneak Attack": {
+      "name": "Ataque Furtivo",
+      "description": "<p>Quando você acerta um ataque em uma criatura enquanto estiver <em>Camuflado</em> ou se um aliado estiver Adjacente ao alvo, adicione uma quantidade de <strong>d6</strong> igual ao seu Grau ao Teste de Dano.</p><p>Nível 1 → Grau 1</p><p>Níveis 2–4 → Grau 2</p><p>Níveis 5–7 → Grau 3</p><p>Níveis 8–10 → Grau 4</p>",
+      "effects": {
+        "380jFzw756qSy5ae": {
+          "name": "Ataque Furtivo",
+          "description": "<p>Quando você acerta um ataque em uma criatura enquanto estiver <em>Camuflado</em> ou se um aliado estiver Adjacente ao alvo, adicione uma quantidade de <strong>d6</strong> igual ao seu Grau ao Teste de Dano.</p><p>Nível 1 → Grau 1</p><p>Níveis 2–4 → Grau 2</p><p>Níveis 5–7 → Grau 3</p><p>Níveis 8–10 → Grau 4</p>"
+        }
+      }
+    },
+    "Strange Patterns": {
+      "name": "Padrões Estranhos",
+      "description": "<p>Escolha um número de 1 a 12. Sempre que esse número aparecer nos seus Dados de Dualidade, você ganha Esperança ou remove Estresse. Você pode mudar esse número após concluir um Descanso Longo.</p>",
+      "actions": {
+        "RkqPzF1bdWzPPMml": {
+          "name": "Remover Estresse",
+          "description": "<p>Escolha um número de 1 a 12. Sempre que esse número aparecer nos seus Dados de Dualidade, você ganha Esperança ou remove Estresse. Você pode mudar esse número após concluir um Descanso Longo.</p>"
+        }
+      }
+    },
+    "Unstoppable": {
+      "name": "Imparável",
+      "description": "<p>Uma vez antes do próximo descanso longo, você pode se tornar <em>Imparável</em>. Você recebe um Dado de Imparabilidade. No 1º nível, seu Dado de Imparabilidade é um <strong>d4</strong>. Coloque-o na ficha do personagem no espaço apropriado, começando com o valor 1 no topo. Depois de realizar um teste de dano que causaria 1 ou mais Feridas no alvo, aumente o valor do Dado de Imparabilidade em 1. Quando o valor do dado exceder o valor máximo ou quando a cena terminar, remova o dado e encerre o estado <em>Imparável</em>. No 5º nível, seu Dado de Imparabilidade aumenta para <strong>d6</strong>.</p><p>Enquanto estiver <em>Imparável</em>, você recebe os seguintes benefícios:</p><ul><li>Você reduz a gravidade do dano físico em um nível (Grave para Considerável, Considerável para Leve, Leve para zero).</li></ul><ul><li>Você adiciona o valor atual do Dado de Imparabilidade ao seu teste de dano.</li></ul><ul><li>Você não pode ficar <em>Imobilizado</em> nem <em>Vulnerável</em>.</li></ul><blockquote><p>Dica: se seu Dado de Imparabilidade é um d4 e o valor 4 está no topo, você remove o dado na próxima vez que precisaria aumentar o valor. Mas se o seu dado aumentou para d6 e o valor 4 está no topo, você vira o dado para 5 na próxima vez que aumentar. Nesse caso, você remove o dado quando precisaria aumentar para um valor maior que 6.</p></blockquote>",
+      "actions": {
+        "KZiZ8m8uqH5iG96d": {
+          "name": "Tornar-se Imparável",
+          "description": "<p>Uma vez antes do próximo descanso longo, você pode se tornar <em>Imparável</em>. Você recebe um Dado de Imparabilidade. No 1º nível, seu Dado de Imparabilidade é um <strong>d4</strong>. Coloque-o na ficha do personagem no espaço apropriado, começando com o valor 1 no topo. Depois de realizar um teste de dano que causaria 1 ou mais Feridas no alvo, aumente o valor do Dado de Imparabilidade em 1. Quando o valor do dado exceder o valor máximo ou quando a cena terminar, remova o dado e encerre o estado <em>Imparável</em>. No 5º nível, seu Dado de Imparabilidade aumenta para <strong>d6</strong>. Enquanto estiver <em>Imparável</em>, você recebe os seguintes benefícios:</p><ul><li><p>Você reduz a gravidade do dano físico em um nível (Grave para Considerável, Considerável para Leve, Leve para zero).</p></li><li><p>Você adiciona o valor atual do Dado de Imparabilidade ao seu teste de dano.</p></li><li><p>Você não pode ficar <em>Imobilizado</em> nem <em>Vulnerável</em>.</p></li></ul><blockquote><p>Dica: se seu Dado de Imparabilidade é um d4 e o valor 4 está no topo, você remove o dado na próxima vez que precisaria aumentar o valor. Mas se o seu dado aumentou para d6 e o valor 4 está no topo, você vira o dado para 5 na próxima vez que aumentar. Nesse caso, você remove o dado quando precisaria aumentar para um valor maior que 6.</p></blockquote>"
+        }
+      },
+      "effects": {
+        "xzQtFSuDS48kUdAZ": {
+          "name": "Imparável"
+        }
+      }
+    },
+    "Volatile Magic": {
+      "name": "Magia Instável",
+      "description": "<p><strong>Gaste 3 de Esperança</strong> para rerrolar qualquer quantidade de Dados de Dano de um ataque que cause dano mágico.</p>",
+      "actions": {
+        "JQPMlMLYMs84rWIy": {
+          "name": "Gastar 3 de Esperança",
+          "description": "<p><strong>Gaste 3 de Esperança</strong> para rerrolar qualquer quantidade de Dados de Dano de um ataque que cause dano mágico.</p>"
+        }
+      }
+    },
+    "Wildtouch": {
+      "name": "Toque Selvagem",
+      "description": "<p>Você pode, à vontade, provocar pequenas manifestações inofensivas de magia natural. Isso pode ser o crescimento rápido de uma flor, uma brisa leve ou uma fogueira se acendendo sozinha.</p>"
+    },
+    "50ft of Rope": {
+      "name": "Corda (15 m)"
+    },
+    "A Romance Novel": {
+      "name": "Romance romântico"
+    },
+    "A Sharpening Stone": {
+      "name": "Pedra de amolar"
+    },
+    "Basic Supplies": {
+      "name": "Suprimentos básicos"
+    },
+    "Broken Compass": {
+      "name": "Bússola aparentemente quebrada"
+    },
+    "Bundle of Offerings": {
+      "name": "Feixe de oferendas"
+    },
+    "Drawing Of A Lover": {
+      "name": "Desenho de um(a) amado(a)"
+    },
+    "Family Heirloom": {
+      "name": "Relíquia de família"
+    },
+    "Grappling Hook": {
+      "name": "Gancho de escalada"
+    },
+    "Letter(Never Opened)": {
+      "name": "Carta (nunca aberta)"
+    },
+    "Secret Key": {
+      "name": "Chave secreta"
+    },
+    "Set of Forgery Tools": {
+      "name": "Kit de falsificação"
+    },
+    "Sigil of Your God": {
+      "name": "Símbolo do seu deus"
+    },
+    "Small Bag (Rocks & Bones)": {
+      "name": "Pequeno saco com pedras e ossos"
+    },
+    "Strange Dirty Pendant": {
+      "name": "Pingente estranho encontrado na lama"
+    },
+    "Tiny Elemental Pet": {
+      "name": "Pequeno mascote elemental",
+      "description": "Um pequeno mascote elemental inofensivo"
+    },
+    "Torch": {
+      "name": "Tocha"
+    },
+    "Totem from Mentor": {
+      "name": "Totem do seu mentor"
+    },
+    "Trophy from your First Kill": {
+      "name": "Troféu da sua primeira caçada"
+    },
+    "Untranslated Book": {
+      "name": "Livro não traduzido",
+      "description": "<p>Um livro que você está tentando traduzir.</p>"
+    },
+    "Whispering Orb": {
+      "name": "Orbe sussurrante"
+    }
+  }
+}

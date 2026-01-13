@@ -1,0 +1,616 @@
+{
+  "label": "Subclasses",
+  "mapping": {
+    "description": "system.description",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "folders": {
+    "Assassin": "Assassino",
+    "Blood Hunter": "Caçador de Sangue",
+    "Brawler": "Lutador",
+    "Brawler Stances": "Posturas do Lutador",
+    "Tier 1": "Grau 1",
+    "Tier 2": "Grau 2",
+    "Tier 3": "Grau 3",
+    "Tier 4": "Grau 4",
+    "Warlock": "Bruxo",
+    "Witch": "Bruxa",
+    "Foundation Features": "Características da Base",
+    "Subclass Features": "Características da Subclasse",
+    "Specialization Features": "Características de Especialização",
+    "Mastery Features": "Características de Maestria"
+  },
+  "entries": {
+    "Adder's Blessing": {
+      "name": "Bênção da Víbora",
+      "description": "<p>Você é imune a venenos e toxinas.</p>"
+    },
+    "Ambush": {
+      "name": "Ataque de Emboscada",
+      "description": "<p>Sua característica \"Marcado para Morrer\" agora usa <strong>d6</strong> em vez de <strong>d4</strong>.</p>",
+      "actions": {
+        "5O9hGdbSO9vHjSy0": {
+          "name": "Dano"
+        }
+      }
+    },
+    "Backstab": {
+      "name": "Punhalada nas Costas",
+      "description": "<p>Sua característica \"Marcado para Morrer\" agora usa <strong>d8</strong> em vez de <strong>d6</strong>.</p>"
+    },
+    "Chasing Death": {
+      "name": "Perseguindo a Morte",
+      "description": "<p>Enquanto você tiver 1–3 Espaços de Ferida desmarcados, você pode usar a característica Rito Carmesim sem gastar Feridas. Se restar apenas 1 Espaço de Ferida desmarcado, você rola d8 em vez de d6 para o dano adicional do Rito Carmesim.</p>"
+    },
+    "Circle of Power": {
+      "name": "Círculo de Poder",
+      "description": "<p>Uma vez antes do próximo descanso, você pode traçar um círculo no chão em Alcance Próximo e colocar nesta carta uma quantidade de marcadores igual ao seu Atributo de Conjurador. Sempre que você ou seus aliados dentro do círculo fizerem uma rolagem de ação ou se tornarem alvo de um ataque bem-sucedido, remova 1 marcador. O efeito dura até você gastar o último marcador ou sair do círculo. Enquanto estiverem dentro do círculo, você e seus aliados:</p><ul><li>Recebem <strong>+4</strong> nos limiares de dano.</li></ul><ul><li>Recebem <strong>+2</strong> nas rolagens de ataque.</li></ul><ul><li>Recebem <strong>+1</strong> em Esquiva.</li></ul>"
+    },
+    "Control the Beast": {
+      "name": "Controlar a Fera",
+      "description": "<p>Enquanto estiver na Forma de Lobo, você pode aplicar o dado bônus dessa forma às suas Rolagens de Ação de Agilidade e Força.</p>"
+    },
+    "Dark Aegis": {
+      "name": "Égide Sombria",
+      "description": "<p>Uma vez antes do próximo descanso longo, quando você marcaria qualquer quantidade de Feridas, você pode, em vez disso, <strong>gastar Favor</strong>.</p>"
+    },
+    "Deadly Devotion": {
+      "name": "Devoção Mortal",
+      "description": "<p>Após um ataque bem-sucedido, você pode <strong>gastar Favor</strong> para receber +1 em Esquiva até marcar uma Ferida ou até seu próximo descanso.</p>"
+    },
+    "Death Strike": {
+      "name": "Golpe da Morte",
+      "description": "<p>Quando você causa Dano Grave a uma criatura, você pode <strong>marcar Estresse</strong> para fazê-la marcar 1 Ferida adicional.</p>",
+      "actions": {
+        "BtDEnyNem2nDgadf": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "Diminish My Foes": {
+      "name": "Enfraquecer Meus Inimigos",
+      "description": "<p>Quando você obtém sucesso com Esperança em uma rolagem de ação contra um alvo, você pode <strong>gastar Esperança</strong> para que o alvo marque Estresse.</p>"
+    },
+    "Divine Ire": {
+      "name": "Ira Divina",
+      "description": "<p>Uma vez antes do próximo descanso, quando você receber dano, você pode <strong>gastar qualquer quantidade de Favor</strong> para mirar a mesma quantidade de alvos em Alcance Médio. Cada alvo deve marcar 1 Ferida.</p>"
+    },
+    "Draining Bane": {
+      "name": "Perdição Exauriente",
+      "description": "<p>Quando um inimigo ataca você ou um aliado em Alcance Próximo, você pode <strong>gastar 2 de Favor</strong> para deixar o alvo temporariamente <em>Exaurido</em>. Quando fizer isso, ele deve marcar Estresse, e você pode limpar Estresse. As Rolagens de Ataque de um alvo <em>Exaurido</em> usam <strong>d12</strong> em vez de <strong>d20</strong>.</p>"
+    },
+    "Draining Invoaction": {
+      "name": "Invocação Exauriente",
+      "description": "<p>Quando um inimigo ataca você ou um aliado em Alcance Próximo, você pode <strong>gastar Favor</strong> para que a rolagem de ataque dele use <strong>d12</strong> em vez de <strong>d20</strong>. Além disso, o inimigo deve marcar Estresse, e você pode limpar Estresse.</p>"
+    },
+    "Enhanced Hex": {
+      "name": "Maldição Aprimorada",
+      "description": "<p>Os ataques que você faz contra criaturas sob <em>Maldição</em> recebem um bônus de dano igual à sua Maestria.</p>"
+    },
+    "Envenomate": {
+      "name": "Envenenar",
+      "description": "<p>Ao acertar um ataque com arma, você pode gastar 1 marcador desta carta para aplicar ao alvo o efeito de um dos venenos que você conhece.</p>"
+    },
+    "Executioner's Guild": {
+      "name": "Guilda dos Carrascos"
+    },
+    "Eye for an Eye": {
+      "name": "Olho por Olho",
+      "description": "<p>Quando você marca mais de 1 Ferida por um ataque Corpo a Corpo contra você, o atacante deve fazer uma <strong>Rolagem de Reação (13)</strong>. Se falhar, uma vez por descanso, ele marca imediatamente a mesma quantidade de Feridas em retaliação.</p>",
+      "actions": {
+        "cPacNVvx5zNc1FmQ": {
+          "name": "Contra-ataque",
+          "description": "<p>Quando você marca mais de 1 Ferida por um ataque Corpo a Corpo contra você, o atacante deve fazer uma <strong>Rolagem de Reação (13)</strong>. Se falhar, uma vez por descanso, ele marca imediatamente a mesma quantidade de Feridas em retaliação.</p>"
+        }
+      }
+    },
+    "Favored Weapon": {
+      "name": "Arma Predileta",
+      "description": "<p><strong>Marque Estresse</strong> para <em>Carregar</em> sua arma com a fúria do seu Patrono até você causar Dano Grave. Ao acertar um ataque com uma arma <em>Carregada</em>, você pode <strong>gastar qualquer quantidade de Favor</strong> para receber <strong>+1d6</strong> de dano para cada Favor gasto.</p>"
+    },
+    "Fearsome Attack": {
+      "name": "Ataque Aterrador",
+      "description": "<p>Você sempre pode <strong>gastar Favor</strong> para rerrolar qualquer quantidade dos seus dados de dano. Você pode continuar gastando Favor para rerrolar esses mesmos dados quantas vezes quiser.</p>"
+    },
+    "Feral Hide": {
+      "name": "Pele Bestial",
+      "description": "<p>Enquanto estiver na Forma de Lobo, você recebe um bônus nos seus Limiares de Dano igual ao seu Grau.</p>",
+      "effects": {
+        "rOdpVbqwuw4oMrXY": {
+          "name": "Pele Bestial"
+        }
+      }
+    },
+    "First Strike": {
+      "name": "Primeiro Golpe",
+      "description": "<p>Na primeira vez na cena em que você obtiver sucesso em uma rolagem de ataque, dobre o dano desse ataque.</p>"
+    },
+    "Focus": {
+      "name": "Foco",
+      "description": "<p>Durante um descanso, role uma quantidade de dados <strong>d6</strong> igual ao seu Instinto e coloque nesta carta um número de marcadores de <em>Foco</em> igual ao maior resultado obtido. <strong>Gaste Foco</strong> para entrar em uma postura até você sofrer Dano Grave, a cena terminar, você marcar sua última Ferida ou você entrar em outra postura.</p><p>[[/r 1d6]]</p>"
+    },
+    "Hedge": {
+      "name": "Bruxa das Sebes",
+      "description": "<p>Você canaliza forças da natureza para criar tanto bênçãos quanto maldições.</p>"
+    },
+    "Herald of Death": {
+      "name": "Arauto da Morte",
+      "description": "<p>Quando você falhar em uma rolagem de ataque, você pode <strong>gastar Favor</strong> para rerrolá-la. Se falhar novamente, você deve marcar Estresse e usar o novo resultado.</p>"
+    },
+    "Herbal Remedies": {
+      "name": "Remédios Herbais",
+      "description": "<p>Quando você ou um aliado limpar 1 ou mais Feridas ou Estresse como resultado do uso de um consumível, aumente em 1 a quantidade de pontos limpos.</p>"
+    },
+    "Improved Mutagens": {
+      "name": "Mutágenos Aprimorados",
+      "description": "<p>Quando você escolhe um benefício de mutágeno, suas opções também incluem o seguinte:</p><ul><li><p>Nervos de Aço. Sempre que você tiver que marcar Estresse, você pode, em vez disso, gastar 2 Esperanças.</p></li><li><p>Agilidade. Sua Esquiva aumenta em 1.</p></li><li><p>Pele de Ferro. Seu limiar de Dano Grave aumenta em um valor igual à sua Maestria.</p></li></ul>",
+      "actions": {
+        "JoE1j2EK2MfFupSr": {
+          "name": "Gastar 2 Esperanças"
+        }
+      },
+      "effects": {
+        "kLbVYo5ogREgCmTS": {
+          "name": "Mutágenos Aprimorados - Agilidade"
+        },
+        "9XErPc7AYx93ozbA": {
+          "name": "Mutágenos Aprimorados - Pele de Ferro"
+        }
+      }
+    },
+    "Ire of Pale Light": {
+      "name": "Ira da Luz Pálida",
+      "description": "<p>Quando uma criatura sob <em>Maldição</em> em Alcance Distante falhar em uma rolagem de ataque, ela deve marcar Estresse.</p>"
+    },
+    "Juggernaut": {
+      "name": "Colosso",
+      "description": "<p>Você transformou seu corpo em uma arma de força pura, capaz de suportar e desferir golpes esmagadores.</p>"
+    },
+    "Keen Defenses": {
+      "name": "Defesas Aguçadas",
+      "description": "<p>Quando você se torna alvo de um ataque, você pode <strong>gastar Foco</strong> para impor desvantagem na rolagem de ataque do inimigo.</p>"
+    },
+    "Limit Breaker": {
+      "name": "Quebrador de Limites",
+      "description": "<p>Uma vez antes do próximo descanso, você pode realizar um feito inimaginável — como correr sobre a água, saltar entre telhados distantes ou escalar a parede de um prédio — sem fazer rolagem. Quando fizer isso, ganhe Esperança e limpe Estresse.</p>",
+      "actions": {
+        "vd31YZgnJkEQSU4d": {
+          "name": "Quebrar o Limite",
+          "description": "<p>Uma vez antes do próximo descanso, você pode realizar um feito inimaginável — como correr sobre a água, saltar entre telhados distantes ou escalar a parede de um prédio — sem fazer rolagem. Quando fizer isso, ganhe Esperança e limpe Estresse.</p>"
+        }
+      }
+    },
+    "Lunar Phases": {
+      "name": "Fases Lunares",
+      "description": "<p>Seu espírito cresce e mingua como as fases da lua. No início de cada sessão, role <strong>d4</strong> e receba o efeito correspondente até o fim da sessão:</p><ul><li><strong><em>1:</em></strong> Lua Nova — você sempre pode gastar <strong>Esperança</strong> para reduzir Dano Leve a zero.</li></ul><ul><li><strong><em>2:</em></strong> Lua Crescente — receba <strong>+2</strong> nas rolagens de dano.</li></ul><ul><li><strong><em>3:</em></strong> Lua Cheia — receba <strong>+2</strong> nos limiares de dano.</li></ul><ul><li><strong><em>4:</em></strong> Lua Minguante — receba <strong>+1</strong> em Esquiva.</li></ul>",
+      "actions": {
+        "zcqQvd0UftoWTuA8": {
+          "name": "Gastar Esperança"
+        }
+      },
+      "effects": {
+        "2cgsUItFz9IOKDmq": {
+          "name": "Lua Crescente",
+          "description": "<p>Receba um bônus de +2 nas rolagens de dano.</p>"
+        },
+        "iKkLKp5rPtl6A0Lc": {
+          "name": "Lua Cheia",
+          "description": "<p>Receba um bônus de +2 nos limiares de dano.</p>"
+        },
+        "WodgSFen9Yaysaht": {
+          "name": "Lua Minguante",
+          "description": "<p>Receba um bônus de +1 em Esquiva.</p>"
+        }
+      }
+    },
+    "Lycan Regeneration": {
+      "name": "Regeneração do Licantropo",
+      "description": "<p>Enquanto estiver na Forma de Lobo com todos os Espaços de Ferida marcados, você pode marcar Estresse para limpar 1 Ferida. Você pode fazer isso mesmo estando inconsciente.</p>",
+      "actions": {
+        "TfRiNmCx716o0XOQ": {
+          "name": "Cura"
+        }
+      }
+    },
+    "Martial Artist": {
+      "name": "Artista Marcial",
+      "description": "<p>Você estudou e dominou estilos de luta especiais, permitindo que seus movimentos fluam uns para os outros em combate.</p><p></p><p>Você pode arrastar estas características para a ficha do personagem.</p><p></p><h2>Grau 1</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.MHKcMoI1FOlEbi7M]{Postura - Brutal}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.ancvKGl3z9tFzTnC]{Postura - Defensiva}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.pj9E3iEGM6CSrGXW]{Postura - Agarradora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.gAB29yCHpBCmvcoY]{Postura - Precisa}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.M1CBMs4kVOxMnUIT]{Postura - Rápida}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.BpeJi5xFnTxmi1Ru]{Postura - Estável}</p><p></p><h2>Grau 2</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.8wGHiaqfE9vTL4b4]{Postura - Mortal}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.PlOmkkaDCr2cr7Kz]{Postura - Obstrutiva}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.BnGRJDnIO6CqDY6W]{Postura - Imóvel}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.iQAXTA6y0KhzKUcU]{Postura - Revigorante}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.6jexZv6ufhinEvNp]{Postura - Ágil}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.cpQEaPhWDTtzJaM0]{Postura - Sobrenatural}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.oW8fm6mYYiQh4mV5]{Postura - Aterrorizante}</p><p></p><h2>Grau 3</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.0J4jLxLWzoDye1ew]{Postura - Progressiva}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.CIl8Pe4wzhEGuzp9]{Postura - Defletora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.84XJzmb6ZORSDA5Q]{Postura - Devastadora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.WzzhboGOu8DVPo6i]{Postura - de Duelo}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.XOYTovtyz7MwsRlP]{Postura - Predileta}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.IRDj7cX6vLINhusw]{Postura - Implacável}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.hVQW2ZDnvUKZ8iaA]{Postura - Protetora}</p><p></p><h2>Grau 4</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.ihGjGgVizC2rS40H]{Postura - Esmagadora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.C0ZrpyxqH34H3HUd]{Postura - Perspicaz}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.T0X88UuKtmf5Adlb]{Postura - Enfurecedora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.wTKUd4DxHykGwODz]{Postura - Ampla}</p><p></p><p></p><p></p><p></p><p></p>"
+    },
+    "Martial Form": {
+      "name": "Forma Marcial",
+      "description": "<p>Você começa com duas posturas de combate de Grau 1. Quando alcançar um novo grau, você pode pegar mais duas posturas do seu grau ou inferior.</p><p></p><p>Você pode arrastar estas características para a ficha do personagem.</p><p></p><h2>Grau 1</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.MHKcMoI1FOlEbi7M]{Postura - Brutal}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.ancvKGl3z9tFzTnC]{Postura - Defensiva}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.pj9E3iEGM6CSrGXW]{Postura - Agarradora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.gAB29yCHpBCmvcoY]{Postura - Precisa}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.M1CBMs4kVOxMnUIT]{Postura - Rápida}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.BpeJi5xFnTxmi1Ru]{Postura - Estável}</p><p></p><h2>Grau 2</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.8wGHiaqfE9vTL4b4]{Postura - Mortal}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.PlOmkkaDCr2cr7Kz]{Postura - Obstrutiva}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.BnGRJDnIO6CqDY6W]{Postura - Imóvel}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.iQAXTA6y0KhzKUcU]{Postura - Revigorante}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.6jexZv6ufhinEvNp]{Postura - Ágil}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.cpQEaPhWDTtzJaM0]{Postura - Sobrenatural}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.oW8fm6mYYiQh4mV5]{Postura - Aterrorizante}</p><p></p><h2>Grau 3</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.0J4jLxLWzoDye1ew]{Postura - Progressiva}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.CIl8Pe4wzhEGuzp9]{Postura - Defletora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.84XJzmb6ZORSDA5Q]{Postura - Devastadora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.WzzhboGOu8DVPo6i]{Postura - de Duelo}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.XOYTovtyz7MwsRlP]{Postura - Predileta}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.IRDj7cX6vLINhusw]{Postura - Implacável}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.hVQW2ZDnvUKZ8iaA]{Postura - Protetora}</p><p></p><h2>Grau 4</h2><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.ihGjGgVizC2rS40H]{Postura - Esmagadora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.C0ZrpyxqH34H3HUd]{Postura - Perspicaz}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.T0X88UuKtmf5Adlb]{Postura - Enfurecedora}</p><p>@UUID[Compendium.the-void-unofficial.subclasses.Item.wTKUd4DxHykGwODz]{Postura - Ampla}</p><p></p><p></p><p></p><p></p><p></p>"
+    },
+    "Master the Beast": {
+      "name": "Dominar a Fera",
+      "description": "<p>Quando você estiver na Forma de Lobo e tiver que marcar seu último Estresse, você pode, em vez disso, colocar uma carta de Domínio da sua mão no Cofre; você não pode Recuperar essa carta de Domínio até concluir um descanso longo.</p><p></p><p>Quando você entrar em Frenesi por marcar seu último Estresse na Forma de Lobo, você ganha 2 Esperanças.</p>",
+      "actions": {
+        "xceWFmPWUeVuc0H5": {
+          "name": "Ganhar 2 Esperanças"
+        }
+      }
+    },
+    "Mastered Mutagens": {
+      "name": "Mutágenos Dominados",
+      "description": "<p>O bônus e a penalidade nos atributos da sua característica Mutágenos mudam para +2 e −2, respectivamente. Quando você escolhe um benefício de mutágeno, suas opções também incluem o seguinte:</p><ul><li><p>Sangue Etéreo. Dentro da sua linha de visão, você enxerga criaturas e objetos invisíveis, e ilusões visuais parecem transparentes. Se uma criatura ou objeto dentro da sua linha de visão foi transformado por magia, você vê sua forma verdadeira.</p></li><li><p>Fúria. Quando você fizer uma rolagem de ataque, você pode marcar Estresse para receber um bônus na rolagem igual à sua Maestria.</p></li><li><p>Carne de Aço. Seu limiar de Dano Relevante aumenta em um valor igual à sua Maestria.</p></li></ul>",
+      "actions": {
+        "e7VsTp0OCPkAgRg0": {
+          "name": "Marcar Estresse"
+        }
+      },
+      "effects": {
+        "gUXFfQ0tIClq6lde": {
+          "name": "Mutágenos Dominados - Carne de Aço"
+        }
+      }
+    },
+    "Menacing Reach": {
+      "name": "Alcance Ameaçador",
+      "description": "<p>Quando você <em>Carrega</em> sua arma com a fúria do seu Patrono, você pode <strong>marcar Estresse adicional</strong> para aumentar seu alcance em um passo (Corpo a Corpo -> Próximo, Próximo -> Médio, e assim por diante).</p>"
+    },
+    "Moon": {
+      "name": "Lua",
+      "description": "<p>Você canaliza as forças da lua para enganar e proteger.</p>"
+    },
+    "Moonbeam": {
+      "name": "Raio Lunar",
+      "description": "<p>Uma vez por sessão, você pode criar uma coluna de luz lunar que ilumina uma área em Alcance Médio até o fim da cena. Enquanto estiverem sob a luz lunar, você e seus aliados recebem +1 nas rolagens de conjuração e têm vantagem em rolagens para reconhecer ilusões.</p>",
+      "actions": {
+        "zEqPJ7UKSy561b9U": {
+          "name": "Raio Lunar",
+          "description": "<p>Uma vez por sessão, você pode criar uma coluna de luz lunar que ilumina uma área em Alcance Médio até o fim da cena. Enquanto estiverem sob a luz lunar, você e seus aliados recebem +1 nas rolagens de conjuração e têm vantagem em rolagens para reconhecer ilusões.</p>"
+        }
+      }
+    },
+    "Mutagens": {
+      "name": "Mutágenos",
+      "description": "<p>Você usa toxinas mutagênicas feitas para aprimorar suas capacidades. Quando você conclui um descanso, pode beber uma dessas toxinas para obter seus efeitos, que duram até seu próximo descanso. Esses efeitos incluem +1 em um atributo à sua escolha, −1 em outro atributo à sua escolha e um dos seguintes benefícios:</p><ul><li><p>Agilidade. Se você estiver Imobilizado ou Vulnerável, você pode marcar Estresse para remover essa condição de si.</p></li><li><p>Resistência. Seu Valor de Armadura aumenta em 2.</p></li><li><p>Sentidos do Caçador. Você tem vantagem em qualquer rolagem de ação para rastrear uma criatura, e você pode enxergar em escuridão total.</p></li></ul>",
+      "actions": {
+        "TyXYjNxEEeCKOtM2": {
+          "name": "Marcar Estresse"
+        }
+      },
+      "effects": {
+        "06AAWZJTxlspR8pP": {
+          "name": "Mutágenos - Resistência"
+        }
+      }
+    },
+    "Night's Glamour": {
+      "name": "Glamour da Noite",
+      "description": "<p><strong>Marque Estresse</strong> para se <em>Revestir</em> com uma aura mágica que dura até você marcar uma Ferida, realizar um ataque ou descansar. Enquanto estiver <em>Revestido</em>, você pode:</p><ul><li>Se disfarçar como qualquer criatura de tamanho parecido com o seu que você tenha visto.</li></ul><ul><li>Alterar sua aparência. Você tem vantagem em Rolagens de Influência que se apoiem nessa mudança.</li></ul>",
+      "actions": {
+        "vq6us2ZBcGStBPOe": {
+          "name": "Marcar Estresse",
+          "description": "<p><strong>Marque Estresse</strong> para se <em>Revestir</em> com uma aura mágica que dura até você marcar uma Ferida, realizar um ataque ou descansar. Enquanto estiver <em>Revestido</em>, você pode:</p><ul><li>Se disfarçar como qualquer criatura de tamanho parecido com o seu que você tenha visto.</li></ul><ul><li>Alterar sua aparência. Você tem vantagem em Rolagens de Influência que se apoiem nessa mudança.</li></ul>"
+        }
+      }
+    },
+    "Not Done Yet": {
+      "name": "Ainda Não Acabou",
+      "description": "<p>Quando você marcar mais de 1 Ferida por um ataque, você pode ganhar Esperança ou limpar Estresse.</p>",
+      "actions": {
+        "HjDHMhLPO0ZnFucy": {
+          "name": "Ganhar Esperança",
+          "description": "<p>Quando você marcar mais de 1 Ferida por um ataque, você pode ganhar Esperança ou limpar Estresse.</p>"
+        },
+        "ueQbbXkCceB7uYJZ": {
+          "name": "Limpar Estresse",
+          "description": "<p>Quando você marcar mais de 1 Ferida por um ataque, você pode ganhar Esperança ou limpar Estresse.</p>"
+        }
+      }
+    },
+    "Order of the Ghost Slayer": {
+      "name": "Ordem do Assassino de Fantasmas"
+    },
+    "Order of the Lycan": {
+      "name": "Ordem do Licantropo"
+    },
+    "Order of the Mutant": {
+      "name": "Ordem do Mutante"
+    },
+    "Overwhelm": {
+      "name": "Sobrepujar",
+      "description": "<p>Ao acertar um ataque, você pode gastar Esperança para fazer o alvo marcar Estresse ou empurrá-lo para dentro de Alcance Médio.</p>",
+      "actions": {
+        "wxX1JhvRDUjEBY4g": {
+          "name": "Causar Estresse",
+          "description": "<p>Ao acertar um ataque, você pode gastar Esperança para fazer o alvo marcar Estresse ou empurrá-lo para dentro de Alcance Médio.</p>"
+        },
+        "kOdV6pn4xkdwRqvT": {
+          "name": "Empurrar o inimigo"
+        }
+      }
+    },
+    "Pact of the Endless": {
+      "name": "Pacto do Eterno"
+    },
+    "Pact of the Wrathful": {
+      "name": "Pacto do Irado"
+    },
+    "Patron's Mantle": {
+      "name": "Manto do Patrono",
+      "description": "<p><strong>Marque Estresse</strong> para se revestir de um aspecto aterrador do seu Patrono, que dura até você sofrer Dano Grave ou até o fim da cena. Enquanto estiver revestido:</p><ul><li><em>Quando você marcaria um Espaço de Armadura, você pode, em vez disso, <strong>gastar 2 de Favor</strong>.</em></li></ul><ul><li><em>Você recebe um bônus igual ao seu grau em rolagens de ação para intimidar um alvo.</em></li></ul>",
+      "actions": {
+        "zjdjIrCA7bTP9sJN": {
+          "name": "Marcar Estresse",
+          "description": "<p><strong>Marque Estresse</strong> para se revestir de um aspecto aterrador do seu Patrono, que dura até você sofrer Dano Grave ou até o fim da cena. Enquanto estiver revestido:</p><ul><li><em>Quando você marcaria um Espaço de Armadura, você pode, em vez disso, <strong>gastar 2 de Favor</strong>.</em></li></ul><ul><li><em>Você recebe um bônus igual ao seu grau em rolagens de ação para intimidar um alvo.</em></li></ul>"
+        }
+      }
+    },
+    "Poison Compendium": {
+      "name": "Compêndio de Venenos",
+      "description": "<p>Você também conhece os seguintes venenos:</p><ul><li><strong><em>Véu da Meia-noite</em>:</strong> O alvo recebe uma penalidade permanente de <strong>-2</strong> nas rolagens de ataque. Isso só pode afetá-lo uma vez.</li></ul><ul><li><strong><em>Pétala Espectral</em>:</strong> Reduza permanentemente o dado de dano do alvo em ataques padrão em um passo (d10 para d8, d8 para d6, e assim por diante). Isso só pode afetá-lo uma vez.</li></ul>"
+    },
+    "Poisoner's Guild": {
+      "name": "Guilda dos Envenenadores"
+    },
+    "Powerhouse": {
+      "name": "Potência em Carne e Osso",
+      "description": "<p>Aumente o seu dado de dano <strong>d8</strong> para ataques desarmados para <strong>d10</strong>. Além disso, você pode <strong>marcar Estresse</strong> para mirar duas criaturas em Corpo a Corpo com uma única rolagem de ataque.</p>",
+      "actions": {
+        "MgrzTu1dsA6lXmMV": {
+          "name": "Marcar Estresse",
+          "description": "<p>Além disso, você pode <strong>marcar Estresse</strong> para mirar duas criaturas em Corpo a Corpo com uma única rolagem de ataque.</p>"
+        }
+      }
+    },
+    "Pummeljoy": {
+      "name": "Prazer de Espancar",
+      "description": "<p>Sempre que você obtiver um sucesso crítico ao atacar com uma arma contra um oponente em Corpo a Corpo, você ganha 1 Esperança adicional, limpa 1 Estresse adicional e recebe +1 em Maestria para esse ataque.</p>",
+      "actions": {
+        "WcdLyH5rBN5WmkHd": {
+          "name": "Cura adicional",
+          "description": "<p>Sempre que você obtiver um sucesso crítico ao atacar com uma arma contra um oponente em Corpo a Corpo, você ganha 1 Esperança adicional, limpa 1 Estresse adicional e recebe +1 em Maestria para esse ataque.</p>"
+        }
+      }
+    },
+    "Rugged": {
+      "name": "Resistente",
+      "description": "<p>Receba um bônus permanente de +3 no limiar de Dano Grave. Além disso, sua característica \"Potência em Carne e Osso\" pode mirar três criaturas em vez de duas.</p>",
+      "effects": {
+        "0JcKDuNPUlv4Avbc": {
+          "name": "Resistente",
+          "description": "<p>Receba um bônus permanente de <strong>+3</strong> no limiar de Dano Grave.</p>"
+        }
+      }
+    },
+    "Scorpion's Poise": {
+      "name": "Postura do Escorpião",
+      "description": "<p>Você recebe <strong>+2</strong> em Esquiva contra qualquer ataque feito por uma criatura com <em>Marcado para Morrer</em>.</p>"
+    },
+    "Shadowed Grit": {
+      "name": "Tenacidade Sombria",
+      "description": "<p>Quando o Mestre ganha Medo a partir de uma rolagem dos Dados de Dualidade, você pode marcar Estresse para ganhar Esperança.</p>",
+      "actions": {
+        "GB0ZzQF3wENibTA7": {
+          "name": "Ganhar Esperança"
+        }
+      }
+    },
+    "Spectral Form": {
+      "name": "Forma Espectral",
+      "description": "<p>Você tem mais uma opção de ação à beira da morte: Forma Espectral. Quando você escolhe esta opção, você limpa 1 Ferida, seu corpo se torna espectral, você ganha resistência a dano físico e pode atravessar objetos. Essa forma termina se você limpar quaisquer outras Feridas. Ela também termina se você marcar sua última Ferida, o que te obriga a escolher outra ação à beira da morte. Você se move para o espaço livre mais próximo caso esteja dentro de um objeto quando a forma acabar.</p>"
+    },
+    "Spirit Blast": {
+      "name": "Explosão Espiritual",
+      "description": "<p><strong>Gaste Foco</strong> para fazer uma rolagem de Instinto contra um inimigo em Alcance Médio. Em caso de sucesso, cause <strong>d20+3</strong> de dano mágico usando sua Maestria e, além disso, você pode <strong>gastar Foco adicional</strong> para deixar o inimigo temporariamente Vulnerável.</p>",
+      "actions": {
+        "dIHUBfsBFO0Kei40": {
+          "name": "Explosão Espiritual",
+          "description": "<p><strong>Gaste Foco</strong> para fazer uma rolagem de Instinto contra um inimigo em Alcance Médio. Em caso de sucesso, cause <strong>d20+3</strong> de dano mágico usando sua Maestria e, além disso, você pode <strong>gastar Foco adicional</strong> para deixar o inimigo temporariamente Vulnerável.</p>"
+        }
+      }
+    },
+    "Stance - Brutal": {
+      "name": "Postura - Brutal",
+      "description": "<p>Brutal: Quando você rola o valor máximo em um dado de dano, role 1 dado de dano adicional.</p>",
+      "actions": {
+        "AmjLwfMnO7InhNJj": {
+          "name": "Postura - Brutal"
+        }
+      }
+    },
+    "Stance - Compounding": {
+      "name": "Postura - Progressiva",
+      "description": "<p>Progressiva: Quando você rola o valor máximo no Dado de Combo, aumente o tamanho dos próximos Dados de Combo que você rolar para o ataque (máximo até d12).</p>"
+    },
+    "Stance - Crushing": {
+      "name": "Postura - Esmagadora",
+      "description": "<p>Esmagadora: Quando você rolar 1 em um dado de dano, você pode tratar esse resultado como o valor máximo do dado.</p>"
+    },
+    "Stance - Deadly": {
+      "name": "Postura - Mortal",
+      "description": "<p>Mortal: Quando você causar Dano Grave, o alvo marca 1 Ferida adicional.</p>"
+    },
+    "Stance - Defensive": {
+      "name": "Postura - Defensiva",
+      "description": "<p>Defensiva: Rolagens de ataque contra você têm desvantagem, a menos que o inimigo marque Estresse.</p>",
+      "actions": {
+        "0op993OEkbKsW1as": {
+          "name": "Postura - Defensiva"
+        }
+      }
+    },
+    "Stance - Deflecting": {
+      "name": "Postura - Defletora",
+      "description": "<p>Defletora: Quando você se torna alvo de um ataque, você pode gastar 2 de Foco para receber um bônus em Esquiva igual ao seu Valor de Armadura contra esse ataque.</p>"
+    },
+    "Stance - Devastating": {
+      "name": "Postura - Devastadora",
+      "description": "<p>Devastadora: Gaste Foco antes da rolagem de ataque para usar d20 como dado de dano.</p>"
+    },
+    "Stance - Discerning": {
+      "name": "Postura - Perspicaz",
+      "description": "<p>Perspicaz: Você pode escolher o alvo do seu ataque depois de fazer a rolagem de ataque. O Mestre vai te dizer contra quem o ataque teria sido bem-sucedido.</p>"
+    },
+    "Stance - Dueling": {
+      "name": "Postura - de Duelo",
+      "description": "<p>de Duelo: Você tem vantagem em rolagens de ataque quando não houver outros inimigos ou aliados em Alcance Próximo de você ou do seu alvo.</p>"
+    },
+    "Stance - Favored": {
+      "name": "Postura - Predileta",
+      "description": "<p>Predileta: Adicione um atributo à sua escolha à sua rolagem de dano.</p>"
+    },
+    "Stance - Grappling": {
+      "name": "Postura - Agarradora",
+      "description": "<p>Agarradora: Ao acertar um ataque, você pode gastar Foco para deixar o alvo temporariamente Imobilizado.</p>",
+      "effects": {
+        "TKV02VQESRwaZ3Bw": {
+          "name": "Postura - Agarradora"
+        }
+      }
+    },
+    "Stance - Hindering": {
+      "name": "Postura - Obstrutiva",
+      "description": "<p>Obstrutiva: Ao acertar um ataque, você pode gastar Foco para deixar o alvo temporariamente Dificultado. Enquanto estiver Dificultado, as rolagens de ataque dele têm penalidade de -2.</p>",
+      "actions": {
+        "ZPGBfUjkngCEpmsj": {
+          "name": "Postura - Obstrutiva"
+        }
+      },
+      "effects": {
+        "1SfHkitHu8Gr3ggu": {
+          "name": "Postura - Obstrutiva"
+        }
+      }
+    },
+    "Stance - Immovable": {
+      "name": "Postura - Imóvel",
+      "description": "<p>Imóvel: Receba +2 nos seus limiares de dano, e você não pode ser movido contra sua vontade.</p>",
+      "effects": {
+        "Zmy2QFYQeqCt98SW": {
+          "name": "Postura - Imóvel"
+        }
+      }
+    },
+    "Stance - Inexorable": {
+      "name": "Postura - Implacável",
+      "description": "<p>Implacável: Ataques contra você têm desvantagem se houver mais de dois inimigos em Corpo a Corpo com você.</p>"
+    },
+    "Stance - Infuriating": {
+      "name": "Postura - Enfurecedora",
+      "description": "<p>Enfurecedora: Ao acertar um ataque, o alvo fica Enfurecido. Enquanto estiver Enfurecido, ele fica Vulnerável e tem penalidade de -2 nas rolagens de ataque. Ele só pode remover a condição de Fúria ao acertar um ataque contra você.</p>"
+    },
+    "Stance - Invigorating": {
+      "name": "Postura - Revigorante",
+      "description": "<p>Revigorante: Quando você acerta um ataque, role d4. Com 4, você ganha Foco.</p>"
+    },
+    "Stance - Nimble": {
+      "name": "Postura - Ágil",
+      "description": "<p>Ágil: Quando um inimigo obtém sucesso em uma rolagem de ataque contra você, você pode gastar uma quantidade de Foco até o seu Grau. Role um número de d6 igual a 1 + o Foco gasto. Se quaisquer valores de dados forem iguais, você não recebe dano desse ataque.</p>"
+    },
+    "Stance - Otherworldly": {
+      "name": "Postura - Sobrenatural",
+      "description": "<p>Sobrenatural: Você pode escolher causar dano físico ou mágico.</p>"
+    },
+    "Stance - Precise": {
+      "name": "Postura - Precisa",
+      "description": "<p>Precisa: Receba +1 nas suas rolagens de ataque.</p>",
+      "effects": {
+        "sMnygnFsd3q7BDIj": {
+          "name": "Postura - Precisa"
+        }
+      }
+    },
+    "Stance - Quick": {
+      "name": "Postura - Rápida",
+      "description": "<p>Rápida: Ao fazer uma rolagem de ataque, gaste Foco para incluir um alvo adicional ao alcance.</p>"
+    },
+    "Stance - Scary": {
+      "name": "Postura - Aterrorizante",
+      "description": "<p>Aterrorizante: Ataques bem-sucedidos também fazem o alvo marcar Estresse.</p>"
+    },
+    "Stance - Sheltering": {
+      "name": "Postura - Protetora",
+      "description": "<p>Protetora: Quando você marca um Espaço de Armadura, isso reduz o dano para você e para todos os aliados em Corpo a Corpo que receberam o mesmo dano.</p>"
+    },
+    "Stance - Steady": {
+      "name": "Postura - Estável",
+      "description": "<p>Estável: Você recebe uma penalidade de -1 em Esquiva. Quando você causar dano ao acertar um ataque, role 1 dado de dano adicional e descarte o menor.</p>",
+      "effects": {
+        "g3Hb1cKR3xKFgbp8": {
+          "name": "Postura - Estável"
+        }
+      }
+    },
+    "Stance - Sweeping": {
+      "name": "Postura - Ampla",
+      "description": "<p>Ampla: Seu ataque mira todos os inimigos em Alcance Próximo. Cause metade do dano a todos os alvos contra os quais você tiver sucesso.</p>"
+    },
+    "Tethered Talisman": {
+      "name": "Talismã Vinculado",
+      "description": "<p>Uma vez antes do próximo descanso, você pode encantar um pequeno objeto com sua essência protetora. Quando alguém que estiver segurando o talismã sofrer dano, você pode gastar a magia do talismã para reduzir em 1 a quantidade de Feridas marcadas. Você não pode criar um novo talismã até que o anterior seja usado.</p>",
+      "actions": {
+        "JvGfIDjfeKa26pr1": {
+          "name": "Vincular",
+          "description": "<p>Uma vez antes do próximo descanso, você pode encantar um pequeno objeto com sua essência protetora. Quando alguém que estiver segurando o talismã sofrer dano, você pode gastar a magia do talismã para reduzir em 1 a quantidade de Feridas marcadas. Você não pode criar um novo talismã até que o anterior seja usado.</p>"
+        }
+      }
+    },
+    "Toxic Concoctions": {
+      "name": "Misturas Tóxicas",
+      "description": "<p><strong>Marque Estresse</strong> para adicionar <strong>[[/r 1d4+1]]</strong> marcadores nesta carta. No próximo descanso longo, remova todos os marcadores. Você conhece os seguintes venenos:</p><ul><li><strong><em>Raiz de Górgona</em>:</strong> O alvo recebe uma penalidade permanente de <strong>-1</strong> na Dificuldade. Isso só pode afetá-lo uma vez.</li></ul><ul><li><strong><em>Esporo Sepulcral</em>:</strong> O alvo também deve marcar <strong>Estresse</strong>.</li></ul><ul><li><strong><em>Hera da Sanguessuga</em>:</strong> Adicione <strong>+1d6</strong> ao dano desse ataque.</li></ul>",
+      "actions": {
+        "FKyTGtBLvh6Or7cS": {
+          "name": "Marcar Estresse"
+        }
+      }
+    },
+    "True Strike": {
+      "name": "Golpe Verdadeiro",
+      "description": "<p>Uma vez antes do próximo descanso longo, quando você falhar em uma rolagem de ataque, você pode <strong>gastar Esperança</strong> para torná-la bem-sucedida.</p>",
+      "actions": {
+        "oP50d3Hy89j5M39a": {
+          "name": "Gastar Esperança"
+        }
+      }
+    },
+    "Twin Fang": {
+      "name": "Presa Dupla",
+      "description": "<p>Quando você aplicar ao alvo o efeito de um veneno conhecido, você pode gastar 1 marcador adicional para aplicar o efeito de um segundo veneno conhecido.</p>"
+    },
+    "Veilwalker": {
+      "name": "Andarilho do Véu",
+      "description": "<p>Você pode deslizar por um instante para o mundo entre os vivos e os mortos. Gaste 2 Esperanças para desaparecer e reaparecer ao lado de uma criatura ou cadáver em Alcance Distante. Você tem vantagem na sua próxima rolagem de ataque nesta cena.</p>",
+      "actions": {
+        "T2fgFkNFX2WWU8TT": {
+          "name": "Gastar 2 Esperanças"
+        }
+      }
+    },
+    "Venomancer": {
+      "name": "Venomante",
+      "description": "<p>Você também conhece os seguintes venenos:</p><ul><li><strong><em>Semente da Podridão</em>:</strong> O alvo recebe uma penalidade permanente de <strong>-3</strong> nos limiares de dano. Isso só pode afetá-lo uma vez.</li></ul><ul><li><strong><em>Folha do Medo</em>:</strong> O dano desse ataque recebe um bônus igual ao resultado do seu Dado de Medo.</li></ul>"
+    },
+    "Volatile Toxins": {
+      "name": "Toxinas Voláteis",
+      "description": "<p>Você pode escolher dois benefícios de mutágeno em vez de um. Se fizer isso, marque 1 Ferida que não pode ser limpa até você concluir o próximo descanso.</p>",
+      "actions": {
+        "S2P9d1idmgJnIQEO": {
+          "name": "Marcar Ferida"
+        }
+      }
+    },
+    "Walk Between Worlds": {
+      "name": "Caminhar Entre Mundos",
+      "description": "<p>Faça uma <strong>Rolagem de Conjuração (13)</strong> para atravessar o véu da morte e falar com quaisquer espíritos próximos. Coloque nesta carta uma quantidade de marcadores igual ao seu Atributo de Conjurador e remova 1 marcador sempre que um espírito responder a uma pergunta. Você retorna ao mundo dos mortais quando remover o último marcador.</p>",
+      "actions": {
+        "oaWeFrfXwY2yEUEd": {
+          "name": "Conversar com espíritos",
+          "description": "<p>Faça uma <strong>Rolagem de Conjuração (13)</strong> para atravessar o véu da morte e falar com quaisquer espíritos próximos. Coloque nesta carta uma quantidade de marcadores igual ao seu Atributo de Conjurador e remova 1 marcador sempre que um espírito responder a uma pergunta. Você retorna ao mundo dos mortais quando remover o último marcador.</p>"
+        }
+      }
+    },
+    "Werewolf": {
+      "name": "Lobisomem",
+      "description": "<p>Você recebe a carta de Transformação de Lobisomem. Suas rolagens de percepção por audição e olfato têm vantagem.</p><p></p><p></p>"
+    }
+  }
+}

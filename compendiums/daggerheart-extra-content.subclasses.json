@@ -1,0 +1,136 @@
+{
+  "label": "Subclasses",
+  "mapping": {
+    "description": "system.description"
+  },
+  "folders": {
+    "Psychic": "Psíquico",
+    "Magus": "Magus",
+    "1-Foundation Features": "1-Características de Fundação",
+    "2-Specialization Features": "2-Características de Especialização",
+    "3-Mastery Features": "3-Características de Maestria",
+    "Subclass Features": "Características de Subclasse"
+  },
+  "entries": {
+    "10,000 Blades": {
+      "name": "10.000 Lâminas",
+      "description": "<p>Aumente em 1 o número de marcadores colocados quando você ativa Lâminas Flutuantes (para um total de 6).</p><p></p><p><span class=\"citation-137 citation-end-137\">Enquanto Lâminas Flutuantes estiver ativa, você pode marcar 1 Estresse </span><span class=\"citation-136 citation-end-136\">para adicionar 2 marcadores a esta carta</span>.</p><p></p><pre><code>Nota do Foundry VTT: você precisa editar Lâminas Flutuantes manualmente.</code></pre>"
+    },
+    "Dissonant Resonance": {
+      "name": "Ressonância Dissonante",
+      "description": "<p>Quando você rola com Medo em uma Rolagem de Conjuração, você pode marcar 1 Estresse para escolher um dos seguintes efeitos:</p><ul><li><p><strong>Retaliação Psíquica:</strong> Cause [[/r 1d8]] de dano mágico + seu traço de Conjuração em um único adversário que você possa ver dentro do alcance Próximo.</p></li><li><p><strong>Focar a Dor:</strong> Quando você tiver sucesso em uma Rolagem de Conjuração contra um alvo, você pode adicionar [[/r 1d12]] à rolagem de dano do feitiço.</p></li></ul>"
+    },
+    "Arcane Retribution": {
+      "name": "Retribuição Arcana",
+      "description": "<p>Quando uma rolagem de ataque contra você é bem-sucedida, você pode fazer uma Rolagem de Reação de Conjuração (14). Em caso de sucesso, marque 1 Estresse. Todos os adversários dentro do alcance Corpo a Corpo ficam temporariamente <strong>Vulneráveis</strong>.</p>"
+    },
+    "Energy Siphon": {
+      "name": "Sifão de Energia",
+      "description": "<p><span class=\"citation-141 citation-end-141\">Quando você fizer um adversário marcar pelo menos 1 PV </span><span class=\"citation-140 citation-end-140\">, você pode marcar 1 Estresse </span><span class=\"citation-139 citation-end-139\">para liberar 1 Espaço de Armadura</span>.</p><div class=\"source-inline-chip-container ng-star-inserted\"><p></p></div><div class=\"source-inline-chip-container ng-star-inserted\"><p></p></div><div class=\"source-inline-chip-container ng-star-inserted\"><p></p></div><p></p><p></p><p></p>"
+    },
+    "Feast on Despair": {
+      "name": "Banquete do Desespero",
+      "description": "<p>Quando um adversário falha em uma rolagem contra um alvo dentro do alcance Próximo de você, você pode gastar 1 Esperança e remover 1 Estresse.</p>"
+    },
+    "Maelstrom Form": {
+      "name": "Forma de Maelstrom",
+      "description": "<p>Uma vez por descanso, você pode marcar 3 Estresse para se transformar em um ser de pura energia psíquica. Essa forma dura até o fim da cena. Enquanto estiver nessa forma, você ganha os seguintes benefícios:</p><ul data-path-to-node=\"3\"><li><p data-path-to-node=\"3,0,0\">Você pode <strong>voar</strong>.</p></li><li><p>O alcance das suas características <strong>Nexo Empático</strong> e <strong>Banquete do Desespero</strong> aumenta de Próximo para Longo.</p></li><li><p data-path-to-node=\"3,1,0\"><strong>Fúria de Maelstrom:</strong> Quando você tem sucesso em uma Rolagem de Conjuração que cause dano, você pode <strong>marcar 1 Estresse</strong> para adicionar <strong>1d12 de dano mágico</strong> à rolagem.</p></li><li><p data-path-to-node=\"3,2,0\"><strong>Resiliência Psíquica:</strong> Quando você sofre <strong>dano</strong> de um adversário, você pode <strong>marcar 1 Estresse</strong> e ganhar <strong>resistência</strong> contra essa instância de dano.</p></li></ul>"
+    },
+    "Echoes of Magic": {
+      "name": "Ecos da Magia",
+      "description": "<p><span class=\"citation-135 citation-end-135\">Quando você usa Golpe Místico, você pode imediatamente conjurar um novo feitiço antes que o foco mude para o GM</span>, independentemente do resultado da rolagem anterior.</p>"
+    },
+    "Empathic Nexus": {
+      "name": "Nexo Empático",
+      "description": "<p>Suas características Ressonância Dissonante e Ressonância Harmônica agora também podem ser ativadas quando um PJ aliado dentro do alcance Próximo de você fizer uma Rolagem de Conjuração com Medo ou Esperança (respectivamente).</p><p></p><p>@UUID[Compendium.daggerheart-extra-content.subclasses.Item.15vvzLlkZSwIAsUe]{Ressonância Dissonante}</p><p>@UUID[Compendium.daggerheart-extra-content.subclasses.Item.ISoDw96QGcvr3p7c]{Ressonância Harmônica}</p><p></p><p></p>"
+    },
+    "Mind Link": {
+      "name": "Vínculo Mental",
+      "description": "<p>Gaste 1 Esperança para estabelecer um Vínculo Mental com um aliado disposto que você possa tocar. Esse vínculo dura até seu próximo Descanso Longo.</p><p>Enquanto seu <strong>Vínculo Mental</strong> estiver ativo, você ganha os seguintes benefícios:</p><ul><li><p>Você e o aliado vinculado podem se comunicar telepaticamente a qualquer distância.</p></li><li><p>Você pode usar a ação <strong>Ajudar um Aliado</strong> para o seu aliado vinculado marcando 1 Estresse em vez de Esperança.</p></li><li><p><strong>Canalização Vinculada:</strong> Quando você usa uma carta de domínio do tipo Feitiço, você pode marcar 1 Estresse para fazer com que o alcance dela se origine do espaço do seu aliado vinculado em vez do seu, desde que você esteja dentro do alcance Longo dele.</p><p></p><p></p></li></ul><p></p>"
+    },
+    "Harmonic Resonance": {
+      "name": "Ressonância Harmônica",
+      "description": "<p>Quando você rola com Esperança em uma Rolagem de Conjuração, você pode marcar 1 Estresse para escolher um dos seguintes efeitos:</p><ul><li><p><strong>Pulso Reconfortante:</strong> Um aliado dentro do alcance Próximo de você remove 1 Estresse.</p></li><li><p><strong>Clareza Psíquica:</strong> Quando você falha em uma rolagem de ação, você pode rolar [[/r 1d6]] e adicionar o resultado ao total da rolagem.</p></li></ul>"
+    },
+    "Maelstrom": {
+      "name": "Maelstrom",
+      "description": "<p>Jogue Maelstrom se você quiser liberar suas emoções brutas como uma aura destrutiva, açoitando inimigos próximos e canalizando seu poder psíquico em um surto devastador e explosivo.</p><p></p><img src=\"modules/daggerheart-extra-content/assets/classes/psychic-maelstrom.webp\" height=\"300\" />"
+    },
+    "1,000 Blades": {
+      "name": "1.000 Lâminas",
+      "description": "<p>Aumente em 1 o número de marcadores colocados quando você ativa Lâminas Flutuantes (para um total de 5).</p><p></p><p><span class=\"citation-142 citation-end-142\">Antes de rolar um ataque ou feitiço, você pode remover um marcador de Lâminas Flutuantes para adicionar um alvo adicional dentro do alcance Longo</span>.</p><p></p><pre><code>Nota do Foundry VTT: você precisa editar Lâminas Flutuantes manualmente.</code></pre><div class=\"source-inline-chip-container ng-star-inserted\"><p></p></div><p></p><p></p>"
+    },
+    "Unbreakable Will": {
+      "name": "Vontade Inquebrável",
+      "description": "<p>Quando o GM fosse gastar 1 Medo para encerrar um de seus efeitos temporários de feitiço, você pode marcar 1 Estresse para aumentar o custo para 2 Medo. O GM então pode escolher pagar o novo custo ou não. Você marca o Estresse independentemente da escolha do GM.</p>"
+    },
+    "Dual Focus": {
+      "name": "Foco Duplo",
+      "description": "<p>Agora você pode designar duas cartas de domínio do tipo Feitiço como seu Poder Assinatura quando fizer um descanso.</p>"
+    },
+    "Hovering Blades": {
+      "name": "Lâminas Flutuantes",
+      "description": "<p>Lâminas Flutuantes <span class=\"citation-150 citation-end-150\">Uma vez por Descanso Longo</span>, você pode ativar suas lâminas flutuantes. <span class=\"citation-149 citation-end-149\">Coloque 4 marcadores nesta carta</span>. Você pode remover um marcador para fazer uma das seguintes ações:</p><ul><li><p><span class=\"citation-148 citation-end-148\">Fazer um ataque com arma contra um alvo dentro do alcance Longo</span>. <span class=\"citation-147 citation-end-147\">Esse ataque usa sua Proficiência</span><span class=\"citation-146 citation-end-146\">, causa d8 de dano mágico</span><span class=\"citation-145 citation-end-145\"> e recebe um bônus na rolagem de dano igual a (3 x seu Grau</span>).</p></li><li><p><span class=\"citation-144 citation-end-144\">Quando você fizer uma rolagem de dano, ganhe um bônus de +1 na sua Proficiência</span> para essa rolagem.</p></li></ul><p>Suas lâminas flutuantes contam como uma arma. Você pode usar a característica de classe Golpe Místico com suas lâminas flutuantes, ignorando o requisito de alcance Muito Próximo.</p>"
+    },
+    "Psionic Reach": {
+      "name": "Alcance Psíquico",
+      "description": "<p>Quando você usa um Feitiço, você pode marcar 1 Estresse para aumentar ou diminuir o alcance dele em um passo para este uso (por exemplo, Corpo a Corpo para Muito Próximo, Próximo para Longo, ou Longo para Próximo).</p>"
+    },
+    "Mindquake": {
+      "name": "Abalo Mental",
+      "description": "<p data-path-to-node=\"5\">Uma vez por descanso, você pode liberar uma onda de choque fenomenal de poder psíquico. <strong>Faça uma Rolagem de Conjuração contra um número de adversários até o seu traço de Conjuração dentro do alcance Longo.</strong></p><p data-path-to-node=\"6\"><strong>Em caso de sucesso contra um ou mais alvos, você pode marcar 2 Estresse</strong> para fraturar suas psiques, deixando-os temporariamente <strong>Mente-Estilhaçada</strong>.</p><blockquote data-path-to-node=\"7\"><p data-path-to-node=\"7,0\"><strong>Mente-Estilhaçada (Condição)</strong> Esta condição dura até o adversário afetado ter sucesso em uma rolagem de ataque ou se mover para fora do alcance Longo de você. Enquanto estiver Mente-Estilhaçada, ele tem desvantagem em todas as rolagens de ataque.</p></blockquote>"
+    },
+    "Impose Will": {
+      "name": "Impor Vontade",
+      "description": "<p><strong>Uma vez por descanso</strong>, faça uma <strong>Rolagem de Conjuração</strong> contra um adversário dentro do alcance <strong>Longo</strong>.</p><p>Em caso de sucesso, você <strong>marca 1 Estresse</strong> e uma energia psíquica cintilante conecta visivelmente sua mente ao alvo, sobrepondo brevemente sua autonomia. Você escolhe um dos seguintes comandos. O alvo deve <strong>imediatamente</strong> obedecer a esse comando da melhor forma possível:</p><ul><li><p>Atacar</p></li><li><p>Mover-se</p></li><li><p>Interagir com um objeto</p></li><li><p>Falar</p></li></ul><p>Depois que o alvo concluir a ação comandada, o efeito termina.</p>"
+    },
+    "Overwhelming Power": {
+      "name": "Poder Avassalador",
+      "description": "<p>Quando você usa um <strong>Feitiço</strong> e ele faz um adversário <strong>marcar 1 ou mais PV</strong>, você pode <strong>marcar 1 Estresse</strong> para forçar esse adversário a marcar <strong>1 PV adicional</strong>.</p><p></p>"
+    },
+    "Psion": {
+      "name": "Psion",
+      "description": "<p>Jogue Psion se você quiser dominar as energias brutas e fundamentais da psionia, aprimorando seus poderes além de seus limites normais.</p><p></p><img src=\"modules/daggerheart-extra-content/assets/classes/psychic-psion.webp\" height=\"300\" />"
+    },
+    "Mind Over Strain": {
+      "name": "Mente Sobre o Esforço",
+      "description": "<p>Uma vez por descanso, você pode trocar uma carta de domínio do seu cofre para o seu conjunto sem marcar Estresse pelo custo de Recordar. Quando fizer isso, você também remove 1 Estresse.</p><p></p>"
+    },
+    "Set the Stage": {
+      "name": "Montar o Palco",
+      "description": "<p><span class=\"citation-154 citation-end-154\">Quando você acerta com um Golpe Místico, você pode marcar 1 Estresse </span><span class=\"citation-153 citation-end-153\">para criar um \"Palco\" a partir do feitiço, preenchendo a área dentro do alcance Próximo </span>de você. Qualquer adversário que se mova para dentro do Palco sofre imediatamente os efeitos do feitiço usado para ativá-lo. Enquanto você permanecer dentro do seu Palco, sempre que acertar um alvo com sucesso com um Golpe Místico, todos os outros adversários dentro do Palco também sofrem o dano e os efeitos do Golpe Místico. O Palco se dissipa quando você cria um novo ou sai da área.</p><p>@Template[type:circle|range:close]</p>"
+    },
+    "Signature Power": {
+      "name": "Poder Assinatura",
+      "description": "<p><strong>Uma vez por descanso</strong>, você pode designar uma carta de domínio do tipo <strong>Feitiço</strong> do seu conjunto como seu Poder Assinatura. Essa designação dura até seu próximo descanso.</p><p>Quando você usa seu <strong>Poder Assinatura</strong>, você pode <strong>marcar 1 Estresse</strong> para aplicar <strong>um</strong> dos seguintes efeitos a esse uso:</p><ul><li><p>Ganhar <strong>Vantagem</strong> na Rolagem de Conjuração.</p></li><li><p>Rolar novamente um número de dados de dano igual ao seu Grau.</p></li><li><p>Impor <strong>Desvantagem</strong> na rolagem de reação de um alvo contra este feitiço.</p></li></ul>"
+    },
+    "Arcane Dancer": {
+      "name": "Dançarino Arcano",
+      "description": "<p>Jogue um Dançarino Arcano para aprimorar seus feitiços e o impacto dos seus Golpes Místicos.</p><p></p>"
+    },
+    "Infused Magic": {
+      "name": "Magia Infundida",
+      "description": "<p>Escolha um feitiço ao qual você tenha acesso; ele se torna sua Magia Infundida. <span class=\"citation-165 citation-end-165\">Sempre que você o conjurar em um único adversário dentro do alcance Muito Próximo</span>, você pode adicionar o dano da sua arma aos outros efeitos dele. <span class=\"citation-164 citation-end-164\">Você pode mudar sua Magia Infundida como um movimento de tempo livre durante um Descanso Longo</span>.</p>"
+    },
+    "Mentalist": {
+      "name": "Mentalista",
+      "description": "<p>Jogue o Mentalista se você quiser forjar vínculos mentais para fortalecer seus aliados e estilhaçar a vontade de seus inimigos.</p><img src=\"modules/daggerheart-extra-content/assets/classes/psychic-mentalist.webp\" height=\"300\" />"
+    },
+    "Total Unity": {
+      "name": "Unidade Total",
+      "description": "<p data-path-to-node=\"1,1\">Agora você pode estabelecer seu <strong>Vínculo Mental</strong> com um número de aliados dispostos até o seu <strong>traço de Conjuração</strong>, gastando <strong>1 Esperança por aliado</strong>. Esse vínculo agora dura indefinidamente.</p>"
+    },
+    "Blade Regent": {
+      "name": "Regente das Lâminas",
+      "description": "<p>Jogue um Regente das Lâminas para lutar contra inimigos distantes com lâminas flutuantes.</p><p></p>"
+    },
+    "Psychic Rebuke": {
+      "name": "Repreensão Psíquica",
+      "description": "<p>Como uma <strong>reação</strong>, quando um adversário dentro do alcance <strong>Próximo</strong> acerta você ou um aliado que você possa ver, você pode <strong>marcar 1 Estresse</strong>. O adversário que realizou o ataque deve <strong>marcar 1 Estresse</strong>.</p><p></p><h3></h3>"
+    },
+    "Spell Eruption": {
+      "name": "Erupção Mística",
+      "description": "<p><span class=\"citation-162 citation-end-162\">Quando você acerta com um Golpe Místico, você pode gastar 1 Esperança </span><span class=\"citation-161 citation-end-161\">para usar este Golpe contra um número de alvos dentro do alcance Próximo </span><span class=\"citation-160 citation-end-160\">igual ao seu traço de Conjuração</span>.</p>"
+    }
+  }
+}

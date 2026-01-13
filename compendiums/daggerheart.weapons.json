@@ -1,0 +1,1819 @@
+{
+  "label": "Armas",
+  "folders": {
+    "Tier 1": "Patamar 1",
+    "Combat Wheelchairs": "Cadeiras de Roda de Combate",
+    "Secondary Weapons": "Armas Secundárias",
+    "Tier 3": "Patamar 3",
+    "Tier 4": "Patamar 4",
+    "Tier 2": "Patamar 2",
+    "Magical Weapons": "Armas Mágicas",
+    "Physical Weapons": "Armas Físicas",
+    "Primary Weapons": "Armas Primárias"
+  },
+  "mapping": {
+    "description": "system.description",
+    "attack": "system.attack.name",
+    "actions": {
+      "path": "system.actions",
+      "converter": "toActions"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "toEffects"
+    }
+  },
+  "entries": {
+    "Black Powder Revolver": {
+      "name": "Revólver da Pólvora Negra",
+      "actions": {
+        "8BHprlLTXO0C71ps": {
+          "name": "Recarregável",
+          "description": "após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Recarregável</strong>: após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo.</p>"
+    },
+    "Aantari Bow": {
+      "name": "Arco de Aantari",
+      "effects": {
+        "nRNnU57i7RMJoklC": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Advanced Arcane-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Arcana Avançada",
+      "effects": {
+        "VnV5X9MBMabhz47b": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Advanced Arcane Gauntlets": {
+      "name": "Manoplas Arcanas Avançadas",
+      "attack": "Ataque"
+    },
+    "Advanced Battleaxe": {
+      "name": "Machado de Batalha Avançado",
+      "attack": "Ataque"
+    },
+    "Advanced Broadsword": {
+      "name": "Espada Larga Avançada",
+      "effects": {
+        "wu2AmDvgeWI3hmRQ": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Advanced Crossbow": {
+      "name": "Besta Aprimorada",
+      "attack": "Ataque"
+    },
+    "Advanced Cutlass": {
+      "name": "Cimitarra Avançada",
+      "attack": "Ataque"
+    },
+    "Advanced Dagger": {
+      "name": "Adaga Avançada",
+      "attack": "Ataque"
+    },
+    "Advanced Dualstaff": {
+      "name": "Cajado Duplo Avançado",
+      "attack": "Ataque"
+    },
+    "Advanced Glowing Rings": {
+      "name": "Anéis Luminosos Aprimorados",
+      "attack": "Ataque"
+    },
+    "Advanced Grappler": {
+      "name": "Gancho Avançado",
+      "actions": {
+        "vpm0kyd1SFRuBaak": {
+          "name": "Gancho",
+          "description": "ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Gancho</strong>: ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo.</p>"
+    },
+    "Advanced Greatstaff": {
+      "name": "Cajado Grande Aprimorado",
+      "effects": {
+        "sGVVxSM68Fmr1sSM": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Advanced Greatsword": {
+      "name": "Montante Avançada",
+      "effects": {
+        "E0PjC15OP55vIype": {
+          "name": "Enorme",
+          "description": "–1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Enorme</strong>: –1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Advanced Halberd": {
+      "name": "Alabarda Aprimorada",
+      "effects": {
+        "pdRt0nO1ooGPO3cm": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Advanced Hallowed Axe": {
+      "name": "Machado Sagrado Avançado",
+      "attack": "Ataque"
+    },
+    "Advanced Hand Crossbow": {
+      "name": "Besta de Mão Avançada",
+      "attack": "Ataque"
+    },
+    "Advanced Hand Runes": {
+      "name": "Runas de Mão Avançadas",
+      "attack": "Ataque"
+    },
+    "Advanced Heavy-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Pesada Avançada",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Advanced Light-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Leve Avançada",
+      "actions": {
+        "V1GupKWIUExrfrf9": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Advanced Longbow": {
+      "name": "Arco Longo Aprimorado",
+      "effects": {
+        "CUpkNgCUE6CWAXc3": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Advanced Longsword": {
+      "name": "Espada Longa Aprimorada",
+      "attack": "Ataque"
+    },
+    "Advanced Mace": {
+      "name": "Maça Aprimorada",
+      "attack": "Ataque"
+    },
+    "Advanced Quarterstaff": {
+      "name": "Bordão Avançado",
+      "attack": "Ataque"
+    },
+    "Advanced Rapier": {
+      "name": "Rapieira Aprimorada",
+      "actions": {
+        "bx2JFFD7JglAsVG6": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Advanced Returning Blade": {
+      "name": "Lâmina do Retorno Avançada",
+      "actions": {
+        "guRvZkjZnWrpH6HT": {
+          "name": "Retornável",
+          "description": "quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Retornável</strong>: quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque.</p>"
+    },
+    "Advanced Round Shield": {
+      "name": "Escudo Redondo Avançado",
+      "effects": {
+        "i5HfkF5aKQuUCTEG": {
+          "name": "Armadura",
+          "description": "+1 Ponto de Armadura."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Armadura</strong>: +1 Ponto de Armadura.</p>"
+    },
+    "Advanced Scepter": {
+      "name": "Cetro Aprimorado",
+      "actions": {
+        "4w1WlA4yZzUcRMXA": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Advanced Shortbow": {
+      "name": "Arco Curto Avançado",
+      "attack": "Ataque"
+    },
+    "Advanced Shortstaff": {
+      "name": "Cajado Curto Avançado",
+      "attack": "Ataque"
+    },
+    "Advanced Shortsword": {
+      "name": "Espada Curta Avançada",
+      "effects": {
+        "zQMaG3JcUWJR9k2L": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Advanced Small Dagger": {
+      "name": "Adaga Pequena Aprimorada",
+      "effects": {
+        "6tJmTBsumbPmEwkY": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Advanced Spear": {
+      "name": "Lança Avançada",
+      "attack": "Ataque"
+    },
+    "Advanced Tower Shield": {
+      "name": "Escudo-torre Avançado",
+      "effects": {
+        "87gedjJZGdFY81Mt": {
+          "name": "Barreira",
+          "description": "+2 Pontos de Armadura; –1 na Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Barreira</strong>: +2 Pontos de Armadura; –1 na Evasão.</p>"
+    },
+    "Advanced Wand": {
+      "name": "Varinha Aprimorada",
+      "attack": "Ataque"
+    },
+    "Advanced Warhammer": {
+      "name": "Martelo de Guerra Avançado",
+      "effects": {
+        "S6jedo3xSQhFBQH0": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Advanced Whip": {
+      "name": "Chicote Aprimorado",
+      "actions": {
+        "9x82us4KqCFp2ds0": {
+          "name": "Alarmante",
+          "description": "marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Alarmante</strong>: marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo.</p>"
+    },
+    "Arcane-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Arcana",
+      "effects": {
+        "dXHsy9qr5FWZqsVq": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Arcane Gauntlets": {
+      "name": "Manoplas Arcanas",
+      "attack": "Ataque"
+    },
+    "Axe of Fortunis": {
+      "name": "Machado de Fortunis",
+      "actions": {
+        "AtVHF6Y00zLo8W5G": {
+          "name": "Sorte",
+          "description": "ao errar um ataque, marque 1 Ponto de Fadiga para fazer o teste novamente."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Sorte</strong>: ao errar um ataque, marque 1 Ponto de Fadiga para fazer o teste novamente.</p>"
+    },
+    "Battleaxe": {
+      "name": "Machado de Batalha",
+      "attack": "Ataque"
+    },
+    "Bladed Whip": {
+      "name": "Chicote Laminado",
+      "actions": {
+        "ss8Qu3f33HCTMwXB": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Blessed Anlace": {
+      "name": "Punhal Abençoado",
+      "actions": {
+        "o18UvqLPWLe1A8XJ": {
+          "name": "Vitalizante",
+          "description": "em repousos, recupere automaticamente 1 Ponto de Vida."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Vitalizante</strong>: em repousos, recupere automaticamente 1 Ponto de Vida.</p>"
+    },
+    "Bloodstaff": {
+      "name": "Cajado Sangrento",
+      "actions": {
+        "Unom5L1XimxLcXSp": {
+          "name": "Excruciante",
+          "description": "sempre que acertar um ataque, você deve marcar 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Excruciante</strong>: sempre que acertar um ataque, você deve marcar 1 Ponto de Fadiga.</p>"
+    },
+    "Blunderbuss": {
+      "name": "Bacamarte",
+      "actions": {
+        "ah3BGmVtSTNNPZto": {
+          "name": "Recarregável",
+          "description": "após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Recarregável</strong>: após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo.</p>"
+    },
+    "Braveshield": {
+      "name": "Escudo da Bravura",
+      "actions": {
+        "Ctsyr3xDVCsDYbZ3": {
+          "name": "Proteção",
+          "description": "ao marcar 1 Ponto de Armadura, ele reduz o dano causado em você e em todos os aliados CaC que receberam o mesmo dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Proteção</strong>: ao marcar 1 Ponto de Armadura, ele reduz o dano causado em você e em todos os aliados CaC que receberam o mesmo dano.</p>"
+    },
+    "Bravesword": {
+      "name": "Espada da Bravura",
+      "effects": {
+        "lLM5uyDAGk3zVxoa": {
+          "name": "Valente",
+          "description": "–1 em Evasão; + 3 no limiar de dano grave."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Valente</strong>: –1 em Evasão; + 3 no limiar de dano grave.</p>"
+    },
+    "Broadsword": {
+      "name": "Espada Larga",
+      "effects": {
+        "mqcpj2cFAprf2AmY": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Buckler": {
+      "name": "Broquel",
+      "actions": {
+        "BspGQXodaANPEQcl": {
+          "name": "Desviar",
+          "description": "ao sofrer um ataque, você pode marcar 1 Ponto de Armadura para receber um bônus na Evasão igual à sua Armadura contra este ataque."
+        }
+      },
+      "effects": {
+        "Anbxt99bL9IWnlGh": {
+          "name": "Desviante",
+          "description": "Receba um bônus na Evasão igual à sua Armadura contra este ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Desviante</strong>: ao sofrer um ataque, você pode marcar 1 Ponto de Armadura para receber um bônus na Evasão igual à sua Armadura contra este ataque.</p>"
+    },
+    "Casting Sword": {
+      "name": "Espada Conjuradora",
+      "actions": {
+        "jMGBWGhvcxDgVH86": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Crossbow": {
+      "name": "Besta",
+      "attack": "Ataque"
+    },
+    "Curved Dagger": {
+      "name": "Adaga Curva",
+      "effects": {
+        "X3a0PAJ9Tk4zVyxz": {
+          "name": "Serra",
+          "description": "se rolar 1 em um dado de dano, este dado causa 8 pontos de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Serra</strong>: se rolar 1 em um dado de dano, este dado causa 8 pontos de dano.</p>"
+    },
+    "Cutlass": {
+      "name": "Cimitarra",
+      "attack": "Ataque"
+    },
+    "Dagger": {
+      "name": "Adaga",
+      "attack": "Ataque"
+    },
+    "Devouring Dagger": {
+      "name": "Adaga Devoradora",
+      "actions": {
+        "TKFadp8ZfOmB8PF8": {
+          "name": "Aversão",
+          "description": "ao acertar um ataque, o alvo deve marcar 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Aversão</strong>: ao acertar um ataque, o alvo deve marcar 1 Ponto de Fadiga.</p>"
+    },
+    "Double Flail": {
+      "name": "Mangual Duplo",
+      "effects": {
+        "DCie5eR1dZH2Qvln": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Dualstaff": {
+      "name": "Cajado Duplo",
+      "attack": "Ataque"
+    },
+    "Dual-Ended Sword": {
+      "name": "Espada Dupla",
+      "actions": {
+        "MCgtEP3nlCk86cGl": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Ego Blade": {
+      "name": "Lâmina do Ego",
+      "actions": {
+        "5etzGd1Hp6LxkrJX": {
+          "name": "Esnobe",
+          "description": "você deve ter Presença 0 ou menos para usar esta arma."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Esnobe</strong>: você deve ter Presença 0 ou menos para usar esta arma.</p>"
+    },
+    "Elder Bow": {
+      "name": "Arco Ancião",
+      "effects": {
+        "sZ1XotFlGdkPPDG4": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Extended Polearm": {
+      "name": "Pique Estendido",
+      "actions": {
+        "NzpJeAJKyd4SItjH": {
+          "name": "Comprimento",
+          "description": "o ataque desta arma atinge todos os adversários em uma linha reta dentro do alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Comprimento</strong>: o ataque desta arma atinge todos os adversários em uma linha reta dentro do alcance.</p>"
+    },
+    "Finehair Bow": {
+      "name": "Arco Fio-de-cabelo",
+      "effects": {
+        "7bvIKGGQvmSGeg4O": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Firestaff": {
+      "name": "Cajado de Fogo",
+      "actions": {
+        "9j81Lxp3sDskHFDS": {
+          "name": "Ardente",
+          "description": "se rolar 6 em um dado de dano, o alvo deve marcar 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Ardente</strong>: se rolar 6 em um dado de dano, o alvo deve marcar 1 Ponto de Fadiga.</p>"
+    },
+    "Flickerfly Blade": {
+      "name": "Lâmina do Oscilume",
+      "effects": {
+        "jMIrOhpPUncn7dWg": {
+          "name": "Fugaz",
+          "description": "receba um bônus igual a sua Agilidade em rolagens de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Fugaz</strong>: receba um bônus igual a sua Agilidade em rolagens de dano.</p>"
+    },
+    "Floating Bladeshards": {
+      "name": "Lâminas Flutuantes",
+      "effects": {
+        "T831j6kZiMnpMNmv": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Fusion Gloves": {
+      "name": "Luvas de Liga",
+      "effects": {
+        "7ltP049dqxCaedyX": {
+          "name": "Ligação",
+          "description": "receba um bônus igual ao seu nível em rolagens de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Ligação</strong>: receba um bônus igual ao seu nível em rolagens de dano.</p>"
+    },
+    "Ghostblade": {
+      "name": "Lâmina Fantasma",
+      "attack": "Ataque"
+    },
+    "Gilded Bow": {
+      "name": "Arco Dourado",
+      "effects": {
+        "zoWZsD4ogzfPSPi7": {
+          "name": "Perfeccionista",
+          "description": "se rolar 1 em um dado de dano, este dado causa 6 pontos de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Perfeccionista</strong>: se rolar 1 em um dado de dano, este dado causa 6 pontos de dano.</p>"
+    },
+    "Gilded Falchion": {
+      "name": "Alfange Dourado",
+      "effects": {
+        "ir4iKLIQ4CH1Qckn": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Glowing Rings": {
+      "name": "Anéis Luminosos",
+      "attack": "Ataque"
+    },
+    "Grappler": {
+      "name": "Gancho",
+      "actions": {
+        "PaIPWLldOnp89Mfk": {
+          "name": "Gancho",
+          "description": "ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Gancho</strong>: ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo.</p>"
+    },
+    "Greatbow": {
+      "name": "Arco Grande",
+      "effects": {
+        "K4VgrDjVj1U1m9Ie": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Greatstaff": {
+      "name": "Cajado Grande",
+      "effects": {
+        "904orawScurM9GjG": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Greatsword": {
+      "name": "Montante",
+      "effects": {
+        "cffkpiwGpEGhjiUC": {
+          "name": "Enorme",
+          "description": "–1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Enorme</strong>: –1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Halberd": {
+      "name": "Alabarda",
+      "effects": {
+        "YxaGOWcQEesO9zPR": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Hallowed Axe": {
+      "name": "Machado Sagrado",
+      "attack": "Ataque"
+    },
+    "Hammer of Exota": {
+      "name": "Martelo de Ecsota",
+      "actions": {
+        "yrqmcBPVjCKmx1fp": {
+          "name": "Impactante",
+          "description": "ao acertar um ataque em um alvo CaC, todos os adversários Muito Próximos devem ter sucesso em um teste de reação (14) ou sofrem metade do dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Impactante</strong>: ao acertar um ataque em um alvo CaC, todos os adversários Muito Próximos devem ter sucesso em um teste de reação (14) ou sofrem metade do dano.</p>"
+    },
+    "Hammer of Wrath": {
+      "name": "Martelo da Ira",
+      "actions": {
+        "nTogna9Phzw7VjPr": {
+          "name": "Atroz",
+          "description": "antes de fazer um teste de ataque, você pode marcar 1 Ponto de Fadiga para usar d20 como seu dado de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Atroz</strong>: antes de fazer um teste de ataque, você pode marcar 1 Ponto de Fadiga para usar d20 como seu dado de dano.</p>"
+    },
+    "Hand Cannon": {
+      "name": "Canhão de Mão",
+      "actions": {
+        "fZ4lxZ9eXeCSVKrT": {
+          "name": "Recarregável",
+          "description": "após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Recarregável</strong>: após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo.</p>"
+    },
+    "Hand Crossbow": {
+      "name": "Besta de Mão",
+      "attack": "Ataque"
+    },
+    "Hand Runes": {
+      "name": "Runas de Mão",
+      "attack": "Ataque"
+    },
+    "Hand Sling": {
+      "name": "Funda",
+      "actions": {
+        "GgtsuUCtxGX9e4Kg": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Heavy-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Pesada",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Ilmari's Rifle": {
+      "name": "Rifle de Ilmari",
+      "actions": {
+        "BaU47zTo2F4PwjVT": {
+          "name": "Recarregável",
+          "description": "após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Recarregável</strong>: após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo.</p>"
+    },
+    "Impact Gauntlet": {
+      "name": "Manopla do Impacto",
+      "actions": {
+        "wh1Op9x5dVDpwXyd": {
+          "name": "Repelente",
+          "description": "ao acertar um ataque, você pode gastar 1 Ponto de Esperança para empurrar o alvo para um ponto em alcance Distante."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Repelente</strong>: ao acertar um ataque, você pode gastar 1 Ponto de Esperança para empurrar o alvo para um ponto em alcance Distante.</p>"
+    },
+    "Improved Arcane-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Arcana Aprimorada",
+      "effects": {
+        "1f6fFhOLwZrmA6e5": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Improved Arcane Gauntlets": {
+      "name": "Manoplas Arcanas Aprimoradas",
+      "attack": "Ataque"
+    },
+    "Improved Battleaxe": {
+      "name": "Machado de Batalha Aprimorado",
+      "attack": "Ataque"
+    },
+    "Improved Broadsword": {
+      "name": "Espada Larga Aprimorada",
+      "effects": {
+        "228lcQpohdJ3Bbga": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Improved Crossbow": {
+      "name": "Besta Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Cutlass": {
+      "name": "Cimitarra Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Dagger": {
+      "name": "Adaga Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Dualstaff": {
+      "name": "Cajado Duplo Aprimorado",
+      "attack": "Ataque"
+    },
+    "Improved Glowing Rings": {
+      "name": "Anéis Luminosos Aprimorados",
+      "attack": "Ataque"
+    },
+    "Improved Grappler": {
+      "name": "Gancho Aprimorado",
+      "actions": {
+        "HzrHPd2DgvhdCHkL": {
+          "name": "Gancho",
+          "description": "ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Gancho</strong>: ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo.</p>"
+    },
+    "Improved Greatstaff": {
+      "name": "Cajado Grande Aprimorado",
+      "effects": {
+        "hnayB09P25ZW3gVY": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Improved Greatsword": {
+      "name": "Montante Aprimorada",
+      "effects": {
+        "2nl35v8sPAudiOIb": {
+          "name": "Enorme",
+          "description": "–1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Enorme</strong>: –1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Improved Halberd": {
+      "name": "Alabarda Aprimorada",
+      "effects": {
+        "POQepSxCro9T9OYT": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Improved Hallowed Axe": {
+      "name": "Machado Sagrado Aprimorado",
+      "attack": "Ataque"
+    },
+    "Improved Hand Crossbow": {
+      "name": "Besta de Mão Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Hand Runes": {
+      "name": "Runas de Mão Aprimoradas",
+      "attack": "Ataque"
+    },
+    "Improved Heavy-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Pesada Aprimorada",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Improved Light-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Leve Aprimorada",
+      "actions": {
+        "V1GupKWIUExrfrf9": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Improved Longbow": {
+      "name": "Arco Longo Aprimorado",
+      "effects": {
+        "TC4yGDrnOisOpDQu": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Improved Longsword": {
+      "name": "Espada Longa Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Mace": {
+      "name": "Maça Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Quarterstaff": {
+      "name": "Bordão Aprimorado",
+      "attack": "Ataque"
+    },
+    "Improved Rapier": {
+      "name": "Rapieira Aprimorada",
+      "actions": {
+        "zXJzLttPMezUzh49": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Improved Returning Blade": {
+      "name": "Lâmina do Retorno Aprimorada",
+      "actions": {
+        "6nWKaQBWwjztIzCr": {
+          "name": "Retornável",
+          "description": "quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Retornável</strong>: quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque.</p>"
+    },
+    "Improved Round Shield": {
+      "name": "Escudo Redondo Aprimorado",
+      "effects": {
+        "cXWSV50apzaNQkdA": {
+          "name": "Armadura",
+          "description": "+1 Ponto de Armadura."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Armadura</strong>: +1 Ponto de Armadura.</p>"
+    },
+    "Improved Scepter": {
+      "name": "Cetro Aprimorado",
+      "actions": {
+        "1g3dZUkJPaGCfYN6": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Improved Shortbow": {
+      "name": "Arco Curto Aprimorado",
+      "attack": "Ataque"
+    },
+    "Improved Shortstaff": {
+      "name": "Cajado Curto Aprimorado",
+      "attack": "Ataque"
+    },
+    "Improved Shortsword": {
+      "name": "Espada Curta Aprimorada",
+      "effects": {
+        "UW2fqbhBqvnK1coG": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Improved Small Dagger": {
+      "name": "Adaga Pequena Aprimorada",
+      "effects": {
+        "PMXG4l85UkXRf41E": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Improved Spear": {
+      "name": "Lança Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Tower Shield": {
+      "name": "Escudo-torre Aprimorado",
+      "effects": {
+        "tkNEA1PO3jEFhKCa": {
+          "name": "Barreira",
+          "description": "+2 Pontos de Armadura; –1 na Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Barreira</strong>: +2 Pontos de Armadura; –1 na Evasão.</p>"
+    },
+    "Improved Wand": {
+      "name": "Varinha Aprimorada",
+      "attack": "Ataque"
+    },
+    "Improved Warhammer": {
+      "name": "Martelo de Guerra Aprimorado",
+      "effects": {
+        "KvdwqkM3ErLxMzDq": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Improved Whip": {
+      "name": "Chicote Aprimorado",
+      "actions": {
+        "itHKcDEckRlitu2z": {
+          "name": "Alarmante",
+          "description": "marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Alarmante</strong>: marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo.</p>"
+    },
+    "Keeper's Staff": {
+      "name": "Cajado do Defensor",
+      "effects": {
+        "LvxPAfrKuRfgubGV": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Knuckle Blades": {
+      "name": "Soqueira com Lâmina",
+      "actions": {
+        "oTuCXX7dCQYmabzi": {
+          "name": "Brutal",
+          "description": "quando rolar o valor máximo em um dado de dano, role +1 dado de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Brutal</strong>: quando rolar o valor máximo em um dado de dano, role +1 dado de dano.</p>"
+    },
+    "Knuckle Claws": {
+      "name": "Luva com Garras",
+      "actions": {
+        "B0uT1D1WRidiHxyh": {
+          "name": "Alvo Duplo",
+          "description": "ao fazer uma taque com sua arma principal, você pode causar dano a um outro alvo Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Alvo Duplo</strong>: ao fazer uma taque com sua arma principal, você pode causar dano a um outro alvo Corpo a Corpo.</p>"
+    },
+    "Labrys Axe": {
+      "name": "Machado de Labrys",
+      "effects": {
+        "qTxADRsQnKiYfOiQ": {
+          "name": "Armadura",
+          "description": "+1 Ponto de Armadura."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Armadura</strong>: +1 Ponto de Armadura.</p>"
+    },
+    "Legendary Arcane-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Arcana Lendária",
+      "effects": {
+        "TvsoAiqHCwgtYat1": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Legendary Arcane Gauntlets": {
+      "name": "Manoplas Arcanas Lendárias",
+      "attack": "Ataque"
+    },
+    "Legendary Battleaxe": {
+      "name": "Machado de Batalha Lendário",
+      "attack": "Ataque"
+    },
+    "Legendary Broadsword": {
+      "name": "Espada Larga Lendária",
+      "effects": {
+        "ujb6VAqjyXmfnnjy": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Legendary Crossbow": {
+      "name": "Besta Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Cutlass": {
+      "name": "Cimitarra Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Dagger": {
+      "name": "Adaga Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Dualstaff": {
+      "name": "Cajado Duplo Lendário",
+      "attack": "Ataque"
+    },
+    "Legendary Glowing Rings": {
+      "name": "Anéis Luminosos Lendários",
+      "attack": "Ataque"
+    },
+    "Legendary Grappler": {
+      "name": "Gancho Lendário",
+      "actions": {
+        "swNMa4gW6guA8GaH": {
+          "name": "Gancho",
+          "description": "ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Gancho</strong>: ao acertar um ataque, você pode puxar o alvo para ficar Corpo a Corpo.</p>"
+    },
+    "Legendary Greatstaff": {
+      "name": "Cajado Grande Lendário",
+      "effects": {
+        "OV1Ly7vX4owBUgLQ": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Legendary Greatsword": {
+      "name": "Montante Lendária",
+      "effects": {
+        "oRCiXSElN5xufUfn": {
+          "name": "Enorme",
+          "description": "–1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Enorme</strong>: –1 em Evasão; ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Legendary Halberd": {
+      "name": "Alabarda Lendária",
+      "effects": {
+        "MmVRlnSLFWBfNJlB": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Legendary Hallowed Axe": {
+      "name": "Machado Sagrado Lendário",
+      "attack": "Ataque"
+    },
+    "Legendary Hand Crossbow": {
+      "name": "Besta de Mão Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Hand Runes": {
+      "name": "Runas de Mão Lendárias",
+      "attack": "Ataque"
+    },
+    "Legendary Heavy-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Pesada Lendária",
+      "effects": {
+        "1godgiqdDADyR0Tw": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Legendary Light-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Leve Lendária",
+      "actions": {
+        "V1GupKWIUExrfrf9": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Legendary Longbow": {
+      "name": "Arco Longo Lendário",
+      "effects": {
+        "004BkCQeQzuMVGS3": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Legendary Longsword": {
+      "name": "Espada Longa Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Mace": {
+      "name": "Maça Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Quarterstaff": {
+      "name": "Bordão Lendário",
+      "attack": "Ataque"
+    },
+    "Legendary Rapier": {
+      "name": "Rapieira Lendária",
+      "actions": {
+        "AwoesSV7Nt5W0lbf": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Legendary Returning Blade": {
+      "name": "Lâmina do Retorno Lendária",
+      "actions": {
+        "ZbZIFYeEfo0cpOEO": {
+          "name": "Retornável",
+          "description": "quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Retornável</strong>: quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque.</p>"
+    },
+    "Legendary Round Shield": {
+      "name": "Escudo Redondo Lendário",
+      "effects": {
+        "Z2p00q5h6x6seXys": {
+          "name": "Armadura",
+          "description": "+1 Ponto de Armadura."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Armadura</strong>: +1 Ponto de Armadura.</p>"
+    },
+    "Legendary Scepter": {
+      "name": "Cetro Lendário",
+      "actions": {
+        "h6UfUEGdR11jD6g4": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Legendary Shortbow": {
+      "name": "Arco Curto Lendário",
+      "attack": "Ataque"
+    },
+    "Legendary Shortstaff": {
+      "name": "Cajado Curto Lendário",
+      "attack": "Ataque"
+    },
+    "Legendary Shortsword": {
+      "name": "Espada Curta Lendária",
+      "effects": {
+        "ebloMf4gItx38xkZ": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Legendary Small Dagger": {
+      "name": "Adaga Pequena Lendária",
+      "effects": {
+        "WAqE3sZFkTefglDq": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Legendary Spear": {
+      "name": "Lança Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Tower Shield": {
+      "name": "Escudo-torre Lendário",
+      "effects": {
+        "lBJMzxdGO2nJdTQS": {
+          "name": "Barreira",
+          "description": "+2 Pontos de Armadura; –1 na Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Barreira</strong>: +2 Pontos de Armadura; –1 na Evasão.</p>"
+    },
+    "Legendary Wand": {
+      "name": "Varinha Lendária",
+      "attack": "Ataque"
+    },
+    "Legendary Warhammer": {
+      "name": "Martelo de Guerra Lendário",
+      "effects": {
+        "hKvwLqCltaPV1C7n": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "Legendary Whip": {
+      "name": "Chicote Lendário",
+      "actions": {
+        "0kcm7huG68hS7sRz": {
+          "name": "Alarmante",
+          "description": "marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Alarmante</strong>: marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo.</p>"
+    },
+    "Light-Frame Wheelchair": {
+      "name": "Cadeira de Rodas Leve",
+      "actions": {
+        "V1GupKWIUExrfrf9": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Longbow": {
+      "name": "Arco Longo",
+      "effects": {
+        "9gKDF96uId07289w": {
+          "name": "Inconveniente",
+          "description": "–1 em Acuidade."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Inconveniente</strong>: –1 em Acuidade.</p>"
+    },
+    "Longsword": {
+      "name": "Espada Longa",
+      "attack": "Ataque"
+    },
+    "Mace": {
+      "name": "Maça",
+      "attack": "Ataque"
+    },
+    "Mage Orb": {
+      "name": "Orbe Mágico",
+      "effects": {
+        "2J6vzNUel78JFypp": {
+          "name": "Poderoso",
+          "description": "ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Poderoso</strong>: ao acertar um ataque, role +1 dado de dano e descarte o de resultado mais baixo.</p>"
+    },
+    "Magus Revolver": {
+      "name": "Revólver de Magus",
+      "actions": {
+        "242ZR9HyiRtJqhqG": {
+          "name": "Recarregável",
+          "description": "após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Recarregável</strong>: após um ataque, role 1d6. Se rolar 1, precisa marcar 1 Ponto de Fadiga para recarregar esta arma para atirar de novo.</p>"
+    },
+    "Meridian Cutlass": {
+      "name": "Sabre de Meridin",
+      "actions": {
+        "KcmlvkOW0EbdCxTz": {
+          "name": "Direcionado",
+          "description": "se não houver nenhuma criatura Próxima do alvo, seu teste de ataque contra ele é feito com vantagem."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Direcionado</strong>: se não houver nenhuma criatura Próxima do alvo, seu teste de ataque contra ele é feito com vantagem.</p>"
+    },
+    "Midas Scythe": {
+      "name": "Foice de Midas",
+      "actions": {
+        "kKEAq1C1fz0WZmlZ": {
+          "name": "Egoísta",
+          "description": "gaste um punhado de ouro para receber um bônus de +1 na sua Proficiência em em uma rolagem de dano."
+        }
+      },
+      "effects": {
+        "1C5o1D5JYgLdt2eU": {
+          "name": "Egoísta",
+          "description": "gaste um punhado de ouro para receber um bônus de +1 na sua Proficiência em em uma rolagem de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Egoísta</strong>: gaste um punhado de ouro para receber um bônus de +1 na sua Proficiência em em uma rolagem de dano.</p>"
+    },
+    "Parrying Dagger": {
+      "name": "Adaga Aparadora",
+      "actions": {
+        "zcYv4uYbkMS4OLdc": {
+          "name": "Aparar",
+          "description": "ao sofrer um ataque, role os dados de dano desta arma; se qualquer dado de dano do adversário tiver o mesmo valor de um dos seus, ele deve descartá-los antes de causar-lhe dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Aparar</strong>: ao sofrer um ataque, role os dados de dano desta arma; se qualquer dado de dano do adversário tiver o mesmo valor de um dos seus, ele deve descartá-los antes de causar-lhe dano.</p>"
+    },
+    "Powered Gauntlet": {
+      "name": "Manopla Fortalecida",
+      "actions": {
+        "GlA0PwKQSq5vwh7D": {
+          "name": "Carregar",
+          "description": "marque 1 Ponto de Fadiga para receber um bônus de +1 em sua Proficiência em um ataque feito com sua arma principal."
+        }
+      },
+      "effects": {
+        "n5EB7pI0kv2Zx35G": {
+          "name": "Carregado",
+          "description": "marque 1 Ponto de Fadiga para receber um bônus de +1 em sua Proficiência em um ataque feito com sua arma principal."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Carregado</strong>: marque 1 Ponto de Fadiga para receber um bônus de +1 em sua Proficiência em um ataque feito com sua arma principal.</p>"
+    },
+    "Primer Shard": {
+      "name": "Lasca de Apoio",
+      "actions": {
+        "dNN2KOfUxGzQ2yjY": {
+          "name": "Concentração",
+          "description": "ao acertar um ataque, seu próximo ataque contra o mesmo alvo com sua arma principal tem sucesso automático."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Concentração</strong>: ao acertar um ataque, seu próximo ataque contra o mesmo alvo com sua arma principal tem sucesso automático.</p>"
+    },
+    "Quarterstaff": {
+      "name": "Bordão",
+      "attack": "Ataque"
+    },
+    "Rapier": {
+      "name": "Rapieira",
+      "actions": {
+        "ojcL8L3CFPDGaki6": {
+          "name": "Veloz",
+          "description": "ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Veloz</strong>: ao fazer um ataque, marque 1 Ponto de Fadiga para atingir outra criatura no alcance.</p>"
+    },
+    "Retractable Saber": {
+      "name": "Sabre Retrátil",
+      "actions": {
+        "u5thk5lEvDuHXAHq": {
+          "name": "Retrátil",
+          "description": "esta lâmina pode ser escondida no cabo para dificultar a detecção."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Retrátil</strong>: esta lâmina pode ser escondida no cabo para dificultar a detecção.</p>"
+    },
+    "Returning Axe": {
+      "name": "Machado Retornável",
+      "actions": {
+        "IjEUAtr4mOIfXPAU": {
+          "name": "Retornável",
+          "description": "quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Retornável</strong>: quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque.</p>"
+    },
+    "Returning Blade": {
+      "name": "Lâmina do Retorno",
+      "actions": {
+        "N6KlXpv5ug8Gk5Hl": {
+          "name": "Retornável",
+          "description": "quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Retornável</strong>: quando é arremessada nos limites do alcance, esta arma reaparece em sua mão imediatamente após o ataque.</p>"
+    },
+    "Ricochet Axes": {
+      "name": "Machado Ricochete",
+      "actions": {
+        "x9cz8u1utQ6DtoKA": {
+          "name": "Ricochete",
+          "description": "marque 1 ou mais Pontos de Fadiga para acertar a mesma quantidade de alvos no alcance do ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Ricochete</strong>: marque 1 ou mais Pontos de Fadiga para acertar a mesma quantidade de alvos no alcance do ataque.</p>"
+    },
+    "Round Shield": {
+      "name": "Escudo Redondo",
+      "effects": {
+        "M70a81e0Mg66jHRL": {
+          "name": "Armadura",
+          "description": "+1 Ponto de Armadura."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Armadura</strong>: +1 Ponto de Armadura.</p>"
+    },
+    "Runes of Ruination": {
+      "name": "Runas da Ruína",
+      "actions": {
+        "pmnGErMlUT1lJFDL": {
+          "name": "Excruciante",
+          "description": "sempre que acertar um ataque, você deve marcar 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Excruciante</strong>: sempre que acertar um ataque, você deve marcar 1 Ponto de Fadiga.</p>"
+    },
+    "Scepter": {
+      "name": "Cetro",
+      "actions": {
+        "c7McXmzSWTNGOdHL": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Scepter of Elias": {
+      "name": "Cetro de Elias",
+      "actions": {
+        "LI0LkywSh5xjkWrf": {
+          "name": "Revigorante",
+          "description": "após um ataque, role 1d4. Se rolar 4, recupere 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Revigorante</strong>: após um ataque, role 1d4. Se rolar 4, recupere 1 Ponto de Fadiga.</p>"
+    },
+    "Shortbow": {
+      "name": "Arco Curto",
+      "attack": "Ataque"
+    },
+    "Shortstaff": {
+      "name": "Cajado Curto",
+      "attack": "Ataque"
+    },
+    "Shortsword": {
+      "name": "Espada Curta",
+      "effects": {
+        "djNtNpasgNDRP8Dd": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Siphoning Gauntlets": {
+      "name": "Manoplas Sorvedouras",
+      "actions": {
+        "JdOTTVL4daHd7iGp": {
+          "name": "Sorvedouras",
+          "description": "ao acertar um ataque, role 1d6. Se rolar 6, recupere 1 Ponto de Vida ou recupere 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Sorvedouras</strong>: ao acertar um ataque, role 1d6. Se rolar 6, recupere 1 Ponto de Vida ou recupere 1 Ponto de Fadiga.</p>"
+    },
+    "Sledge Axe": {
+      "name": "Machado-martelo",
+      "actions": {
+        "0qVTvNMfapVST3sQ": {
+          "name": "Destruição",
+          "description": "ao acertar um ataque, adversários Muito Próximos devem marcar 1 Ponto de Fadiga."
+        }
+      },
+      "effects": {
+        "dhhIibfRBwCGZ6Ab": {
+          "name": "Destrutivo",
+          "description": "–1 em Agilidade"
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Destrutivo</strong>: –1 em Agilidade; ao acertar um ataque, adversários Muito Próximos devem marcar 1 Ponto de Fadiga.</p>"
+    },
+    "Small Dagger": {
+      "name": "Adaga Pequena",
+      "effects": {
+        "HKh73AHxImdgxgTg": {
+          "name": "Par",
+          "description": "sua arma principal causa +2 de dano em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Par</strong>: sua arma principal causa +2 de dano em alvos Corpo a Corpo.</p>"
+    },
+    "Spear": {
+      "name": "Lança",
+      "attack": "Ataque"
+    },
+    "Spiked Bow": {
+      "name": "Arco com Espinhos",
+      "actions": {
+        "WqhixEUWiKK4gwuG": {
+          "name": "Versátil",
+          "description": "também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Versátil</strong>: também pode ser usada com estas estatísticas — Agilidade, CaC, d10+5.</p>"
+    },
+    "Spiked Shield": {
+      "name": "Escudo com Espinhos",
+      "effects": {
+        "d3TJtlpoHBCztbom": {
+          "name": "Dupla Função",
+          "description": "+1 PA; +1 de dano para a arma principal em alvos Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Dupla Função</strong>: +1 PA; +1 de dano para a arma principal em alvos Corpo a Corpo.</p>"
+    },
+    "Steelforged Halberd": {
+      "name": "Alabarda de Aço",
+      "actions": {
+        "XJS4UHwz3j41g9Fc": {
+          "name": "Aversão",
+          "description": "ao acertar um ataque, o alvo deve marcar 1 Ponto de Fadiga."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Aversão</strong>: ao acertar um ataque, o alvo deve marcar 1 Ponto de Fadiga.</p>"
+    },
+    "Swinging Ropeblade": {
+      "name": "Dardo de Corda",
+      "actions": {
+        "VDbthRuLKgowyruc": {
+          "name": "Agarrar",
+          "description": "ao acertar um ataque, você pode gastar 1 Ponto de Esperança para Imobilizar o alvo ou puxá-lo em sua direção para um ponto em alcance Corpo a Corpo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Agarrar</strong>: ao acertar um ataque, você pode gastar 1 Ponto de Esperança para Imobilizar o alvo ou puxá-lo em sua direção para um ponto em alcance Corpo a Corpo.</p>"
+    },
+    "Sword of Light & Flame": {
+      "name": "Espada da Luz e da Chama",
+      "actions": {
+        "KRjyYdwb8WgPhDVt": {
+          "name": "Quente",
+          "description": "esta arma consegue cortar material sólido."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Quente</strong>: esta arma consegue cortar material sólido.</p>"
+    },
+    "Talon Blades": {
+      "name": "Garras-lâmina",
+      "actions": {
+        "G7pAyfTwQ8uteLsP": {
+          "name": "Brutal",
+          "description": "quando rolar o valor máximo em um dado de dano, role +1 dado de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Brutal</strong>: quando rolar o valor máximo em um dado de dano, role +1 dado de dano.</p>"
+    },
+    "Thistlebow": {
+      "name": "Arco de Cardo",
+      "effects": {
+        "G9mMGxBSexwjWTYV": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Tower Shield": {
+      "name": "Escudo-torre",
+      "effects": {
+        "8r0TcKWXboFV0eqS": {
+          "name": "Barreira",
+          "description": "+2 Pontos de Armadura; –1 na Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Barreira</strong>: +2 Pontos de Armadura; –1 na Evasão.</p>"
+    },
+    "Urok Broadsword": {
+      "name": "Espada Larga de Urok",
+      "actions": {
+        "mig52M2Mp3JDmH2p": {
+          "name": "Mortal",
+          "description": "ao causar dano grave, o alvo deve marcar 1 Ponto de Vida adicional."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Mortal</strong>: ao causar dano grave, o alvo deve marcar 1 Ponto de Vida adicional.</p>"
+    },
+    "Wand": {
+      "name": "Varinha",
+      "attack": "Ataque"
+    },
+    "Wand of Enthrallment": {
+      "name": "Varinha do Fascínio",
+      "actions": {
+        "vqTZBX2RHTG1h6hz": {
+          "name": "Convencer",
+          "description": "antes de fazer um teste de Presença, você pode marcar 1 Ponto de Fadiga para receber +2 no resultado."
+        }
+      },
+      "effects": {
+        "hrJJzzepVs2BPYf5": {
+          "name": "Convincente",
+          "description": "Receba um bônus de +2 no teste de Presença."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Convincente</strong>: antes de fazer um teste de Presença, você pode marcar 1 Ponto de Fadiga para receber +2 no resultado.</p>"
+    },
+    "Wand of Essek": {
+      "name": "Varinha de Essek",
+      "actions": {
+        "TzNsQcYm4OVNFQyD": {
+          "name": "Distorção Temporal",
+          "description": "você escolhe o alvo do seu ataque após fazer seu teste."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Distorção Temporal</strong>: você escolhe o alvo do seu ataque após fazer seu teste.</p>"
+    },
+    "Warhammer": {
+      "name": "Martelo de Guerra",
+      "effects": {
+        "HT0SAlTBGKwolAOp": {
+          "name": "Pesado",
+          "description": "–1 em Evasão."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Pesado</strong>: –1 em Evasão.</p>"
+    },
+    "War Scythe": {
+      "name": "Foice de Guerra",
+      "effects": {
+        "cOYeI9TxHXpDwszu": {
+          "name": "Confiável",
+          "description": "+1 em testes de ataque."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Confiável</strong>: +1 em testes de ataque.</p>"
+    },
+    "Whip": {
+      "name": "Chicote",
+      "actions": {
+        "N0CCc4o6N1HseQTn": {
+          "name": "Alarmante",
+          "description": "marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Alarmante</strong>: marque 1 Ponto de Fadiga para forçar os adversários Corpo a Corpo a recuar para um ponto em alcance Próximo.</p>"
+    },
+    "Widogast Pendant": {
+      "name": "Pingente de Widogast",
+      "actions": {
+        "gQFuVhPeKzNj93p6": {
+          "name": "Distorção Temporal",
+          "description": "você escolhe o alvo do seu ataque após fazer seu teste."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Distorção Temporal</strong>: você escolhe o alvo do seu ataque após fazer seu teste.</p>"
+    },
+    "Yutari Bloodbow": {
+      "name": "Arco de Sangue de Yutari",
+      "actions": {
+        "cLBfHGpuGzOatf5i": {
+          "name": "Brutal",
+          "description": "quando rolar o valor máximo em um dado de dano, role +1 dado de dano."
+        }
+      },
+      "attack": "Ataque",
+      "description": "<p><strong>Brutal</strong>: quando rolar o valor máximo em um dado de dano, role +1 dado de dano.</p>"
+    }
+  }
+}
