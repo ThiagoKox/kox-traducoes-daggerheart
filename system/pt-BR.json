@@ -325,7 +325,7 @@
       },
       "CharacterCreation": {
         "tabs": {
-          "ancestry": "Pedigree",
+          "ancestry": "Ancestralidade",
           "community": "Comunidade",
           "class": "Classe",
           "experience": "Ensaio",
@@ -2841,7 +2841,7 @@
         "folders": {
           "characters": "Caracteres",
           "adversaries": "Oponentes",
-          "ancestries": "Pedigrees",
+          "ancestries": "Ancestralidades",
           "equipment": "Equipamento",
           "classes": "Aulas",
           "subclasses": "Subclasses",
