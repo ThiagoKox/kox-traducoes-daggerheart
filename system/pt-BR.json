@@ -328,11 +328,11 @@
           "ancestry": "Ancestralidade",
           "community": "Comunidade",
           "class": "Classe",
-          "experience": "Ensaio",
+          "experience": "Experiências",
           "traits": "Características",
-          "domainCards": "Habilidades",
+          "domainCards": "Cartas de Domínio",
           "equipment": "Equipamento",
-          "story": "Histórico"
+          "story": "História"
         },
         "ancestryNamePlaceholder": "O nome da sua ancestralidade",
         "buttonTitle": "Criação de Personagem",
