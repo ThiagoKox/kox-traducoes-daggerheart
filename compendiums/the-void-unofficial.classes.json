@@ -55,7 +55,17 @@
     },
     "Blood Hunter": {
       "name": "Caçador de Sangue",
-      "description": "<p>Domine a arte da magia de sangue e descubra quais segredos podem ser revelados no poder do seu próprio sangue. Caçadores de Sangue são praticantes habilidosos que buscam incansavelmente novas magias e capacidades sombrias, à espera de serem descobertas dentro deles mesmos!</p><p></p><h3>Características Recomendadas</h3><p>+1 Instinto, 0 Influência, 0 Conhecimento</p><p><strong>Assassino de Fantasmas / Mutante:</strong> +2 Agilidade, −1 Força, +1 Maestria</p><p><strong>Licantropo:</strong> +1 Agilidade, +2 Força, −1 Maestria</p><p></p><h3>Arma Principal Recomendada</h3><p><strong>Assassino de Fantasmas / Mutante:</strong> Espada Longa (Agilidade Corpo a Corpo, d8 + 3 físico, Duas Mãos)</p><p><strong>Licantropo:</strong> Machado de Batalha (Força Corpo a Corpo, d10 + 3 físico, Duas Mãos)</p>"
+      "description": "<p>Domine a arte da magia de sangue e descubra quais segredos podem ser revelados no poder do seu próprio sangue. Caçadores de Sangue são praticantes habilidosos que buscam incansavelmente novas magias e capacidades sombrias, à espera de serem descobertas dentro deles mesmos!</p><p></p><h3>Características Recomendadas</h3><p>+1 Instinto, 0 Influência, 0 Conhecimento</p><p><strong>Assassino de Fantasmas / Mutante:</strong> +2 Agilidade, −1 Força, +1 Maestria</p><p><strong>Licantropo:</strong> +1 Agilidade, +2 Força, −1 Maestria</p><p></p><h3>Arma Principal Recomendada</h3><p><strong>Assassino de Fantasmas / Mutante:</strong> Espada Longa (Agilidade Corpo a Corpo, d8 + 3 físico, Duas Mãos)</p><p><strong>Licantropo:</strong> Machado de Batalha (Força Corpo a Corpo, d10 + 3 físico, Duas Mãos)</p>",
+      "backgroundQuestions": [
+        "Você é descendente de caçadores de sangue ou é o primeiro da sua linhagem a praticar a arte do sangue?",
+        "Qual parente consanguíneo lhe ensinou uma lição importante e como essa lição o manteve vivo?",
+        "Quem ou o que foi sua primeira morte?"
+      ],
+      "connections": [
+        "O que você ouviu sobre magia de sangue que faz você ter medo de mim ou se preocupar com o meu bem-estar?",
+        "Que ato sangrento nos uniu?",
+        "Como minha determinação em livrar os Reinos Mortais dos malfeitores se alinha às suas crenças?"
+      ]
     },
     "Blood Maledict": {
       "name": "Maledicção de Sangue",

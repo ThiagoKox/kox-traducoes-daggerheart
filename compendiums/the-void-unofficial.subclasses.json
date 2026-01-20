@@ -307,13 +307,16 @@
       }
     },
     "Order of the Ghost Slayer": {
-      "name": "Ordem do Assassino de Fantasmas"
+      "name": "Ordem do Caçador de Fantasmas",
+      "description": "A mais antiga das ordens. Os membros desta ordem procuram estudar o momento da morte e usam suas habilidades para destruir os mortos-vivos." 
     },
     "Order of the Lycan": {
-      "name": "Ordem do Licantropo"
+      "name": "Ordem do Licantropo",
+      "description": "Os membros desta ordem são afetados pela licantropia e passam por um ritual conhecido como A Domesticação para controlar a maldição e combiná-la com suas habilidades de hemomancia."
     },
     "Order of the Mutant": {
-      "name": "Ordem do Mutante"
+      "name": "Ordem do Mutante",
+      "description": "Os membros desta ordem estudam alquimia e preparam elixires mutagênicos para aprimorar seus corpos para o combate."
     },
     "Overwhelm": {
       "name": "Sobrepujar",

@@ -60,7 +60,7 @@
       "description": "<p>Goblins são humanoides pequenos facilmente reconhecidos por seus grandes olhos e enormes orelhas membranosas. Com audição e visão aguçadas, eles percebem detalhes à distância e no escuro, o que facilita o movimento em locais menos propícios. Têm grande variedade de cores de pele e olhos, sem preponderância de um ou outro tom, seja ele sutil ou vibrante. Um goblin típico tem entre 90cm e 1,2m de altura, e cada uma de suas orelhas tem o tamanho da sua cabeça. Goblins são conhecidos por movimentos muito específicos de orelhas ao se comunicar não verbalmente. Goblins vivem cerca de 100 anos, e muitos mantêm sua audição e visão aguçada mesmo em idade avançada.</p>"
     },
     "Halfling": {
-      "name": "Pequenino",
+      "name": "Halfling",
       "description": "<p>Halflings são pequenos humanoides com grandes pés peludos e proeminentes orelhas arredondadas. Em média, medem entre 90cm e 1,2m, e têm nariz, orelhas e pés proporcionalmente maiores em relação ao resto do corpo. Membros desta ancestralidade vivem aproximadamente 150 anos e mantêm uma aparência jovial mesmo em idade adulta e avançada. Halflings são naturalmente ligados aos campos magnéticos do reino mortal, o que lhes fornece um poderoso senso de direção. Eles também possuem audição e olfato aguçados, podendo detectar frequentemente as pessoas que conhecem pelo som de seus movimentos.</p>"
     },
     "Human": {
